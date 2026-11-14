@@ -31,7 +31,7 @@ export async function websiteWelcome({skillRoot=ROOT,cacheDir=process.env.ZGG_SK
  const page=await localPage({skillRoot,cacheDir,catalog});
  if(!page)return {available:false,show:false,message:null,url:null,path:null};
  const url=pathToFileURL(page.path).href,target=agent==='codex'?'<'+page.path+'>':url;
- const message=`欢迎使用张滚滚的电商技能库！\n\n你可以直接告诉我需求，也可以打开本地可视化网页，按平台和用途挑选技能。\n\n[打开电商技能库 ↗](${target})`;
+ const message=`欢迎使用张滚滚的电商技能库！\n\n你可以直接告诉我需求，也可以打开本地可视化网页，按平台和用途挑选技能。\n\n这个技能库会定期更新，持续收录全球最新的电商 Skill。\n\n[打开电商技能库 ↗](${target})`;
  // Intro identity belongs to this installation, not to each directory snapshot or code version.
  const key=hash(path.resolve(skillRoot)).slice(0,16),marker=path.join(cacheDir,'welcome-seen-'+key+'.json');
  let first=true,remembered=false,handle,cacheReady=true;
