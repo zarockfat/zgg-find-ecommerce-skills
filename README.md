@@ -79,6 +79,20 @@ npx skills add zarockfat/zgg-find-ecommerce-skills --skill zgg-find-ecommerce-sk
 帮我从 GitHub 仓库 zarockfat/zgg-find-ecommerce-skills 安装 zgg-find-ecommerce-skills，安装到我当前使用的 AI 工具，并检查能否找到它。
 ```
 
+## 需要自己更新吗？
+
+**装好新版后，正常使用就会检查更新，不用学习 Git 或拉取代码。**
+
+- 使用导航时，每 24 小时最多检查一次；有新目录会自动同步，继续帮你找技能。
+- 导航功能有更新时，AI 会提示你，回复“更新”后再按当前工具的方式升级。
+- 没有网络时照常使用已有目录；也可以告诉 AI“这次离线使用”。
+
+自动检查需要你的 AI 工具能运行导航脚本。它在你使用时工作，不会在后台常驻。已安装早期版本的用户需要**先更新一次**，以后才有这个能力：
+
+```text
+帮我从 zarockfat/zgg-find-ecommerce-skills 更新 zgg-find-ecommerce-skills，保留我其他已安装的技能，并检查是否更新成功。
+```
+
 ## 使用前了解这几件事
 
 - **开源不等于所有服务都免费。** 部分技能需要第三方账号、API 或付费数据，详情页会说明已知条件。

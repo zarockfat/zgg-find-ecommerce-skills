@@ -1,3 +1,4 @@
+process.env.ZGG_SKILLS_OFFLINE='1';
 import {fileURLToPath} from 'node:url';
 import {test} from 'node:test';import assert from 'node:assert/strict';import {readFileSync} from 'node:fs';import {execFileSync,spawnSync} from 'node:child_process';import {searchCatalog,installationCommand,installationGuide,summarizePlatforms} from '../src/search.mjs';
 const skills=JSON.parse(readFileSync(new URL('../data/catalog.json',import.meta.url))).skills;

@@ -93,3 +93,21 @@ node skills/zgg-find-ecommerce-skills/scripts/search.mjs --platform Temu --capab
 只扫描新增来源时使用 `scripts/collect.py --new-only`。它保留已有仓库的原核对时间，完整复核则不加此参数。`data/review-decisions.json` 记录人工暂缓原因；`scripts/review_catalog.py` 自动生成可读采集报告。历史轮次统计位于 `data/scan-history/`。
 
 作者：张滚滚。左侧平台导航从目录自动生成，覆盖全部 24 个平台／通用场景，多平台技能会分别计入每个平台。人工许可证复核证据保存在 `data/license-reviews.json`，与提交版本及证据文件哈希绑定；新版本须重新核对。
+
+
+## 导航的目录与功能更新
+
+新版导航在检索前通过固定的公开 GitHub 地址检查 `data/updates.json`；检查间隔为 24 小时，网络总等待预算 2.5 秒。仅请求公开版本信息和目录文件，不上传搜索词或店铺资料。首次网络失败也记录时间，避免每次搜索重复等待。下载校验失败、版本结构不支持或目录日期倒退时保留已有目录。
+
+成功下载的新目录保存在用户的 `.cache/zgg-find-ecommerce-skills/updates.json`，与安装包分开。功能指纹变化只输出更新提示和当前客户端的安装指引，不下载或执行新版脚本；由用户确认后更新本导航。已安装的早期版本需先更新一次。
+
+```bash
+# 无网络请求
+node skills/zgg-find-ecommerce-skills/scripts/search.mjs --query "TikTok 选品" --offline
+# 不等每日检查间隔，立即重新检查
+node skills/zgg-find-ecommerce-skills/scripts/search.mjs --query "TikTok 选品" --check-updates
+```
+
+`ZGG_SKILLS_OFFLINE=1` 可持续禁用检查；`ZGG_SKILLS_CACHE_DIR` 可指定可写缓存位置。自定义 `--catalog` 文件不参与自动检查与覆盖。缓存不可写时使用安装包内目录。并发调用使用短期检查锁，避免重复请求。
+
+发布前运行 `npm run build`，自动同步 Skill 的目录、生成 SHA-256 校验信息及新版下载包。提交源码时须同时包含 `data/updates.json` 与 `skills/zgg-find-ecommerce-skills/references/release.json`，并随目录一起发布；修改导航功能时维护 `skills/zgg-find-ecommerce-skills/version.json` 的版本。功能指纹包括 Skill 正文、版本与脚本，不包含目录数据，因此目录更新不需要重新安装功能。版本清单不匹配的新旧内容会拒绝同步，下一次检查可重试。

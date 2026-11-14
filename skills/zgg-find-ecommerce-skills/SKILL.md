@@ -1,6 +1,6 @@
 ---
 name: zgg-find-ecommerce-skills
-description: 为中文电商用户查找、比较和安装开源 AI Skills。用于按电商平台、选品、Listing、内容、广告、客服、库存等需求寻找技能；只在用户要求执行实际业务时再使用找到的具体技能。
+description: 为中文电商用户查找、比较和安装开源 AI Skills。用于按电商平台、选品、Listing、内容、广告、客服、库存等需求寻找技能及检查本导航更新；只在用户要求执行实际业务时再使用找到的具体技能。
 ---
 
 # 电商 Skill 导航
@@ -16,9 +16,21 @@ node scripts/search.mjs --query "TikTok 选品" --limit 3
 node scripts/search.mjs --platform "Amazon" --category "选品调研"
 ```
 
-`--catalog /absolute/path/catalog.json` 可指定用户或维护者提供的最新目录 JSON。默认读取 `references/catalog.json`。检索离线运行，不需要账号或 API Key；输出包括快照日期和来源核对版本。脚本需要 Node.js 22+。
+`--catalog /absolute/path/catalog.json` 可指定用户或维护者提供的最新目录 JSON。默认读取 `references/catalog.json`。检索使用本地目录，不需要账号或 API Key。默认在使用时联网检查公开目录更新，最多每 24 小时一次；断网时继续使用已有目录。`--offline` 完全关闭联网，`--check-updates` 立即重查。指定 `--catalog` 时只读取该文件，不联网、不覆盖。输出包括目录日期、来源核对版本和 `update` 状态。脚本需要 Node.js 22+。
 
 用户的自然语言由你理解：可将需求转换为平台与任务短语，然后调用脚本。脚本本身采用标签、别名和关键词排序，不是大模型语义搜索。
+
+## 更新体验
+
+运行搜索脚本时自动检查，无需另建后台任务。新目录经版本、大小、内容哈希和结构校验后存入用户缓存，不修改 Skill 正文或脚本。首次失败也缓存检查时间，24 小时后重试；用户明确要求“检查更新”时可使用 `--check-updates`。
+
+读取输出的 `update`：
+- `catalog_updated: true` 时，简短告知“电商技能目录已同步，当前收录 N 个技能”，然后继续回答原任务。新增数量只依据 `added_count`，移除数量只依据 `removed_count`，不从总数差值猜测。
+- `skill_update.available: true` 时，提示“导航有功能更新，回复‘更新’即可更新导航”；同一对话已经提示且用户没有要求时不反复打断。
+- 用户针对该提示回复“更新”后，按 `skill_update.installation_guide` 更新本导航；先核对当前客户端和安装位置，命令模式在原项目位置安装，WorkBuddy 等按完整包导入流程处理。仅更新 `zgg-find-ecommerce-skills`，核对实际文件与客户端发现结果后再报成功。不得把下载目录成功说成功能更新成功。
+- 断网或无法检查时，说明使用已有目录及其日期，继续检索。完全离线时不会声称已检查最新版本。
+
+用户若拒绝联网，传 `--offline`；可用 `ZGG_SKILLS_OFFLINE=1` 保持离线。`ZGG_SKILLS_CACHE_DIR` 可指定缓存目录，默认位于用户目录下的 `.cache/zgg-find-ecommerce-skills/`。无运行脚本能力的客户端不能承诺自动检查。已安装的早期版本需要先更新一次，才能获得本机制。
 
 ## 推荐
 

@@ -2,15 +2,17 @@ import {mkdir,cp,writeFile,readFile,rm} from 'node:fs/promises';
 import {execFileSync} from 'node:child_process';
 import {fileURLToPath} from 'node:url';
 import path from 'node:path';
+import {prepareRelease} from './prepare-release.mjs';
 const root=fileURLToPath(new URL('..',import.meta.url));process.chdir(root);
 await mkdir('skills/zgg-find-ecommerce-skills/references',{recursive:true});await cp('data/catalog.json','skills/zgg-find-ecommerce-skills/references/catalog.json');await cp('src/search.mjs','skills/zgg-find-ecommerce-skills/scripts/search-core.mjs');
+await prepareRelease(root);
 await mkdir('dist/downloads',{recursive:true});await cp('src','dist',{recursive:true});await mkdir('dist/data',{recursive:true});await cp('data/catalog.json','dist/data/catalog.json');await cp('data/review-summary.json','dist/data/review-summary.json');
 await writeFile('dist/llms.txt','# 电商技能库 · 电商 Skill 导航\n\n机器可读目录：/data/catalog.json\n导航技能下载：/downloads/zgg-find-ecommerce-skills.zip\n来源已核对不表示业务已实测。目录是精选快照，并非全网索引。\n');
 execFileSync('python3',['-c',`import pathlib,zipfile
 r=pathlib.Path('.')
 with zipfile.ZipFile('dist/downloads/zgg-find-ecommerce-skills.zip','w',zipfile.ZIP_DEFLATED) as z:
  for p in sorted((r/'skills/zgg-find-ecommerce-skills').rglob('*')):
-  if p.is_file():z.write(p,p.relative_to(r/'skills'))
+  if p.is_file() and '__pycache__' not in p.parts:z.write(p,p.relative_to(r/'skills'))
 with zipfile.ZipFile('dist/downloads/ecommerce-skills-hub-source.zip','w',zipfile.ZIP_DEFLATED) as z:
  for base in ['src','data','scripts','skills','tests','docs','.github','README.md','CONTRIBUTING.md','LICENSE','package.json','requirements-maintenance.txt','.gitignore']:
   p=r/base
