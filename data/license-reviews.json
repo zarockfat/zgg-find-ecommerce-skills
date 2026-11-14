@@ -1,0 +1,48 @@
+{
+  "items": [
+    {
+      "repo": "Automattic/claude-woocommerce-toolkit",
+      "source_commit": "d70538707247a4d3e6a940c554a9dd4e7010b3d1",
+      "license": "GPL-2.0-or-later",
+      "license_path": "LICENSE",
+      "evidence": [
+        {
+          "path": "LICENSE",
+          "sha256": "edaef632cbb643e4e7a221717a6c441a4c1a7c918e6e4d56debc3d8739b233f6"
+        },
+        {
+          "path": "README.md",
+          "sha256": "16770c8698dbd32fe3c84839b9c66c06f69a74c536c77d9ac81b0a7c40f26052"
+        }
+      ]
+    },
+    {
+      "repo": "woocommerce/agent-skills",
+      "source_commit": "89cc969d2273ac9eb668c48b7284f77e0862bb21",
+      "license": "GPL-2.0-or-later",
+      "license_path": "LICENSE",
+      "evidence": [
+        {
+          "path": "LICENSE",
+          "sha256": "fe61a8a26cade9d8a7c28bd32129edcca617ae1de6fa7d6c7fc9af1b3d06db57"
+        },
+        {
+          "path": "README.md",
+          "sha256": "1e76c497d51e1de6fd06a3285659cc8267f8c33e54447f09d70c1e0de89ab12c"
+        }
+      ]
+    },
+    {
+      "repo": "PrestaShop/skills",
+      "source_commit": "26e404df6b80bd6ea890527c71e804aaa575eb72",
+      "license": "AFL-3.0",
+      "license_path": "LICENSE.md",
+      "evidence": [
+        {
+          "path": "LICENSE.md",
+          "sha256": "0a9ec2358c8113938ee2d2319c911b65703056a5b21f530bc9e71492e3c14191"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,2275 @@
+{
+  "reviewed_at": "2026-11-14",
+  "items": [
+    {
+      "repo": "coreyhaines31/marketingskills",
+      "capability": "方法指导",
+      "requirements": [
+        "提供产品、受众和已有营销资料",
+        "执行广告或数据操作时另需相应账号与工具授权"
+      ],
+      "cost": "Skill 开源；模型、广告预算及外部工具费用另计",
+      "path": "skills/ads/SKILL.md",
+      "title": "付费广告规划",
+      "platforms": [
+        "通用"
+      ],
+      "category": "广告投放",
+      "summary": "根据目标与现有数据规划广告，执行投放需要另行接入账号。"
+    },
+    {
+      "repo": "coreyhaines31/marketingskills",
+      "capability": "方法指导",
+      "requirements": [
+        "提供产品、受众和已有营销资料",
+        "执行广告或数据操作时另需相应账号与工具授权"
+      ],
+      "cost": "Skill 开源；模型、广告预算及外部工具费用另计",
+      "path": "skills/ad-creative/SKILL.md",
+      "title": "广告创意制作指南",
+      "platforms": [
+        "通用"
+      ],
+      "category": "广告投放",
+      "summary": "组织广告文案、创意方向与测试变体。"
+    },
+    {
+      "repo": "coreyhaines31/marketingskills",
+      "capability": "方法指导",
+      "requirements": [
+        "提供产品、受众和已有营销资料",
+        "执行广告或数据操作时另需相应账号与工具授权"
+      ],
+      "cost": "Skill 开源；模型、广告预算及外部工具费用另计",
+      "path": "skills/emails/SKILL.md",
+      "title": "营销邮件序列",
+      "platforms": [
+        "通用"
+      ],
+      "category": "客户服务",
+      "summary": "设计欢迎、培育和召回邮件的内容与节奏。"
+    },
+    {
+      "repo": "coreyhaines31/marketingskills",
+      "capability": "方法指导",
+      "requirements": [
+        "提供产品、受众和已有营销资料",
+        "执行广告或数据操作时另需相应账号与工具授权"
+      ],
+      "cost": "Skill 开源；模型、广告预算及外部工具费用另计",
+      "path": "skills/cro/SKILL.md",
+      "title": "落地页转化优化",
+      "platforms": [
+        "通用"
+      ],
+      "category": "独立站建设",
+      "summary": "分析页面与表单中的转化阻力，提出改进建议。"
+    },
+    {
+      "repo": "coreyhaines31/marketingskills",
+      "capability": "方法指导",
+      "requirements": [
+        "提供产品、受众和已有营销资料",
+        "执行广告或数据操作时另需相应账号与工具授权"
+      ],
+      "cost": "Skill 开源；模型、广告预算及外部工具费用另计",
+      "path": "skills/content-strategy/SKILL.md",
+      "title": "内容策略规划",
+      "platforms": [
+        "通用"
+      ],
+      "category": "内容创作",
+      "summary": "围绕产品受众安排内容主题、渠道和节奏。"
+    },
+    {
+      "repo": "coreyhaines31/marketingskills",
+      "capability": "方法指导",
+      "requirements": [
+        "提供产品、受众和已有营销资料",
+        "执行广告或数据操作时另需相应账号与工具授权"
+      ],
+      "cost": "Skill 开源；模型、广告预算及外部工具费用另计",
+      "path": "skills/influencer-marketing/SKILL.md",
+      "title": "达人营销策略",
+      "platforms": [
+        "通用"
+      ],
+      "category": "达人营销",
+      "summary": "规划达人合作方式与推广目标。"
+    },
+    {
+      "repo": "coreyhaines31/marketingskills",
+      "capability": "方法指导",
+      "requirements": [
+        "提供产品、受众和已有营销资料",
+        "执行广告或数据操作时另需相应账号与工具授权"
+      ],
+      "cost": "Skill 开源；模型、广告预算及外部工具费用另计",
+      "path": "skills/customer-research/SKILL.md",
+      "title": "客户需求研究",
+      "platforms": [
+        "通用"
+      ],
+      "category": "选品调研",
+      "summary": "组织客户研究并梳理需求与购买动机。"
+    },
+    {
+      "repo": "coreyhaines31/marketingskills",
+      "capability": "方法指导",
+      "requirements": [
+        "提供产品、受众和已有营销资料",
+        "执行广告或数据操作时另需相应账号与工具授权"
+      ],
+      "cost": "Skill 开源；模型、广告预算及外部工具费用另计",
+      "path": "skills/pricing/SKILL.md",
+      "title": "定价与套餐规划",
+      "platforms": [
+        "通用"
+      ],
+      "category": "经营分析",
+      "summary": "研究定价、套餐与付费方式，偏向订阅和服务产品；实体商品需结合成本另行测算。"
+    },
+    {
+      "repo": "coreyhaines31/marketingskills",
+      "capability": "方法指导",
+      "requirements": [
+        "提供产品、受众和已有营销资料",
+        "执行广告或数据操作时另需相应账号与工具授权"
+      ],
+      "cost": "Skill 开源；模型、广告预算及外部工具费用另计",
+      "path": "skills/social/SKILL.md",
+      "title": "社交媒体内容",
+      "platforms": [
+        "通用"
+      ],
+      "category": "内容创作",
+      "summary": "策划和优化不同社交渠道的内容。"
+    },
+    {
+      "repo": "coreyhaines31/marketingskills",
+      "capability": "方法指导",
+      "requirements": [
+        "提供产品、受众和已有营销资料",
+        "执行广告或数据操作时另需相应账号与工具授权"
+      ],
+      "cost": "Skill 开源；模型、广告预算及外部工具费用另计",
+      "path": "skills/conversion-tracking/SKILL.md",
+      "title": "转化追踪配置指南",
+      "platforms": [
+        "通用"
+      ],
+      "category": "经营分析",
+      "summary": "梳理转化事件与追踪方案，部署需对应工具权限。"
+    },
+    {
+      "repo": "sadrmanesh/commerce-agent-skills",
+      "capability": "开发辅助",
+      "requirements": [
+        "具备目标电商项目代码和开发环境",
+        "涉及平台 API 时需开发者权限及对应配置"
+      ],
+      "cost": "Skill 开源；模型、托管和平台服务费用另计",
+      "path": "skills/shopify-app-development/SKILL.md",
+      "title": "Shopify 应用开发",
+      "platforms": [
+        "Shopify"
+      ],
+      "category": "独立站建设",
+      "summary": "辅助构建 Shopify 应用和平台 API 集成。"
+    },
+    {
+      "repo": "sadrmanesh/commerce-agent-skills",
+      "capability": "开发辅助",
+      "requirements": [
+        "具备目标电商项目代码和开发环境",
+        "涉及平台 API 时需开发者权限及对应配置"
+      ],
+      "cost": "Skill 开源；模型、托管和平台服务费用另计",
+      "path": "skills/woocommerce-rest-api/SKILL.md",
+      "title": "WooCommerce API 开发",
+      "platforms": [
+        "WooCommerce"
+      ],
+      "category": "独立站建设",
+      "summary": "辅助对接 WooCommerce 商品、订单与相关接口。"
+    },
+    {
+      "repo": "sadrmanesh/commerce-agent-skills",
+      "capability": "开发辅助",
+      "requirements": [
+        "具备目标电商项目代码和开发环境",
+        "涉及平台 API 时需开发者权限及对应配置"
+      ],
+      "cost": "Skill 开源；模型、托管和平台服务费用另计",
+      "path": "skills/checkout-ux-and-conversion/SKILL.md",
+      "title": "结账体验优化",
+      "platforms": [
+        "通用"
+      ],
+      "category": "独立站建设",
+      "summary": "改进结账路径、表单和错误反馈。"
+    },
+    {
+      "repo": "sadrmanesh/commerce-agent-skills",
+      "capability": "开发辅助",
+      "requirements": [
+        "具备目标电商项目代码和开发环境",
+        "涉及平台 API 时需开发者权限及对应配置"
+      ],
+      "cost": "Skill 开源；模型、托管和平台服务费用另计",
+      "path": "skills/ecommerce-seo-structured-data/SKILL.md",
+      "title": "电商结构化数据",
+      "platforms": [
+        "通用"
+      ],
+      "category": "Listing 优化",
+      "summary": "辅助实现商品页面 SEO 与结构化数据。"
+    },
+    {
+      "repo": "sadrmanesh/commerce-agent-skills",
+      "capability": "开发辅助",
+      "requirements": [
+        "具备目标电商项目代码和开发环境",
+        "涉及平台 API 时需开发者权限及对应配置"
+      ],
+      "cost": "Skill 开源；模型、托管和平台服务费用另计",
+      "path": "skills/google-merchant-product-feeds/SKILL.md",
+      "title": "Google 商品 Feed",
+      "platforms": [
+        "Google Shopping"
+      ],
+      "category": "Listing 优化",
+      "summary": "组织 Google Merchant 商品 Feed 的字段与校验。"
+    },
+    {
+      "repo": "sadrmanesh/commerce-agent-skills",
+      "capability": "开发辅助",
+      "requirements": [
+        "具备目标电商项目代码和开发环境",
+        "涉及平台 API 时需开发者权限及对应配置"
+      ],
+      "cost": "Skill 开源；模型、托管和平台服务费用另计",
+      "path": "skills/inventory-and-multi-warehouse/SKILL.md",
+      "title": "多仓库存系统设计",
+      "platforms": [
+        "通用"
+      ],
+      "category": "库存履约",
+      "summary": "辅助设计库存和多仓数据及操作逻辑。"
+    },
+    {
+      "repo": "sadrmanesh/commerce-agent-skills",
+      "capability": "开发辅助",
+      "requirements": [
+        "具备目标电商项目代码和开发环境",
+        "涉及平台 API 时需开发者权限及对应配置"
+      ],
+      "cost": "Skill 开源；模型、托管和平台服务费用另计",
+      "path": "skills/catalog-import-and-migration/SKILL.md",
+      "title": "商品目录迁移",
+      "platforms": [
+        "通用"
+      ],
+      "category": "库存履约",
+      "summary": "规划商品目录导入、字段映射与迁移检查。"
+    },
+    {
+      "repo": "sadrmanesh/commerce-agent-skills",
+      "capability": "开发辅助",
+      "requirements": [
+        "具备目标电商项目代码和开发环境",
+        "涉及平台 API 时需开发者权限及对应配置"
+      ],
+      "cost": "Skill 开源；模型、托管和平台服务费用另计",
+      "path": "skills/returns-and-refunds/SKILL.md",
+      "title": "退货退款流程开发",
+      "platforms": [
+        "通用"
+      ],
+      "category": "客户服务",
+      "summary": "辅助设计退货退款流程与相关接口。"
+    },
+    {
+      "repo": "sadrmanesh/commerce-agent-skills",
+      "capability": "开发辅助",
+      "requirements": [
+        "具备目标电商项目代码和开发环境",
+        "涉及平台 API 时需开发者权限及对应配置"
+      ],
+      "cost": "Skill 开源；模型、托管和平台服务费用另计",
+      "path": "skills/storefront-accessibility/SKILL.md",
+      "title": "商店无障碍改进",
+      "platforms": [
+        "通用"
+      ],
+      "category": "独立站建设",
+      "summary": "检查和改进店面可访问性。"
+    },
+    {
+      "repo": "sadrmanesh/commerce-agent-skills",
+      "capability": "开发辅助",
+      "requirements": [
+        "具备目标电商项目代码和开发环境",
+        "涉及平台 API 时需开发者权限及对应配置"
+      ],
+      "cost": "Skill 开源；模型、托管和平台服务费用另计",
+      "path": "skills/storefront-performance/SKILL.md",
+      "title": "独立站性能优化",
+      "platforms": [
+        "通用"
+      ],
+      "category": "独立站建设",
+      "summary": "辅助分析店面性能与加载体验。"
+    },
+    {
+      "repo": "proskillpacks/shopify-store-skills",
+      "capability": "文件处理",
+      "requirements": [
+        "商品导出 CSV、用户粘贴资料或允许访问的店铺网址",
+        "读取网页时按原文准备 Python 与配套脚本"
+      ],
+      "cost": "Skill 开源；模型费用另计；可使用自有资料",
+      "path": "skills/shopify-alt-text-writer/SKILL.md",
+      "title": "Shopify 图片替代文本",
+      "platforms": [
+        "Shopify"
+      ],
+      "category": "Listing 优化",
+      "summary": "根据商品资料编写图片替代文本，输出可审核的 CSV。"
+    },
+    {
+      "repo": "proskillpacks/shopify-store-skills",
+      "capability": "文件处理",
+      "requirements": [
+        "商品导出 CSV、用户粘贴资料或允许访问的店铺网址",
+        "读取网页时按原文准备 Python 与配套脚本"
+      ],
+      "cost": "Skill 开源；模型费用另计；可使用自有资料",
+      "path": "skills/product-title-cleaner/SKILL.md",
+      "title": "Shopify 标题批量整理",
+      "platforms": [
+        "Shopify"
+      ],
+      "category": "Listing 优化",
+      "summary": "统一商品命名并输出修改前后对照与导入文件。"
+    },
+    {
+      "repo": "proskillpacks/shopify-store-skills",
+      "capability": "方法指导",
+      "requirements": [
+        "粘贴真实评论和获准采用的客服方案"
+      ],
+      "cost": "Skill 开源；模型费用另计；可使用自有资料",
+      "path": "skills/review-reply-drafter/SKILL.md",
+      "title": "店铺评论回复草稿",
+      "platforms": [
+        "Shopify"
+      ],
+      "category": "客户服务",
+      "summary": "根据用户提供的评论起草回复，敏感情况交由人工处理。"
+    },
+    {
+      "repo": "proskillpacks/shopify-store-skills",
+      "capability": "文件处理",
+      "requirements": [
+        "商品导出 CSV、用户粘贴资料或允许访问的店铺网址",
+        "读取网页时按原文准备 Python 与配套脚本"
+      ],
+      "cost": "Skill 开源；模型费用另计；可使用自有资料",
+      "path": "skills/shopify-policy-checker/SKILL.md",
+      "title": "Shopify 政策文本检查",
+      "platforms": [
+        "Shopify"
+      ],
+      "category": "合规检查",
+      "summary": "检查退换货、配送和政策文案中的缺失与矛盾，不替代法律审核。"
+    },
+    {
+      "repo": "proskillpacks/shopify-store-skills",
+      "capability": "文件处理",
+      "requirements": [
+        "商品导出 CSV、用户粘贴资料或允许访问的店铺网址",
+        "读取网页时按原文准备 Python 与配套脚本"
+      ],
+      "cost": "Skill 开源；模型费用另计；可使用自有资料",
+      "path": "skills/agent-ready-quick-check/SKILL.md",
+      "title": "AI 购物可读性检查",
+      "platforms": [
+        "Shopify"
+      ],
+      "category": "独立站建设",
+      "summary": "检查店铺内容是否便于 AI 购物工具读取，输出诊断。"
+    },
+    {
+      "repo": "linkfox-ai/linkfox-skills",
+      "capability": "数据查询",
+      "requirements": [
+        "LinkFox 账号及 LINKFOX_AGENT_API_KEY",
+        "Python 与完整 Skill 配套文件",
+        "店铺私有数据或写入操作还需平台授权及授权依赖 Skill"
+      ],
+      "cost": "Skill 开源；LinkFox 调用消耗算力，按服务计费",
+      "path": "skills/linkfox-dld-product-search/SKILL.md",
+      "title": "1688 货源搜索",
+      "platforms": [
+        "1688"
+      ],
+      "category": "找货采购",
+      "summary": "按关键词和条件搜索商品，比较价格及供应商信息。"
+    },
+    {
+      "repo": "linkfox-ai/linkfox-skills",
+      "capability": "数据查询",
+      "requirements": [
+        "LinkFox 账号及 LINKFOX_AGENT_API_KEY",
+        "Python 与完整 Skill 配套文件",
+        "店铺私有数据或写入操作还需平台授权及授权依赖 Skill"
+      ],
+      "cost": "Skill 开源；LinkFox 调用消耗算力，按服务计费",
+      "path": "skills/linkfox-1688-search-by-image/SKILL.md",
+      "title": "1688 以图找货",
+      "platforms": [
+        "1688"
+      ],
+      "category": "找货采购",
+      "summary": "使用商品图片查找相似货源和供应商。"
+    },
+    {
+      "repo": "linkfox-ai/linkfox-skills",
+      "capability": "数据查询",
+      "requirements": [
+        "LinkFox 账号及 LINKFOX_AGENT_API_KEY",
+        "Python 与完整 Skill 配套文件",
+        "店铺私有数据或写入操作还需平台授权及授权依赖 Skill"
+      ],
+      "cost": "Skill 开源；LinkFox 调用消耗算力，按服务计费",
+      "path": "skills/linkfox-1688-product-detail/SKILL.md",
+      "title": "1688 商品详情",
+      "platforms": [
+        "1688"
+      ],
+      "category": "找货采购",
+      "summary": "查询指定 1688 商品的详细资料。"
+    },
+    {
+      "repo": "linkfox-ai/linkfox-skills",
+      "capability": "店铺操作",
+      "requirements": [
+        "LinkFox 账号及 LINKFOX_AGENT_API_KEY",
+        "Python 与完整 Skill 配套文件",
+        "店铺私有数据或写入操作还需平台授权及授权依赖 Skill"
+      ],
+      "cost": "Skill 开源；LinkFox 调用消耗算力，按服务计费",
+      "path": "skills/linkfox-1688-procurement/SKILL.md",
+      "title": "1688 采购订单履约",
+      "platforms": [
+        "1688"
+      ],
+      "category": "库存履约",
+      "summary": "查询采购订单并按授权处理履约；含下单等写入能力。"
+    },
+    {
+      "repo": "linkfox-ai/linkfox-skills",
+      "capability": "数据查询",
+      "requirements": [
+        "LinkFox 账号及 LINKFOX_AGENT_API_KEY",
+        "Python 与完整 Skill 配套文件",
+        "店铺私有数据或写入操作还需平台授权及授权依赖 Skill"
+      ],
+      "cost": "Skill 开源；LinkFox 调用消耗算力，按服务计费",
+      "path": "skills/linkfox-amazon-search/SKILL.md",
+      "title": "Amazon 商品搜索",
+      "platforms": [
+        "Amazon"
+      ],
+      "category": "选品调研",
+      "summary": "查询站内商品结果，辅助竞品与市场研究。"
+    },
+    {
+      "repo": "linkfox-ai/linkfox-skills",
+      "capability": "数据查询",
+      "requirements": [
+        "LinkFox 账号及 LINKFOX_AGENT_API_KEY",
+        "Python 与完整 Skill 配套文件",
+        "店铺私有数据或写入操作还需平台授权及授权依赖 Skill"
+      ],
+      "cost": "Skill 开源；LinkFox 调用消耗算力，按服务计费",
+      "path": "skills/linkfox-amazon-reviews-list/SKILL.md",
+      "title": "Amazon 评论查询",
+      "platforms": [
+        "Amazon"
+      ],
+      "category": "选品调研",
+      "summary": "获取指定商品的评论信息供分析。"
+    },
+    {
+      "repo": "linkfox-ai/linkfox-skills",
+      "capability": "店铺操作",
+      "requirements": [
+        "LinkFox 账号及 LINKFOX_AGENT_API_KEY",
+        "Python 与完整 Skill 配套文件",
+        "店铺私有数据或写入操作还需平台授权及授权依赖 Skill"
+      ],
+      "cost": "Skill 开源；LinkFox 调用消耗算力，按服务计费",
+      "path": "skills/linkfox-amazon-store-orders/SKILL.md",
+      "title": "Amazon 订单查询与履约",
+      "platforms": [
+        "Amazon"
+      ],
+      "category": "库存履约",
+      "summary": "查询卖家订单并支持指定履约状态变更。"
+    },
+    {
+      "repo": "linkfox-ai/linkfox-skills",
+      "capability": "数据查询",
+      "requirements": [
+        "LinkFox 账号及 LINKFOX_AGENT_API_KEY",
+        "Python 与完整 Skill 配套文件",
+        "店铺私有数据或写入操作还需平台授权及授权依赖 Skill"
+      ],
+      "cost": "Skill 开源；LinkFox 调用消耗算力，按服务计费",
+      "path": "skills/linkfox-amazon-ads-report/SKILL.md",
+      "title": "Amazon 广告报表",
+      "platforms": [
+        "Amazon"
+      ],
+      "category": "广告投放",
+      "summary": "查询已授权广告账号的报表数据。"
+    },
+    {
+      "repo": "linkfox-ai/linkfox-skills",
+      "capability": "数据查询",
+      "requirements": [
+        "LinkFox 账号及 LINKFOX_AGENT_API_KEY",
+        "Python 与完整 Skill 配套文件",
+        "店铺私有数据或写入操作还需平台授权及授权依赖 Skill"
+      ],
+      "cost": "Skill 开源；LinkFox 调用消耗算力，按服务计费",
+      "path": "skills/linkfox-chuhaijiang-tiktok-video/SKILL.md",
+      "title": "TikTok 视频市场情报",
+      "platforms": [
+        "TikTok Shop"
+      ],
+      "category": "选品调研",
+      "summary": "用出海匠研究公开视频及其关联商品和评论。"
+    },
+    {
+      "repo": "linkfox-ai/linkfox-skills",
+      "capability": "数据查询",
+      "requirements": [
+        "LinkFox 账号及 LINKFOX_AGENT_API_KEY",
+        "Python 与完整 Skill 配套文件",
+        "店铺私有数据或写入操作还需平台授权及授权依赖 Skill"
+      ],
+      "cost": "Skill 开源；LinkFox 调用消耗算力，按服务计费",
+      "path": "skills/linkfox-chuhaijiang-tiktok-creator/SKILL.md",
+      "title": "TikTok 达人市场研究",
+      "platforms": [
+        "TikTok Shop"
+      ],
+      "category": "达人营销",
+      "summary": "用出海匠查询达人信息，辅助合作对象筛选。"
+    },
+    {
+      "repo": "linkfox-ai/linkfox-skills",
+      "capability": "数据查询",
+      "requirements": [
+        "LinkFox 账号及 LINKFOX_AGENT_API_KEY",
+        "Python 与完整 Skill 配套文件",
+        "店铺私有数据或写入操作还需平台授权及授权依赖 Skill"
+      ],
+      "cost": "Skill 开源；LinkFox 调用消耗算力，按服务计费",
+      "path": "skills/linkfox-geekbi-temu-product/SKILL.md",
+      "title": "Temu 商品市场数据",
+      "platforms": [
+        "Temu"
+      ],
+      "category": "选品调研",
+      "summary": "通过 GeekBI 查询 Temu 商品市场信息。"
+    },
+    {
+      "repo": "linkfox-ai/linkfox-skills",
+      "capability": "数据查询",
+      "requirements": [
+        "LinkFox 账号及 LINKFOX_AGENT_API_KEY",
+        "Python 与完整 Skill 配套文件",
+        "店铺私有数据或写入操作还需平台授权及授权依赖 Skill"
+      ],
+      "cost": "Skill 开源；LinkFox 调用消耗算力，按服务计费",
+      "path": "skills/linkfox-geekbi-temu-market-research/SKILL.md",
+      "title": "Temu 市场研究",
+      "platforms": [
+        "Temu"
+      ],
+      "category": "选品调研",
+      "summary": "通过 GeekBI 开展市场与类目研究。"
+    },
+    {
+      "repo": "linkfox-ai/linkfox-skills",
+      "capability": "店铺操作",
+      "requirements": [
+        "LinkFox 账号及 LINKFOX_AGENT_API_KEY",
+        "Python 与完整 Skill 配套文件",
+        "店铺私有数据或写入操作还需平台授权及授权依赖 Skill"
+      ],
+      "cost": "Skill 开源；LinkFox 调用消耗算力，按服务计费",
+      "path": "skills/linkfox-temu-order-us/SKILL.md",
+      "title": "Temu 美区订单处理",
+      "platforms": [
+        "Temu"
+      ],
+      "category": "库存履约",
+      "summary": "查询美区已授权店铺订单与发货准备信息，并支持序列号等资料上传。"
+    },
+    {
+      "repo": "linkfox-ai/linkfox-skills",
+      "capability": "数据查询",
+      "requirements": [
+        "LinkFox 账号及 LINKFOX_AGENT_API_KEY",
+        "Python 与完整 Skill 配套文件",
+        "店铺私有数据或写入操作还需平台授权及授权依赖 Skill"
+      ],
+      "cost": "Skill 开源；LinkFox 调用消耗算力，按服务计费",
+      "path": "skills/linkfox-shopee-product-detail/SKILL.md",
+      "title": "Shopee 商品详情",
+      "platforms": [
+        "Shopee"
+      ],
+      "category": "选品调研",
+      "summary": "查询指定 Shopee 商品资料。"
+    },
+    {
+      "repo": "linkfox-ai/linkfox-skills",
+      "capability": "店铺操作",
+      "requirements": [
+        "LinkFox 账号及 LINKFOX_AGENT_API_KEY",
+        "Python 与完整 Skill 配套文件",
+        "店铺私有数据或写入操作还需平台授权及授权依赖 Skill"
+      ],
+      "cost": "Skill 开源；LinkFox 调用消耗算力，按服务计费",
+      "path": "skills/linkfox-shopee-store-orders/SKILL.md",
+      "title": "Shopee 店铺订单",
+      "platforms": [
+        "Shopee"
+      ],
+      "category": "库存履约",
+      "summary": "查询或处理已授权店铺订单相关业务。"
+    },
+    {
+      "repo": "linkfox-ai/linkfox-skills",
+      "capability": "店铺操作",
+      "requirements": [
+        "LinkFox 账号及 LINKFOX_AGENT_API_KEY",
+        "Python 与完整 Skill 配套文件",
+        "店铺私有数据或写入操作还需平台授权及授权依赖 Skill"
+      ],
+      "cost": "Skill 开源；LinkFox 调用消耗算力，按服务计费",
+      "path": "skills/linkfox-lazada-store-orders/SKILL.md",
+      "title": "Lazada 店铺订单",
+      "platforms": [
+        "Lazada"
+      ],
+      "category": "库存履约",
+      "summary": "读取已授权 Lazada 店铺的订单业务信息。"
+    },
+    {
+      "repo": "linkfox-ai/linkfox-skills",
+      "capability": "数据查询",
+      "requirements": [
+        "LinkFox 账号及 LINKFOX_AGENT_API_KEY",
+        "Python 与完整 Skill 配套文件",
+        "店铺私有数据或写入操作还需平台授权及授权依赖 Skill"
+      ],
+      "cost": "Skill 开源；LinkFox 调用消耗算力，按服务计费",
+      "path": "skills/linkfox-mpstats-ozon-product-search/SKILL.md",
+      "title": "Ozon 商品市场研究",
+      "platforms": [
+        "Ozon"
+      ],
+      "category": "选品调研",
+      "summary": "通过 MPStats 搜索 Ozon 市场商品。"
+    },
+    {
+      "repo": "autoagc/linkpix-skills",
+      "capability": "内容生成",
+      "requirements": [
+        "qhkit CLI 及青虎 AI 账号登录",
+        "自有或获授权的商品图片、视频素材"
+      ],
+      "cost": "Skill 开源；青虎 AI 生成服务按模型/任务计费",
+      "path": "skills/linkpix-amazon-image/SKILL.md",
+      "title": "Amazon 商品图生成",
+      "platforms": [
+        "Amazon"
+      ],
+      "category": "图片设计",
+      "summary": "通过青虎 AI 制作白底图、主副图与卖点图。"
+    },
+    {
+      "repo": "autoagc/linkpix-skills",
+      "capability": "内容生成",
+      "requirements": [
+        "qhkit CLI 及青虎 AI 账号登录",
+        "自有或获授权的商品图片、视频素材"
+      ],
+      "cost": "Skill 开源；青虎 AI 生成服务按模型/任务计费",
+      "path": "skills/linkpix-temu-image/SKILL.md",
+      "title": "Temu 商品图生成",
+      "platforms": [
+        "Temu"
+      ],
+      "category": "图片设计",
+      "summary": "通过青虎 AI 制作适用于 Temu 的商品视觉素材。"
+    },
+    {
+      "repo": "autoagc/linkpix-skills",
+      "capability": "内容生成",
+      "requirements": [
+        "qhkit CLI 及青虎 AI 账号登录",
+        "自有或获授权的商品图片、视频素材"
+      ],
+      "cost": "Skill 开源；青虎 AI 生成服务按模型/任务计费",
+      "path": "skills/linkpix-shopee-image/SKILL.md",
+      "title": "Shopee 商品图生成",
+      "platforms": [
+        "Shopee"
+      ],
+      "category": "图片设计",
+      "summary": "通过青虎 AI 生成 Shopee 商品视觉素材。"
+    },
+    {
+      "repo": "autoagc/linkpix-skills",
+      "capability": "内容生成",
+      "requirements": [
+        "qhkit CLI 及青虎 AI 账号登录",
+        "自有或获授权的商品图片、视频素材"
+      ],
+      "cost": "Skill 开源；青虎 AI 生成服务按模型/任务计费",
+      "path": "skills/linkpix-lazada-image/SKILL.md",
+      "title": "Lazada 商品图生成",
+      "platforms": [
+        "Lazada"
+      ],
+      "category": "图片设计",
+      "summary": "通过青虎 AI 生成 Lazada 商品视觉素材。"
+    },
+    {
+      "repo": "autoagc/linkpix-skills",
+      "capability": "内容生成",
+      "requirements": [
+        "qhkit CLI 及青虎 AI 账号登录",
+        "自有或获授权的商品图片、视频素材"
+      ],
+      "cost": "Skill 开源；青虎 AI 生成服务按模型/任务计费",
+      "path": "skills/linkpix-ozon-image/SKILL.md",
+      "title": "Ozon 商品图生成",
+      "platforms": [
+        "Ozon"
+      ],
+      "category": "图片设计",
+      "summary": "通过青虎 AI 制作 Ozon 商品视觉素材。"
+    },
+    {
+      "repo": "autoagc/linkpix-skills",
+      "capability": "内容生成",
+      "requirements": [
+        "qhkit CLI 及青虎 AI 账号登录",
+        "自有或获授权的商品图片、视频素材"
+      ],
+      "cost": "Skill 开源；青虎 AI 生成服务按模型/任务计费",
+      "path": "skills/linkpix-jd-image/SKILL.md",
+      "title": "京东商品图生成",
+      "platforms": [
+        "京东"
+      ],
+      "category": "图片设计",
+      "summary": "按商品资料生成京东场景使用的商品图片。"
+    },
+    {
+      "repo": "autoagc/linkpix-skills",
+      "capability": "内容生成",
+      "requirements": [
+        "qhkit CLI 及青虎 AI 账号登录",
+        "自有或获授权的商品图片、视频素材"
+      ],
+      "cost": "Skill 开源；青虎 AI 生成服务按模型/任务计费",
+      "path": "skills/linkpix-douyin-shop-image/SKILL.md",
+      "title": "抖音小店商品图",
+      "platforms": [
+        "抖音小店"
+      ],
+      "category": "图片设计",
+      "summary": "通过青虎 AI 生成抖音小店商品图片。"
+    },
+    {
+      "repo": "autoagc/linkpix-skills",
+      "capability": "内容生成",
+      "requirements": [
+        "qhkit CLI 及青虎 AI 账号登录",
+        "自有或获授权的商品图片、视频素材"
+      ],
+      "cost": "Skill 开源；青虎 AI 生成服务按模型/任务计费",
+      "path": "skills/linkpix-sales-video/SKILL.md",
+      "title": "商品带货视频生成",
+      "platforms": [
+        "TikTok Shop",
+        "抖音小店"
+      ],
+      "category": "内容创作",
+      "summary": "使用商品素材生成带货短视频及配套内容。"
+    },
+    {
+      "repo": "autoagc/linkpix-skills",
+      "capability": "内容生成",
+      "requirements": [
+        "qhkit CLI 及青虎 AI 账号登录",
+        "自有或获授权的商品图片、视频素材"
+      ],
+      "cost": "Skill 开源；青虎 AI 生成服务按模型/任务计费",
+      "path": "skills/linkpix-image-translate/SKILL.md",
+      "title": "商品图片翻译",
+      "platforms": [
+        "通用"
+      ],
+      "category": "图片设计",
+      "summary": "处理商品图片中的文字翻译与视觉呈现。"
+    },
+    {
+      "repo": "autoagc/linkpix-skills",
+      "capability": "内容生成",
+      "requirements": [
+        "qhkit CLI 及青虎 AI 账号登录",
+        "自有或获授权的商品图片、视频素材"
+      ],
+      "cost": "Skill 开源；青虎 AI 生成服务按模型/任务计费",
+      "path": "skills/linkpix-detail-page/SKILL.md",
+      "title": "商品详情图生成",
+      "platforms": [
+        "通用"
+      ],
+      "category": "图片设计",
+      "summary": "根据商品资料制作详情页视觉内容。"
+    },
+    {
+      "repo": "browser-act/skills",
+      "capability": "网页采集",
+      "requirements": [
+        "browser-act 工具及其浏览器环境",
+        "目标页面可访问；按站点要求准备登录状态"
+      ],
+      "cost": "Skill 开源；模型及浏览器服务费用需按实际环境核实",
+      "path": "solutions/ecommerce/1688-product-detail/SKILL.md",
+      "title": "1688 商品页面采集",
+      "platforms": [
+        "1688"
+      ],
+      "category": "找货采购",
+      "summary": "读取可访问的商品详情页，整理价格、规格与供应商信息。"
+    },
+    {
+      "repo": "browser-act/skills",
+      "capability": "网页采集",
+      "requirements": [
+        "browser-act 工具及其浏览器环境",
+        "目标页面可访问；按站点要求准备登录状态"
+      ],
+      "cost": "Skill 开源；模型及浏览器服务费用需按实际环境核实",
+      "path": "solutions/ecommerce/amazon-product-detail/SKILL.md",
+      "title": "Amazon 商品页面采集",
+      "platforms": [
+        "Amazon"
+      ],
+      "category": "选品调研",
+      "summary": "从可访问页面读取商品信息供研究。"
+    },
+    {
+      "repo": "browser-act/skills",
+      "capability": "网页采集",
+      "requirements": [
+        "browser-act 工具及其浏览器环境",
+        "目标页面可访问；按站点要求准备登录状态"
+      ],
+      "cost": "Skill 开源；模型及浏览器服务费用需按实际环境核实",
+      "path": "solutions/ecommerce/amazon-search-listing/SKILL.md",
+      "title": "Amazon 搜索结果采集",
+      "platforms": [
+        "Amazon"
+      ],
+      "category": "选品调研",
+      "summary": "读取搜索结果中的商品列表信息。"
+    },
+    {
+      "repo": "browser-act/skills",
+      "capability": "网页采集",
+      "requirements": [
+        "browser-act 工具及其浏览器环境",
+        "目标页面可访问；按站点要求准备登录状态"
+      ],
+      "cost": "Skill 开源；模型及浏览器服务费用需按实际环境核实",
+      "path": "solutions/ecommerce/ebay-item-detail/SKILL.md",
+      "title": "eBay 商品页面采集",
+      "platforms": [
+        "eBay"
+      ],
+      "category": "选品调研",
+      "summary": "从商品页面提取可见资料。"
+    },
+    {
+      "repo": "browser-act/skills",
+      "capability": "网页采集",
+      "requirements": [
+        "browser-act 工具及其浏览器环境",
+        "目标页面可访问；按站点要求准备登录状态"
+      ],
+      "cost": "Skill 开源；模型及浏览器服务费用需按实际环境核实",
+      "path": "solutions/ecommerce/ebay-sold-listings-search/SKILL.md",
+      "title": "eBay 已售商品研究",
+      "platforms": [
+        "eBay"
+      ],
+      "category": "选品调研",
+      "summary": "检索已售商品页面信息辅助市场判断。"
+    },
+    {
+      "repo": "browser-act/skills",
+      "capability": "网页采集",
+      "requirements": [
+        "browser-act 工具及其浏览器环境",
+        "目标页面可访问；按站点要求准备登录状态"
+      ],
+      "cost": "Skill 开源；模型及浏览器服务费用需按实际环境核实",
+      "path": "solutions/ecommerce/etsy-keyword-search/SKILL.md",
+      "title": "Etsy 关键词商品搜索",
+      "platforms": [
+        "Etsy"
+      ],
+      "category": "选品调研",
+      "summary": "读取 Etsy 搜索结果中的商品信息。"
+    },
+    {
+      "repo": "browser-act/skills",
+      "capability": "网页采集",
+      "requirements": [
+        "browser-act 工具及其浏览器环境",
+        "目标页面可访问；按站点要求准备登录状态"
+      ],
+      "cost": "Skill 开源；模型及浏览器服务费用需按实际环境核实",
+      "path": "solutions/ecommerce/taobao-keyword-search/SKILL.md",
+      "title": "淘宝关键词找品",
+      "platforms": [
+        "淘宝"
+      ],
+      "category": "选品调研",
+      "summary": "通过浏览器读取可访问的淘宝商品搜索结果。"
+    },
+    {
+      "repo": "browser-act/skills",
+      "capability": "网页采集",
+      "requirements": [
+        "browser-act 工具及其浏览器环境",
+        "目标页面可访问；按站点要求准备登录状态"
+      ],
+      "cost": "Skill 开源；模型及浏览器服务费用需按实际环境核实",
+      "path": "solutions/ecommerce/taobao-product-reviews/SKILL.md",
+      "title": "淘宝商品评论采集",
+      "platforms": [
+        "淘宝"
+      ],
+      "category": "选品调研",
+      "summary": "读取当前可访问的商品评论内容。"
+    },
+    {
+      "repo": "browser-act/skills",
+      "capability": "网页采集",
+      "requirements": [
+        "browser-act 工具及其浏览器环境",
+        "目标页面可访问；按站点要求准备登录状态"
+      ],
+      "cost": "Skill 开源；模型及浏览器服务费用需按实际环境核实",
+      "path": "solutions/ecommerce/walmart-product-detail/SKILL.md",
+      "title": "Walmart 商品页面采集",
+      "platforms": [
+        "Walmart"
+      ],
+      "category": "选品调研",
+      "summary": "提取沃尔玛商品页的可见商品资料。"
+    },
+    {
+      "repo": "viethahong/business-skills",
+      "capability": "方法指导",
+      "requirements": [
+        "提供商品、预算与目标市场资料",
+        "原文以越南语和越南市场为主，需核对本地适用性",
+        "按原文补齐 product-marketing-context 等关联 Skill"
+      ],
+      "cost": "Skill 开源；模型及实际营销费用另计",
+      "path": "skills/ads/ecommerce-marketplace/SKILL.md",
+      "title": "东南亚店铺增长指南",
+      "platforms": [
+        "Shopee",
+        "Lazada",
+        "TikTok Shop"
+      ],
+      "category": "广告投放",
+      "summary": "围绕东南亚平台的商品页、活动和站内广告制定运营计划。"
+    },
+    {
+      "repo": "viethahong/business-skills",
+      "capability": "方法指导",
+      "requirements": [
+        "提供商品、预算与目标市场资料",
+        "原文以越南语和越南市场为主，需核对本地适用性",
+        "按原文补齐 product-marketing-context 等关联 Skill"
+      ],
+      "cost": "Skill 开源；模型及实际营销费用另计",
+      "path": "skills/content/livestream-selling/SKILL.md",
+      "title": "直播带货策划",
+      "platforms": [
+        "Shopee",
+        "TikTok Shop"
+      ],
+      "category": "内容创作",
+      "summary": "规划直播内容、节奏与互动，原文侧重越南市场。"
+    },
+    {
+      "repo": "viethahong/business-skills",
+      "capability": "方法指导",
+      "requirements": [
+        "提供商品、预算与目标市场资料",
+        "原文以越南语和越南市场为主，需核对本地适用性",
+        "按原文补齐 product-marketing-context 等关联 Skill"
+      ],
+      "cost": "Skill 开源；模型及实际营销费用另计",
+      "path": "skills/content/tiktok-shop-strategy/SKILL.md",
+      "title": "TikTok 越南运营策略",
+      "platforms": [
+        "TikTok Shop"
+      ],
+      "category": "经营分析",
+      "summary": "梳理越南市场的短视频、直播、达人与店铺运营。"
+    },
+    {
+      "repo": "viethahong/business-skills",
+      "capability": "方法指导",
+      "requirements": [
+        "提供商品、预算与目标市场资料",
+        "原文以越南语和越南市场为主，需核对本地适用性",
+        "按原文补齐 product-marketing-context 等关联 Skill"
+      ],
+      "cost": "Skill 开源；模型及实际营销费用另计",
+      "path": "skills/finance/unit-economics/SKILL.md",
+      "title": "单位经济模型分析",
+      "platforms": [
+        "通用"
+      ],
+      "category": "经营分析",
+      "summary": "根据用户提供的数据分析获客成本、生命周期价值与回本。"
+    },
+    {
+      "repo": "wubin1836/ai-ecommerce-expert-agent-skills",
+      "capability": "内容生成",
+      "requirements": [
+        "IMIVA MCP 接入与账号授权",
+        "可用积分、商品素材及输出规格"
+      ],
+      "cost": "Skill 开源；IMIVA 服务实际积分与价格以运行时为准",
+      "path": "skills/ai-ecommerce-expert-temu-ecommerce-content/SKILL.md",
+      "title": "IMIVA Temu 内容制作",
+      "platforms": [
+        "Temu"
+      ],
+      "category": "图片设计",
+      "summary": "调用 IMIVA MCP 制作 Temu 商品图片和视频素材。"
+    },
+    {
+      "repo": "wubin1836/ai-ecommerce-expert-agent-skills",
+      "capability": "内容生成",
+      "requirements": [
+        "IMIVA MCP 接入与账号授权",
+        "可用积分、商品素材及输出规格"
+      ],
+      "cost": "Skill 开源；IMIVA 服务实际积分与价格以运行时为准",
+      "path": "skills/ai-ecommerce-expert-aliexpress-ecommerce-content/SKILL.md",
+      "title": "速卖通商品内容制作",
+      "platforms": [
+        "AliExpress"
+      ],
+      "category": "图片设计",
+      "summary": "调用 IMIVA MCP 制作速卖通商品内容。"
+    },
+    {
+      "repo": "wubin1836/ai-ecommerce-expert-agent-skills",
+      "capability": "内容生成",
+      "requirements": [
+        "IMIVA MCP 接入与账号授权",
+        "可用积分、商品素材及输出规格"
+      ],
+      "cost": "Skill 开源；IMIVA 服务实际积分与价格以运行时为准",
+      "path": "skills/ai-ecommerce-expert-amazon-a-plus-ecommerce-content/SKILL.md",
+      "title": "Amazon A+ 内容制作",
+      "platforms": [
+        "Amazon"
+      ],
+      "category": "图片设计",
+      "summary": "使用 IMIVA MCP 生成 A+ 场景的商品内容素材。"
+    },
+    {
+      "repo": "Shopify/Shopify-AI-Toolkit",
+      "path": "skills/shopify/SKILL.md",
+      "title": "Shopify 官方开发工具",
+      "platforms": [
+        "Shopify"
+      ],
+      "category": "独立站建设",
+      "summary": "按任务查询 Shopify 开发资料，辅助主题、应用与 API 代码开发。",
+      "capability": "开发辅助",
+      "requirements": [
+        "Node.js 与 Shopify 配套脚本",
+        "平台写入需对应账号与权限",
+        "原文含使用日志/遥测流程，使用前核对数据发送范围"
+      ],
+      "cost": "Skill 开源；模型、Shopify 及外部服务费用另计"
+    },
+    {
+      "repo": "markoxtomic/agent-skills",
+      "path": "multilingual-metadata-agent/SKILL.md",
+      "title": "Shopify 多语言 SEO 元数据",
+      "platforms": [
+        "Shopify"
+      ],
+      "category": "Listing 优化",
+      "summary": "按商品族批量编写多语言 SEO 元数据，并支持审核后写回店铺。",
+      "capability": "店铺操作",
+      "requirements": [
+        "商品目录与语言规则",
+        "Excel 审核流程、并行 Agent 能力和 Shopify Admin GraphQL 权限"
+      ],
+      "cost": "Skill 开源；模型及 Shopify 服务费用另计"
+    },
+    {
+      "repo": "bridgemekong/shopee-skill",
+      "path": "SKILL.md",
+      "title": "Shopee 联盟链接推广",
+      "platforms": [
+        "Shopee"
+      ],
+      "category": "达人营销",
+      "summary": "生成推广链接与社交文案，支持任务队列及授权后的社媒发布。",
+      "capability": "店铺操作",
+      "requirements": [
+        "Python 3 与完整辅助脚本",
+        "Shopee Affiliate 或 Seller API 权限",
+        "发布目标社交平台的 API 授权"
+      ],
+      "cost": "Skill 开源；相关平台接口权限及费用需核实"
+    },
+    {
+      "repo": "nexscope-ai/Amazon-Skills",
+      "path": "amazon-a-plus-content/SKILL.md",
+      "title": "Amazon A+ 模块策划",
+      "platforms": [
+        "Amazon"
+      ],
+      "category": "Listing 优化",
+      "summary": "规划 A+ 模块、文案与摄影说明，不会自动生成图片或发布。",
+      "capability": "方法指导",
+      "requirements": [
+        "提供真实商品资料、目标站点及相关报表",
+        "依原文使用联网检索；费率与平台规则需核对现行版本"
+      ],
+      "cost": "Skill 开源；模型与外部数据服务费用另计"
+    },
+    {
+      "repo": "nexscope-ai/Amazon-Skills",
+      "path": "amazon-backend-keywords/SKILL.md",
+      "title": "Amazon 后台搜索词整理",
+      "platforms": [
+        "Amazon"
+      ],
+      "category": "Listing 优化",
+      "summary": "整理后台搜索词的去重与优先级，实际限制需按目标站点核对。",
+      "capability": "方法指导",
+      "requirements": [
+        "提供真实商品资料、目标站点及相关报表",
+        "依原文使用联网检索；费率与平台规则需核对现行版本"
+      ],
+      "cost": "Skill 开源；模型与外部数据服务费用另计"
+    },
+    {
+      "repo": "nexscope-ai/Amazon-Skills",
+      "path": "amazon-brand-analytics/SKILL.md",
+      "title": "Amazon 品牌分析解读",
+      "platforms": [
+        "Amazon"
+      ],
+      "category": "经营分析",
+      "summary": "解释搜索频率、购物篮和商品对比报告，需要提供品牌分析数据。",
+      "capability": "方法指导",
+      "requirements": [
+        "提供真实商品资料、目标站点及相关报表",
+        "依原文使用联网检索；费率与平台规则需核对现行版本"
+      ],
+      "cost": "Skill 开源；模型与外部数据服务费用另计"
+    },
+    {
+      "repo": "nexscope-ai/Amazon-Skills",
+      "path": "amazon-fba-prep/SKILL.md",
+      "title": "FBA 包装与入仓准备",
+      "platforms": [
+        "Amazon"
+      ],
+      "category": "库存履约",
+      "summary": "按商品特征整理包装、贴标和装箱清单，需要核对当前站点要求。",
+      "capability": "方法指导",
+      "requirements": [
+        "提供真实商品资料、目标站点及相关报表",
+        "依原文使用联网检索；费率与平台规则需核对现行版本"
+      ],
+      "cost": "Skill 开源；模型与外部数据服务费用另计"
+    },
+    {
+      "repo": "nexscope-ai/Amazon-Skills",
+      "path": "amazon-negative-keywords/SKILL.md",
+      "title": "Amazon 否定关键词规划",
+      "platforms": [
+        "Amazon"
+      ],
+      "category": "广告投放",
+      "summary": "分析搜索词报告，提出否定词及节省预算建议，需自行执行。",
+      "capability": "方法指导",
+      "requirements": [
+        "提供真实商品资料、目标站点及相关报表",
+        "依原文使用联网检索；费率与平台规则需核对现行版本"
+      ],
+      "cost": "Skill 开源；模型与外部数据服务费用另计"
+    },
+    {
+      "repo": "nexscope-ai/Amazon-Skills",
+      "path": "amazon-ppc-campaign/SKILL.md",
+      "title": "Amazon PPC 活动设计",
+      "platforms": [
+        "Amazon"
+      ],
+      "category": "广告投放",
+      "summary": "根据关键词与广告报告设计活动结构、出价和优化计划。",
+      "capability": "方法指导",
+      "requirements": [
+        "提供真实商品资料、目标站点及相关报表",
+        "依原文使用联网检索；费率与平台规则需核对现行版本"
+      ],
+      "cost": "Skill 开源；模型与外部数据服务费用另计"
+    },
+    {
+      "repo": "nexscope-ai/Amazon-Skills",
+      "path": "amazon-profit-analyzer/SKILL.md",
+      "title": "Amazon 利润结构分析",
+      "platforms": [
+        "Amazon"
+      ],
+      "category": "经营分析",
+      "summary": "基于真实成本和现行费率拆解利润，识别广告及退货成本。",
+      "capability": "方法指导",
+      "requirements": [
+        "提供真实商品资料、目标站点及相关报表",
+        "依原文使用联网检索；费率与平台规则需核对现行版本"
+      ],
+      "cost": "Skill 开源；模型与外部数据服务费用另计"
+    },
+    {
+      "repo": "nexscope-ai/Amazon-Skills",
+      "path": "amazon-product-photography/SKILL.md",
+      "title": "Amazon 商品摄影方案",
+      "platforms": [
+        "Amazon"
+      ],
+      "category": "图片设计",
+      "summary": "生成主图、场景图、细节图拍摄清单与制作说明。",
+      "capability": "方法指导",
+      "requirements": [
+        "提供真实商品资料、目标站点及相关报表",
+        "依原文使用联网检索；费率与平台规则需核对现行版本"
+      ],
+      "cost": "Skill 开源；模型与外部数据服务费用另计"
+    },
+    {
+      "repo": "nexscope-ai/Amazon-Skills",
+      "path": "amazon-review-analyzer/SKILL.md",
+      "title": "Amazon 评论洞察方法",
+      "platforms": [
+        "Amazon"
+      ],
+      "category": "选品调研",
+      "summary": "从评论中归纳需求、抱怨和改良方向，结果依赖评论来源。",
+      "capability": "方法指导",
+      "requirements": [
+        "提供真实商品资料、目标站点及相关报表",
+        "依原文使用联网检索；费率与平台规则需核对现行版本"
+      ],
+      "cost": "Skill 开源；模型与外部数据服务费用另计"
+    },
+    {
+      "repo": "nexscope-ai/Amazon-Skills",
+      "path": "amazon-global-selling/SKILL.md",
+      "title": "Amazon 多站点拓展规划",
+      "platforms": [
+        "Amazon"
+      ],
+      "category": "经营分析",
+      "summary": "比较目标市场需求、履约和经营条件，形成拓展计划。",
+      "capability": "方法指导",
+      "requirements": [
+        "提供真实商品资料、目标站点及相关报表",
+        "依原文使用联网检索；费率与平台规则需核对现行版本"
+      ],
+      "cost": "Skill 开源；模型与外部数据服务费用另计"
+    },
+    {
+      "repo": "nexscope-ai/Amazon-Skills",
+      "path": "amazon-keyword-research/SKILL.md",
+      "title": "Amazon 搜索建议采集",
+      "platforms": [
+        "Amazon"
+      ],
+      "category": "选品调研",
+      "summary": "采集搜索补全建议，结合公开检索分析关键词机会；不等同于搜索量数据。",
+      "capability": "数据查询",
+      "requirements": [
+        "Shell 环境和配套 research.sh",
+        "访问 Amazon 搜索建议接口及联网检索工具"
+      ],
+      "cost": "原文无需 API Key；模型及网络工具费用另计，接口未实测"
+    },
+    {
+      "repo": "brianmoney/amazon-marketing-skill",
+      "path": "skills/a-plus-content/SKILL.md",
+      "title": "Amazon A+ 文案与版式",
+      "platforms": [
+        "Amazon"
+      ],
+      "category": "Listing 优化",
+      "summary": "结合品牌和产品上下文规划 A+ 模块、文案与图片需求。",
+      "capability": "方法指导",
+      "requirements": [
+        "真实产品事实、品牌上下文及相关关键词",
+        "保留原仓库引用的模板和参考文件；平台规则须复核"
+      ],
+      "cost": "Skill 开源；模型与外部工具费用另计"
+    },
+    {
+      "repo": "brianmoney/amazon-marketing-skill",
+      "path": "skills/competitor-analysis/SKILL.md",
+      "title": "Amazon 竞品 Listing 拆解",
+      "platforms": [
+        "Amazon"
+      ],
+      "category": "选品调研",
+      "summary": "比较竞品文案、关键词与定位，整理可验证的差异点。",
+      "capability": "方法指导",
+      "requirements": [
+        "真实产品事实、品牌上下文及相关关键词",
+        "保留原仓库引用的模板和参考文件；平台规则须复核"
+      ],
+      "cost": "Skill 开源；模型与外部工具费用另计"
+    },
+    {
+      "repo": "brianmoney/amazon-marketing-skill",
+      "path": "skills/keyword-research/SKILL.md",
+      "title": "Amazon 关键词分配表",
+      "platforms": [
+        "Amazon"
+      ],
+      "category": "Listing 优化",
+      "summary": "把已有关键词和商品资料整理成 Listing 字段分配表。",
+      "capability": "方法指导",
+      "requirements": [
+        "真实产品事实、品牌上下文及相关关键词",
+        "保留原仓库引用的模板和参考文件；平台规则须复核"
+      ],
+      "cost": "Skill 开源；模型与外部工具费用另计"
+    },
+    {
+      "repo": "brianmoney/amazon-marketing-skill",
+      "path": "skills/listing-audit/SKILL.md",
+      "title": "Amazon Listing 质量审查",
+      "platforms": [
+        "Amazon"
+      ],
+      "category": "Listing 优化",
+      "summary": "按文档中的检查项审查现有页面，输出问题和修改建议。",
+      "capability": "方法指导",
+      "requirements": [
+        "真实产品事实、品牌上下文及相关关键词",
+        "保留原仓库引用的模板和参考文件；平台规则须复核"
+      ],
+      "cost": "Skill 开源；模型与外部工具费用另计"
+    },
+    {
+      "repo": "brianmoney/amazon-marketing-skill",
+      "path": "skills/listing-optimizer/SKILL.md",
+      "title": "Amazon 商品文案重写",
+      "platforms": [
+        "Amazon"
+      ],
+      "category": "Listing 优化",
+      "summary": "根据产品事实生成标题、五点、描述与后台词草稿。",
+      "capability": "方法指导",
+      "requirements": [
+        "真实产品事实、品牌上下文及相关关键词",
+        "保留原仓库引用的模板和参考文件；平台规则须复核"
+      ],
+      "cost": "Skill 开源；模型与外部工具费用另计"
+    },
+    {
+      "repo": "brianmoney/amazon-marketing-skill",
+      "path": "skills/product-onboarding/SKILL.md",
+      "title": "Amazon 产品资料归档",
+      "platforms": [
+        "Amazon"
+      ],
+      "category": "Listing 优化",
+      "summary": "从 ASIN 清单和可访问商品页面建立结构化产品资料文件。",
+      "capability": "文件处理",
+      "requirements": [
+        "ASIN 或 SKU 清单、网页访问能力及本地写入权限",
+        "保留原仓库模板与配套引用"
+      ],
+      "cost": "Skill 开源；模型与网页工具费用另计"
+    },
+    {
+      "repo": "amzn/selling-partner-agentic-toolkit",
+      "path": "skills/fba-inbound-management/SKILL.md",
+      "title": "Amazon FBA 入仓管理",
+      "platforms": [
+        "Amazon"
+      ],
+      "category": "库存履约",
+      "summary": "通过已授权工具管理入仓计划、装箱、运输和货件确认。",
+      "capability": "店铺操作",
+      "requirements": [
+        "已连接 Amazon Selling Partner Connector / amazon-selling-partner MCP",
+        "卖家账户授权及任务对应工具；仅安装 SKILL.md 不会建立连接",
+        "按原文配套技能处理关联流程"
+      ],
+      "cost": "Skill 采用 Apache-2.0；模型、连接服务及平台业务费用另计"
+    },
+    {
+      "repo": "amzn/selling-partner-agentic-toolkit",
+      "path": "skills/listing-buyability/SKILL.md",
+      "title": "Amazon 不可购买诊断",
+      "platforms": [
+        "Amazon"
+      ],
+      "category": "Listing 优化",
+      "summary": "检查商品、报价和库存条件，并在授权后修正可购买性问题。",
+      "capability": "店铺操作",
+      "requirements": [
+        "已连接 Amazon Selling Partner Connector / amazon-selling-partner MCP",
+        "卖家账户授权及任务对应工具；仅安装 SKILL.md 不会建立连接",
+        "按原文配套技能处理关联流程"
+      ],
+      "cost": "Skill 采用 Apache-2.0；模型、连接服务及平台业务费用另计"
+    },
+    {
+      "repo": "amzn/selling-partner-agentic-toolkit",
+      "path": "skills/listing-issues/SKILL.md",
+      "title": "Amazon Listing 问题修复",
+      "platforms": [
+        "Amazon"
+      ],
+      "category": "Listing 优化",
+      "summary": "读取报错和限制，预览修改后按授权修复商品属性问题。",
+      "capability": "店铺操作",
+      "requirements": [
+        "已连接 Amazon Selling Partner Connector / amazon-selling-partner MCP",
+        "卖家账户授权及任务对应工具；仅安装 SKILL.md 不会建立连接",
+        "按原文配套技能处理关联流程"
+      ],
+      "cost": "Skill 采用 Apache-2.0；模型、连接服务及平台业务费用另计"
+    },
+    {
+      "repo": "amzn/selling-partner-agentic-toolkit",
+      "path": "skills/listing-searchability/SKILL.md",
+      "title": "Amazon 搜索可见性优化",
+      "platforms": [
+        "Amazon"
+      ],
+      "category": "Listing 优化",
+      "summary": "诊断搜索不可见问题，并在授权后更新相关商品字段。",
+      "capability": "店铺操作",
+      "requirements": [
+        "已连接 Amazon Selling Partner Connector / amazon-selling-partner MCP",
+        "卖家账户授权及任务对应工具；仅安装 SKILL.md 不会建立连接",
+        "按原文配套技能处理关联流程"
+      ],
+      "cost": "Skill 采用 Apache-2.0；模型、连接服务及平台业务费用另计"
+    },
+    {
+      "repo": "amzn/selling-partner-agentic-toolkit",
+      "path": "skills/stockout-prevention/SKILL.md",
+      "title": "Amazon 缺货预防",
+      "platforms": [
+        "Amazon"
+      ],
+      "category": "库存履约",
+      "summary": "检查库存与销售速度，分析缺货风险并衔接补货流程。",
+      "capability": "店铺操作",
+      "requirements": [
+        "已连接 Amazon Selling Partner Connector / amazon-selling-partner MCP",
+        "卖家账户授权及任务对应工具；仅安装 SKILL.md 不会建立连接",
+        "按原文配套技能处理关联流程"
+      ],
+      "cost": "Skill 采用 Apache-2.0；模型、连接服务及平台业务费用另计"
+    },
+    {
+      "repo": "amzn/selling-partner-agentic-toolkit",
+      "path": "skills/support-case-helper/SKILL.md",
+      "title": "Amazon 卖家支持工单",
+      "platforms": [
+        "Amazon"
+      ],
+      "category": "客户服务",
+      "summary": "整理问题摘要；工具支持且获授权时创建工单，否则引导手动提交。",
+      "capability": "店铺操作",
+      "requirements": [
+        "已连接 Amazon Selling Partner Connector / amazon-selling-partner MCP",
+        "卖家账户授权及任务对应工具；仅安装 SKILL.md 不会建立连接",
+        "按原文配套技能处理关联流程"
+      ],
+      "cost": "Skill 采用 Apache-2.0；模型、连接服务及平台业务费用另计"
+    },
+    {
+      "repo": "amzn/selling-partner-agentic-toolkit",
+      "path": "skills/finance-month-end-closer/SKILL.md",
+      "title": "Amazon 月度对账",
+      "platforms": [
+        "Amazon"
+      ],
+      "category": "经营分析",
+      "summary": "读取结算和余额，结合用户提供的到账信息生成对账摘要，不操作资金。",
+      "capability": "数据查询",
+      "requirements": [
+        "已连接 Amazon Selling Partner Connector / amazon-selling-partner MCP",
+        "卖家账户授权及任务对应工具；仅安装 SKILL.md 不会建立连接",
+        "按原文配套技能处理关联流程"
+      ],
+      "cost": "Skill 采用 Apache-2.0；模型、连接服务及平台业务费用另计"
+    },
+    {
+      "repo": "amzn/selling-partner-agentic-toolkit",
+      "path": "skills/seller-analytics/SKILL.md",
+      "title": "Amazon 店铺经营数据",
+      "platforms": [
+        "Amazon"
+      ],
+      "category": "经营分析",
+      "summary": "通过连接器读取销售、流量和库存指标并解释结果。",
+      "capability": "数据查询",
+      "requirements": [
+        "已连接 Amazon Selling Partner Connector / amazon-selling-partner MCP",
+        "卖家账户授权及任务对应工具；仅安装 SKILL.md 不会建立连接",
+        "按原文配套技能处理关联流程"
+      ],
+      "cost": "Skill 采用 Apache-2.0；模型、连接服务及平台业务费用另计"
+    },
+    {
+      "repo": "amzn/selling-partner-agentic-toolkit",
+      "path": "skills/listing-troubleshooter/SKILL.md",
+      "title": "Amazon Listing 故障分诊",
+      "platforms": [
+        "Amazon"
+      ],
+      "category": "Listing 优化",
+      "summary": "检查商品状态与问题，分流到可购买性、搜索或属性修复技能。",
+      "capability": "数据查询",
+      "requirements": [
+        "已连接 Amazon Selling Partner Connector / amazon-selling-partner MCP",
+        "卖家账户授权及任务对应工具；仅安装 SKILL.md 不会建立连接",
+        "按原文配套技能处理关联流程"
+      ],
+      "cost": "Skill 采用 Apache-2.0；模型、连接服务及平台业务费用另计"
+    },
+    {
+      "repo": "amzn/selling-partner-agentic-toolkit",
+      "path": "skills/listing-compliance/SKILL.md",
+      "title": "Amazon 刊登要求检查",
+      "platforms": [
+        "Amazon"
+      ],
+      "category": "合规检查",
+      "summary": "核对刊登所需资料与账号限制；提供信息核对，不替代专业审查。",
+      "capability": "数据查询",
+      "requirements": [
+        "已连接 Amazon Selling Partner Connector / amazon-selling-partner MCP",
+        "卖家账户授权及任务对应工具；仅安装 SKILL.md 不会建立连接",
+        "按原文配套技能处理关联流程"
+      ],
+      "cost": "Skill 采用 Apache-2.0；模型、连接服务及平台业务费用另计"
+    },
+    {
+      "repo": "amzn/selling-partner-agentic-toolkit",
+      "path": "skills/sp-api-knowledge/SKILL.md",
+      "title": "Amazon SP-API 开发知识库",
+      "platforms": [
+        "Amazon"
+      ],
+      "category": "独立站建设",
+      "summary": "通过连接器检索 SP-API 文档，辅助接口选型和开发设计。",
+      "capability": "开发辅助",
+      "requirements": [
+        "已连接 Amazon Selling Partner Connector / amazon-selling-partner MCP",
+        "卖家账户授权及任务对应工具；仅安装 SKILL.md 不会建立连接",
+        "按原文配套技能处理关联流程"
+      ],
+      "cost": "Skill 采用 Apache-2.0；模型、连接服务及平台业务费用另计"
+    },
+    {
+      "repo": "Saber-doudou/ecommerce-product-investigator",
+      "path": "SKILL.md",
+      "title": "国内与跨境商品调研",
+      "platforms": [
+        "京东",
+        "淘宝",
+        "拼多多",
+        "1688",
+        "Amazon",
+        "Shopee",
+        "TikTok Shop",
+        "Temu"
+      ],
+      "category": "选品调研",
+      "summary": "结合商品页面、买手数据和用户资料进行比价、竞品与利润分析。",
+      "capability": "数据查询",
+      "requirements": [
+        "Python 3.11+；买手接口调用需要 aiohttp 和 PyYAML",
+        "深度调研需要 agent-browser、CDP 及用户已登录浏览器",
+        "跨境资料依赖公开检索，并非各平台卖家 API 连接"
+      ],
+      "cost": "Skill 开源；外部数据服务与模型费用需按实际配置核实"
+    },
+    {
+      "repo": "ZloyDeDD/wb-api-skill",
+      "path": "SKILL.md",
+      "title": "Wildberries API 开发参考",
+      "platforms": [
+        "Wildberries"
+      ],
+      "category": "独立站建设",
+      "summary": "检索本地 OpenAPI 快照，查找接口、参数与调用限制，不直接运营店铺。",
+      "capability": "开发辅助",
+      "requirements": [
+        "Python 与 PyYAML",
+        "使用前检查规范快照日期；实际调用需自行配置卖家 API 授权"
+      ],
+      "cost": "Skill 开源；模型与实际接口使用费用另核实"
+    },
+    {
+      "repo": "xenosfeng-creator/MTL-skill",
+      "path": "SKILL.md",
+      "title": "蒙铁力 Amazon 文案工作台",
+      "platforms": [
+        "Amazon"
+      ],
+      "category": "Listing 优化",
+      "summary": "通过本地工作台整理产品事实、编写和审查 Listing，可选接入关键词数据服务。",
+      "capability": "文件处理",
+      "requirements": [
+        "Python 3.9+、浏览器、本地进程与文件权限",
+        "自动生成需已登录 Codex CLI；SIF / SellerSprite MCP 为可选依赖"
+      ],
+      "cost": "Skill 开源；模型订阅及可选数据服务费用另计"
+    },
+    {
+      "repo": "AccioWork/agent-skills",
+      "path": "accio-import-tariff-hs-code-calculator/SKILL.md",
+      "title": "Accio 关税与 HS 编码查询",
+      "platforms": [
+        "通用"
+      ],
+      "category": "合规检查",
+      "summary": "调用 Accio 接口辅助商品归类和进口税费估算，结果需按目的国及生效日期复核。",
+      "capability": "数据查询",
+      "requirements": [
+        "可调用 HTTPS 接口的 AI 客户端与网络",
+        "商品描述、原产地、目的地和货值；不得把估算当作正式申报依据"
+      ],
+      "cost": "原文称无需 API Key；服务可用性、额度与当前价格未实测"
+    },
+    {
+      "repo": "linkfox-ai/linkfox-skills",
+      "path": "skills/linkfox-mercado-product-selection/SKILL.md",
+      "title": "美客多商品选品数据",
+      "platforms": [
+        "Mercado Libre"
+      ],
+      "category": "选品调研",
+      "summary": "查询商品、销量历史、关键词和类目趋势，不连接卖家后台。",
+      "capability": "数据查询",
+      "requirements": [
+        "Python 和原仓库配套脚本",
+        "LinkFox API Key、账户额度及对应数据服务权限"
+      ],
+      "cost": "Skill 开源；LinkFox 数据查询通常消耗额度，以服务实际报价为准"
+    },
+    {
+      "repo": "linkfox-ai/linkfox-skills",
+      "path": "skills/linkfox-damai-mercado-market-intelligence/SKILL.md",
+      "title": "美客多市场与评论研究",
+      "platforms": [
+        "Mercado Libre"
+      ],
+      "category": "选品调研",
+      "summary": "通过大麦数据研究类目、市场规模、相似商品和评论。",
+      "capability": "数据查询",
+      "requirements": [
+        "Python 和原仓库配套脚本",
+        "LinkFox API Key、账户额度及对应数据服务权限"
+      ],
+      "cost": "Skill 开源；LinkFox 数据查询通常消耗额度，以服务实际报价为准"
+    },
+    {
+      "repo": "linkfox-ai/linkfox-skills",
+      "path": "skills/linkfox-mpstats-ozon-product-detail/SKILL.md",
+      "title": "Ozon 商品经营指标",
+      "platforms": [
+        "Ozon"
+      ],
+      "category": "选品调研",
+      "summary": "查询已知 SKU 的价格、销量、库存和评分等第三方统计指标。",
+      "capability": "数据查询",
+      "requirements": [
+        "Python 和原仓库配套脚本",
+        "LinkFox API Key、账户额度及对应数据服务权限"
+      ],
+      "cost": "Skill 开源；LinkFox 数据查询通常消耗额度，以服务实际报价为准"
+    },
+    {
+      "repo": "linkfox-ai/linkfox-skills",
+      "path": "skills/linkfox-mpstats-ozon-product-trend/SKILL.md",
+      "title": "Ozon 商品趋势查询",
+      "platforms": [
+        "Ozon"
+      ],
+      "category": "选品调研",
+      "summary": "查看单品分日销量、价格和库存走势，辅助识别波动。",
+      "capability": "数据查询",
+      "requirements": [
+        "Python 和原仓库配套脚本",
+        "LinkFox API Key、账户额度及对应数据服务权限"
+      ],
+      "cost": "Skill 开源；LinkFox 数据查询通常消耗额度，以服务实际报价为准"
+    },
+    {
+      "repo": "linkfox-ai/linkfox-skills",
+      "path": "skills/linkfox-ebay-search/SKILL.md",
+      "title": "eBay 商品与已售查询",
+      "platforms": [
+        "eBay"
+      ],
+      "category": "选品调研",
+      "summary": "按站点和条件查询商品、已售及拍卖信息，辅助竞品比较。",
+      "capability": "数据查询",
+      "requirements": [
+        "Python 和原仓库配套脚本",
+        "LinkFox API Key、账户额度及对应数据服务权限"
+      ],
+      "cost": "Skill 开源；LinkFox 数据查询通常消耗额度，以服务实际报价为准"
+    },
+    {
+      "repo": "linkfox-ai/linkfox-skills",
+      "path": "skills/linkfox-sellersprite-traffic-keyword/SKILL.md",
+      "title": "Amazon ASIN 流量反查",
+      "platforms": [
+        "Amazon"
+      ],
+      "category": "Listing 优化",
+      "summary": "通过卖家精灵反查 ASIN 关键词和流量结构，不管理广告账户。",
+      "capability": "数据查询",
+      "requirements": [
+        "Python 和原仓库配套脚本",
+        "LinkFox API Key、账户额度及对应数据服务权限"
+      ],
+      "cost": "Skill 开源；LinkFox 数据查询通常消耗额度，以服务实际报价为准"
+    },
+    {
+      "repo": "linkfox-ai/linkfox-skills",
+      "path": "skills/linkfox-sorftime-walmart-keyword-research/SKILL.md",
+      "title": "Walmart 关键词研究",
+      "platforms": [
+        "Walmart"
+      ],
+      "category": "Listing 优化",
+      "summary": "查询热词和商品关联词；也支持修改 Sorftime 关键词收藏。",
+      "capability": "数据查询",
+      "requirements": [
+        "Python 和原仓库配套脚本",
+        "LinkFox API Key、账户额度及对应数据服务权限"
+      ],
+      "cost": "Skill 开源；LinkFox 数据查询通常消耗额度，以服务实际报价为准"
+    },
+    {
+      "repo": "linkfox-ai/linkfox-skills",
+      "path": "skills/linkfox-google-patent-search/SKILL.md",
+      "title": "商品专利线索检索",
+      "platforms": [
+        "通用"
+      ],
+      "category": "合规检查",
+      "summary": "查询公开专利标题、摘要与文献链接，用于初步查找线索，不判定侵权。",
+      "capability": "数据查询",
+      "requirements": [
+        "Python 和原仓库配套脚本",
+        "LinkFox API Key、账户额度及对应数据服务权限"
+      ],
+      "cost": "Skill 开源；LinkFox 数据查询通常消耗额度，以服务实际报价为准"
+    },
+    {
+      "repo": "joomcode/joompulse-skills",
+      "path": "skills/category-monitor/SKILL.md",
+      "title": "巴西电商类目变化分析",
+      "platforms": [
+        "Mercado Libre",
+        "Shopee"
+      ],
+      "category": "选品调研",
+      "summary": "通过 JoomPulse 比较类目销售估算、供给和集中度；仅覆盖巴西市场。",
+      "capability": "数据查询",
+      "requirements": [
+        "已配置 JoomPulse MCP 及可访问账户",
+        "数据范围为巴西；销售指标可能是第三方估算"
+      ],
+      "cost": "Skill 开源；JoomPulse 服务、额度和模型费用另行核实"
+    },
+    {
+      "repo": "joomcode/joompulse-skills",
+      "path": "skills/category-opportunity-index/SKILL.md",
+      "title": "巴西电商类目机会评估",
+      "platforms": [
+        "Mercado Libre",
+        "Shopee"
+      ],
+      "category": "选品调研",
+      "summary": "读取类目月度快照与服务提供的机会等级，辅助判断进入方向。",
+      "capability": "数据查询",
+      "requirements": [
+        "已配置 JoomPulse MCP 及可访问账户",
+        "数据范围为巴西；销售指标可能是第三方估算"
+      ],
+      "cost": "Skill 开源；JoomPulse 服务、额度和模型费用另行核实"
+    },
+    {
+      "repo": "joomcode/joompulse-skills",
+      "path": "skills/high-demand-low-quality-finder/SKILL.md",
+      "title": "巴西热销低评分商品筛选",
+      "platforms": [
+        "Mercado Libre",
+        "Shopee"
+      ],
+      "category": "选品调研",
+      "summary": "寻找需求较高但评分较低的商品，为产品改良寻找线索。",
+      "capability": "数据查询",
+      "requirements": [
+        "已配置 JoomPulse MCP 及可访问账户",
+        "数据范围为巴西；销售指标可能是第三方估算"
+      ],
+      "cost": "Skill 开源；JoomPulse 服务、额度和模型费用另行核实"
+    },
+    {
+      "repo": "joomcode/joompulse-skills",
+      "path": "skills/ml-product-analysis/SKILL.md",
+      "title": "巴西商品与竞品对比",
+      "platforms": [
+        "Mercado Libre",
+        "Shopee"
+      ],
+      "category": "选品调研",
+      "summary": "比较单品与相似商品的价格、估算销量和评价等指标。",
+      "capability": "数据查询",
+      "requirements": [
+        "已配置 JoomPulse MCP 及可访问账户",
+        "数据范围为巴西；销售指标可能是第三方估算"
+      ],
+      "cost": "Skill 开源；JoomPulse 服务、额度和模型费用另行核实"
+    },
+    {
+      "repo": "joomcode/joompulse-skills",
+      "path": "skills/new-growing-products-in-category/SKILL.md",
+      "title": "巴西电商增长新品发现",
+      "platforms": [
+        "Mercado Libre",
+        "Shopee"
+      ],
+      "category": "选品调研",
+      "summary": "按上架时间、评价及估算销量筛选类目中的增长新品。",
+      "capability": "数据查询",
+      "requirements": [
+        "已配置 JoomPulse MCP 及可访问账户",
+        "数据范围为巴西；销售指标可能是第三方估算"
+      ],
+      "cost": "Skill 开源；JoomPulse 服务、额度和模型费用另行核实"
+    },
+    {
+      "repo": "joomcode/joompulse-skills",
+      "path": "skills/pulse-find-exact-same-product/SKILL.md",
+      "title": "巴西跨平台同款匹配",
+      "platforms": [
+        "Mercado Libre",
+        "Shopee"
+      ],
+      "category": "选品调研",
+      "summary": "从标题、链接或标识查找疑似同款，匹配结果仍需人工核对。",
+      "capability": "数据查询",
+      "requirements": [
+        "已配置 JoomPulse MCP 及可访问账户",
+        "数据范围为巴西；销售指标可能是第三方估算"
+      ],
+      "cost": "Skill 开源；JoomPulse 服务、额度和模型费用另行核实"
+    },
+    {
+      "repo": "joomcode/joompulse-skills",
+      "path": "skills/top-keywords-in-my-category/SKILL.md",
+      "title": "美客多巴西类目热搜词",
+      "platforms": [
+        "Mercado Libre"
+      ],
+      "category": "Listing 优化",
+      "summary": "查看巴西类目搜索趋势排名与竞争商品数量，不把排名当作搜索量。",
+      "capability": "数据查询",
+      "requirements": [
+        "已配置 JoomPulse MCP 及可访问账户",
+        "数据范围为巴西；销售指标可能是第三方估算"
+      ],
+      "cost": "Skill 开源；JoomPulse 服务、额度和模型费用另行核实"
+    },
+    {
+      "repo": "joomcode/joompulse-skills",
+      "path": "skills/uncontested-niche-finder/SKILL.md",
+      "title": "巴西低竞争细分选品",
+      "platforms": [
+        "Mercado Libre",
+        "Shopee"
+      ],
+      "category": "选品调研",
+      "summary": "按卖家与品牌竞争信号筛选细分类目商品，不保证盈利。",
+      "capability": "数据查询",
+      "requirements": [
+        "已配置 JoomPulse MCP 及可访问账户",
+        "数据范围为巴西；销售指标可能是第三方估算"
+      ],
+      "cost": "Skill 开源；JoomPulse 服务、额度和模型费用另行核实"
+    },
+    {
+      "repo": "lunw/shopline-ai-toolkit-dsh",
+      "path": "skills/shopline-admin-rest/SKILL.md",
+      "title": "SHOPLINE REST 接口开发",
+      "platforms": [
+        "SHOPLINE"
+      ],
+      "category": "独立站建设",
+      "summary": "辅助查询和编写店铺数据接口调用，涵盖分页、错误与限流。",
+      "capability": "开发辅助",
+      "requirements": [
+        "SHOPLINE 项目与对应应用权限",
+        "按原文配置 Developer MCP；部分校验使用可选社区 MCP",
+        "此仓库为社区工具包，未逐客户端验证"
+      ],
+      "cost": "Skill 开源；模型、店铺和外部服务费用另计"
+    },
+    {
+      "repo": "lunw/shopline-ai-toolkit-dsh",
+      "path": "skills/shopline-graphql/SKILL.md",
+      "title": "SHOPLINE GraphQL 开发",
+      "platforms": [
+        "SHOPLINE"
+      ],
+      "category": "独立站建设",
+      "summary": "通过文档与模式检查辅助设计 Admin 和 Storefront 查询。",
+      "capability": "开发辅助",
+      "requirements": [
+        "SHOPLINE 项目与对应应用权限",
+        "按原文配置 Developer MCP；部分校验使用可选社区 MCP",
+        "此仓库为社区工具包，未逐客户端验证"
+      ],
+      "cost": "Skill 开源；模型、店铺和外部服务费用另计"
+    },
+    {
+      "repo": "lunw/shopline-ai-toolkit-dsh",
+      "path": "skills/shopline-oauth/SKILL.md",
+      "title": "SHOPLINE 授权与签名",
+      "platforms": [
+        "SHOPLINE"
+      ],
+      "category": "独立站建设",
+      "summary": "指导 OAuth、令牌刷新及请求签名实现，需要自行配置应用权限。",
+      "capability": "开发辅助",
+      "requirements": [
+        "SHOPLINE 项目与对应应用权限",
+        "按原文配置 Developer MCP；部分校验使用可选社区 MCP",
+        "此仓库为社区工具包，未逐客户端验证"
+      ],
+      "cost": "Skill 开源；模型、店铺和外部服务费用另计"
+    },
+    {
+      "repo": "lunw/shopline-ai-toolkit-dsh",
+      "path": "skills/shopline-sline/SKILL.md",
+      "title": "SHOPLINE 主题开发",
+      "platforms": [
+        "SHOPLINE"
+      ],
+      "category": "独立站建设",
+      "summary": "辅助 Sline 模板、主题和 CLI 开发，实际校验需相关工具。",
+      "capability": "开发辅助",
+      "requirements": [
+        "SHOPLINE 项目与对应应用权限",
+        "按原文配置 Developer MCP；部分校验使用可选社区 MCP",
+        "此仓库为社区工具包，未逐客户端验证"
+      ],
+      "cost": "Skill 开源；模型、店铺和外部服务费用另计"
+    },
+    {
+      "repo": "lunw/shopline-ai-toolkit-dsh",
+      "path": "skills/shopline-webhook/SKILL.md",
+      "title": "SHOPLINE Webhook 集成",
+      "platforms": [
+        "SHOPLINE"
+      ],
+      "category": "独立站建设",
+      "summary": "设计通知接收、签名验证、重试和幂等处理流程。",
+      "capability": "开发辅助",
+      "requirements": [
+        "SHOPLINE 项目与对应应用权限",
+        "按原文配置 Developer MCP；部分校验使用可选社区 MCP",
+        "此仓库为社区工具包，未逐客户端验证"
+      ],
+      "cost": "Skill 开源；模型、店铺和外部服务费用另计"
+    },
+    {
+      "repo": "daisymyu-dev/TikTok-Commerce-Intelligence",
+      "path": "SKILL.md",
+      "title": "TikTok 电商情报研究",
+      "platforms": [
+        "TikTok Shop"
+      ],
+      "category": "经营分析",
+      "summary": "检索当前市场、广告和达人动态，区分事实、假设与经营实验建议。",
+      "capability": "方法指导",
+      "requirements": [
+        "联网搜索能力及明确的目标市场",
+        "提供经营目标；每条时效性判断应核对来源日期"
+      ],
+      "cost": "Skill 开源；模型与搜索服务费用另计"
+    },
+    {
+      "repo": "DannylydST/sorftime-seller-agent",
+      "path": "SKILL.md",
+      "title": "Sorftime 跨平台选品助手",
+      "platforms": [
+        "Amazon",
+        "Walmart",
+        "Shopee",
+        "TikTok Shop",
+        "Temu",
+        "1688",
+        "Mercado Libre"
+      ],
+      "category": "选品调研",
+      "summary": "通过 Sorftime MCP 进行商品、竞品与关键词研究，数据范围按服务能力确定。",
+      "capability": "数据查询",
+      "requirements": [
+        "配置 Sorftime MCP 兼容端点、账户及授权",
+        "对应平台数据访问权限和额度；选品评分并非收益保证"
+      ],
+      "cost": "Skill 开源；Sorftime 服务额度与模型费用另计"
+    },
+    {
+      "repo": "silennsong/etsy-listing-helper",
+      "path": "SKILL.md",
+      "title": "Etsy POD 商品刊登文案",
+      "platforms": [
+        "Etsy"
+      ],
+      "category": "Listing 优化",
+      "summary": "根据 POD 规格与产品照片生成标题、标签、描述和属性草稿，不自动发布。",
+      "capability": "方法指导",
+      "requirements": [
+        "真实产品规格、照片和生产信息",
+        "保留原仓库参考文档；平台政策须复核"
+      ],
+      "cost": "Skill 开源；模型及可选图像理解费用另计"
+    },
+    {
+      "repo": "Automattic/claude-woocommerce-toolkit",
+      "path": "skills/woocommerce-plugin-dev/SKILL.md",
+      "title": "WooCommerce 插件开发",
+      "platforms": [
+        "WooCommerce"
+      ],
+      "category": "独立站建设",
+      "summary": "按项目需求辅助插件结构、业务功能和测试实现。",
+      "capability": "开发辅助",
+      "requirements": [
+        "WordPress / WooCommerce 项目及 PHP 开发环境",
+        "原仓库参考文件和项目适用的测试工具"
+      ],
+      "cost": "Skill 采用 GPL-2.0-or-later；模型和运行环境费用另计"
+    },
+    {
+      "repo": "Automattic/claude-woocommerce-toolkit",
+      "path": "skills/woocommerce-upgrade-safety/SKILL.md",
+      "title": "WooCommerce 升级兼容审查",
+      "platforms": [
+        "WooCommerce"
+      ],
+      "category": "独立站建设",
+      "summary": "检查插件升级涉及的数据迁移、设置、支付令牌及回滚风险。",
+      "capability": "开发辅助",
+      "requirements": [
+        "WordPress / WooCommerce 项目及 PHP 开发环境",
+        "原仓库参考文件和项目适用的测试工具"
+      ],
+      "cost": "Skill 采用 GPL-2.0-or-later；模型和运行环境费用另计"
+    },
+    {
+      "repo": "Automattic/claude-woocommerce-toolkit",
+      "path": "skills/woocommerce-finalize/SKILL.md",
+      "title": "WooCommerce 发布前代码审查",
+      "platforms": [
+        "WooCommerce"
+      ],
+      "category": "独立站建设",
+      "summary": "梳理插件代码冗余、复杂度和前后端数据链路问题。",
+      "capability": "开发辅助",
+      "requirements": [
+        "WordPress / WooCommerce 项目及 PHP 开发环境",
+        "原仓库参考文件和项目适用的测试工具"
+      ],
+      "cost": "Skill 采用 GPL-2.0-or-later；模型和运行环境费用另计"
+    },
+    {
+      "repo": "woocommerce/agent-skills",
+      "path": "skills/abilities-api-implement/SKILL.md",
+      "title": "WooCommerce AI 能力接口开发",
+      "platforms": [
+        "WooCommerce"
+      ],
+      "category": "独立站建设",
+      "summary": "根据已有审计文档为扩展注册 WordPress Abilities API 能力并验证。",
+      "capability": "开发辅助",
+      "requirements": [
+        "需要 wp-abilities-audit 生成的有效审计文档",
+        "依赖 WordPress/agent-skills 中的配套技能及测试环境"
+      ],
+      "cost": "Skill 采用 GPL-2.0-or-later；模型和开发环境费用另计"
+    },
+    {
+      "repo": "PrestaShop/skills",
+      "path": "autoupgrade/user/prestashop-update/SKILL.md",
+      "title": "PrestaShop 店铺升级",
+      "platforms": [
+        "PrestaShop"
+      ],
+      "category": "独立站建设",
+      "summary": "通过 Update Assistant 检查条件并执行获授权的店铺升级。",
+      "capability": "店铺操作",
+      "requirements": [
+        "可访问店铺的 Update Assistant / autoupgrade 模块和控制台",
+        "明确模块与后台目录、可用备份以及升级或恢复授权"
+      ],
+      "cost": "Skill 采用 AFL-3.0；店铺主机和模型费用另计"
+    },
+    {
+      "repo": "PrestaShop/skills",
+      "path": "autoupgrade/user/prestashop-restore/SKILL.md",
+      "title": "PrestaShop 备份恢复",
+      "platforms": [
+        "PrestaShop"
+      ],
+      "category": "独立站建设",
+      "summary": "列出已有备份并恢复选定版本，会改变店铺状态。",
+      "capability": "店铺操作",
+      "requirements": [
+        "可访问店铺的 Update Assistant / autoupgrade 模块和控制台",
+        "明确模块与后台目录、可用备份以及升级或恢复授权"
+      ],
+      "cost": "Skill 采用 AFL-3.0；店铺主机和模型费用另计"
+    },
+    {
+      "repo": "PrestaShop/skills",
+      "path": "autoupgrade/user/prestashop-update-check/SKILL.md",
+      "title": "PrestaShop 升级前检查",
+      "platforms": [
+        "PrestaShop"
+      ],
+      "category": "独立站建设",
+      "summary": "检查可用版本与店铺兼容性，不启动实际升级。",
+      "capability": "开发辅助",
+      "requirements": [
+        "访问 Update Assistant 控制台、模块和后台目录"
+      ],
+      "cost": "Skill 采用 AFL-3.0；主机和模型费用另计"
+    },
+    {
+      "repo": "Inchoo/magento-bricklayer",
+      "path": "config/skills/hyva-checkout/SKILL.md",
+      "title": "Magento Hyvä 结账开发",
+      "platforms": [
+        "Magento"
+      ],
+      "category": "独立站建设",
+      "summary": "辅助设计结账流程、支付和配送集成，需要匹配已安装的 Hyvä 版本。",
+      "capability": "开发辅助",
+      "requirements": [
+        "Magento 项目及原文匹配的 PHP、Composer 环境",
+        "Magento Bricklayer MCP 提供 magento:// 参考资源；单装 Skill 不等于完成配置",
+        "Hyvä 相关任务需相应主题或结账产品授权"
+      ],
+      "cost": "Skill 采用 MIT；Hyvä 产品授权、运行环境和模型费用另计"
+    },
+    {
+      "repo": "Inchoo/magento-bricklayer",
+      "path": "config/skills/magewire-three/SKILL.md",
+      "title": "Magento Magewire 3 开发",
+      "platforms": [
+        "Magento"
+      ],
+      "category": "独立站建设",
+      "summary": "辅助组件开发、迁移与排障，涉及 Magento 前端和后台扩展。",
+      "capability": "开发辅助",
+      "requirements": [
+        "Magento 项目及原文匹配的 PHP、Composer 环境",
+        "Magento Bricklayer MCP 提供 magento:// 参考资源；单装 Skill 不等于完成配置",
+        "Hyvä 相关任务需相应主题或结账产品授权"
+      ],
+      "cost": "Skill 采用 MIT；Hyvä 产品授权、运行环境和模型费用另计"
+    },
+    {
+      "repo": "linkfox-ai/linkfox-skills",
+      "path": "skills/linkfox-kalodata-tiktok-product/SKILL.md",
+      "title": "Kalodata TikTok 商品榜单",
+      "platforms": [
+        "TikTok Shop"
+      ],
+      "category": "选品调研",
+      "summary": "按市场与时间查看商品榜单和详情，不等同于关键词搜索。",
+      "capability": "数据查询",
+      "requirements": [
+        "Python 配套脚本、LinkFox API Key 和对应服务权限"
+      ],
+      "cost": "Skill 开源；数据查询额度和模型费用另计"
+    },
+    {
+      "repo": "linkfox-ai/linkfox-skills",
+      "path": "skills/linkfox-temu-product-query/SKILL.md",
+      "title": "Temu 条件选品查询",
+      "platforms": [
+        "Temu"
+      ],
+      "category": "选品调研",
+      "summary": "按关键词、价格、评分、销量和类目等条件筛选商品，不操作店铺。",
+      "capability": "数据查询",
+      "requirements": [
+        "Python 配套脚本、LinkFox API Key 和对应服务权限"
+      ],
+      "cost": "Skill 开源；数据查询额度和模型费用另计"
+    }
+  ]
+}

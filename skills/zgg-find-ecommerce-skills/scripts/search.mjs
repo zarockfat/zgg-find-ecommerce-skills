@@ -1,0 +1,7 @@
+#!/usr/bin/env node
+import {readFileSync} from 'node:fs';
+import {fileURLToPath} from 'node:url';
+import {searchCatalog,installationCommand} from './search-core.mjs';
+const args=process.argv.slice(2);const options={};const keys=['query','platform','category','capability','limit','catalog','agent'];
+try{for(let i=0;i<args.length;i++){if(!args[i].startsWith('--')||!keys.includes(args[i].slice(2))||!args[i+1]||args[i+1].startsWith('--'))throw Error('Usage: node search.mjs [--query text] [--platform name] [--category name] [--capability name] [--limit 3] [--agent codex|claude-code|cursor] [--catalog path]');options[args[i].slice(2)]=args[++i]}
+const limit=Number(options.limit||3);if(!Number.isInteger(limit)||limit<1||limit>100)throw Error('--limit must be 1..100');const agent=options.agent||'codex';if(!['codex','claude-code','cursor'].includes(agent))throw Error('Unsupported agent');const catalog=JSON.parse(readFileSync(options.catalog||fileURLToPath(new URL('../references/catalog.json',import.meta.url)),'utf8'));const results=searchCatalog(catalog.skills,{q:options.query||'',platform:options.platform||'全部',category:options.category||'全部',capability:options.capability||'全部'});console.log(JSON.stringify({catalog_updated_at:catalog.updated_at,coverage:catalog.coverage,total_matches:results.length,results:results.slice(0,limit).map(s=>({...s,install_command:installationCommand(s,agent)}))},null,2));}catch(e){console.error(e.message);process.exitCode=1}

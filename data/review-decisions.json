@@ -1,0 +1,178 @@
+{
+  "items": [
+    {
+      "repo": "nexscope-ai/Amazon-Skills",
+      "path": "amazon-fba-calculator/SKILL.md",
+      "disposition": "outdated-reference",
+      "reason": "文档明确使用 2024 费率与尺寸档位，未核实当前适用性，暂不发布。"
+    },
+    {
+      "repo": "nexscope-ai/Amazon-Skills",
+      "path": "amazon-inventory-management/SKILL.md",
+      "disposition": "insufficient-instructions",
+      "reason": "正文主要是通用步骤和能力清单，缺少可审核的库存计算或业务流程，暂不发布。"
+    },
+    {
+      "repo": "aahl/skills",
+      "path": "skills/maishou/SKILL.md",
+      "disposition": "consumer-shopping-scope",
+      "reason": "主要面向买家购物与优惠券查询，暂不作为卖家运营技能单独收录。"
+    },
+    {
+      "repo": "asgard-ai-platform/tw-ecommerce-majordomo",
+      "path": "skills/tw-ecom-analytics-benchmarks/SKILL.md",
+      "disposition": "implementation-pending",
+      "reason": "原文明确标记 STATUS: SKELETON，正文仍待实现，暂不发布。"
+    },
+    {
+      "repo": "asgard-ai-platform/tw-ecommerce-majordomo",
+      "path": "skills/tw-ecom-analytics-ga4/SKILL.md",
+      "disposition": "implementation-pending",
+      "reason": "原文明确标记 STATUS: SKELETON，正文仍待实现，暂不发布。"
+    },
+    {
+      "repo": "asgard-ai-platform/tw-ecommerce-majordomo",
+      "path": "skills/tw-ecom-channel-strategy/SKILL.md",
+      "disposition": "implementation-pending",
+      "reason": "原文明确标记 STATUS: SKELETON，正文仍待实现，暂不发布。"
+    },
+    {
+      "repo": "asgard-ai-platform/tw-ecommerce-majordomo",
+      "path": "skills/tw-ecom-compliance-consumer/SKILL.md",
+      "disposition": "implementation-pending",
+      "reason": "原文明确标记 STATUS: SKELETON，正文仍待实现，暂不发布。"
+    },
+    {
+      "repo": "asgard-ai-platform/tw-ecommerce-majordomo",
+      "path": "skills/tw-ecom-compliance-cross-border/SKILL.md",
+      "disposition": "implementation-pending",
+      "reason": "原文明确标记 STATUS: SKELETON，正文仍待实现，暂不发布。"
+    },
+    {
+      "repo": "asgard-ai-platform/tw-ecommerce-majordomo",
+      "path": "skills/tw-ecom-compliance-pdpa/SKILL.md",
+      "disposition": "implementation-pending",
+      "reason": "原文明确标记 STATUS: SKELETON，正文仍待实现，暂不发布。"
+    },
+    {
+      "repo": "asgard-ai-platform/tw-ecommerce-majordomo",
+      "path": "skills/tw-ecom-compliance-product/SKILL.md",
+      "disposition": "implementation-pending",
+      "reason": "原文明确标记 STATUS: SKELETON，正文仍待实现，暂不发布。"
+    },
+    {
+      "repo": "asgard-ai-platform/tw-ecommerce-majordomo",
+      "path": "skills/tw-ecom-dtc-91app/SKILL.md",
+      "disposition": "implementation-pending",
+      "reason": "原文明确标记 STATUS: SKELETON，正文仍待实现，暂不发布。"
+    },
+    {
+      "repo": "asgard-ai-platform/tw-ecommerce-majordomo",
+      "path": "skills/tw-ecom-dtc-shopify-localization/SKILL.md",
+      "disposition": "implementation-pending",
+      "reason": "原文明确标记 STATUS: SKELETON，正文仍待实现，暂不发布。"
+    },
+    {
+      "repo": "asgard-ai-platform/tw-ecommerce-majordomo",
+      "path": "skills/tw-ecom-invoice-carrier/SKILL.md",
+      "disposition": "implementation-pending",
+      "reason": "原文明确标记 STATUS: SKELETON，正文仍待实现，暂不发布。"
+    },
+    {
+      "repo": "asgard-ai-platform/tw-ecommerce-majordomo",
+      "path": "skills/tw-ecom-invoice-universalec/SKILL.md",
+      "disposition": "implementation-pending",
+      "reason": "原文明确标记 STATUS: SKELETON，正文仍待实现，暂不发布。"
+    },
+    {
+      "repo": "asgard-ai-platform/tw-ecommerce-majordomo",
+      "path": "skills/tw-ecom-invoice-void/SKILL.md",
+      "disposition": "implementation-pending",
+      "reason": "原文明确标记 STATUS: SKELETON，正文仍待实现，暂不发布。"
+    },
+    {
+      "repo": "asgard-ai-platform/tw-ecommerce-majordomo",
+      "path": "skills/tw-ecom-logistics-cold-chain/SKILL.md",
+      "disposition": "implementation-pending",
+      "reason": "原文明确标记 STATUS: SKELETON，正文仍待实现，暂不发布。"
+    },
+    {
+      "repo": "asgard-ai-platform/tw-ecommerce-majordomo",
+      "path": "skills/tw-ecom-logistics-cross-border/SKILL.md",
+      "disposition": "implementation-pending",
+      "reason": "原文明确标记 STATUS: SKELETON，正文仍待实现，暂不发布。"
+    },
+    {
+      "repo": "asgard-ai-platform/tw-ecommerce-majordomo",
+      "path": "skills/tw-ecom-logistics-cvs/SKILL.md",
+      "disposition": "implementation-pending",
+      "reason": "原文明确标记 STATUS: SKELETON，正文仍待实现，暂不发布。"
+    },
+    {
+      "repo": "asgard-ai-platform/tw-ecommerce-majordomo",
+      "path": "skills/tw-ecom-logistics-home/SKILL.md",
+      "disposition": "implementation-pending",
+      "reason": "原文明确标记 STATUS: SKELETON，正文仍待实现，暂不发布。"
+    },
+    {
+      "repo": "asgard-ai-platform/tw-ecommerce-majordomo",
+      "path": "skills/tw-ecom-marketplace-momo/SKILL.md",
+      "disposition": "implementation-pending",
+      "reason": "原文明确标记 STATUS: SKELETON，正文仍待实现，暂不发布。"
+    },
+    {
+      "repo": "asgard-ai-platform/tw-ecommerce-majordomo",
+      "path": "skills/tw-ecom-marketplace-shopee/SKILL.md",
+      "disposition": "implementation-pending",
+      "reason": "原文明确标记 STATUS: SKELETON，正文仍待实现，暂不发布。"
+    },
+    {
+      "repo": "asgard-ai-platform/tw-ecommerce-majordomo",
+      "path": "skills/tw-ecom-operations-customer-service/SKILL.md",
+      "disposition": "implementation-pending",
+      "reason": "原文明确标记 STATUS: SKELETON，正文仍待实现，暂不发布。"
+    },
+    {
+      "repo": "asgard-ai-platform/tw-ecommerce-majordomo",
+      "path": "skills/tw-ecom-operations-line-oa/SKILL.md",
+      "disposition": "implementation-pending",
+      "reason": "原文明确标记 STATUS: SKELETON，正文仍待实现，暂不发布。"
+    },
+    {
+      "repo": "asgard-ai-platform/tw-ecommerce-majordomo",
+      "path": "skills/tw-ecom-operations-pricing/SKILL.md",
+      "disposition": "implementation-pending",
+      "reason": "原文明确标记 STATUS: SKELETON，正文仍待实现，暂不发布。"
+    },
+    {
+      "repo": "asgard-ai-platform/tw-ecommerce-majordomo",
+      "path": "skills/tw-ecom-operations-promotion/SKILL.md",
+      "disposition": "implementation-pending",
+      "reason": "原文明确标记 STATUS: SKELETON，正文仍待实现，暂不发布。"
+    },
+    {
+      "repo": "asgard-ai-platform/tw-ecommerce-majordomo",
+      "path": "skills/tw-ecom-payment-dispute/SKILL.md",
+      "disposition": "implementation-pending",
+      "reason": "原文明确标记 STATUS: SKELETON，正文仍待实现，暂不发布。"
+    },
+    {
+      "repo": "asgard-ai-platform/tw-ecommerce-majordomo",
+      "path": "skills/tw-ecom-payment-ecpay/SKILL.md",
+      "disposition": "implementation-pending",
+      "reason": "原文明确标记 STATUS: SKELETON，正文仍待实现，暂不发布。"
+    },
+    {
+      "repo": "asgard-ai-platform/tw-ecommerce-majordomo",
+      "path": "skills/tw-ecom-payment-jkopay/SKILL.md",
+      "disposition": "implementation-pending",
+      "reason": "原文明确标记 STATUS: SKELETON，正文仍待实现，暂不发布。"
+    },
+    {
+      "repo": "asgard-ai-platform/tw-ecommerce-majordomo",
+      "path": "skills/tw-ecom-payment-tappay/SKILL.md",
+      "disposition": "implementation-pending",
+      "reason": "原文明确标记 STATUS: SKELETON，正文仍待实现，暂不发布。"
+    }
+  ]
+}

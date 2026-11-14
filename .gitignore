@@ -1,0 +1,14 @@
+.cache/
+node_modules/
+.DS_Store
+*.tar.gz
+
+.venv-maintenance/
+__pycache__/
+
+dist/
+.openai/
+.env
+.env.*
+*.pem
+*.key

@@ -1,0 +1,362 @@
+[
+  {
+    "repo": "nexscope-ai/eCommerce-Skills",
+    "path": "tiktok-shop-product-research/SKILL.md",
+    "title": "TikTok 爆品选品",
+    "platforms": [
+      "TikTok Shop"
+    ],
+    "category": "选品调研",
+    "summary": "从需求、竞争与内容潜力梳理选品方向。"
+  },
+  {
+    "repo": "nexscope-ai/eCommerce-Skills",
+    "path": "tiktok-shop-listing-optimization/SKILL.md",
+    "title": "TikTok 商品页优化",
+    "platforms": [
+      "TikTok Shop"
+    ],
+    "category": "Listing 优化",
+    "summary": "整理商品标题、卖点和详情页的优化思路。"
+  },
+  {
+    "repo": "nexscope-ai/eCommerce-Skills",
+    "path": "tiktok-shop-content-strategy/SKILL.md",
+    "title": "TikTok 内容策略",
+    "platforms": [
+      "TikTok Shop"
+    ],
+    "category": "内容创作",
+    "summary": "围绕商品卖点规划短视频选题与内容节奏。"
+  },
+  {
+    "repo": "nexscope-ai/eCommerce-Skills",
+    "path": "tiktok-influencer-marketing/SKILL.md",
+    "title": "TikTok 达人合作",
+    "platforms": [
+      "TikTok Shop"
+    ],
+    "category": "达人营销",
+    "summary": "规划达人筛选、合作方式与效果评估。"
+  },
+  {
+    "repo": "nexscope-ai/eCommerce-Skills",
+    "path": "tiktok-shop-ads/SKILL.md",
+    "title": "TikTok 广告策略",
+    "platforms": [
+      "TikTok Shop"
+    ],
+    "category": "广告投放",
+    "summary": "梳理商品广告结构、创意与优化方向。"
+  },
+  {
+    "repo": "nexscope-ai/eCommerce-Skills",
+    "path": "tiktok-shop-analytics/SKILL.md",
+    "title": "TikTok 经营分析",
+    "platforms": [
+      "TikTok Shop"
+    ],
+    "category": "经营分析",
+    "summary": "根据经营指标寻找转化和增长机会。"
+  },
+  {
+    "repo": "nexscope-ai/eCommerce-Skills",
+    "path": "tiktok-shop-inventory/SKILL.md",
+    "title": "TikTok 库存管理",
+    "platforms": [
+      "TikTok Shop"
+    ],
+    "category": "库存履约",
+    "summary": "梳理库存计划与补货决策。"
+  },
+  {
+    "repo": "nexscope-ai/eCommerce-Skills",
+    "path": "tiktok-shop-customer-service/SKILL.md",
+    "title": "TikTok 客服指南",
+    "platforms": [
+      "TikTok Shop"
+    ],
+    "category": "客户服务",
+    "summary": "设计买家咨询与售后处理流程。"
+  },
+  {
+    "repo": "nexscope-ai/eCommerce-Skills",
+    "path": "product-differentiation/product-differentiation-amazon/SKILL.md",
+    "title": "Amazon 产品差异化",
+    "platforms": [
+      "Amazon"
+    ],
+    "category": "选品调研",
+    "summary": "从竞品与用户需求提炼产品差异化方向。"
+  },
+  {
+    "repo": "nexscope-ai/eCommerce-Skills",
+    "path": "profit-margin-calculator/profit-margin-calculator-amazon/SKILL.md",
+    "title": "Amazon 利润测算",
+    "platforms": [
+      "Amazon"
+    ],
+    "category": "经营分析",
+    "summary": "基于你提供的售价与成本拆解利润结构。"
+  },
+  {
+    "repo": "nexscope-ai/eCommerce-Skills",
+    "path": "supply-chain-optimization/supply-chain-optimization-amazon/SKILL.md",
+    "title": "Amazon 供应链优化",
+    "platforms": [
+      "Amazon"
+    ],
+    "category": "库存履约",
+    "summary": "梳理备货、供应链效率和库存安排。"
+  },
+  {
+    "repo": "nexscope-ai/eCommerce-Skills",
+    "path": "review-checker/amazon-review-checker/SKILL.md",
+    "title": "Amazon 评论分析",
+    "platforms": [
+      "Amazon"
+    ],
+    "category": "选品调研",
+    "summary": "检查评论信息，辅助理解用户反馈。"
+  },
+  {
+    "repo": "nexscope-ai/eCommerce-Skills",
+    "path": "shopify-store-setup/SKILL.md",
+    "title": "Shopify 建店指南",
+    "platforms": [
+      "Shopify"
+    ],
+    "category": "独立站建设",
+    "summary": "梳理独立站从准备到上线的基本流程。"
+  },
+  {
+    "repo": "nexscope-ai/eCommerce-Skills",
+    "path": "shopify-seo/SKILL.md",
+    "title": "Shopify SEO 优化",
+    "platforms": [
+      "Shopify"
+    ],
+    "category": "Listing 优化",
+    "summary": "规划独立站的页面结构与搜索优化。"
+  },
+  {
+    "repo": "nexscope-ai/eCommerce-Skills",
+    "path": "shopify-email-flows/SKILL.md",
+    "title": "Shopify 邮件流程",
+    "platforms": [
+      "Shopify"
+    ],
+    "category": "客户服务",
+    "summary": "设计欢迎、购物车召回与复购邮件流程。"
+  },
+  {
+    "repo": "nexscope-ai/eCommerce-Skills",
+    "path": "shopify-conversion-optimization/SKILL.md",
+    "title": "Shopify 转化优化",
+    "platforms": [
+      "Shopify"
+    ],
+    "category": "独立站建设",
+    "summary": "从商品页到结账流程寻找转化阻力。"
+  },
+  {
+    "repo": "nexscope-ai/eCommerce-Skills",
+    "path": "shopify-product-photography-guide/SKILL.md",
+    "title": "Shopify 商品摄影指南",
+    "platforms": [
+      "Shopify"
+    ],
+    "category": "图片设计",
+    "summary": "规划拍摄角度、场景与商品图片表达。"
+  },
+  {
+    "repo": "nexscope-ai/eCommerce-Skills",
+    "path": "shopify-analytics-guide/SKILL.md",
+    "title": "Shopify 数据分析",
+    "platforms": [
+      "Shopify"
+    ],
+    "category": "经营分析",
+    "summary": "梳理店铺核心指标与分析方法。"
+  },
+  {
+    "repo": "nexscope-ai/eCommerce-Skills",
+    "path": "ecommerce-competitor-analysis/SKILL.md",
+    "title": "电商竞品分析",
+    "platforms": [
+      "通用"
+    ],
+    "category": "选品调研",
+    "summary": "结构化比较竞品的定位、商品与营销表现。"
+  },
+  {
+    "repo": "nexscope-ai/eCommerce-Skills",
+    "path": "product-description-generator/SKILL.md",
+    "title": "商品描述写作",
+    "platforms": [
+      "通用"
+    ],
+    "category": "Listing 优化",
+    "summary": "根据商品资料组织清晰、有说服力的描述。"
+  },
+  {
+    "repo": "nexscope-ai/eCommerce-Skills",
+    "path": "product-title-optimization/SKILL.md",
+    "title": "商品标题优化",
+    "platforms": [
+      "通用"
+    ],
+    "category": "Listing 优化",
+    "summary": "优化标题结构、关键词和可读性。"
+  },
+  {
+    "repo": "nexscope-ai/eCommerce-Skills",
+    "path": "ecommerce-video-marketing/SKILL.md",
+    "title": "电商视频营销",
+    "platforms": [
+      "通用"
+    ],
+    "category": "内容创作",
+    "summary": "规划商品视频内容与营销使用场景。"
+  },
+  {
+    "repo": "nexscope-ai/eCommerce-Skills",
+    "path": "influencer-outreach/SKILL.md",
+    "title": "达人邀约策略",
+    "platforms": [
+      "通用"
+    ],
+    "category": "达人营销",
+    "summary": "设计达人触达、邀约文案与跟进节奏。"
+  },
+  {
+    "repo": "nexscope-ai/eCommerce-Skills",
+    "path": "ecommerce-ppc-strategy-planner/SKILL.md",
+    "title": "电商 PPC 策略",
+    "platforms": [
+      "通用"
+    ],
+    "category": "广告投放",
+    "summary": "整理付费广告目标、预算与投放思路。"
+  },
+  {
+    "repo": "nexscope-ai/eCommerce-Skills",
+    "path": "customer-feedback-analysis/SKILL.md",
+    "title": "客户反馈分析",
+    "platforms": [
+      "通用"
+    ],
+    "category": "客户服务",
+    "summary": "从用户反馈中归纳问题与改进机会。"
+  },
+  {
+    "repo": "nexscope-ai/eCommerce-Skills",
+    "path": "warehouse-optimization/SKILL.md",
+    "title": "仓储流程优化",
+    "platforms": [
+      "通用"
+    ],
+    "category": "库存履约",
+    "summary": "分析仓储作业与履约效率的改进空间。"
+  },
+  {
+    "repo": "nexscope-ai/eCommerce-Skills",
+    "path": "ebay-product-research/SKILL.md",
+    "title": "eBay 选品研究",
+    "platforms": [
+      "eBay"
+    ],
+    "category": "选品调研",
+    "summary": "梳理 eBay 的商品机会与市场竞争。"
+  },
+  {
+    "repo": "nexscope-ai/eCommerce-Skills",
+    "path": "etsy-product-description/SKILL.md",
+    "title": "Etsy 商品描述",
+    "platforms": [
+      "Etsy"
+    ],
+    "category": "Listing 优化",
+    "summary": "围绕商品特色与买家需求组织描述。"
+  },
+  {
+    "repo": "nexscope-ai/eCommerce-Skills",
+    "path": "walmart-listing-optimization/SKILL.md",
+    "title": "Walmart Listing 优化",
+    "platforms": [
+      "Walmart"
+    ],
+    "category": "Listing 优化",
+    "summary": "规划沃尔玛商品页信息与优化方向。"
+  },
+  {
+    "repo": "nexscope-ai/eCommerce-Skills",
+    "path": "woocommerce-seo/SKILL.md",
+    "title": "WooCommerce SEO",
+    "platforms": [
+      "WooCommerce"
+    ],
+    "category": "独立站建设",
+    "summary": "梳理 WooCommerce 商店搜索优化。"
+  },
+  {
+    "repo": "coreyhaines31/marketingskills",
+    "path": "skills/seo-audit/SKILL.md",
+    "title": "SEO 诊断",
+    "platforms": [
+      "通用"
+    ],
+    "category": "Listing 优化",
+    "summary": "诊断网站搜索表现与页面 SEO 问题。"
+  },
+  {
+    "repo": "coreyhaines31/marketingskills",
+    "path": "skills/copywriting/SKILL.md",
+    "title": "营销文案写作",
+    "platforms": [
+      "通用"
+    ],
+    "category": "内容创作",
+    "summary": "围绕用户需求与产品价值撰写营销文案。"
+  },
+  {
+    "repo": "coreyhaines31/marketingskills",
+    "path": "skills/paid-ads/SKILL.md",
+    "title": "付费广告规划",
+    "platforms": [
+      "通用"
+    ],
+    "category": "广告投放",
+    "summary": "梳理广告策略、受众与创意方向。"
+  },
+  {
+    "repo": "coreyhaines31/marketingskills",
+    "path": "skills/email-sequence/SKILL.md",
+    "title": "营销邮件序列",
+    "platforms": [
+      "通用"
+    ],
+    "category": "客户服务",
+    "summary": "设计邮件触达节奏与转化文案。"
+  },
+  {
+    "repo": "coreyhaines31/marketingskills",
+    "path": "skills/social-content/SKILL.md",
+    "title": "社交内容规划",
+    "platforms": [
+      "通用"
+    ],
+    "category": "内容创作",
+    "summary": "规划社交媒体选题、内容形式与发布节奏。"
+  },
+  {
+    "repo": "coreyhaines31/marketingskills",
+    "path": "skills/page-cro/SKILL.md",
+    "title": "落地页转化优化",
+    "platforms": [
+      "通用"
+    ],
+    "category": "独立站建设",
+    "summary": "分析落地页信息与转化路径。"
+  }
+]

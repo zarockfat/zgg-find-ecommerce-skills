@@ -1,0 +1,26 @@
+// Brand assets and provenance: assets/platforms/sources.json
+export const platformIcons = {
+  "Amazon": "./assets/platforms/amazon.svg",
+  "AliExpress": "./assets/platforms/aliexpress.png",
+  "eBay": "./assets/platforms/ebay.svg",
+  "Etsy": "./assets/platforms/etsy.svg",
+  "PrestaShop": "./assets/platforms/prestashop.svg",
+  "Shopee": "./assets/platforms/shopee.svg",
+  "Shopify": "./assets/platforms/shopify.svg",
+  "淘宝": "./assets/platforms/taobao.svg",
+  "TikTok Shop": "./assets/platforms/tiktok.svg",
+  "抖音小店": "./assets/platforms/douyin.svg",
+  "Walmart": "./assets/platforms/walmart.png",
+  "WooCommerce": "./assets/platforms/woocommerce.png",
+  "Magento": "./assets/platforms/magento.svg",
+  "1688": "./assets/platforms/1688.ico",
+  "Lazada": "./assets/platforms/lazada.ico",
+  "Mercado Libre": "./assets/platforms/mercadolibre.ico",
+  "SHOPLINE": "./assets/platforms/shopline.png",
+  "京东": "./assets/platforms/jd.ico",
+  "拼多多": "./assets/platforms/pinduoduo.png",
+  "Google Shopping": "./assets/platforms/google-shopping.png",
+  "Temu": "./assets/platforms/temu.png",
+  "Ozon": "./assets/platforms/ozon.png",
+  "Wildberries": "./assets/platforms/wildberries.png"
+};

@@ -1,0 +1,242 @@
+[
+  {
+    "platform": "Amazon",
+    "slug": "amazon",
+    "url": "https://raw.githubusercontent.com/simple-icons/simple-icons/14.15.0/icons/amazon.svg",
+    "color": "FF9900",
+    "source": "https://www.amazon.com",
+    "license": "Simple Icons CC0-1.0; brand trademarks remain with their owners",
+    "file": "amazon.svg",
+    "mime": "image/svg+xml",
+    "sha256": "00168f6b1c36a7061976f6c38e59d1a2f07048e14488a6c8eb258bc687445190"
+  },
+  {
+    "platform": "AliExpress",
+    "slug": "aliexpress",
+    "url": "https://www.google.com/s2/favicons?domain=aliexpress.com&sz=64",
+    "source": "https://aliexpress.com",
+    "file": "aliexpress.png",
+    "mime": "image/png",
+    "sha256": "fda40680983da2f2a3517863bf9e435bd3c56286f3f06c73fd9557ef066e87cf",
+    "license": "Platform favicon retrieved through Google favicon cache; platform identification only; excluded from project MIT license"
+  },
+  {
+    "platform": "eBay",
+    "slug": "ebay",
+    "url": "https://raw.githubusercontent.com/simple-icons/simple-icons/14.15.0/icons/ebay.svg",
+    "color": "E53238",
+    "source": "https://go.developer.ebay.com/logos",
+    "license": "Simple Icons CC0-1.0; brand trademarks remain with their owners",
+    "file": "ebay.svg",
+    "mime": "image/svg+xml",
+    "sha256": "4f7e56c62a82e464de70b405e09eb7bc9d5c2036aef069acfcfae9f3efcf53fa"
+  },
+  {
+    "platform": "Etsy",
+    "slug": "etsy",
+    "url": "https://raw.githubusercontent.com/simple-icons/simple-icons/14.15.0/icons/etsy.svg",
+    "color": "F16521",
+    "source": "https://www.etsy.com/uk/press",
+    "license": "Simple Icons CC0-1.0; brand trademarks remain with their owners",
+    "file": "etsy.svg",
+    "mime": "image/svg+xml",
+    "sha256": "1871eb705d39d14f72fe71e0cac23fea7ebb05ab01870214d5ebf3eaba9a2d70"
+  },
+  {
+    "platform": "PrestaShop",
+    "slug": "prestashop",
+    "url": "https://raw.githubusercontent.com/simple-icons/simple-icons/14.15.0/icons/prestashop.svg",
+    "color": "DF0067",
+    "source": "https://prestashop.com/brand-book",
+    "license": "Simple Icons CC0-1.0; brand trademarks remain with their owners",
+    "file": "prestashop.svg",
+    "mime": "image/svg+xml",
+    "sha256": "138eaa18d2a5b12cea0ddb1cca30dbffac37159de602f02b28b4dc9bd5899afb"
+  },
+  {
+    "platform": "Shopee",
+    "slug": "shopee",
+    "url": "https://raw.githubusercontent.com/simple-icons/simple-icons/14.15.0/icons/shopee.svg",
+    "color": "EE4D2D",
+    "source": "https://shopee.com",
+    "license": "Simple Icons CC0-1.0; brand trademarks remain with their owners",
+    "file": "shopee.svg",
+    "mime": "image/svg+xml",
+    "sha256": "b77d4cf6f829685937782a20850b1018fe8e9e59d44c41135ad5fdce626554f0"
+  },
+  {
+    "platform": "Shopify",
+    "slug": "shopify",
+    "url": "https://raw.githubusercontent.com/simple-icons/simple-icons/14.15.0/icons/shopify.svg",
+    "color": "7AB55C",
+    "source": "https://www.shopify.com/brand-assets",
+    "license": "Simple Icons CC0-1.0; brand trademarks remain with their owners",
+    "file": "shopify.svg",
+    "mime": "image/svg+xml",
+    "sha256": "73b7faee1aa8969eba999c3d6622ece507a6415039592185e85ce7bb6244ddc2"
+  },
+  {
+    "platform": "淘宝",
+    "slug": "taobao",
+    "url": "https://raw.githubusercontent.com/simple-icons/simple-icons/14.15.0/icons/taobao.svg",
+    "color": "E94F20",
+    "source": "https://www.alibabagroup.com/en/ir/reports",
+    "license": "Simple Icons CC0-1.0; brand trademarks remain with their owners",
+    "file": "taobao.svg",
+    "mime": "image/svg+xml",
+    "sha256": "c5febb2248d528fd5d052a3ce6e29deca061a8b9104351c32ef53c973e004602"
+  },
+  {
+    "platform": "TikTok Shop",
+    "slug": "tiktok",
+    "url": "https://raw.githubusercontent.com/simple-icons/simple-icons/14.15.0/icons/tiktok.svg",
+    "color": "000000",
+    "source": "https://tiktok.com",
+    "license": "Simple Icons CC0-1.0; brand trademarks remain with their owners",
+    "file": "tiktok.svg",
+    "mime": "image/svg+xml",
+    "sha256": "474e542d15b871647fb7b1f7eeeebf899de7de7577c43dc9005c4ac82e2fa4a9"
+  },
+  {
+    "platform": "抖音小店",
+    "slug": "douyin",
+    "url": "https://raw.githubusercontent.com/simple-icons/simple-icons/14.15.0/icons/tiktok.svg",
+    "color": "000000",
+    "source": "https://tiktok.com",
+    "license": "Simple Icons CC0-1.0; brand trademarks remain with their owners",
+    "file": "douyin.svg",
+    "mime": "image/svg+xml",
+    "sha256": "474e542d15b871647fb7b1f7eeeebf899de7de7577c43dc9005c4ac82e2fa4a9"
+  },
+  {
+    "platform": "Walmart",
+    "slug": "walmart",
+    "url": "https://www.google.com/s2/favicons?domain=walmart.com&sz=64",
+    "source": "https://walmart.com",
+    "file": "walmart.png",
+    "mime": "image/png",
+    "sha256": "15ab1c1516b8581874696bef62cbdc2d5488f45aed538acf1b3d7f39711a2107",
+    "license": "Platform favicon retrieved through Google favicon cache; platform identification only; excluded from project MIT license"
+  },
+  {
+    "platform": "WooCommerce",
+    "slug": "woocommerce",
+    "url": "https://www.google.com/s2/favicons?domain=woocommerce.com&sz=64",
+    "source": "https://woocommerce.com",
+    "file": "woocommerce.png",
+    "mime": "image/png",
+    "sha256": "923126176d548e6821cedc74c3c7fa1e467963caee404309149d29a7032dc14c",
+    "license": "Platform favicon retrieved through Google favicon cache; platform identification only; excluded from project MIT license"
+  },
+  {
+    "platform": "Magento",
+    "slug": "magento",
+    "url": "https://raw.githubusercontent.com/simple-icons/simple-icons/11.15.0/icons/magento.svg",
+    "color": "EE672F",
+    "source": "https://github.com/simple-icons/simple-icons/tree/11.15.0",
+    "license": "Simple Icons CC0-1.0; brand trademarks remain with their owners",
+    "file": "magento.svg",
+    "mime": "image/svg+xml",
+    "sha256": "672b29d7af3d64b4e58a0bf1b2fcd72189c65010398080f251953a5a634bb9bb"
+  },
+  {
+    "platform": "1688",
+    "slug": "1688",
+    "url": "https://www.1688.com/favicon.ico",
+    "source": "https://www.1688.com/favicon.ico",
+    "license": "Official site favicon; used only to identify the platform; not covered by project MIT license",
+    "file": "1688.ico",
+    "mime": "image/x-icon",
+    "sha256": "563f9550b5c8ed02d8091cc7302a30afd2f9ebd747cce0598d7c4cbd71857546"
+  },
+  {
+    "platform": "Lazada",
+    "slug": "lazada",
+    "url": "https://www.lazada.sg/favicon.ico",
+    "source": "https://www.lazada.sg/favicon.ico",
+    "license": "Official site favicon; used only to identify the platform; not covered by project MIT license",
+    "file": "lazada.ico",
+    "mime": "image/x-icon",
+    "sha256": "ce63dd6e15909af4d4a5b2d43a2a82199328f984dd364f125813d416374593c6"
+  },
+  {
+    "platform": "Mercado Libre",
+    "slug": "mercadolibre",
+    "url": "https://www.mercadolibre.com.ar/favicon.ico",
+    "source": "https://www.mercadolibre.com.ar/favicon.ico",
+    "license": "Official site favicon; used only to identify the platform; not covered by project MIT license",
+    "file": "mercadolibre.ico",
+    "mime": "image/x-icon",
+    "sha256": "45ff5557dd8a9d92c20bac81ef3621e032f45c31483cac037ac711a2755cff52"
+  },
+  {
+    "platform": "SHOPLINE",
+    "slug": "shopline",
+    "url": "https://www.google.com/s2/favicons?domain=shopline.com&sz=64",
+    "source": "https://shopline.com",
+    "license": "Platform favicon retrieved through Google favicon cache; platform identification only; excluded from project MIT license",
+    "file": "shopline.png",
+    "mime": "image/png",
+    "sha256": "81d42f37ae207b73b2d670b7e9aca50d7020e56336fd5a95bd17d5c159b8386a"
+  },
+  {
+    "platform": "京东",
+    "slug": "jd",
+    "url": "https://www.jd.com/favicon.ico",
+    "source": "https://www.jd.com/favicon.ico",
+    "license": "Official site favicon; used only to identify the platform; not covered by project MIT license",
+    "file": "jd.ico",
+    "mime": "image/x-icon",
+    "sha256": "99adfd5e001df9645a32518bafaedfff7746575bf239e1fe9a236ea9f94ed0d4"
+  },
+  {
+    "platform": "拼多多",
+    "slug": "pinduoduo",
+    "url": "https://www.pinduoduo.com/favicon.png",
+    "source": "https://www.pinduoduo.com/favicon.png",
+    "license": "Official site icon; platform identification only; excluded from project MIT license",
+    "file": "pinduoduo.png",
+    "mime": "image/png",
+    "sha256": "b4f29e73875ca7d6aa5d1bfcfdb2aa5893cd3602a4f3fd873c59acf1d49cbe53"
+  },
+  {
+    "platform": "Google Shopping",
+    "slug": "google-shopping",
+    "url": "https://www.gstatic.com/shopping/shoppingpage/casa/android/1x/home_60dp.png",
+    "source": "https://www.gstatic.com/shopping/shoppingpage/casa/android/1x/home_60dp.png",
+    "license": "Official site icon; platform identification only; excluded from project MIT license",
+    "file": "google-shopping.png",
+    "mime": "image/png",
+    "sha256": "013d48a6867b43f4c63ca8257d945c9a4dbf36548fd83a3748b3aac44410bc14"
+  },
+  {
+    "platform": "Temu",
+    "slug": "temu",
+    "url": "https://www.google.com/s2/favicons?domain=temu.com&sz=64",
+    "source": "https://temu.com",
+    "file": "temu.png",
+    "mime": "image/png",
+    "sha256": "55e4b804f08fe37a6d2609b1b4cd7d0d3f2ea2be51f58d447ae581c224d2b839",
+    "license": "Platform favicon retrieved through Google favicon cache; platform identification only; excluded from project MIT license"
+  },
+  {
+    "platform": "Ozon",
+    "slug": "ozon",
+    "url": "https://www.google.com/s2/favicons?domain=ozon.ru&sz=64",
+    "source": "https://ozon.ru",
+    "file": "ozon.png",
+    "mime": "image/png",
+    "sha256": "17c71c883ed8a75dbe1fc7885f0dd11ad5fd0054e317f9994236303e9dbf07a1",
+    "license": "Platform favicon retrieved through Google favicon cache; platform identification only; excluded from project MIT license"
+  },
+  {
+    "platform": "Wildberries",
+    "slug": "wildberries",
+    "url": "https://www.google.com/s2/favicons?domain=wildberries.ru&sz=64",
+    "source": "https://wildberries.ru",
+    "file": "wildberries.png",
+    "mime": "image/png",
+    "sha256": "89e64562e940589817f37d044390d11ed76ad30640b9a2374d31f4dbc4fbcd3b",
+    "license": "Platform favicon retrieved through Google favicon cache; platform identification only; excluded from project MIT license"
+  }
+]

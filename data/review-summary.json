@@ -1,0 +1,923 @@
+{
+  "collected_at": "2026-11-14T19:37:42+08:00",
+  "scope_complete": false,
+  "method": "公开网页检索发现来源；Git HEAD 与固定提交归档扫描；仅读取 SKILL.md、README 与许可证，不执行第三方代码。",
+  "repositories_attempted": 56,
+  "repositories_scanned": 55,
+  "raw_candidate_files": 8926,
+  "candidate_dispositions": {
+    "invalid-metadata": 335,
+    "pending-relevance-review": 3409,
+    "published-path": 161,
+    "license-unconfirmed": 3424,
+    "filename-compatibility-unconfirmed": 26,
+    "archived-path": 21,
+    "duplicate-content": 1521,
+    "outdated-reference": 1,
+    "insufficient-instructions": 1,
+    "consumer-shopping-scope": 1,
+    "implementation-pending": 26
+  },
+  "published_skills": 161,
+  "published_repositories": 28,
+  "published_platforms": [
+    "1688",
+    "AliExpress",
+    "Amazon",
+    "Etsy",
+    "Google Shopping",
+    "Lazada",
+    "Magento",
+    "Mercado Libre",
+    "Ozon",
+    "PrestaShop",
+    "SHOPLINE",
+    "Shopee",
+    "Shopify",
+    "Temu",
+    "TikTok Shop",
+    "Walmart",
+    "Wildberries",
+    "WooCommerce",
+    "eBay",
+    "京东",
+    "抖音小店",
+    "拼多多",
+    "淘宝",
+    "通用"
+  ],
+  "capability_counts": {
+    "方法指导": 55,
+    "开发辅助": 25,
+    "文件处理": 6,
+    "数据查询": 38,
+    "店铺操作": 15,
+    "内容生成": 13,
+    "网页采集": 9
+  },
+  "tested_skills": 0,
+  "selected_rejections": [],
+  "manual_decisions": [
+    {
+      "repo": "nexscope-ai/Amazon-Skills",
+      "path": "amazon-fba-calculator/SKILL.md",
+      "disposition": "outdated-reference",
+      "reason": "文档明确使用 2024 费率与尺寸档位，未核实当前适用性，暂不发布。"
+    },
+    {
+      "repo": "nexscope-ai/Amazon-Skills",
+      "path": "amazon-inventory-management/SKILL.md",
+      "disposition": "insufficient-instructions",
+      "reason": "正文主要是通用步骤和能力清单，缺少可审核的库存计算或业务流程，暂不发布。"
+    },
+    {
+      "repo": "aahl/skills",
+      "path": "skills/maishou/SKILL.md",
+      "disposition": "consumer-shopping-scope",
+      "reason": "主要面向买家购物与优惠券查询，暂不作为卖家运营技能单独收录。"
+    },
+    {
+      "repo": "asgard-ai-platform/tw-ecommerce-majordomo",
+      "path": "skills/tw-ecom-analytics-benchmarks/SKILL.md",
+      "disposition": "implementation-pending",
+      "reason": "原文明确标记 STATUS: SKELETON，正文仍待实现，暂不发布。"
+    },
+    {
+      "repo": "asgard-ai-platform/tw-ecommerce-majordomo",
+      "path": "skills/tw-ecom-analytics-ga4/SKILL.md",
+      "disposition": "implementation-pending",
+      "reason": "原文明确标记 STATUS: SKELETON，正文仍待实现，暂不发布。"
+    },
+    {
+      "repo": "asgard-ai-platform/tw-ecommerce-majordomo",
+      "path": "skills/tw-ecom-channel-strategy/SKILL.md",
+      "disposition": "implementation-pending",
+      "reason": "原文明确标记 STATUS: SKELETON，正文仍待实现，暂不发布。"
+    },
+    {
+      "repo": "asgard-ai-platform/tw-ecommerce-majordomo",
+      "path": "skills/tw-ecom-compliance-consumer/SKILL.md",
+      "disposition": "implementation-pending",
+      "reason": "原文明确标记 STATUS: SKELETON，正文仍待实现，暂不发布。"
+    },
+    {
+      "repo": "asgard-ai-platform/tw-ecommerce-majordomo",
+      "path": "skills/tw-ecom-compliance-cross-border/SKILL.md",
+      "disposition": "implementation-pending",
+      "reason": "原文明确标记 STATUS: SKELETON，正文仍待实现，暂不发布。"
+    },
+    {
+      "repo": "asgard-ai-platform/tw-ecommerce-majordomo",
+      "path": "skills/tw-ecom-compliance-pdpa/SKILL.md",
+      "disposition": "implementation-pending",
+      "reason": "原文明确标记 STATUS: SKELETON，正文仍待实现，暂不发布。"
+    },
+    {
+      "repo": "asgard-ai-platform/tw-ecommerce-majordomo",
+      "path": "skills/tw-ecom-compliance-product/SKILL.md",
+      "disposition": "implementation-pending",
+      "reason": "原文明确标记 STATUS: SKELETON，正文仍待实现，暂不发布。"
+    },
+    {
+      "repo": "asgard-ai-platform/tw-ecommerce-majordomo",
+      "path": "skills/tw-ecom-dtc-91app/SKILL.md",
+      "disposition": "implementation-pending",
+      "reason": "原文明确标记 STATUS: SKELETON，正文仍待实现，暂不发布。"
+    },
+    {
+      "repo": "asgard-ai-platform/tw-ecommerce-majordomo",
+      "path": "skills/tw-ecom-dtc-shopify-localization/SKILL.md",
+      "disposition": "implementation-pending",
+      "reason": "原文明确标记 STATUS: SKELETON，正文仍待实现，暂不发布。"
+    },
+    {
+      "repo": "asgard-ai-platform/tw-ecommerce-majordomo",
+      "path": "skills/tw-ecom-invoice-carrier/SKILL.md",
+      "disposition": "implementation-pending",
+      "reason": "原文明确标记 STATUS: SKELETON，正文仍待实现，暂不发布。"
+    },
+    {
+      "repo": "asgard-ai-platform/tw-ecommerce-majordomo",
+      "path": "skills/tw-ecom-invoice-universalec/SKILL.md",
+      "disposition": "implementation-pending",
+      "reason": "原文明确标记 STATUS: SKELETON，正文仍待实现，暂不发布。"
+    },
+    {
+      "repo": "asgard-ai-platform/tw-ecommerce-majordomo",
+      "path": "skills/tw-ecom-invoice-void/SKILL.md",
+      "disposition": "implementation-pending",
+      "reason": "原文明确标记 STATUS: SKELETON，正文仍待实现，暂不发布。"
+    },
+    {
+      "repo": "asgard-ai-platform/tw-ecommerce-majordomo",
+      "path": "skills/tw-ecom-logistics-cold-chain/SKILL.md",
+      "disposition": "implementation-pending",
+      "reason": "原文明确标记 STATUS: SKELETON，正文仍待实现，暂不发布。"
+    },
+    {
+      "repo": "asgard-ai-platform/tw-ecommerce-majordomo",
+      "path": "skills/tw-ecom-logistics-cross-border/SKILL.md",
+      "disposition": "implementation-pending",
+      "reason": "原文明确标记 STATUS: SKELETON，正文仍待实现，暂不发布。"
+    },
+    {
+      "repo": "asgard-ai-platform/tw-ecommerce-majordomo",
+      "path": "skills/tw-ecom-logistics-cvs/SKILL.md",
+      "disposition": "implementation-pending",
+      "reason": "原文明确标记 STATUS: SKELETON，正文仍待实现，暂不发布。"
+    },
+    {
+      "repo": "asgard-ai-platform/tw-ecommerce-majordomo",
+      "path": "skills/tw-ecom-logistics-home/SKILL.md",
+      "disposition": "implementation-pending",
+      "reason": "原文明确标记 STATUS: SKELETON，正文仍待实现，暂不发布。"
+    },
+    {
+      "repo": "asgard-ai-platform/tw-ecommerce-majordomo",
+      "path": "skills/tw-ecom-marketplace-momo/SKILL.md",
+      "disposition": "implementation-pending",
+      "reason": "原文明确标记 STATUS: SKELETON，正文仍待实现，暂不发布。"
+    },
+    {
+      "repo": "asgard-ai-platform/tw-ecommerce-majordomo",
+      "path": "skills/tw-ecom-marketplace-shopee/SKILL.md",
+      "disposition": "implementation-pending",
+      "reason": "原文明确标记 STATUS: SKELETON，正文仍待实现，暂不发布。"
+    },
+    {
+      "repo": "asgard-ai-platform/tw-ecommerce-majordomo",
+      "path": "skills/tw-ecom-operations-customer-service/SKILL.md",
+      "disposition": "implementation-pending",
+      "reason": "原文明确标记 STATUS: SKELETON，正文仍待实现，暂不发布。"
+    },
+    {
+      "repo": "asgard-ai-platform/tw-ecommerce-majordomo",
+      "path": "skills/tw-ecom-operations-line-oa/SKILL.md",
+      "disposition": "implementation-pending",
+      "reason": "原文明确标记 STATUS: SKELETON，正文仍待实现，暂不发布。"
+    },
+    {
+      "repo": "asgard-ai-platform/tw-ecommerce-majordomo",
+      "path": "skills/tw-ecom-operations-pricing/SKILL.md",
+      "disposition": "implementation-pending",
+      "reason": "原文明确标记 STATUS: SKELETON，正文仍待实现，暂不发布。"
+    },
+    {
+      "repo": "asgard-ai-platform/tw-ecommerce-majordomo",
+      "path": "skills/tw-ecom-operations-promotion/SKILL.md",
+      "disposition": "implementation-pending",
+      "reason": "原文明确标记 STATUS: SKELETON，正文仍待实现，暂不发布。"
+    },
+    {
+      "repo": "asgard-ai-platform/tw-ecommerce-majordomo",
+      "path": "skills/tw-ecom-payment-dispute/SKILL.md",
+      "disposition": "implementation-pending",
+      "reason": "原文明确标记 STATUS: SKELETON，正文仍待实现，暂不发布。"
+    },
+    {
+      "repo": "asgard-ai-platform/tw-ecommerce-majordomo",
+      "path": "skills/tw-ecom-payment-ecpay/SKILL.md",
+      "disposition": "implementation-pending",
+      "reason": "原文明确标记 STATUS: SKELETON，正文仍待实现，暂不发布。"
+    },
+    {
+      "repo": "asgard-ai-platform/tw-ecommerce-majordomo",
+      "path": "skills/tw-ecom-payment-jkopay/SKILL.md",
+      "disposition": "implementation-pending",
+      "reason": "原文明确标记 STATUS: SKELETON，正文仍待实现，暂不发布。"
+    },
+    {
+      "repo": "asgard-ai-platform/tw-ecommerce-majordomo",
+      "path": "skills/tw-ecom-payment-tappay/SKILL.md",
+      "disposition": "implementation-pending",
+      "reason": "原文明确标记 STATUS: SKELETON，正文仍待实现，暂不发布。"
+    }
+  ],
+  "incremental": true,
+  "newly_scanned_repositories": [
+    "Automattic/claude-woocommerce-toolkit",
+    "woocommerce/agent-skills",
+    "joomcode/joompulse-skills",
+    "pauljones0/ebay-seller-skill",
+    "daisymyu-dev/TikTok-Commerce-Intelligence",
+    "DannylydST/sorftime-seller-agent",
+    "0-shiv/secondstep-claude-skills",
+    "medusajs/medusa-agent-skills",
+    "lunw/shopline-ai-toolkit-dsh",
+    "asgard-ai-platform/tw-ecommerce-majordomo",
+    "2nth-ai/skills",
+    "PrestaShop/skills",
+    "ApparelHub-AI/apparelhub-skills",
+    "Atlas-AI-Store-Builder/atlas-cli",
+    "Inchoo/magento-bricklayer",
+    "silennsong/etsy-listing-helper",
+    "imoonkey/openweb"
+  ],
+  "limitations": [
+    "仅覆盖本轮查询定位的公开仓库，不代表全网",
+    "扫描和许可识别不表示安装或业务已测试",
+    "候选需审核后才能加入发布目录；未识别许可保留待核实",
+    "GitHub 匿名 API 限流，改用公开 Git 与提交归档；单仓库压缩文件上限 40 MiB",
+    "published-path 表示同路径已收录，发布版本可能早于本轮扫描；其余候选尚未完成电商相关性审核。"
+  ],
+  "repositories": [
+    {
+      "requested_repo": "nexscope-ai/eCommerce-Skills",
+      "repo": "nexscope-ai/eCommerce-Skills",
+      "repo_url": "https://github.com/nexscope-ai/eCommerce-Skills",
+      "checked_at": "2026-11-14T19:01:58+08:00",
+      "status": "scanned",
+      "transport": "public-git-and-commit-archive",
+      "source_commit": "c5ba892a1cc3178626577aed1dbde5e62a82f1ac",
+      "license": "MIT",
+      "candidate_count": 162
+    },
+    {
+      "requested_repo": "nexscope-ai/nexscope-ecommerce-skills",
+      "repo": "nexscope-ai/nexscope-ecommerce-skills",
+      "repo_url": "https://github.com/nexscope-ai/nexscope-ecommerce-skills",
+      "checked_at": "2026-11-14T19:01:58+08:00",
+      "status": "scanned",
+      "transport": "public-git-and-commit-archive",
+      "source_commit": "37f6ab63442c88fd694ab88c48418bb98c35e908",
+      "license": "UNKNOWN",
+      "candidate_count": 141
+    },
+    {
+      "requested_repo": "autoagc/linkpix-skills",
+      "repo": "autoagc/linkpix-skills",
+      "repo_url": "https://github.com/autoagc/linkpix-skills",
+      "checked_at": "2026-11-14T19:01:58+08:00",
+      "status": "scanned",
+      "transport": "public-git-and-commit-archive",
+      "source_commit": "1f0b0a715c11d2a162c02db9aa68db5ce36cf315",
+      "license": "MIT",
+      "candidate_count": 322
+    },
+    {
+      "requested_repo": "dlazy-ai/ecommerce-skills",
+      "repo": "dlazy-ai/ecommerce-skills",
+      "repo_url": "https://github.com/dlazy-ai/ecommerce-skills",
+      "checked_at": "2026-11-14T19:01:58+08:00",
+      "status": "scanned",
+      "transport": "public-git-and-commit-archive",
+      "source_commit": "d695bdf7f87d2fa95e895ed88adf7dd013a709be",
+      "license": "MIT",
+      "candidate_count": 26
+    },
+    {
+      "requested_repo": "linkfox-ai/linkfox-skills",
+      "repo": "linkfox-ai/linkfox-skills",
+      "repo_url": "https://github.com/linkfox-ai/linkfox-skills",
+      "checked_at": "2026-11-14T19:01:58+08:00",
+      "status": "scanned",
+      "transport": "public-git-and-commit-archive",
+      "source_commit": "873c9327d6d49695ba8ff1ef131bcd6d85a8b437",
+      "license": "MIT",
+      "candidate_count": 275
+    },
+    {
+      "requested_repo": "next-1688/1688-product-find",
+      "repo": "next-1688/1688-product-find",
+      "repo_url": "https://github.com/next-1688/1688-product-find",
+      "checked_at": "2026-11-14T19:01:58+08:00",
+      "status": "scanned",
+      "transport": "public-git-and-commit-archive",
+      "source_commit": "2c7d8ee014ec24c730e5ddc966c70f2495891543",
+      "license": "UNKNOWN",
+      "candidate_count": 1
+    },
+    {
+      "requested_repo": "next-1688/1688-supplychain-order-inquiry",
+      "repo": "next-1688/1688-supplychain-order-inquiry",
+      "repo_url": "https://github.com/next-1688/1688-supplychain-order-inquiry",
+      "checked_at": "2026-11-14T19:01:58+08:00",
+      "status": "scanned",
+      "transport": "public-git-and-commit-archive",
+      "source_commit": "c3214f3f63f990f77573a3daf6462b20ce4635a9",
+      "license": "UNKNOWN",
+      "candidate_count": 1
+    },
+    {
+      "requested_repo": "next-1688/1688-marketing",
+      "repo": "next-1688/1688-marketing",
+      "repo_url": "https://github.com/next-1688/1688-marketing",
+      "checked_at": "2026-11-14T19:01:58+08:00",
+      "status": "scanned",
+      "transport": "public-git-and-commit-archive",
+      "source_commit": "0e31ca17402d23170f0083817ff1ae5378e4b4f5",
+      "license": "UNKNOWN",
+      "candidate_count": 1
+    },
+    {
+      "requested_repo": "next-1688/1688-product-element-fusion",
+      "repo": "next-1688/1688-product-element-fusion",
+      "repo_url": "https://github.com/next-1688/1688-product-element-fusion",
+      "checked_at": "2026-11-14T19:01:58+08:00",
+      "status": "scanned",
+      "transport": "public-git-and-commit-archive",
+      "source_commit": "94dcc70b035736098d1e30b31886959ff250d4f9",
+      "license": "UNKNOWN",
+      "candidate_count": 1
+    },
+    {
+      "requested_repo": "Shopify/Shopify-AI-Toolkit",
+      "repo": "Shopify/Shopify-AI-Toolkit",
+      "repo_url": "https://github.com/Shopify/Shopify-AI-Toolkit",
+      "checked_at": "2026-11-14T19:01:58+08:00",
+      "status": "scanned",
+      "transport": "public-git-and-commit-archive",
+      "source_commit": "a3d20f8dc284a2e8ae25272fa79520888abb5dcb",
+      "license": "MIT",
+      "candidate_count": 23
+    },
+    {
+      "requested_repo": "Shopify/agent-skills",
+      "repo": "Shopify/agent-skills",
+      "repo_url": "https://github.com/Shopify/agent-skills",
+      "checked_at": "2026-11-14T19:01:58+08:00",
+      "status": "failed",
+      "transport": "public-git-and-commit-archive",
+      "error": "Archive exceeds 40 MiB limit"
+    },
+    {
+      "requested_repo": "proskillpacks/shopify-store-skills",
+      "repo": "proskillpacks/shopify-store-skills",
+      "repo_url": "https://github.com/proskillpacks/shopify-store-skills",
+      "checked_at": "2026-11-14T19:01:58+08:00",
+      "status": "scanned",
+      "transport": "public-git-and-commit-archive",
+      "source_commit": "aadcb3a581a1c2e5204f3c4cc22468dc6c902674",
+      "license": "MIT",
+      "candidate_count": 5
+    },
+    {
+      "requested_repo": "coreyhaines31/marketingskills",
+      "repo": "coreyhaines31/marketingskills",
+      "repo_url": "https://github.com/coreyhaines31/marketingskills",
+      "checked_at": "2026-11-14T19:01:58+08:00",
+      "status": "scanned",
+      "transport": "public-git-and-commit-archive",
+      "source_commit": "1f837447b20bb6f0e72d87b80ece1c221c362c7d",
+      "license": "MIT",
+      "candidate_count": 53
+    },
+    {
+      "requested_repo": "markoxtomic/agent-skills",
+      "repo": "markoxtomic/agent-skills",
+      "repo_url": "https://github.com/markoxtomic/agent-skills",
+      "checked_at": "2026-11-14T19:01:58+08:00",
+      "status": "scanned",
+      "transport": "public-git-and-commit-archive",
+      "source_commit": "f14202d47bbc4b52417583fdd377d1d460d4f92a",
+      "license": "MIT",
+      "candidate_count": 1
+    },
+    {
+      "requested_repo": "sadrmanesh/commerce-agent-skills",
+      "repo": "sadrmanesh/commerce-agent-skills",
+      "repo_url": "https://github.com/sadrmanesh/commerce-agent-skills",
+      "checked_at": "2026-11-14T19:01:58+08:00",
+      "status": "scanned",
+      "transport": "public-git-and-commit-archive",
+      "source_commit": "308c909ab16125f20cecc37ce3153af4123b237d",
+      "license": "MIT",
+      "candidate_count": 29
+    },
+    {
+      "requested_repo": "browser-act/skills",
+      "repo": "browser-act/skills",
+      "repo_url": "https://github.com/browser-act/skills",
+      "checked_at": "2026-11-14T19:01:58+08:00",
+      "status": "scanned",
+      "transport": "public-git-and-commit-archive",
+      "source_commit": "593316aa0f8ccd88bdf745c92b24a50641701973",
+      "license": "MIT",
+      "candidate_count": 103
+    },
+    {
+      "requested_repo": "bridgemekong/shopee-skill",
+      "repo": "bridgemekong/shopee-skill",
+      "repo_url": "https://github.com/bridgemekong/shopee-skill",
+      "checked_at": "2026-11-14T19:01:58+08:00",
+      "status": "scanned",
+      "transport": "public-git-and-commit-archive",
+      "source_commit": "209c53f2f688286dc62899d1c7392a38b3742ab9",
+      "license": "MIT",
+      "candidate_count": 1
+    },
+    {
+      "requested_repo": "zhuhongyin/global-ecom-skills",
+      "repo": "zhuhongyin/global-ecom-skills",
+      "repo_url": "https://github.com/zhuhongyin/global-ecom-skills",
+      "checked_at": "2026-11-14T19:01:58+08:00",
+      "status": "scanned",
+      "transport": "public-git-and-commit-archive",
+      "source_commit": "b638f9614ff77bf7f4b29d439d2e9b7bd1286b6e",
+      "license": "UNKNOWN",
+      "candidate_count": 10
+    },
+    {
+      "requested_repo": "OrcaQubits/agentic-commerce-skills-plugins",
+      "repo": "OrcaQubits/agentic-commerce-skills-plugins",
+      "repo_url": "https://github.com/OrcaQubits/agentic-commerce-skills-plugins",
+      "checked_at": "2026-11-14T19:01:58+08:00",
+      "status": "scanned",
+      "transport": "public-git-and-commit-archive",
+      "source_commit": "e7a890ae7b8eb87e6dab972a46ff85752ed077ff",
+      "license": "MIT",
+      "candidate_count": 2123
+    },
+    {
+      "requested_repo": "oomol-lab/skills",
+      "repo": "oomol-lab/skills",
+      "repo_url": "https://github.com/oomol-lab/skills",
+      "checked_at": "2026-11-14T19:01:58+08:00",
+      "status": "scanned",
+      "transport": "public-git-and-commit-archive",
+      "source_commit": "136cef67a41ac27ace0af9b20a9bd96accfb50cd",
+      "license": "MIT",
+      "candidate_count": 1707
+    },
+    {
+      "requested_repo": "wubin1836/ai-ecommerce-expert-agent-skills",
+      "repo": "wubin1836/ai-ecommerce-expert-agent-skills",
+      "repo_url": "https://github.com/wubin1836/ai-ecommerce-expert-agent-skills",
+      "checked_at": "2026-11-14T19:01:58+08:00",
+      "status": "scanned",
+      "transport": "public-git-and-commit-archive",
+      "source_commit": "7852b00fb0f5ffde0d955b286ee3881461f9db50",
+      "license": "MIT",
+      "candidate_count": 100
+    },
+    {
+      "requested_repo": "viethahong/business-skills",
+      "repo": "viethahong/business-skills",
+      "repo_url": "https://github.com/viethahong/business-skills",
+      "checked_at": "2026-11-14T19:01:58+08:00",
+      "status": "scanned",
+      "transport": "public-git-and-commit-archive",
+      "source_commit": "edcc5bff037e05c9b9b41265467c223d40847205",
+      "license": "MIT",
+      "candidate_count": 62
+    },
+    {
+      "requested_repo": "membranedev/application-skills",
+      "repo": "membranedev/application-skills",
+      "repo_url": "https://github.com/membranedev/application-skills",
+      "checked_at": "2026-11-14T19:01:58+08:00",
+      "status": "scanned",
+      "transport": "public-git-and-commit-archive",
+      "source_commit": "f484c8265e70ec910a57342389cca5c5de7d8167",
+      "license": "UNKNOWN",
+      "candidate_count": 3074
+    },
+    {
+      "requested_repo": "opastorello/temu-api-docs",
+      "repo": "opastorello/temu-api-docs",
+      "repo_url": "https://github.com/opastorello/temu-api-docs",
+      "checked_at": "2026-11-14T19:01:58+08:00",
+      "status": "scanned",
+      "transport": "public-git-and-commit-archive",
+      "source_commit": "3beeb7546a5bf54fcf35ff07344f9a5426cab552",
+      "license": "UNKNOWN",
+      "candidate_count": 1
+    },
+    {
+      "requested_repo": "zironglv/taobao-native",
+      "repo": "zironglv/taobao-native",
+      "repo_url": "https://github.com/zironglv/taobao-native",
+      "checked_at": "2026-11-14T19:22:07+08:00",
+      "status": "scanned",
+      "transport": "public-git-and-commit-archive",
+      "source_commit": "40505b5ea14c4d56ae9c0aa469fd49840b33423d",
+      "license": "UNKNOWN",
+      "candidate_count": 1
+    },
+    {
+      "requested_repo": "nexscope-ai/Amazon-Skills",
+      "repo": "nexscope-ai/Amazon-Skills",
+      "repo_url": "https://github.com/nexscope-ai/Amazon-Skills",
+      "checked_at": "2026-11-14T19:22:07+08:00",
+      "status": "scanned",
+      "transport": "public-git-and-commit-archive",
+      "source_commit": "2bcb8cb019cfac6a1e420b11f86209df5ea47686",
+      "license": "MIT",
+      "candidate_count": 52
+    },
+    {
+      "requested_repo": "brianmoney/amazon-marketing-skill",
+      "repo": "brianmoney/amazon-marketing-skill",
+      "repo_url": "https://github.com/brianmoney/amazon-marketing-skill",
+      "checked_at": "2026-11-14T19:22:07+08:00",
+      "status": "scanned",
+      "transport": "public-git-and-commit-archive",
+      "source_commit": "be4b3faa08b33777962274d1c05a9d3c03c12551",
+      "license": "MIT",
+      "candidate_count": 7
+    },
+    {
+      "requested_repo": "Saber-doudou/ecommerce-product-investigator",
+      "repo": "Saber-doudou/ecommerce-product-investigator",
+      "repo_url": "https://github.com/Saber-doudou/ecommerce-product-investigator",
+      "checked_at": "2026-11-14T19:22:07+08:00",
+      "status": "scanned",
+      "transport": "public-git-and-commit-archive",
+      "source_commit": "deb0508fbd6438b00d48d407ad17d0d571c9694b",
+      "license": "MIT",
+      "candidate_count": 1
+    },
+    {
+      "requested_repo": "amzn/selling-partner-agentic-toolkit",
+      "repo": "amzn/selling-partner-agentic-toolkit",
+      "repo_url": "https://github.com/amzn/selling-partner-agentic-toolkit",
+      "checked_at": "2026-11-14T19:22:07+08:00",
+      "status": "scanned",
+      "transport": "public-git-and-commit-archive",
+      "source_commit": "4563bfcb17ff4d921361530053118a8ca9eeaa67",
+      "license": "Apache-2.0",
+      "candidate_count": 12
+    },
+    {
+      "requested_repo": "xenosfeng-creator/MTL-skill",
+      "repo": "xenosfeng-creator/MTL-skill",
+      "repo_url": "https://github.com/xenosfeng-creator/MTL-skill",
+      "checked_at": "2026-11-14T19:22:07+08:00",
+      "status": "scanned",
+      "transport": "public-git-and-commit-archive",
+      "source_commit": "d95c8821d8d943555048b78aec0dcdd9c95801ae",
+      "license": "MIT",
+      "candidate_count": 1
+    },
+    {
+      "requested_repo": "ziniao-open/skill-hub",
+      "repo": "ziniao-open/skill-hub",
+      "repo_url": "https://github.com/ziniao-open/skill-hub",
+      "checked_at": "2026-11-14T19:22:07+08:00",
+      "status": "scanned",
+      "transport": "public-git-and-commit-archive",
+      "source_commit": "258fb6e75f731901a9e293312e4c362affc5d8d7",
+      "license": "UNKNOWN",
+      "candidate_count": 4
+    },
+    {
+      "requested_repo": "aahl/skills",
+      "repo": "aahl/skills",
+      "repo_url": "https://github.com/aahl/skills",
+      "checked_at": "2026-11-14T19:22:07+08:00",
+      "status": "scanned",
+      "transport": "public-git-and-commit-archive",
+      "source_commit": "47edd621dff44253677d2ed14c223393ca020407",
+      "license": "MIT",
+      "candidate_count": 15
+    },
+    {
+      "requested_repo": "ZloyDeDD/wb-api-skill",
+      "repo": "ZloyDeDD/wb-api-skill",
+      "repo_url": "https://github.com/ZloyDeDD/wb-api-skill",
+      "checked_at": "2026-11-14T19:22:07+08:00",
+      "status": "scanned",
+      "transport": "public-git-and-commit-archive",
+      "source_commit": "d862cde132e2279aeee84cbeb3272efb1fcc4359",
+      "license": "MIT",
+      "candidate_count": 1
+    },
+    {
+      "requested_repo": "jiangwuzheng/pdd-batch-editor",
+      "repo": "jiangwuzheng/pdd-batch-editor",
+      "repo_url": "https://github.com/jiangwuzheng/pdd-batch-editor",
+      "checked_at": "2026-11-14T19:22:07+08:00",
+      "status": "scanned",
+      "transport": "public-git-and-commit-archive",
+      "source_commit": "a80f2fa094daa42c6cf0c28bd4c2f2c27b9666eb",
+      "license": "UNKNOWN",
+      "candidate_count": 1
+    },
+    {
+      "requested_repo": "Seanik666/cn-ecommerce-search",
+      "repo": "Seanik666/cn-ecommerce-search",
+      "repo_url": "https://github.com/Seanik666/cn-ecommerce-search",
+      "checked_at": "2026-11-14T19:22:07+08:00",
+      "status": "scanned",
+      "transport": "public-git-and-commit-archive",
+      "source_commit": "71935e4635cab3a088133232b50a405ead930380",
+      "license": "UNKNOWN",
+      "candidate_count": 1
+    },
+    {
+      "requested_repo": "apify/agent-skills",
+      "repo": "apify/agent-skills",
+      "repo_url": "https://github.com/apify/agent-skills",
+      "checked_at": "2026-11-14T19:22:07+08:00",
+      "status": "scanned",
+      "transport": "public-git-and-commit-archive",
+      "source_commit": "d72ebe9915b461b89a75490931a896abc76d7bfe",
+      "license": "UNKNOWN",
+      "candidate_count": 5
+    },
+    {
+      "requested_repo": "JaeZhang/image-skills",
+      "repo": "JaeZhang/image-skills",
+      "repo_url": "https://github.com/JaeZhang/image-skills",
+      "checked_at": "2026-11-14T19:22:07+08:00",
+      "status": "scanned",
+      "transport": "public-git-and-commit-archive",
+      "source_commit": "5b2710a068acc763a72776bea91c4c50aa3dc4d5",
+      "license": "UNKNOWN",
+      "candidate_count": 2
+    },
+    {
+      "requested_repo": "tsepkov/ozon-seller-skill",
+      "repo": "tsepkov/ozon-seller-skill",
+      "repo_url": "https://github.com/tsepkov/ozon-seller-skill",
+      "checked_at": "2026-11-14T19:22:07+08:00",
+      "status": "scanned",
+      "transport": "public-git-and-commit-archive",
+      "source_commit": "4f5861728f6d970fb534db0e70015094563e3c6c",
+      "license": "UNKNOWN",
+      "candidate_count": 1
+    },
+    {
+      "requested_repo": "AccioWork/agent-skills",
+      "repo": "AccioWork/agent-skills",
+      "repo_url": "https://github.com/AccioWork/agent-skills",
+      "checked_at": "2026-11-14T19:22:07+08:00",
+      "status": "scanned",
+      "transport": "public-git-and-commit-archive",
+      "source_commit": "07c9946963d6a13692bd400ddb88c994d3cdba52",
+      "license": "MIT",
+      "candidate_count": 1
+    },
+    {
+      "requested_repo": "Automattic/claude-woocommerce-toolkit",
+      "repo": "Automattic/claude-woocommerce-toolkit",
+      "repo_url": "https://github.com/Automattic/claude-woocommerce-toolkit",
+      "checked_at": "2026-11-14T19:37:14+08:00",
+      "status": "scanned",
+      "transport": "public-git-and-commit-archive",
+      "source_commit": "d70538707247a4d3e6a940c554a9dd4e7010b3d1",
+      "license": "GPL-2.0-or-later",
+      "candidate_count": 3,
+      "license_review": {
+        "repo": "Automattic/claude-woocommerce-toolkit",
+        "source_commit": "d70538707247a4d3e6a940c554a9dd4e7010b3d1",
+        "license": "GPL-2.0-or-later",
+        "license_path": "LICENSE",
+        "evidence": [
+          {
+            "path": "LICENSE",
+            "sha256": "edaef632cbb643e4e7a221717a6c441a4c1a7c918e6e4d56debc3d8739b233f6"
+          },
+          {
+            "path": "README.md",
+            "sha256": "16770c8698dbd32fe3c84839b9c66c06f69a74c536c77d9ac81b0a7c40f26052"
+          }
+        ]
+      }
+    },
+    {
+      "requested_repo": "woocommerce/agent-skills",
+      "repo": "woocommerce/agent-skills",
+      "repo_url": "https://github.com/woocommerce/agent-skills",
+      "checked_at": "2026-11-14T19:37:14+08:00",
+      "status": "scanned",
+      "transport": "public-git-and-commit-archive",
+      "source_commit": "89cc969d2273ac9eb668c48b7284f77e0862bb21",
+      "license": "GPL-2.0-or-later",
+      "candidate_count": 2,
+      "license_review": {
+        "repo": "woocommerce/agent-skills",
+        "source_commit": "89cc969d2273ac9eb668c48b7284f77e0862bb21",
+        "license": "GPL-2.0-or-later",
+        "license_path": "LICENSE",
+        "evidence": [
+          {
+            "path": "LICENSE",
+            "sha256": "fe61a8a26cade9d8a7c28bd32129edcca617ae1de6fa7d6c7fc9af1b3d06db57"
+          },
+          {
+            "path": "README.md",
+            "sha256": "1e76c497d51e1de6fd06a3285659cc8267f8c33e54447f09d70c1e0de89ab12c"
+          }
+        ]
+      }
+    },
+    {
+      "requested_repo": "joomcode/joompulse-skills",
+      "repo": "joomcode/joompulse-skills",
+      "repo_url": "https://github.com/joomcode/joompulse-skills",
+      "checked_at": "2026-11-14T19:37:14+08:00",
+      "status": "scanned",
+      "transport": "public-git-and-commit-archive",
+      "source_commit": "0a679a081bdd9f3b5eca55c9cc4ff28c74428c23",
+      "license": "MIT",
+      "candidate_count": 18
+    },
+    {
+      "requested_repo": "pauljones0/ebay-seller-skill",
+      "repo": "pauljones0/ebay-seller-skill",
+      "repo_url": "https://github.com/pauljones0/ebay-seller-skill",
+      "checked_at": "2026-11-14T19:37:14+08:00",
+      "status": "scanned",
+      "transport": "public-git-and-commit-archive",
+      "source_commit": "d73652227af9389f665b849ab9f542b4f9c82b05",
+      "license": "MIT",
+      "candidate_count": 2
+    },
+    {
+      "requested_repo": "daisymyu-dev/TikTok-Commerce-Intelligence",
+      "repo": "daisymyu-dev/TikTok-Commerce-Intelligence",
+      "repo_url": "https://github.com/daisymyu-dev/TikTok-Commerce-Intelligence",
+      "checked_at": "2026-11-14T19:37:14+08:00",
+      "status": "scanned",
+      "transport": "public-git-and-commit-archive",
+      "source_commit": "e48472e5964322b3bcf2d8334bcb032a56eb4ed9",
+      "license": "MIT",
+      "candidate_count": 1
+    },
+    {
+      "requested_repo": "DannylydST/sorftime-seller-agent",
+      "repo": "DannylydST/sorftime-seller-agent",
+      "repo_url": "https://github.com/DannylydST/sorftime-seller-agent",
+      "checked_at": "2026-11-14T19:37:14+08:00",
+      "status": "scanned",
+      "transport": "public-git-and-commit-archive",
+      "source_commit": "f08fbe963497c87e795a1cb0f5fa198d13c84bd9",
+      "license": "MIT",
+      "candidate_count": 1
+    },
+    {
+      "requested_repo": "0-shiv/secondstep-claude-skills",
+      "repo": "0-shiv/secondstep-claude-skills",
+      "repo_url": "https://github.com/0-shiv/secondstep-claude-skills",
+      "checked_at": "2026-11-14T19:37:14+08:00",
+      "status": "scanned",
+      "transport": "public-git-and-commit-archive",
+      "source_commit": "94022bebe466024f6b1b1af16f52fdff11a9c0c1",
+      "license": "MIT",
+      "candidate_count": 217
+    },
+    {
+      "requested_repo": "medusajs/medusa-agent-skills",
+      "repo": "medusajs/medusa-agent-skills",
+      "repo_url": "https://github.com/medusajs/medusa-agent-skills",
+      "checked_at": "2026-11-14T19:37:14+08:00",
+      "status": "scanned",
+      "transport": "public-git-and-commit-archive",
+      "source_commit": "c5a56b4646b2c39d49b1da10c8a5404236b6b4ba",
+      "license": "UNKNOWN",
+      "candidate_count": 18
+    },
+    {
+      "requested_repo": "lunw/shopline-ai-toolkit-dsh",
+      "repo": "lunw/shopline-ai-toolkit-dsh",
+      "repo_url": "https://github.com/lunw/shopline-ai-toolkit-dsh",
+      "checked_at": "2026-11-14T19:37:14+08:00",
+      "status": "scanned",
+      "transport": "public-git-and-commit-archive",
+      "source_commit": "a5783d242162f866a35871e349269616aedaf981",
+      "license": "MIT",
+      "candidate_count": 8
+    },
+    {
+      "requested_repo": "asgard-ai-platform/tw-ecommerce-majordomo",
+      "repo": "asgard-ai-platform/tw-ecommerce-majordomo",
+      "repo_url": "https://github.com/asgard-ai-platform/tw-ecommerce-majordomo",
+      "checked_at": "2026-11-14T19:37:14+08:00",
+      "status": "scanned",
+      "transport": "public-git-and-commit-archive",
+      "source_commit": "5dbab0cb341a7e113d0d51fbc6463b1a12481ece",
+      "license": "MIT",
+      "candidate_count": 29
+    },
+    {
+      "requested_repo": "2nth-ai/skills",
+      "repo": "2nth-ai/skills",
+      "repo_url": "https://github.com/2nth-ai/skills",
+      "checked_at": "2026-11-14T19:37:14+08:00",
+      "status": "scanned",
+      "transport": "public-git-and-commit-archive",
+      "source_commit": "26238a6e5563df4818a6c2f4da856cf5e3824eeb",
+      "license": "UNKNOWN",
+      "candidate_count": 160
+    },
+    {
+      "requested_repo": "PrestaShop/skills",
+      "repo": "PrestaShop/skills",
+      "repo_url": "https://github.com/PrestaShop/skills",
+      "checked_at": "2026-11-14T19:37:42+08:00",
+      "status": "scanned",
+      "transport": "public-git-and-commit-archive",
+      "source_commit": "26e404df6b80bd6ea890527c71e804aaa575eb72",
+      "license": "AFL-3.0",
+      "candidate_count": 5,
+      "license_review": {
+        "repo": "PrestaShop/skills",
+        "source_commit": "26e404df6b80bd6ea890527c71e804aaa575eb72",
+        "license": "AFL-3.0",
+        "license_path": "LICENSE.md",
+        "evidence": [
+          {
+            "path": "LICENSE.md",
+            "sha256": "0a9ec2358c8113938ee2d2319c911b65703056a5b21f530bc9e71492e3c14191"
+          }
+        ]
+      }
+    },
+    {
+      "requested_repo": "ApparelHub-AI/apparelhub-skills",
+      "repo": "ApparelHub-AI/apparelhub-skills",
+      "repo_url": "https://github.com/ApparelHub-AI/apparelhub-skills",
+      "checked_at": "2026-11-14T19:37:42+08:00",
+      "status": "scanned",
+      "transport": "public-git-and-commit-archive",
+      "source_commit": "fd929c23ea923d75a57c47e950f792637bca3724",
+      "license": "MIT",
+      "candidate_count": 1
+    },
+    {
+      "requested_repo": "Atlas-AI-Store-Builder/atlas-cli",
+      "repo": "Atlas-AI-Store-Builder/atlas-cli",
+      "repo_url": "https://github.com/Atlas-AI-Store-Builder/atlas-cli",
+      "checked_at": "2026-11-14T19:37:42+08:00",
+      "status": "scanned",
+      "transport": "public-git-and-commit-archive",
+      "source_commit": "4ea4000afdb34cf143b04ad6147a4975132c2417",
+      "license": "UNKNOWN",
+      "candidate_count": 1
+    },
+    {
+      "requested_repo": "Inchoo/magento-bricklayer",
+      "repo": "Inchoo/magento-bricklayer",
+      "repo_url": "https://github.com/Inchoo/magento-bricklayer",
+      "checked_at": "2026-11-14T19:37:42+08:00",
+      "status": "scanned",
+      "transport": "public-git-and-commit-archive",
+      "source_commit": "6a1a27561cc1af9d1bdc0a82ce0dd1588735efdd",
+      "license": "MIT",
+      "candidate_count": 37
+    },
+    {
+      "requested_repo": "silennsong/etsy-listing-helper",
+      "repo": "silennsong/etsy-listing-helper",
+      "repo_url": "https://github.com/silennsong/etsy-listing-helper",
+      "checked_at": "2026-11-14T19:37:42+08:00",
+      "status": "scanned",
+      "transport": "public-git-and-commit-archive",
+      "source_commit": "3944cf9e6d54be7850d7456dd74e75e384cedd4b",
+      "license": "MIT",
+      "candidate_count": 1
+    },
+    {
+      "requested_repo": "imoonkey/openweb",
+      "repo": "imoonkey/openweb",
+      "repo_url": "https://github.com/imoonkey/openweb",
+      "checked_at": "2026-11-14T19:37:42+08:00",
+      "status": "scanned",
+      "transport": "public-git-and-commit-archive",
+      "source_commit": "a387b50c829d871839a613732e1b97bfa1946124",
+      "license": "MIT",
+      "candidate_count": 95
+    }
+  ]
+}

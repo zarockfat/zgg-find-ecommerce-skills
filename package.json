@@ -1,0 +1,1 @@
+{"name":"ecommerce-skills-hub","version":"0.1.0","private":true,"type":"module","description":"中文电商 AI Skill 开源导航与发现工具","scripts":{"build":"node scripts/build.mjs","test":"node --test tests/*.test.mjs","validate":"node scripts/validate.mjs","dev":"python3 -m http.server 4173 --bind 127.0.0.1 --directory dist","discover":"node scripts/discover.mjs"},"engines":{"node":">=22"}}
