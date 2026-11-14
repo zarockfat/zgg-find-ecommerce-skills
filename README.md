@@ -58,13 +58,20 @@
 
 ### 安装导航 Skill
 
-如果你用 Codex，在项目终端执行下面这条命令（需要 Node.js 22+ 和网络）：
+如果你用 Codex，在项目终端执行下面这条命令（需要 Node.js 22.20+ 和网络）：
 
 ```bash
 npx skills add zarockfat/zgg-find-ecommerce-skills --skill zgg-find-ecommerce-skills -a codex
 ```
 
-Claude Code 用户把 `-a codex` 改成 `-a claude-code`；Cursor 用户改成 `-a cursor`。安装后重新加载 AI 工具，再输入上面的需求。
+**用的是 WorkBuddy、豆包或其他 AI 工具？** 网页的安装指引也提供了相应选项：
+
+- WorkBuddy：下载完整技能包，在“技能 → 添加技能 → 上传技能”导入。
+- 豆包 / 豆包工作：先确认当前版本是否有导入入口，再查看对应步骤；普通聊天和应用插件的能力不同。
+- TRAE、CodeBuddy、Kimi Code CLI、Qwen Code、OpenClaw 等：按所选工具生成安装命令。
+- 其他 Agent：使用安装器选择客户端，或按工具自己的官方指引导入。
+
+[查看各 AI 工具的完整安装说明与官方来源](docs/AI-CLIENTS.md)。安装后检查技能是否已启用，再描述任务。
 
 不熟悉终端也没关系，可以把下面这句话发给能操作本地文件和终端的 AI 助手：
 

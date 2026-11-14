@@ -34,8 +34,47 @@ export function searchCatalog(skills,{q='',platform='全部',category='全部',c
  out.sort((a,b)=>sort==='name'?a.s.title.localeCompare(b.s.title,'zh-CN'):sort==='updated'?b.s.checked_at.localeCompare(a.s.checked_at)||a.s.title.localeCompare(b.s.title,'zh-CN'):b.score-a.score||a.s.title.localeCompare(b.s.title,'zh-CN'));
  return out.map(x=>x.s);
 }
-export function installationCommand(s,agent='codex'){
+// Client support checked against official documentation on 2026-11-15.
+const installerDocs='https://github.com/vercel-labs/skills/blob/main/docs/agents.md';
+export const installationClients=[
+ {id:'codex',label:'Codex',mode:'command'},
+ {id:'claude-code',label:'Claude Code',mode:'command'},
+ {id:'cursor',label:'Cursor',mode:'command'},
+ {id:'workbuddy',label:'WorkBuddy',mode:'import',docs:'https://www.codebuddy.cn/docs/workbuddy/From-Beginner-to-Expert-Guide/Function-Description/Skills-Market'},
+ {id:'doubao',label:'豆包 / 豆包工作',mode:'conditional',docs:'https://open.doubao.com/document/doubao-developer-guide/skill-integration-guide'},
+ {id:'trae-cn',label:'TRAE 国内版',mode:'command'},
+ {id:'trae',label:'TRAE 国际版',mode:'command'},
+ {id:'codebuddy',label:'CodeBuddy',mode:'command'},
+ {id:'kimi-code-cli',label:'Kimi Code CLI',mode:'command'},
+ {id:'qwen-code',label:'Qwen Code',mode:'command'},
+ {id:'openclaw',label:'OpenClaw',mode:'command'},
+ {id:'other',label:'其他 Agent',mode:'interactive'}
+];
+function installationTarget(s){
  if(!/^[\w.-]+\/[\w.-]+$/.test(s.repo)||!s.name||!/^[a-z0-9-]+$/.test(s.name))throw new Error('Invalid install target');
- if(!['codex','claude-code','cursor'].includes(agent))throw new Error('Unknown client');
- return `npx skills add ${s.repo} --skill ${s.name} -a ${agent}`;
+ return `npx skills add ${s.repo} --skill ${s.name}`;
+}
+export function installationCommand(s,agent='codex'){
+ const base=installationTarget(s);const client=installationClients.find(c=>c.id===agent);
+ if(!client||!['command','interactive'].includes(client.mode))throw new Error('This client requires installation guidance, not a CLI command');
+ return client.mode==='interactive'?base:`${base} -a ${agent}`;
+}
+export function installationGuide(s,agent='codex'){
+ installationTarget(s);const client=installationClients.find(c=>c.id===agent);if(!client)throw new Error('Unknown client');
+ const packet=`下载仓库 ZIP，解压后找到 ${s.path||s.name+'/SKILL.md'} 所在的技能文件夹。保留 SKILL.md、脚本、参考资料等配套文件，将这个技能文件夹单独打包成 ZIP。`;
+ let steps=[],note='',command=null;
+ if(client.mode==='command'){
+  command=installationCommand(s,agent);steps=['在项目目录打开终端，执行下面的安装命令。','重新加载 AI 工具，确认已安装列表中能找到这个技能，再描述你的任务。'];
+  note='需要 Node.js 22.20+ 及网络；命令安装到当前项目。安装后仍需准备该技能要求的账号、接口或软件。安装器支持此客户端不代表本站已实测业务效果。';
+ }else if(agent==='workbuddy'){
+  steps=[packet,'打开 WorkBuddy 的“专家·技能·连接器”，进入“技能”，选择“添加技能 → 上传技能”，导入刚打包的 ZIP。','在“已安装”中确认技能已启用，然后在对话里点名使用它。'];
+  note='本目录中的技能不一定已上架 WorkBuddy 技能市场。通过聊天搜索市场，并不能保证找到这里的每个技能；此处使用本地技能包导入。WorkBuddy 与 CodeBuddy 使用各自的安装方式。';
+ }else if(agent==='doubao'){
+  steps=['先确认你使用的豆包产品与版本，是否有“技能管理”以及上传、导入或新建技能的入口。',packet,'有本地导入入口时，按界面要求导入完整技能包，并检查脚本及外部工具依赖能否运行。没有该入口时，先在网页选好技能；方法指导类可阅读其 SKILL.md，将相关工作步骤作为聊天资料使用。'];
+  note='导入入口和执行能力以你的客户端为准，本站尚未验证豆包的本地导入。豆包应用插件有单独的接入流程，不等于普通聊天能执行 npx 或运行本地脚本。粘贴说明仅供参考，不等于安装，也不会自动获得接口或店铺能力。';
+ }else{
+  command=installationCommand(s,agent);steps=['如果你的 Agent 支持本地 Skill 且能使用终端，执行下面的命令，再从安装器显示的列表选择你的 Agent。','若安装器没有列出它，先查看该 Agent 的官方导入说明，使用完整技能文件夹或 ZIP 导入；不要猜安装目录。','只有普通聊天入口时，可以阅读方法类技能作为资料；需要脚本、接口或连接器的功能还需对应的执行环境。'];
+  note='此命令会让你选择客户端。只有安装器列出的客户端才能使用这条安装路径；支持同一模型不等于支持同一技能安装方式。';
+ }
+ return {client:client.id,label:client.label,mode:client.mode,command,steps,note,docs:client.docs||installerDocs,checked_at:'2026-11-15',tested:false};
 }

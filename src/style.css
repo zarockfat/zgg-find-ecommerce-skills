@@ -44,3 +44,5 @@
 .platform-logo-generic{background:#edf2e8;color:#65835a;border-color:#dfe7d7}
 .platform-logo-generic svg{width:20px;height:20px}
 .platform-nav button{min-height:46px}
+
+.agent-options{flex-wrap:wrap;gap:7px}.agent-options button{white-space:normal;min-height:36px}.agent-options [aria-pressed="true"]{font-weight:600}#client-install-steps{margin-top:10px}#client-install-note{line-height:1.9}@media(max-width:680px){.agent-options{display:grid;grid-template-columns:repeat(2,minmax(0,1fr))}.agent-options button{width:100%;font-size:11px}.steps{overflow-wrap:anywhere}}

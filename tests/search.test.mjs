@@ -1,5 +1,5 @@
 import {fileURLToPath} from 'node:url';
-import {test} from 'node:test';import assert from 'node:assert/strict';import {readFileSync} from 'node:fs';import {execFileSync,spawnSync} from 'node:child_process';import {searchCatalog,installationCommand,summarizePlatforms} from '../src/search.mjs';
+import {test} from 'node:test';import assert from 'node:assert/strict';import {readFileSync} from 'node:fs';import {execFileSync,spawnSync} from 'node:child_process';import {searchCatalog,installationCommand,installationGuide,summarizePlatforms} from '../src/search.mjs';
 const skills=JSON.parse(readFileSync(new URL('../data/catalog.json',import.meta.url))).skills;
 test('Chinese natural-language task ranks TikTok research first',()=>{const r=searchCatalog(skills,{q:'帮我找TikTok选品的技能'});assert(r.length);assert.equal(r[0].name,'tiktok-shop-product-research');assert(r.every(s=>s.category==='选品调研'))});
 test('platform and category intersect strictly',()=>{const r=searchCatalog(skills,{platform:'Amazon',category:'经营分析'});assert(r.length);assert(r.every(s=>s.platforms.includes('Amazon')&&s.category==='经营分析'))});
@@ -66,4 +66,15 @@ test('new platform tags appear automatically and repeated tags never inflate cou
  const groups=summarizePlatforms([{platforms:['NewMarketplace','Amazon','Amazon']},{platforms:['NewMarketplace']}]);
  assert.equal(groups.find(g=>g.name==='NewMarketplace').count,2);
  assert.equal(groups.find(g=>g.name==='Amazon').count,1);
+});
+
+test('client guides distinguish supported commands from package imports',()=>{
+ for(const agent of ['trae-cn','trae','codebuddy','kimi-code-cli','qwen-code','openclaw'])assert.match(installationGuide(skills[0],agent).command,new RegExp(' -a '+agent+'$'));
+ for(const agent of ['workbuddy','doubao']){const g=installationGuide(skills[0],agent);assert.equal(g.command,null);assert(g.steps.length>0);assert.equal(g.tested,false);assert.throws(()=>installationCommand(skills[0],agent));}
+ const generic=installationGuide(skills[0],'other');assert.equal(generic.mode,'interactive');assert(!generic.command.includes(' -a '));
+ assert.throws(()=>installationGuide({...skills[0],repo:'a/b;bad'},'workbuddy'));
+});
+test('packaged CLI returns import guidance instead of an invalid client command',()=>{
+ const script=fileURLToPath(new URL('../skills/zgg-find-ecommerce-skills/scripts/search.mjs',import.meta.url));
+ for(const agent of ['workbuddy','doubao']){const output=JSON.parse(execFileSync(process.execPath,[script,'--query','TikTok 选品','--agent',agent,'--limit','1'],{cwd:'/tmp',encoding:'utf8'}));assert(output.results.length);const r=output.results[0];assert.equal(r.install_command,null);assert.equal(r.installation_guide.client,agent);assert(r.installation_guide.steps.length>0);}
 });
