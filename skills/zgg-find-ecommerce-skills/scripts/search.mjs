@@ -2,11 +2,12 @@
 import {readFileSync} from 'node:fs';
 import {searchCatalog,installationGuide,installationClients} from './search-core.mjs';
 import {loadCatalog,validateCatalog} from './updates.mjs';
+import {websiteWelcome} from './welcome.mjs';
 const options={},args=process.argv.slice(2),keys=['query','platform','category','capability','limit','catalog','agent'];
 try{
  for(let i=0;i<args.length;i++){
-  if(['--offline','--check-updates'].includes(args[i])){options[args[i].slice(2)]=true;continue}
-  if(!args[i].startsWith('--')||!keys.includes(args[i].slice(2))||!args[i+1]||args[i+1].startsWith('--'))throw Error('Usage: node search.mjs [--query text] [--platform name] [--category name] [--capability name] [--limit 3] [--agent client-id] [--catalog path] [--offline | --check-updates]');
+  if(['--offline','--check-updates','--show-web','--no-welcome'].includes(args[i])){options[args[i].slice(2)]=true;continue}
+  if(!args[i].startsWith('--')||!keys.includes(args[i].slice(2))||!args[i+1]||args[i+1].startsWith('--'))throw Error('Usage: node search.mjs [--query text] [--platform name] [--category name] [--capability name] [--limit 3] [--agent client-id] [--catalog path] [--offline | --check-updates] [--show-web] [--no-welcome]');
   options[args[i].slice(2)]=args[++i];
  }
  if(options.offline&&options['check-updates'])throw Error('Choose either --offline or --check-updates');
@@ -18,5 +19,6 @@ try{
  else({catalog,update}=await loadCatalog({offline:options.offline||process.env.ZGG_SKILLS_OFFLINE==='1',force:options['check-updates']===true}));
  if(update.skill_update?.available)update.skill_update.installation_guide=installationGuide({repo:'zarockfat/zgg-find-ecommerce-skills',name:'zgg-find-ecommerce-skills',path:'skills/zgg-find-ecommerce-skills/SKILL.md'},agent);
  const results=searchCatalog(catalog.skills,{q:options.query||'',platform:options.platform||'全部',category:options.category||'全部',capability:options.capability||'全部'});
- console.log(JSON.stringify({catalog_updated_at:catalog.updated_at,coverage:catalog.coverage,update,total_matches:results.length,results:results.slice(0,limit).map(s=>({...s,install_command:installationGuide(s,agent).command,installation_guide:installationGuide(s,agent)}))},null,2));
+ const welcome=await websiteWelcome({catalog,agent,force:options['show-web']===true,silent:options['no-welcome']===true});
+ console.log(JSON.stringify({welcome,catalog_updated_at:catalog.updated_at,coverage:catalog.coverage,update,total_matches:results.length,results:results.slice(0,limit).map(s=>({...s,install_command:installationGuide(s,agent).command,installation_guide:installationGuide(s,agent)}))},null,2));
 }catch(e){console.error(e.message);process.exitCode=1}

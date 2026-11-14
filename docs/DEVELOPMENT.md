@@ -111,3 +111,14 @@ node skills/zgg-find-ecommerce-skills/scripts/search.mjs --query "TikTok 选品"
 `ZGG_SKILLS_OFFLINE=1` 可持续禁用检查；`ZGG_SKILLS_CACHE_DIR` 可指定可写缓存位置。自定义 `--catalog` 文件不参与自动检查与覆盖。缓存不可写时使用安装包内目录。并发调用使用短期检查锁，避免重复请求。
 
 发布前运行 `npm run build`，自动同步 Skill 的目录、生成 SHA-256 校验信息及新版下载包。提交源码时须同时包含 `data/updates.json` 与 `skills/zgg-find-ecommerce-skills/references/release.json`，并随目录一起发布；修改导航功能时维护 `skills/zgg-find-ecommerce-skills/version.json` 的版本。功能指纹包括 Skill 正文、版本与脚本，不包含目录数据，因此目录更新不需要重新安装功能。版本清单不匹配的新旧内容会拒绝同步，下一次检查可重试。
+
+
+## 首次使用的本地网页引导
+
+Skill 自带 `assets/ecommerce-skills.html`，由同一套网页源码构建，内嵌样式、JavaScript、平台图标、头像、favicon 和目录，不需要托管或账号。`references/website.json` 指向这个包内文件。
+
+搜索输出 `welcome.show` 为 true 时，宿主 AI 先给欢迎文案和本机链接，再继续任务。状态位于用户缓存目录。`--show-web` 再次显示入口，`--no-welcome` 静默记录已介绍。不同客户端可选用绝对路径或 file URL；无法点击时让用户复制路径到浏览器。脚本不会自行打开浏览器。
+
+每次检索比较页面模板及当前目录指纹，在 `<缓存目录>/web/index.html` 原子生成页面。仅目录变化也会刷新列表，功能升级时应用新版模板；浏览器刷新即可看到新内容。缓存不可写时退回包内 HTML，并返回 `catalog_current: false`。缓存和欢迎记录不写进安装目录。
+
+构建顺序为：更新目录和搜索核心 → 生成单文件网页 → 复制到 Skill → 生成版本与校验信息 → 打包 ZIP，确保用户更新 Skill 时连同页面一起更新。网页中外部仓库、安装命令和依赖服务仍可能需要联网，但浏览本地目录不需要。

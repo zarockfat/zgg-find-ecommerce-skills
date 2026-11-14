@@ -1,6 +1,9 @@
 process.env.ZGG_SKILLS_OFFLINE='1';
 import {fileURLToPath} from 'node:url';
-import {test} from 'node:test';import assert from 'node:assert/strict';import {readFileSync} from 'node:fs';import {execFileSync,spawnSync} from 'node:child_process';import {searchCatalog,installationCommand,installationGuide,summarizePlatforms} from '../src/search.mjs';
+import {test,after} from 'node:test';import assert from 'node:assert/strict';import {readFileSync,mkdtempSync,rmSync} from 'node:fs';import {execFileSync,spawnSync} from 'node:child_process';import {searchCatalog,installationCommand,installationGuide,summarizePlatforms} from '../src/search.mjs';
+import {tmpdir} from 'node:os';
+import path from 'node:path';
+const searchTestCache=mkdtempSync(path.join(tmpdir(),'zgg-search-tests-'));process.env.ZGG_SKILLS_CACHE_DIR=searchTestCache;after(()=>rmSync(searchTestCache,{recursive:true,force:true}));
 const skills=JSON.parse(readFileSync(new URL('../data/catalog.json',import.meta.url))).skills;
 test('Chinese natural-language task ranks TikTok research first',()=>{const r=searchCatalog(skills,{q:'帮我找TikTok选品的技能'});assert(r.length);assert.equal(r[0].name,'tiktok-shop-product-research');assert(r.every(s=>s.category==='选品调研'))});
 test('platform and category intersect strictly',()=>{const r=searchCatalog(skills,{platform:'Amazon',category:'经营分析'});assert(r.length);assert(r.every(s=>s.platforms.includes('Amazon')&&s.category==='经营分析'))});
