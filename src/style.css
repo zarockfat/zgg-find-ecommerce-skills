@@ -91,3 +91,10 @@
  .skill-grid{grid-template-columns:repeat(4,minmax(0,1fr));gap:24px}
 }
 @media(min-width:3200px){.skill-grid{grid-template-columns:repeat(5,minmax(0,1fr))}}
+
+/* Display the author's original photo as a headshot; crop only in the page. */
+.author-avatar,.maintainer .avatar{position:relative;display:block;overflow:hidden;flex-shrink:0;border-radius:50%;border:2px solid #fff;background:#e9eee3;box-shadow:0 1px 6px #2636261a}
+.author-avatar{width:36px;height:36px}.maintainer .avatar{width:34px;height:34px}
+.author-avatar .author-photo,.maintainer .avatar .author-photo{position:absolute;display:block;width:300%;height:300%;max-width:none;left:-100%;top:-40%;object-fit:cover;object-position:center}
+@media(min-width:1600px){.author-avatar{width:44px;height:44px}.maintainer .avatar{width:38px;height:38px}}
+@media(max-width:680px){.author-avatar{width:32px;height:32px}}

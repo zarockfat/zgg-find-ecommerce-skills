@@ -21,7 +21,9 @@ with zipfile.ZipFile('dist/downloads/ecommerce-skills-hub-source.zip','w',zipfil
 `],{stdio:'inherit'});
 const d=JSON.parse(await readFile('data/catalog.json','utf8'));
 // A portable, offline preview with the same code and catalog. Downloads remain relative.
-const html=await readFile('src/index.html','utf8');
+let html=await readFile('src/index.html','utf8');
+const authorPhoto=await readFile('src/assets/author/zhang-gungun.jpg');
+html=html.replaceAll('./assets/author/zhang-gungun.jpg','data:image/jpeg;base64,'+authorPhoto.toString('base64'));
 const css=(await readFile('src/style.css','utf8')).replace(/^@import[ \t]+url\([^\r\n]*\);[ \t]*(?:\r?\n|$)/gm,'');
 const core=(await readFile('src/search.mjs','utf8')).replace(/^export /gm,'');
 let brandIcons=(await readFile('src/platform-icons.mjs','utf8')).replace(/^export /gm,'');

@@ -105,4 +105,4 @@ npx skills add zarockfat/zgg-find-ecommerce-skills --skill zgg-find-ecommerce-sk
 
 开发、网页运行和目录维护方式见[开发说明](docs/DEVELOPMENT.md)；收录要求见[贡献指南](CONTRIBUTING.md)。
 
-本项目原创代码和导航 Skill 使用 [MIT 许可证](LICENSE)。第三方技能及平台图标的权利归各自作者或品牌所有。
+本项目原创代码和导航 Skill 使用 [MIT 许可证](LICENSE)。第三方技能及平台图标的权利归各自作者或品牌所有。作者照片用于本项目署名展示，不纳入 MIT 代码授权范围。
