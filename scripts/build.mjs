@@ -12,7 +12,7 @@ with zipfile.ZipFile('dist/downloads/zgg-find-ecommerce-skills.zip','w',zipfile.
  for p in sorted((r/'skills/zgg-find-ecommerce-skills').rglob('*')):
   if p.is_file():z.write(p,p.relative_to(r/'skills'))
 with zipfile.ZipFile('dist/downloads/ecommerce-skills-hub-source.zip','w',zipfile.ZIP_DEFLATED) as z:
- for base in ['src','data','scripts','skills','tests','.github','README.md','CONTRIBUTING.md','LICENSE','package.json','requirements-maintenance.txt','.gitignore']:
+ for base in ['src','data','scripts','skills','tests','docs','.github','README.md','CONTRIBUTING.md','LICENSE','package.json','requirements-maintenance.txt','.gitignore']:
   p=r/base
   for f in ([p] if p.is_file() else sorted(p.rglob('*'))):
    if f.is_file():z.write(f,pathlib.Path('ecommerce-skills-hub')/f)
