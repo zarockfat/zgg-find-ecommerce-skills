@@ -12,7 +12,7 @@ export const aliases = {
  '库存履约':['库存','仓储','物流','供应链','补货','inventory','warehouse'],
  '经营分析':['利润','数据','经营','分析报表','profit','analytics']
 };
-const platforms={Amazon:['amazon','亚马逊'], 'TikTok Shop':['tiktok','tk'],Shopify:['shopify'],eBay:['ebay'],Etsy:['etsy'],Walmart:['walmart','沃尔玛'],WooCommerce:['woocommerce'],SHOPLINE:['shopline'],PrestaShop:['prestashop'],Magento:['magento','mage-os','hyvä','hyva'],Temu:['temu'],拼多多:['拼多多','pinduoduo','pdd'],Shopee:['shopee','虾皮'],'1688':['1688'],淘宝:['淘宝','天猫'],Lazada:['lazada','来赞达'],Ozon:['ozon'],Wildberries:['wildberries','野莓'],'Mercado Libre':['mercado','美客多'],AliExpress:['aliexpress','速卖通'],京东:['京东','jd'],'抖音小店':['抖音','douyin'],'Google Shopping':['google shopping','merchant center']};
+const platforms={Amazon:['amazon','亚马逊'], 'TikTok Shop':['tiktok','tk'],Shopify:['shopify'],eBay:['ebay'],Etsy:['etsy'],Walmart:['walmart','沃尔玛'],WooCommerce:['woocommerce'],SHOPLINE:['shopline'],PrestaShop:['prestashop'],Magento:['magento','mage-os','hyvä','hyva'],Temu:['temu'],拼多多:['拼多多','pinduoduo','pdd'],Shopee:['shopee','虾皮'],'1688':['1688'],淘宝:['淘宝','天猫'],Lazada:['lazada','来赞达'],Ozon:['ozon'],Wildberries:['wildberries','野莓'],'Mercado Libre':['mercado','美客多'],AliExpress:['aliexpress','速卖通'],京东:['京东','jd'],'抖音小店':['抖音','douyin'],'Google Shopping':['google shopping','merchant center'],SHEIN:['shein','希音'],Wayfair:['wayfair'],'小红书':['小红书','xiaohongshu'],'视频号 / 微信小店':['视频号','微信小店','wechat shop']};
 export function inferPlatforms(q){const t=q.toLowerCase();return Object.entries(platforms).filter(([,a])=>a.some(x=>t.includes(x))).map(([k])=>k)}
 export function summarizePlatforms(skills){
  const counts=new Map();

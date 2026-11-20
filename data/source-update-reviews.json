@@ -1,0 +1,1614 @@
+{
+  "items": [
+    {
+      "repo": "nexscope-ai/eCommerce-Skills",
+      "path": "tiktok-shop-product-research/SKILL.md",
+      "source_commit": "c5ba892a1cc3178626577aed1dbde5e62a82f1ac",
+      "content_sha256": "a47dfc717c18480fe28d5c4ec96a482c70352f65397802d71c698d5c36d3564c",
+      "reviewed_at": "2026-11-21",
+      "review_basis": "重新读取当前公开 HEAD；SKILL.md 哈希与已审核版本一致。",
+      "previous_source_commit": "c5ba892a1cc3178626577aed1dbde5e62a82f1ac",
+      "previous_content_sha256": "a47dfc717c18480fe28d5c4ec96a482c70352f65397802d71c698d5c36d3564c"
+    },
+    {
+      "repo": "nexscope-ai/eCommerce-Skills",
+      "path": "tiktok-shop-listing-optimization/SKILL.md",
+      "source_commit": "c5ba892a1cc3178626577aed1dbde5e62a82f1ac",
+      "content_sha256": "02a43bc2cf151662c4ebdba1c03eb233bebb0d8cf8510b3d8b55ff016eb61b84",
+      "reviewed_at": "2026-11-21",
+      "review_basis": "重新读取当前公开 HEAD；SKILL.md 哈希与已审核版本一致。",
+      "previous_source_commit": "c5ba892a1cc3178626577aed1dbde5e62a82f1ac",
+      "previous_content_sha256": "02a43bc2cf151662c4ebdba1c03eb233bebb0d8cf8510b3d8b55ff016eb61b84"
+    },
+    {
+      "repo": "nexscope-ai/eCommerce-Skills",
+      "path": "tiktok-shop-content-strategy/SKILL.md",
+      "source_commit": "c5ba892a1cc3178626577aed1dbde5e62a82f1ac",
+      "content_sha256": "adfbfbb858e2351308105844dd7d7bce5585bdc46951d1a33985d57340b988ca",
+      "reviewed_at": "2026-11-21",
+      "review_basis": "重新读取当前公开 HEAD；SKILL.md 哈希与已审核版本一致。",
+      "previous_source_commit": "c5ba892a1cc3178626577aed1dbde5e62a82f1ac",
+      "previous_content_sha256": "adfbfbb858e2351308105844dd7d7bce5585bdc46951d1a33985d57340b988ca"
+    },
+    {
+      "repo": "nexscope-ai/eCommerce-Skills",
+      "path": "tiktok-influencer-marketing/SKILL.md",
+      "source_commit": "c5ba892a1cc3178626577aed1dbde5e62a82f1ac",
+      "content_sha256": "f937803f846bedf7cc899cf454bb18c29544487198d43965dac29f02a90dc356",
+      "reviewed_at": "2026-11-21",
+      "review_basis": "重新读取当前公开 HEAD；SKILL.md 哈希与已审核版本一致。",
+      "previous_source_commit": "c5ba892a1cc3178626577aed1dbde5e62a82f1ac",
+      "previous_content_sha256": "f937803f846bedf7cc899cf454bb18c29544487198d43965dac29f02a90dc356"
+    },
+    {
+      "repo": "nexscope-ai/eCommerce-Skills",
+      "path": "tiktok-shop-ads/SKILL.md",
+      "source_commit": "c5ba892a1cc3178626577aed1dbde5e62a82f1ac",
+      "content_sha256": "21d74d5686dab22ad6ffcf7b5f09710ca7bf02e531bbf845f7a1dd7b96085b18",
+      "reviewed_at": "2026-11-21",
+      "review_basis": "重新读取当前公开 HEAD；SKILL.md 哈希与已审核版本一致。",
+      "previous_source_commit": "c5ba892a1cc3178626577aed1dbde5e62a82f1ac",
+      "previous_content_sha256": "21d74d5686dab22ad6ffcf7b5f09710ca7bf02e531bbf845f7a1dd7b96085b18"
+    },
+    {
+      "repo": "nexscope-ai/eCommerce-Skills",
+      "path": "tiktok-shop-analytics/SKILL.md",
+      "source_commit": "c5ba892a1cc3178626577aed1dbde5e62a82f1ac",
+      "content_sha256": "c42a73ef40f9a3b6906e2b2713638065ffaf1ffc14fab9d9174a04eefa8aaa2d",
+      "reviewed_at": "2026-11-21",
+      "review_basis": "重新读取当前公开 HEAD；SKILL.md 哈希与已审核版本一致。",
+      "previous_source_commit": "c5ba892a1cc3178626577aed1dbde5e62a82f1ac",
+      "previous_content_sha256": "c42a73ef40f9a3b6906e2b2713638065ffaf1ffc14fab9d9174a04eefa8aaa2d"
+    },
+    {
+      "repo": "nexscope-ai/eCommerce-Skills",
+      "path": "tiktok-shop-inventory/SKILL.md",
+      "source_commit": "c5ba892a1cc3178626577aed1dbde5e62a82f1ac",
+      "content_sha256": "51cc08897680d046ab8b8505efc9f12749e92cd2f19e139a99da251c67b5b292",
+      "reviewed_at": "2026-11-21",
+      "review_basis": "重新读取当前公开 HEAD；SKILL.md 哈希与已审核版本一致。",
+      "previous_source_commit": "c5ba892a1cc3178626577aed1dbde5e62a82f1ac",
+      "previous_content_sha256": "51cc08897680d046ab8b8505efc9f12749e92cd2f19e139a99da251c67b5b292"
+    },
+    {
+      "repo": "nexscope-ai/eCommerce-Skills",
+      "path": "tiktok-shop-customer-service/SKILL.md",
+      "source_commit": "c5ba892a1cc3178626577aed1dbde5e62a82f1ac",
+      "content_sha256": "43453045474d812e4dd2fe36b9ac995bf586362730fe5f7d5be82260f6fc43cc",
+      "reviewed_at": "2026-11-21",
+      "review_basis": "重新读取当前公开 HEAD；SKILL.md 哈希与已审核版本一致。",
+      "previous_source_commit": "c5ba892a1cc3178626577aed1dbde5e62a82f1ac",
+      "previous_content_sha256": "43453045474d812e4dd2fe36b9ac995bf586362730fe5f7d5be82260f6fc43cc"
+    },
+    {
+      "repo": "nexscope-ai/eCommerce-Skills",
+      "path": "product-differentiation/product-differentiation-amazon/SKILL.md",
+      "source_commit": "c5ba892a1cc3178626577aed1dbde5e62a82f1ac",
+      "content_sha256": "95874f8d90952f9f7af0bd55d2038f1a33a30d832150cabccbd0bd65154b5b13",
+      "reviewed_at": "2026-11-21",
+      "review_basis": "重新读取当前公开 HEAD；SKILL.md 哈希与已审核版本一致。",
+      "previous_source_commit": "c5ba892a1cc3178626577aed1dbde5e62a82f1ac",
+      "previous_content_sha256": "95874f8d90952f9f7af0bd55d2038f1a33a30d832150cabccbd0bd65154b5b13"
+    },
+    {
+      "repo": "nexscope-ai/eCommerce-Skills",
+      "path": "profit-margin-calculator/profit-margin-calculator-amazon/SKILL.md",
+      "source_commit": "c5ba892a1cc3178626577aed1dbde5e62a82f1ac",
+      "content_sha256": "f4386322b573b5cfd1a8b250734400f07c1ce6b7d73482640a964fe5a0706e29",
+      "reviewed_at": "2026-11-21",
+      "review_basis": "重新读取当前公开 HEAD；SKILL.md 哈希与已审核版本一致。",
+      "previous_source_commit": "c5ba892a1cc3178626577aed1dbde5e62a82f1ac",
+      "previous_content_sha256": "f4386322b573b5cfd1a8b250734400f07c1ce6b7d73482640a964fe5a0706e29"
+    },
+    {
+      "repo": "nexscope-ai/eCommerce-Skills",
+      "path": "supply-chain-optimization/supply-chain-optimization-amazon/SKILL.md",
+      "source_commit": "c5ba892a1cc3178626577aed1dbde5e62a82f1ac",
+      "content_sha256": "5d0024dbcfe4f2fddaa270af3a1e09cbdd0a409e00eb4c8a370615002b044c10",
+      "reviewed_at": "2026-11-21",
+      "review_basis": "重新读取当前公开 HEAD；SKILL.md 哈希与已审核版本一致。",
+      "previous_source_commit": "c5ba892a1cc3178626577aed1dbde5e62a82f1ac",
+      "previous_content_sha256": "5d0024dbcfe4f2fddaa270af3a1e09cbdd0a409e00eb4c8a370615002b044c10"
+    },
+    {
+      "repo": "nexscope-ai/eCommerce-Skills",
+      "path": "review-checker/amazon-review-checker/SKILL.md",
+      "source_commit": "c5ba892a1cc3178626577aed1dbde5e62a82f1ac",
+      "content_sha256": "31f9d556505c94189e3b562931a6f09aeb070fbd7df40b96380ab48d18cee51a",
+      "reviewed_at": "2026-11-21",
+      "review_basis": "重新读取当前公开 HEAD；SKILL.md 哈希与已审核版本一致。",
+      "previous_source_commit": "c5ba892a1cc3178626577aed1dbde5e62a82f1ac",
+      "previous_content_sha256": "31f9d556505c94189e3b562931a6f09aeb070fbd7df40b96380ab48d18cee51a"
+    },
+    {
+      "repo": "nexscope-ai/eCommerce-Skills",
+      "path": "shopify-email-flows/SKILL.md",
+      "source_commit": "c5ba892a1cc3178626577aed1dbde5e62a82f1ac",
+      "content_sha256": "cb109726b4368d16e32b8610b1bc8ef5dfc707e608acd4bc0ad088bec9ebcaed",
+      "reviewed_at": "2026-11-21",
+      "review_basis": "重新读取当前公开 HEAD；SKILL.md 哈希与已审核版本一致。",
+      "previous_source_commit": "c5ba892a1cc3178626577aed1dbde5e62a82f1ac",
+      "previous_content_sha256": "cb109726b4368d16e32b8610b1bc8ef5dfc707e608acd4bc0ad088bec9ebcaed"
+    },
+    {
+      "repo": "nexscope-ai/eCommerce-Skills",
+      "path": "shopify-product-photography-guide/SKILL.md",
+      "source_commit": "c5ba892a1cc3178626577aed1dbde5e62a82f1ac",
+      "content_sha256": "1387107fd2ee89595816b1a7eb58e19763c216fba52251292c9fa20fe0e53882",
+      "reviewed_at": "2026-11-21",
+      "review_basis": "重新读取当前公开 HEAD；SKILL.md 哈希与已审核版本一致。",
+      "previous_source_commit": "c5ba892a1cc3178626577aed1dbde5e62a82f1ac",
+      "previous_content_sha256": "1387107fd2ee89595816b1a7eb58e19763c216fba52251292c9fa20fe0e53882"
+    },
+    {
+      "repo": "nexscope-ai/eCommerce-Skills",
+      "path": "ecommerce-competitor-analysis/SKILL.md",
+      "source_commit": "c5ba892a1cc3178626577aed1dbde5e62a82f1ac",
+      "content_sha256": "e65bce6c2c1daab8c78be201ca83a0fe8ad67ccd0072c667329dcb2e55c5ed08",
+      "reviewed_at": "2026-11-21",
+      "review_basis": "重新读取当前公开 HEAD；SKILL.md 哈希与已审核版本一致。",
+      "previous_source_commit": "c5ba892a1cc3178626577aed1dbde5e62a82f1ac",
+      "previous_content_sha256": "e65bce6c2c1daab8c78be201ca83a0fe8ad67ccd0072c667329dcb2e55c5ed08"
+    },
+    {
+      "repo": "nexscope-ai/eCommerce-Skills",
+      "path": "product-description-generator/SKILL.md",
+      "source_commit": "c5ba892a1cc3178626577aed1dbde5e62a82f1ac",
+      "content_sha256": "2c868d8c6d436d2f10c48da44ae92ae76aa1e68cb5dcc0ca4122c9ee4beccc69",
+      "reviewed_at": "2026-11-21",
+      "review_basis": "重新读取当前公开 HEAD；SKILL.md 哈希与已审核版本一致。",
+      "previous_source_commit": "c5ba892a1cc3178626577aed1dbde5e62a82f1ac",
+      "previous_content_sha256": "2c868d8c6d436d2f10c48da44ae92ae76aa1e68cb5dcc0ca4122c9ee4beccc69"
+    },
+    {
+      "repo": "nexscope-ai/eCommerce-Skills",
+      "path": "product-title-optimization/SKILL.md",
+      "source_commit": "c5ba892a1cc3178626577aed1dbde5e62a82f1ac",
+      "content_sha256": "49f35dabe9d611c401e2f80bba1a1beb3043dfc87725fa4c86d34bee51194654",
+      "reviewed_at": "2026-11-21",
+      "review_basis": "重新读取当前公开 HEAD；SKILL.md 哈希与已审核版本一致。",
+      "previous_source_commit": "c5ba892a1cc3178626577aed1dbde5e62a82f1ac",
+      "previous_content_sha256": "49f35dabe9d611c401e2f80bba1a1beb3043dfc87725fa4c86d34bee51194654"
+    },
+    {
+      "repo": "nexscope-ai/eCommerce-Skills",
+      "path": "ecommerce-ppc-strategy-planner/SKILL.md",
+      "source_commit": "c5ba892a1cc3178626577aed1dbde5e62a82f1ac",
+      "content_sha256": "97c82cf843b8d03aa4e07beacec9815f8ee4d06d599430b930fc23f520b037fa",
+      "reviewed_at": "2026-11-21",
+      "review_basis": "重新读取当前公开 HEAD；SKILL.md 哈希与已审核版本一致。",
+      "previous_source_commit": "c5ba892a1cc3178626577aed1dbde5e62a82f1ac",
+      "previous_content_sha256": "97c82cf843b8d03aa4e07beacec9815f8ee4d06d599430b930fc23f520b037fa"
+    },
+    {
+      "repo": "nexscope-ai/eCommerce-Skills",
+      "path": "warehouse-optimization/SKILL.md",
+      "source_commit": "c5ba892a1cc3178626577aed1dbde5e62a82f1ac",
+      "content_sha256": "18aa38e15cce301cead9eed5f8f8dcbfba50517f2026bab0d0481371a712b9ce",
+      "reviewed_at": "2026-11-21",
+      "review_basis": "重新读取当前公开 HEAD；SKILL.md 哈希与已审核版本一致。",
+      "previous_source_commit": "c5ba892a1cc3178626577aed1dbde5e62a82f1ac",
+      "previous_content_sha256": "18aa38e15cce301cead9eed5f8f8dcbfba50517f2026bab0d0481371a712b9ce"
+    },
+    {
+      "repo": "nexscope-ai/eCommerce-Skills",
+      "path": "etsy-product-description/SKILL.md",
+      "source_commit": "c5ba892a1cc3178626577aed1dbde5e62a82f1ac",
+      "content_sha256": "731b59ef4f0c2223322a876c3009e7db41ae96ab7bfa1f74779233295fcc9dee",
+      "reviewed_at": "2026-11-21",
+      "review_basis": "重新读取当前公开 HEAD；SKILL.md 哈希与已审核版本一致。",
+      "previous_source_commit": "c5ba892a1cc3178626577aed1dbde5e62a82f1ac",
+      "previous_content_sha256": "731b59ef4f0c2223322a876c3009e7db41ae96ab7bfa1f74779233295fcc9dee"
+    },
+    {
+      "repo": "nexscope-ai/eCommerce-Skills",
+      "path": "walmart-listing-optimization/SKILL.md",
+      "source_commit": "c5ba892a1cc3178626577aed1dbde5e62a82f1ac",
+      "content_sha256": "91332a9ebe822bb2c5757a4243cd5908390c19ae9e2dd76cd70c70b625f5e025",
+      "reviewed_at": "2026-11-21",
+      "review_basis": "重新读取当前公开 HEAD；SKILL.md 哈希与已审核版本一致。",
+      "previous_source_commit": "c5ba892a1cc3178626577aed1dbde5e62a82f1ac",
+      "previous_content_sha256": "91332a9ebe822bb2c5757a4243cd5908390c19ae9e2dd76cd70c70b625f5e025"
+    },
+    {
+      "repo": "coreyhaines31/marketingskills",
+      "path": "skills/seo-audit/SKILL.md",
+      "source_commit": "5b2b400eec1e7e1cec76245a715d0b0d4fd2a9c1",
+      "content_sha256": "edad34843d2c97a2380c4ee421efb6ce98414bf52660dbe8cec49b8b73acc393",
+      "reviewed_at": "2026-11-21",
+      "review_basis": "比较本轮公开固定提交中的 SKILL.md；用途、依赖和授权边界的差异已核对。",
+      "previous_source_commit": "1f837447b20bb6f0e72d87b80ece1c221c362c7d",
+      "previous_content_sha256": "fb345045339bb0645029c1c0d682703d262f045a7184fe96cb0e13f509468e2a"
+    },
+    {
+      "repo": "coreyhaines31/marketingskills",
+      "path": "skills/copywriting/SKILL.md",
+      "source_commit": "5b2b400eec1e7e1cec76245a715d0b0d4fd2a9c1",
+      "content_sha256": "86dc0466493e8ac59ab17a8f28fd1403e2a322921ed2a8f96b2d0c442ad99d01",
+      "reviewed_at": "2026-11-21",
+      "review_basis": "比较本轮公开固定提交中的 SKILL.md；用途、依赖和授权边界的差异已核对。",
+      "previous_source_commit": "1f837447b20bb6f0e72d87b80ece1c221c362c7d",
+      "previous_content_sha256": "1db2f6e51f0492f5efc646b74576721852720dec388e58d0facd2b790c01bb4e"
+    },
+    {
+      "repo": "coreyhaines31/marketingskills",
+      "path": "skills/ads/SKILL.md",
+      "source_commit": "5b2b400eec1e7e1cec76245a715d0b0d4fd2a9c1",
+      "content_sha256": "abed4d7d69b8dad1de41927d36ae249c63fe86aa302cbda5113c0c4ab4263f79",
+      "reviewed_at": "2026-11-21",
+      "review_basis": "比较本轮公开固定提交中的 SKILL.md；用途、依赖和授权边界的差异已核对。",
+      "previous_source_commit": "1f837447b20bb6f0e72d87b80ece1c221c362c7d",
+      "previous_content_sha256": "2d57d64ddbc60aa596ba855ba927d05eb0f19436f13f4befcf4e8aad453ad521"
+    },
+    {
+      "repo": "coreyhaines31/marketingskills",
+      "path": "skills/ad-creative/SKILL.md",
+      "source_commit": "5b2b400eec1e7e1cec76245a715d0b0d4fd2a9c1",
+      "content_sha256": "3bbdaafe85e7be03eb8501919eafbc804dbf6052c1597d3afff7756c1d72667f",
+      "reviewed_at": "2026-11-21",
+      "review_basis": "比较本轮公开固定提交中的 SKILL.md；用途、依赖和授权边界的差异已核对。",
+      "previous_source_commit": "1f837447b20bb6f0e72d87b80ece1c221c362c7d",
+      "previous_content_sha256": "152bba221b0f25ee0d5068dbe9818bf44fa114353e42ae756b41c97fc325c86f"
+    },
+    {
+      "repo": "coreyhaines31/marketingskills",
+      "path": "skills/emails/SKILL.md",
+      "source_commit": "5b2b400eec1e7e1cec76245a715d0b0d4fd2a9c1",
+      "content_sha256": "5687682141748000282747e85ef6501c0ad4c78731e138afc9b712ebb91ae750",
+      "reviewed_at": "2026-11-21",
+      "review_basis": "比较本轮公开固定提交中的 SKILL.md；用途、依赖和授权边界的差异已核对。",
+      "previous_source_commit": "1f837447b20bb6f0e72d87b80ece1c221c362c7d",
+      "previous_content_sha256": "47769dd5085b8f32c1ab276d7c19b95e2919fc4de699c3823ceaea48809edfcc"
+    },
+    {
+      "repo": "coreyhaines31/marketingskills",
+      "path": "skills/cro/SKILL.md",
+      "source_commit": "5b2b400eec1e7e1cec76245a715d0b0d4fd2a9c1",
+      "content_sha256": "0f8588aba125de102498ca3bbaa0151c8ebffa0a7ad85c14d992ef16db02fb2d",
+      "reviewed_at": "2026-11-21",
+      "review_basis": "重新读取当前公开 HEAD；SKILL.md 哈希与已审核版本一致。",
+      "previous_source_commit": "1f837447b20bb6f0e72d87b80ece1c221c362c7d",
+      "previous_content_sha256": "0f8588aba125de102498ca3bbaa0151c8ebffa0a7ad85c14d992ef16db02fb2d"
+    },
+    {
+      "repo": "coreyhaines31/marketingskills",
+      "path": "skills/content-strategy/SKILL.md",
+      "source_commit": "5b2b400eec1e7e1cec76245a715d0b0d4fd2a9c1",
+      "content_sha256": "6bc1c8df711a6c9466e312dca9c99a895bd76989b7a52d0f39dca340db3bc5f5",
+      "reviewed_at": "2026-11-21",
+      "review_basis": "重新读取当前公开 HEAD；SKILL.md 哈希与已审核版本一致。",
+      "previous_source_commit": "1f837447b20bb6f0e72d87b80ece1c221c362c7d",
+      "previous_content_sha256": "6bc1c8df711a6c9466e312dca9c99a895bd76989b7a52d0f39dca340db3bc5f5"
+    },
+    {
+      "repo": "coreyhaines31/marketingskills",
+      "path": "skills/influencer-marketing/SKILL.md",
+      "source_commit": "5b2b400eec1e7e1cec76245a715d0b0d4fd2a9c1",
+      "content_sha256": "367e9ee7a88ca9280206858e76d795dc89eaea2a2ddaa6786ece8a089c11e4e5",
+      "reviewed_at": "2026-11-21",
+      "review_basis": "比较本轮公开固定提交中的 SKILL.md；用途、依赖和授权边界的差异已核对。",
+      "previous_source_commit": "1f837447b20bb6f0e72d87b80ece1c221c362c7d",
+      "previous_content_sha256": "8b8e394228e05b770399ae54a852d6e58b40693323fc62b5812d3fd85fa12eeb"
+    },
+    {
+      "repo": "coreyhaines31/marketingskills",
+      "path": "skills/customer-research/SKILL.md",
+      "source_commit": "5b2b400eec1e7e1cec76245a715d0b0d4fd2a9c1",
+      "content_sha256": "d12b522641884acb385f7a919138b5bfbe4ad9b070bd13a470923eebaa682a4f",
+      "reviewed_at": "2026-11-21",
+      "review_basis": "重新读取当前公开 HEAD；SKILL.md 哈希与已审核版本一致。",
+      "previous_source_commit": "1f837447b20bb6f0e72d87b80ece1c221c362c7d",
+      "previous_content_sha256": "d12b522641884acb385f7a919138b5bfbe4ad9b070bd13a470923eebaa682a4f"
+    },
+    {
+      "repo": "coreyhaines31/marketingskills",
+      "path": "skills/pricing/SKILL.md",
+      "source_commit": "5b2b400eec1e7e1cec76245a715d0b0d4fd2a9c1",
+      "content_sha256": "4f0a939631eca1b4bbee22bf6bc88b35ac06c33bfa8e4e837c8767a4bf6f5b54",
+      "reviewed_at": "2026-11-21",
+      "review_basis": "重新读取当前公开 HEAD；SKILL.md 哈希与已审核版本一致。",
+      "previous_source_commit": "1f837447b20bb6f0e72d87b80ece1c221c362c7d",
+      "previous_content_sha256": "4f0a939631eca1b4bbee22bf6bc88b35ac06c33bfa8e4e837c8767a4bf6f5b54"
+    },
+    {
+      "repo": "coreyhaines31/marketingskills",
+      "path": "skills/social/SKILL.md",
+      "source_commit": "5b2b400eec1e7e1cec76245a715d0b0d4fd2a9c1",
+      "content_sha256": "3c367239039ca820a4b5915d6c669a155bb4d52ac303cd34fac5d0795e7517a5",
+      "reviewed_at": "2026-11-21",
+      "review_basis": "比较本轮公开固定提交中的 SKILL.md；用途、依赖和授权边界的差异已核对。",
+      "previous_source_commit": "1f837447b20bb6f0e72d87b80ece1c221c362c7d",
+      "previous_content_sha256": "2e259195e4e72e475609feebaae810a386f4e2896a1889af62f7f158a8fecd79"
+    },
+    {
+      "repo": "coreyhaines31/marketingskills",
+      "path": "skills/conversion-tracking/SKILL.md",
+      "source_commit": "5b2b400eec1e7e1cec76245a715d0b0d4fd2a9c1",
+      "content_sha256": "84a702f8583d468e039c6b53201b4189e895dde30a40883bffdee37f65d704b9",
+      "reviewed_at": "2026-11-21",
+      "review_basis": "重新读取当前公开 HEAD；SKILL.md 哈希与已审核版本一致。",
+      "previous_source_commit": "1f837447b20bb6f0e72d87b80ece1c221c362c7d",
+      "previous_content_sha256": "84a702f8583d468e039c6b53201b4189e895dde30a40883bffdee37f65d704b9"
+    },
+    {
+      "repo": "sadrmanesh/commerce-agent-skills",
+      "path": "skills/shopify-app-development/SKILL.md",
+      "source_commit": "308c909ab16125f20cecc37ce3153af4123b237d",
+      "content_sha256": "dccb273199c7263aa52cf80b22d10fc7a960942ca4327249f3b751cdd7a29772",
+      "reviewed_at": "2026-11-21",
+      "review_basis": "重新读取当前公开 HEAD；SKILL.md 哈希与已审核版本一致。",
+      "previous_source_commit": "308c909ab16125f20cecc37ce3153af4123b237d",
+      "previous_content_sha256": "dccb273199c7263aa52cf80b22d10fc7a960942ca4327249f3b751cdd7a29772"
+    },
+    {
+      "repo": "sadrmanesh/commerce-agent-skills",
+      "path": "skills/woocommerce-rest-api/SKILL.md",
+      "source_commit": "308c909ab16125f20cecc37ce3153af4123b237d",
+      "content_sha256": "8b380de7adff1003849684f745c2e584ebf72c93cb52defcecb6f7dfa751db12",
+      "reviewed_at": "2026-11-21",
+      "review_basis": "重新读取当前公开 HEAD；SKILL.md 哈希与已审核版本一致。",
+      "previous_source_commit": "308c909ab16125f20cecc37ce3153af4123b237d",
+      "previous_content_sha256": "8b380de7adff1003849684f745c2e584ebf72c93cb52defcecb6f7dfa751db12"
+    },
+    {
+      "repo": "sadrmanesh/commerce-agent-skills",
+      "path": "skills/checkout-ux-and-conversion/SKILL.md",
+      "source_commit": "308c909ab16125f20cecc37ce3153af4123b237d",
+      "content_sha256": "726bc0fe75899fe94fd3c9ab36153ee00b531c92a731fea89f726155f8954cd7",
+      "reviewed_at": "2026-11-21",
+      "review_basis": "重新读取当前公开 HEAD；SKILL.md 哈希与已审核版本一致。",
+      "previous_source_commit": "308c909ab16125f20cecc37ce3153af4123b237d",
+      "previous_content_sha256": "726bc0fe75899fe94fd3c9ab36153ee00b531c92a731fea89f726155f8954cd7"
+    },
+    {
+      "repo": "sadrmanesh/commerce-agent-skills",
+      "path": "skills/ecommerce-seo-structured-data/SKILL.md",
+      "source_commit": "308c909ab16125f20cecc37ce3153af4123b237d",
+      "content_sha256": "2e09c2973b71072c02bbec28521f3b619f3e25a324222826c8be761f1a7888df",
+      "reviewed_at": "2026-11-21",
+      "review_basis": "重新读取当前公开 HEAD；SKILL.md 哈希与已审核版本一致。",
+      "previous_source_commit": "308c909ab16125f20cecc37ce3153af4123b237d",
+      "previous_content_sha256": "2e09c2973b71072c02bbec28521f3b619f3e25a324222826c8be761f1a7888df"
+    },
+    {
+      "repo": "sadrmanesh/commerce-agent-skills",
+      "path": "skills/google-merchant-product-feeds/SKILL.md",
+      "source_commit": "308c909ab16125f20cecc37ce3153af4123b237d",
+      "content_sha256": "8ce7c4adda37a92b588c40f085c8a13c1f5a82e9ae695034f7e3ff8f0206ed75",
+      "reviewed_at": "2026-11-21",
+      "review_basis": "重新读取当前公开 HEAD；SKILL.md 哈希与已审核版本一致。",
+      "previous_source_commit": "308c909ab16125f20cecc37ce3153af4123b237d",
+      "previous_content_sha256": "8ce7c4adda37a92b588c40f085c8a13c1f5a82e9ae695034f7e3ff8f0206ed75"
+    },
+    {
+      "repo": "sadrmanesh/commerce-agent-skills",
+      "path": "skills/inventory-and-multi-warehouse/SKILL.md",
+      "source_commit": "308c909ab16125f20cecc37ce3153af4123b237d",
+      "content_sha256": "9a5661f29a66a13f95999df076ebbfbbda3faec73c6931b5c07213fd9f0ba996",
+      "reviewed_at": "2026-11-21",
+      "review_basis": "重新读取当前公开 HEAD；SKILL.md 哈希与已审核版本一致。",
+      "previous_source_commit": "308c909ab16125f20cecc37ce3153af4123b237d",
+      "previous_content_sha256": "9a5661f29a66a13f95999df076ebbfbbda3faec73c6931b5c07213fd9f0ba996"
+    },
+    {
+      "repo": "sadrmanesh/commerce-agent-skills",
+      "path": "skills/catalog-import-and-migration/SKILL.md",
+      "source_commit": "308c909ab16125f20cecc37ce3153af4123b237d",
+      "content_sha256": "b3795cd21268cc5316e675c046c264a20c0907013c5c94ca7eb011cc8859360e",
+      "reviewed_at": "2026-11-21",
+      "review_basis": "重新读取当前公开 HEAD；SKILL.md 哈希与已审核版本一致。",
+      "previous_source_commit": "308c909ab16125f20cecc37ce3153af4123b237d",
+      "previous_content_sha256": "b3795cd21268cc5316e675c046c264a20c0907013c5c94ca7eb011cc8859360e"
+    },
+    {
+      "repo": "sadrmanesh/commerce-agent-skills",
+      "path": "skills/returns-and-refunds/SKILL.md",
+      "source_commit": "308c909ab16125f20cecc37ce3153af4123b237d",
+      "content_sha256": "937cea565b87da24bd500860b0e320dea9dc289541314d9b5ed1f8c2c0e48f5c",
+      "reviewed_at": "2026-11-21",
+      "review_basis": "重新读取当前公开 HEAD；SKILL.md 哈希与已审核版本一致。",
+      "previous_source_commit": "308c909ab16125f20cecc37ce3153af4123b237d",
+      "previous_content_sha256": "937cea565b87da24bd500860b0e320dea9dc289541314d9b5ed1f8c2c0e48f5c"
+    },
+    {
+      "repo": "sadrmanesh/commerce-agent-skills",
+      "path": "skills/storefront-accessibility/SKILL.md",
+      "source_commit": "308c909ab16125f20cecc37ce3153af4123b237d",
+      "content_sha256": "6405be61c8986b7088859089625c33419b3d868d887fa1a864d64b2f7c265072",
+      "reviewed_at": "2026-11-21",
+      "review_basis": "重新读取当前公开 HEAD；SKILL.md 哈希与已审核版本一致。",
+      "previous_source_commit": "308c909ab16125f20cecc37ce3153af4123b237d",
+      "previous_content_sha256": "6405be61c8986b7088859089625c33419b3d868d887fa1a864d64b2f7c265072"
+    },
+    {
+      "repo": "sadrmanesh/commerce-agent-skills",
+      "path": "skills/storefront-performance/SKILL.md",
+      "source_commit": "308c909ab16125f20cecc37ce3153af4123b237d",
+      "content_sha256": "1233c9dfe6fc53b1dbe8549098b441080a824a528adb02219b0f7fa8ba572a64",
+      "reviewed_at": "2026-11-21",
+      "review_basis": "重新读取当前公开 HEAD；SKILL.md 哈希与已审核版本一致。",
+      "previous_source_commit": "308c909ab16125f20cecc37ce3153af4123b237d",
+      "previous_content_sha256": "1233c9dfe6fc53b1dbe8549098b441080a824a528adb02219b0f7fa8ba572a64"
+    },
+    {
+      "repo": "proskillpacks/shopify-store-skills",
+      "path": "skills/shopify-alt-text-writer/SKILL.md",
+      "source_commit": "aadcb3a581a1c2e5204f3c4cc22468dc6c902674",
+      "content_sha256": "6b2462f43eb6808ffc431beec0f271f240e7c97d5cd002ce280b6caa369fe8b9",
+      "reviewed_at": "2026-11-21",
+      "review_basis": "重新读取当前公开 HEAD；SKILL.md 哈希与已审核版本一致。",
+      "previous_source_commit": "aadcb3a581a1c2e5204f3c4cc22468dc6c902674",
+      "previous_content_sha256": "6b2462f43eb6808ffc431beec0f271f240e7c97d5cd002ce280b6caa369fe8b9"
+    },
+    {
+      "repo": "proskillpacks/shopify-store-skills",
+      "path": "skills/product-title-cleaner/SKILL.md",
+      "source_commit": "aadcb3a581a1c2e5204f3c4cc22468dc6c902674",
+      "content_sha256": "151ab824ce6a08f44ab6b35ddf0265a9719f1460840a7f46f860e39667f07171",
+      "reviewed_at": "2026-11-21",
+      "review_basis": "重新读取当前公开 HEAD；SKILL.md 哈希与已审核版本一致。",
+      "previous_source_commit": "aadcb3a581a1c2e5204f3c4cc22468dc6c902674",
+      "previous_content_sha256": "151ab824ce6a08f44ab6b35ddf0265a9719f1460840a7f46f860e39667f07171"
+    },
+    {
+      "repo": "proskillpacks/shopify-store-skills",
+      "path": "skills/review-reply-drafter/SKILL.md",
+      "source_commit": "aadcb3a581a1c2e5204f3c4cc22468dc6c902674",
+      "content_sha256": "709f482d04b1fe55d3df3307e290f6edf455147c3e74297d83d6f8a3d6183490",
+      "reviewed_at": "2026-11-21",
+      "review_basis": "重新读取当前公开 HEAD；SKILL.md 哈希与已审核版本一致。",
+      "previous_source_commit": "aadcb3a581a1c2e5204f3c4cc22468dc6c902674",
+      "previous_content_sha256": "709f482d04b1fe55d3df3307e290f6edf455147c3e74297d83d6f8a3d6183490"
+    },
+    {
+      "repo": "proskillpacks/shopify-store-skills",
+      "path": "skills/shopify-policy-checker/SKILL.md",
+      "source_commit": "aadcb3a581a1c2e5204f3c4cc22468dc6c902674",
+      "content_sha256": "c37762e78c01864b287db6e333abff24dd000e242dcd5fde190ac6f2acb71e32",
+      "reviewed_at": "2026-11-21",
+      "review_basis": "重新读取当前公开 HEAD；SKILL.md 哈希与已审核版本一致。",
+      "previous_source_commit": "aadcb3a581a1c2e5204f3c4cc22468dc6c902674",
+      "previous_content_sha256": "c37762e78c01864b287db6e333abff24dd000e242dcd5fde190ac6f2acb71e32"
+    },
+    {
+      "repo": "proskillpacks/shopify-store-skills",
+      "path": "skills/agent-ready-quick-check/SKILL.md",
+      "source_commit": "aadcb3a581a1c2e5204f3c4cc22468dc6c902674",
+      "content_sha256": "20a2ca343eb5843d149a40f3d56c087f245a5dfc8ddd789eb60030e988e29cad",
+      "reviewed_at": "2026-11-21",
+      "review_basis": "重新读取当前公开 HEAD；SKILL.md 哈希与已审核版本一致。",
+      "previous_source_commit": "aadcb3a581a1c2e5204f3c4cc22468dc6c902674",
+      "previous_content_sha256": "20a2ca343eb5843d149a40f3d56c087f245a5dfc8ddd789eb60030e988e29cad"
+    },
+    {
+      "repo": "linkfox-ai/linkfox-skills",
+      "path": "skills/linkfox-dld-product-search/SKILL.md",
+      "source_commit": "57465352b58c1e978d1e25e004fb3540f1954df9",
+      "content_sha256": "4f9cffde72c3f97b81694ece2d9ae9dc7e67d809fc3b902a3dc2401fe46b3f15",
+      "reviewed_at": "2026-11-21",
+      "review_basis": "重新读取当前公开 HEAD；SKILL.md 哈希与已审核版本一致。",
+      "previous_source_commit": "873c9327d6d49695ba8ff1ef131bcd6d85a8b437",
+      "previous_content_sha256": "4f9cffde72c3f97b81694ece2d9ae9dc7e67d809fc3b902a3dc2401fe46b3f15"
+    },
+    {
+      "repo": "linkfox-ai/linkfox-skills",
+      "path": "skills/linkfox-1688-search-by-image/SKILL.md",
+      "source_commit": "57465352b58c1e978d1e25e004fb3540f1954df9",
+      "content_sha256": "f99e02d56eacbf68d8f0d16e0ea18893b1ccd8f78413a137e84025643c209ac5",
+      "reviewed_at": "2026-11-21",
+      "review_basis": "重新读取当前公开 HEAD；SKILL.md 哈希与已审核版本一致。",
+      "previous_source_commit": "873c9327d6d49695ba8ff1ef131bcd6d85a8b437",
+      "previous_content_sha256": "f99e02d56eacbf68d8f0d16e0ea18893b1ccd8f78413a137e84025643c209ac5"
+    },
+    {
+      "repo": "linkfox-ai/linkfox-skills",
+      "path": "skills/linkfox-1688-product-detail/SKILL.md",
+      "source_commit": "57465352b58c1e978d1e25e004fb3540f1954df9",
+      "content_sha256": "a175d104e06256656f94f6480f34483246797a76a6ac647b44d8904e105c2c63",
+      "reviewed_at": "2026-11-21",
+      "review_basis": "重新读取当前公开 HEAD；SKILL.md 哈希与已审核版本一致。",
+      "previous_source_commit": "873c9327d6d49695ba8ff1ef131bcd6d85a8b437",
+      "previous_content_sha256": "a175d104e06256656f94f6480f34483246797a76a6ac647b44d8904e105c2c63"
+    },
+    {
+      "repo": "linkfox-ai/linkfox-skills",
+      "path": "skills/linkfox-1688-procurement/SKILL.md",
+      "source_commit": "57465352b58c1e978d1e25e004fb3540f1954df9",
+      "content_sha256": "86c7dbc3ed415ade91927fd4fd39d588aa7c52056fe3309bebab3ed65326f4e7",
+      "reviewed_at": "2026-11-21",
+      "review_basis": "重新读取当前公开 HEAD；SKILL.md 哈希与已审核版本一致。",
+      "previous_source_commit": "873c9327d6d49695ba8ff1ef131bcd6d85a8b437",
+      "previous_content_sha256": "86c7dbc3ed415ade91927fd4fd39d588aa7c52056fe3309bebab3ed65326f4e7"
+    },
+    {
+      "repo": "linkfox-ai/linkfox-skills",
+      "path": "skills/linkfox-amazon-search/SKILL.md",
+      "source_commit": "57465352b58c1e978d1e25e004fb3540f1954df9",
+      "content_sha256": "3b3bc895339525427fc800fdf4aeeb5b0109d3fd340390d928334e6358dcd4ec",
+      "reviewed_at": "2026-11-21",
+      "review_basis": "重新读取当前公开 HEAD；SKILL.md 哈希与已审核版本一致。",
+      "previous_source_commit": "873c9327d6d49695ba8ff1ef131bcd6d85a8b437",
+      "previous_content_sha256": "3b3bc895339525427fc800fdf4aeeb5b0109d3fd340390d928334e6358dcd4ec"
+    },
+    {
+      "repo": "linkfox-ai/linkfox-skills",
+      "path": "skills/linkfox-amazon-reviews-list/SKILL.md",
+      "source_commit": "57465352b58c1e978d1e25e004fb3540f1954df9",
+      "content_sha256": "670b557690ce9e72ec095a38bb70444a260e738db0d131810d97a8d6ea94b3b0",
+      "reviewed_at": "2026-11-21",
+      "review_basis": "重新读取当前公开 HEAD；SKILL.md 哈希与已审核版本一致。",
+      "previous_source_commit": "873c9327d6d49695ba8ff1ef131bcd6d85a8b437",
+      "previous_content_sha256": "670b557690ce9e72ec095a38bb70444a260e738db0d131810d97a8d6ea94b3b0"
+    },
+    {
+      "repo": "linkfox-ai/linkfox-skills",
+      "path": "skills/linkfox-amazon-store-orders/SKILL.md",
+      "source_commit": "57465352b58c1e978d1e25e004fb3540f1954df9",
+      "content_sha256": "dcd4da96dd772699771c0cd216b98a259d9cc3261e618541d7045f13a4325113",
+      "reviewed_at": "2026-11-21",
+      "review_basis": "重新读取当前公开 HEAD；SKILL.md 哈希与已审核版本一致。",
+      "previous_source_commit": "873c9327d6d49695ba8ff1ef131bcd6d85a8b437",
+      "previous_content_sha256": "dcd4da96dd772699771c0cd216b98a259d9cc3261e618541d7045f13a4325113"
+    },
+    {
+      "repo": "linkfox-ai/linkfox-skills",
+      "path": "skills/linkfox-amazon-ads-report/SKILL.md",
+      "source_commit": "57465352b58c1e978d1e25e004fb3540f1954df9",
+      "content_sha256": "5276be72529a0437331d1671f34c5b6363ae554225e40c707623855e1c5fa343",
+      "reviewed_at": "2026-11-21",
+      "review_basis": "重新读取当前公开 HEAD；SKILL.md 哈希与已审核版本一致。",
+      "previous_source_commit": "873c9327d6d49695ba8ff1ef131bcd6d85a8b437",
+      "previous_content_sha256": "5276be72529a0437331d1671f34c5b6363ae554225e40c707623855e1c5fa343"
+    },
+    {
+      "repo": "linkfox-ai/linkfox-skills",
+      "path": "skills/linkfox-chuhaijiang-tiktok-video/SKILL.md",
+      "source_commit": "57465352b58c1e978d1e25e004fb3540f1954df9",
+      "content_sha256": "6e79ca42e609966ba806f5bd785ef93b6cbd96a6048f8c0e4b131498ca49dd4d",
+      "reviewed_at": "2026-11-21",
+      "review_basis": "重新读取当前公开 HEAD；SKILL.md 哈希与已审核版本一致。",
+      "previous_source_commit": "873c9327d6d49695ba8ff1ef131bcd6d85a8b437",
+      "previous_content_sha256": "6e79ca42e609966ba806f5bd785ef93b6cbd96a6048f8c0e4b131498ca49dd4d"
+    },
+    {
+      "repo": "linkfox-ai/linkfox-skills",
+      "path": "skills/linkfox-chuhaijiang-tiktok-creator/SKILL.md",
+      "source_commit": "57465352b58c1e978d1e25e004fb3540f1954df9",
+      "content_sha256": "5d6f9384ec05259242a1b86f62bff15f7206bedda7f2dd1c9ad7dd0a019f693f",
+      "reviewed_at": "2026-11-21",
+      "review_basis": "重新读取当前公开 HEAD；SKILL.md 哈希与已审核版本一致。",
+      "previous_source_commit": "873c9327d6d49695ba8ff1ef131bcd6d85a8b437",
+      "previous_content_sha256": "5d6f9384ec05259242a1b86f62bff15f7206bedda7f2dd1c9ad7dd0a019f693f"
+    },
+    {
+      "repo": "linkfox-ai/linkfox-skills",
+      "path": "skills/linkfox-geekbi-temu-product/SKILL.md",
+      "source_commit": "57465352b58c1e978d1e25e004fb3540f1954df9",
+      "content_sha256": "43fc974088fc4346a6e262e87fcc10974b5ee18fe23e844f0abe5bc1c268c01d",
+      "reviewed_at": "2026-11-21",
+      "review_basis": "重新读取当前公开 HEAD；SKILL.md 哈希与已审核版本一致。",
+      "previous_source_commit": "873c9327d6d49695ba8ff1ef131bcd6d85a8b437",
+      "previous_content_sha256": "43fc974088fc4346a6e262e87fcc10974b5ee18fe23e844f0abe5bc1c268c01d"
+    },
+    {
+      "repo": "linkfox-ai/linkfox-skills",
+      "path": "skills/linkfox-geekbi-temu-market-research/SKILL.md",
+      "source_commit": "57465352b58c1e978d1e25e004fb3540f1954df9",
+      "content_sha256": "fef8dbd54479ceeb701d92c2fec42fdfd4711d537e1417c42f35a5ecf54040b5",
+      "reviewed_at": "2026-11-21",
+      "review_basis": "重新读取当前公开 HEAD；SKILL.md 哈希与已审核版本一致。",
+      "previous_source_commit": "873c9327d6d49695ba8ff1ef131bcd6d85a8b437",
+      "previous_content_sha256": "fef8dbd54479ceeb701d92c2fec42fdfd4711d537e1417c42f35a5ecf54040b5"
+    },
+    {
+      "repo": "linkfox-ai/linkfox-skills",
+      "path": "skills/linkfox-temu-order-us/SKILL.md",
+      "source_commit": "57465352b58c1e978d1e25e004fb3540f1954df9",
+      "content_sha256": "ab1a76cd057ff5fd4d5baa4b1e304e5035b7634f8ec0a38c924879cdcc1c4f71",
+      "reviewed_at": "2026-11-21",
+      "review_basis": "重新读取当前公开 HEAD；SKILL.md 哈希与已审核版本一致。",
+      "previous_source_commit": "873c9327d6d49695ba8ff1ef131bcd6d85a8b437",
+      "previous_content_sha256": "ab1a76cd057ff5fd4d5baa4b1e304e5035b7634f8ec0a38c924879cdcc1c4f71"
+    },
+    {
+      "repo": "linkfox-ai/linkfox-skills",
+      "path": "skills/linkfox-shopee-product-detail/SKILL.md",
+      "source_commit": "57465352b58c1e978d1e25e004fb3540f1954df9",
+      "content_sha256": "411b46af0bd77dbc9650e9fd9b45fb9d89fa206d54e14a7637d11f78c76f5d03",
+      "reviewed_at": "2026-11-21",
+      "review_basis": "重新读取当前公开 HEAD；SKILL.md 哈希与已审核版本一致。",
+      "previous_source_commit": "873c9327d6d49695ba8ff1ef131bcd6d85a8b437",
+      "previous_content_sha256": "411b46af0bd77dbc9650e9fd9b45fb9d89fa206d54e14a7637d11f78c76f5d03"
+    },
+    {
+      "repo": "linkfox-ai/linkfox-skills",
+      "path": "skills/linkfox-shopee-store-orders/SKILL.md",
+      "source_commit": "57465352b58c1e978d1e25e004fb3540f1954df9",
+      "content_sha256": "9ec9ef7875541ae1727d4b24473ee8c67a68c1bcf82deb6d466a9fac303f1c01",
+      "reviewed_at": "2026-11-21",
+      "review_basis": "重新读取当前公开 HEAD；SKILL.md 哈希与已审核版本一致。",
+      "previous_source_commit": "873c9327d6d49695ba8ff1ef131bcd6d85a8b437",
+      "previous_content_sha256": "9ec9ef7875541ae1727d4b24473ee8c67a68c1bcf82deb6d466a9fac303f1c01"
+    },
+    {
+      "repo": "linkfox-ai/linkfox-skills",
+      "path": "skills/linkfox-lazada-store-orders/SKILL.md",
+      "source_commit": "57465352b58c1e978d1e25e004fb3540f1954df9",
+      "content_sha256": "8e4c11433b33636751002c624017a281d3e6b5a9397f452cf2a254de4749e52d",
+      "reviewed_at": "2026-11-21",
+      "review_basis": "重新读取当前公开 HEAD；SKILL.md 哈希与已审核版本一致。",
+      "previous_source_commit": "873c9327d6d49695ba8ff1ef131bcd6d85a8b437",
+      "previous_content_sha256": "8e4c11433b33636751002c624017a281d3e6b5a9397f452cf2a254de4749e52d"
+    },
+    {
+      "repo": "linkfox-ai/linkfox-skills",
+      "path": "skills/linkfox-mpstats-ozon-product-search/SKILL.md",
+      "source_commit": "57465352b58c1e978d1e25e004fb3540f1954df9",
+      "content_sha256": "c2f9af98015808a99f26061b731a5469286b19af2df887d29b81c4153619bde6",
+      "reviewed_at": "2026-11-21",
+      "review_basis": "重新读取当前公开 HEAD；SKILL.md 哈希与已审核版本一致。",
+      "previous_source_commit": "873c9327d6d49695ba8ff1ef131bcd6d85a8b437",
+      "previous_content_sha256": "c2f9af98015808a99f26061b731a5469286b19af2df887d29b81c4153619bde6"
+    },
+    {
+      "repo": "autoagc/linkpix-skills",
+      "path": "skills/linkpix-amazon-image/SKILL.md",
+      "source_commit": "ca4acb2cd68185dc92221935a15e6cb8cc6f989b",
+      "content_sha256": "f76e131292a8cea1f0cf438b7fc5351f5813e35583fb7593f610918649c6bd86",
+      "reviewed_at": "2026-11-21",
+      "review_basis": "比较本轮公开固定提交中的 SKILL.md；用途、依赖和授权边界的差异已核对。",
+      "previous_source_commit": "1f0b0a715c11d2a162c02db9aa68db5ce36cf315",
+      "previous_content_sha256": "9dc7d0ebd5c6d459c34a5c8c7517c1f23797d932bee57f8d55c378b3cd7adfe6"
+    },
+    {
+      "repo": "autoagc/linkpix-skills",
+      "path": "skills/linkpix-temu-image/SKILL.md",
+      "source_commit": "ca4acb2cd68185dc92221935a15e6cb8cc6f989b",
+      "content_sha256": "a91649593b6f1a677e3a37fd437d7cb3c445f36dc3d87fa5457236600a7c3f72",
+      "reviewed_at": "2026-11-21",
+      "review_basis": "比较本轮公开固定提交中的 SKILL.md；用途、依赖和授权边界的差异已核对。",
+      "previous_source_commit": "1f0b0a715c11d2a162c02db9aa68db5ce36cf315",
+      "previous_content_sha256": "d5419a5d9ea349a1364c6846ba369ea8cfdfa562cd20e4d3915be66c5934f6c4"
+    },
+    {
+      "repo": "autoagc/linkpix-skills",
+      "path": "skills/linkpix-shopee-image/SKILL.md",
+      "source_commit": "ca4acb2cd68185dc92221935a15e6cb8cc6f989b",
+      "content_sha256": "c22929e3292c2f0c941d1a57327c2d84ea00c9f415927d0e5681bba97ca3036d",
+      "reviewed_at": "2026-11-21",
+      "review_basis": "比较本轮公开固定提交中的 SKILL.md；用途、依赖和授权边界的差异已核对。",
+      "previous_source_commit": "1f0b0a715c11d2a162c02db9aa68db5ce36cf315",
+      "previous_content_sha256": "697db594dcd55d9a34db9517b4909602bbdf348fd0868d9e61cd2b211ca762ea"
+    },
+    {
+      "repo": "autoagc/linkpix-skills",
+      "path": "skills/linkpix-lazada-image/SKILL.md",
+      "source_commit": "ca4acb2cd68185dc92221935a15e6cb8cc6f989b",
+      "content_sha256": "6eca0b1295fb374e7814314845c83433a6ddfb903c645abfb87c47e393c88a16",
+      "reviewed_at": "2026-11-21",
+      "review_basis": "比较本轮公开固定提交中的 SKILL.md；用途、依赖和授权边界的差异已核对。",
+      "previous_source_commit": "1f0b0a715c11d2a162c02db9aa68db5ce36cf315",
+      "previous_content_sha256": "b1bb5f2149a711c5a9dd95ce79d94acd468bbdb25c872c0982188ccf05fd7092"
+    },
+    {
+      "repo": "autoagc/linkpix-skills",
+      "path": "skills/linkpix-ozon-image/SKILL.md",
+      "source_commit": "ca4acb2cd68185dc92221935a15e6cb8cc6f989b",
+      "content_sha256": "3bce4934debd8442eeb2ef0764e0d3760a50365340b829315bc95895f332132e",
+      "reviewed_at": "2026-11-21",
+      "review_basis": "比较本轮公开固定提交中的 SKILL.md；用途、依赖和授权边界的差异已核对。",
+      "previous_source_commit": "1f0b0a715c11d2a162c02db9aa68db5ce36cf315",
+      "previous_content_sha256": "b34c7ff3cd442932ac94d29d707544a298a7255a049c5ae67f803917904c1367"
+    },
+    {
+      "repo": "autoagc/linkpix-skills",
+      "path": "skills/linkpix-jd-image/SKILL.md",
+      "source_commit": "ca4acb2cd68185dc92221935a15e6cb8cc6f989b",
+      "content_sha256": "ca40a65c3f4eb433d2b5256b42748c2da9c99fe3ecd8d0801d6d446be8ae5293",
+      "reviewed_at": "2026-11-21",
+      "review_basis": "比较本轮公开固定提交中的 SKILL.md；用途、依赖和授权边界的差异已核对。",
+      "previous_source_commit": "1f0b0a715c11d2a162c02db9aa68db5ce36cf315",
+      "previous_content_sha256": "18b9f33a73ebba44bee044d30876f620b702317a2fd46015dd00134b332c4aa0"
+    },
+    {
+      "repo": "autoagc/linkpix-skills",
+      "path": "skills/linkpix-douyin-shop-image/SKILL.md",
+      "source_commit": "ca4acb2cd68185dc92221935a15e6cb8cc6f989b",
+      "content_sha256": "1168cf294364303191a7b81f16f8f023d9d27249d520f7d21f0a0805610d2be9",
+      "reviewed_at": "2026-11-21",
+      "review_basis": "比较本轮公开固定提交中的 SKILL.md；用途、依赖和授权边界的差异已核对。",
+      "previous_source_commit": "1f0b0a715c11d2a162c02db9aa68db5ce36cf315",
+      "previous_content_sha256": "ade5ae8c71d625bf212c52d8fbb5daacb3aae825e4daa8bb406c2f8b0abe620f"
+    },
+    {
+      "repo": "autoagc/linkpix-skills",
+      "path": "skills/linkpix-sales-video/SKILL.md",
+      "source_commit": "ca4acb2cd68185dc92221935a15e6cb8cc6f989b",
+      "content_sha256": "48dc9555b0536ddd0e8a4969d6d69820d35505666cc4e870369d839c1c7cd344",
+      "reviewed_at": "2026-11-21",
+      "review_basis": "重新读取当前公开 HEAD；SKILL.md 哈希与已审核版本一致。",
+      "previous_source_commit": "1f0b0a715c11d2a162c02db9aa68db5ce36cf315",
+      "previous_content_sha256": "48dc9555b0536ddd0e8a4969d6d69820d35505666cc4e870369d839c1c7cd344"
+    },
+    {
+      "repo": "autoagc/linkpix-skills",
+      "path": "skills/linkpix-image-translate/SKILL.md",
+      "source_commit": "ca4acb2cd68185dc92221935a15e6cb8cc6f989b",
+      "content_sha256": "23ecbfde476759cf12e191aad40a8a7e598a2a657f01594f09a1594f0ad379e3",
+      "reviewed_at": "2026-11-21",
+      "review_basis": "重新读取当前公开 HEAD；SKILL.md 哈希与已审核版本一致。",
+      "previous_source_commit": "1f0b0a715c11d2a162c02db9aa68db5ce36cf315",
+      "previous_content_sha256": "23ecbfde476759cf12e191aad40a8a7e598a2a657f01594f09a1594f0ad379e3"
+    },
+    {
+      "repo": "autoagc/linkpix-skills",
+      "path": "skills/linkpix-detail-page/SKILL.md",
+      "source_commit": "ca4acb2cd68185dc92221935a15e6cb8cc6f989b",
+      "content_sha256": "16220797324a7eee41a65ab1070ae83c3c7f2b199f1adc00b00bd518d6e3c338",
+      "reviewed_at": "2026-11-21",
+      "review_basis": "重新读取当前公开 HEAD；SKILL.md 哈希与已审核版本一致。",
+      "previous_source_commit": "1f0b0a715c11d2a162c02db9aa68db5ce36cf315",
+      "previous_content_sha256": "16220797324a7eee41a65ab1070ae83c3c7f2b199f1adc00b00bd518d6e3c338"
+    },
+    {
+      "repo": "browser-act/skills",
+      "path": "solutions/ecommerce/1688-product-detail/SKILL.md",
+      "source_commit": "593316aa0f8ccd88bdf745c92b24a50641701973",
+      "content_sha256": "c90ff058e920a21ec1e7404d3d8d4acb22e1a75249e64d4e257c2a08b3a2c5b9",
+      "reviewed_at": "2026-11-21",
+      "review_basis": "重新读取当前公开 HEAD；SKILL.md 哈希与已审核版本一致。",
+      "previous_source_commit": "593316aa0f8ccd88bdf745c92b24a50641701973",
+      "previous_content_sha256": "c90ff058e920a21ec1e7404d3d8d4acb22e1a75249e64d4e257c2a08b3a2c5b9"
+    },
+    {
+      "repo": "browser-act/skills",
+      "path": "solutions/ecommerce/amazon-product-detail/SKILL.md",
+      "source_commit": "593316aa0f8ccd88bdf745c92b24a50641701973",
+      "content_sha256": "6bbb3cf28b42af5919bd29243e3847cbafea373eb75559eb69f4e1fb0693d902",
+      "reviewed_at": "2026-11-21",
+      "review_basis": "重新读取当前公开 HEAD；SKILL.md 哈希与已审核版本一致。",
+      "previous_source_commit": "593316aa0f8ccd88bdf745c92b24a50641701973",
+      "previous_content_sha256": "6bbb3cf28b42af5919bd29243e3847cbafea373eb75559eb69f4e1fb0693d902"
+    },
+    {
+      "repo": "browser-act/skills",
+      "path": "solutions/ecommerce/amazon-search-listing/SKILL.md",
+      "source_commit": "593316aa0f8ccd88bdf745c92b24a50641701973",
+      "content_sha256": "17edd8103404ff2e0cc7ee27483e771c16bd40d4c5097232cdf1465939b85854",
+      "reviewed_at": "2026-11-21",
+      "review_basis": "重新读取当前公开 HEAD；SKILL.md 哈希与已审核版本一致。",
+      "previous_source_commit": "593316aa0f8ccd88bdf745c92b24a50641701973",
+      "previous_content_sha256": "17edd8103404ff2e0cc7ee27483e771c16bd40d4c5097232cdf1465939b85854"
+    },
+    {
+      "repo": "browser-act/skills",
+      "path": "solutions/ecommerce/ebay-item-detail/SKILL.md",
+      "source_commit": "593316aa0f8ccd88bdf745c92b24a50641701973",
+      "content_sha256": "179fa866a7b22676a891521e75a1c82d8daa2c64be69be3f0a0d0c73c6405b1a",
+      "reviewed_at": "2026-11-21",
+      "review_basis": "重新读取当前公开 HEAD；SKILL.md 哈希与已审核版本一致。",
+      "previous_source_commit": "593316aa0f8ccd88bdf745c92b24a50641701973",
+      "previous_content_sha256": "179fa866a7b22676a891521e75a1c82d8daa2c64be69be3f0a0d0c73c6405b1a"
+    },
+    {
+      "repo": "browser-act/skills",
+      "path": "solutions/ecommerce/ebay-sold-listings-search/SKILL.md",
+      "source_commit": "593316aa0f8ccd88bdf745c92b24a50641701973",
+      "content_sha256": "22575b34bdfa22ef1dcb6d356046f91f17fbd8b789943c25f4d4cafb3218110f",
+      "reviewed_at": "2026-11-21",
+      "review_basis": "重新读取当前公开 HEAD；SKILL.md 哈希与已审核版本一致。",
+      "previous_source_commit": "593316aa0f8ccd88bdf745c92b24a50641701973",
+      "previous_content_sha256": "22575b34bdfa22ef1dcb6d356046f91f17fbd8b789943c25f4d4cafb3218110f"
+    },
+    {
+      "repo": "browser-act/skills",
+      "path": "solutions/ecommerce/etsy-keyword-search/SKILL.md",
+      "source_commit": "593316aa0f8ccd88bdf745c92b24a50641701973",
+      "content_sha256": "4cf6142483e52e731a8f41bf0c68481ad4efb2fb8068ae6f8618872664bf50d4",
+      "reviewed_at": "2026-11-21",
+      "review_basis": "重新读取当前公开 HEAD；SKILL.md 哈希与已审核版本一致。",
+      "previous_source_commit": "593316aa0f8ccd88bdf745c92b24a50641701973",
+      "previous_content_sha256": "4cf6142483e52e731a8f41bf0c68481ad4efb2fb8068ae6f8618872664bf50d4"
+    },
+    {
+      "repo": "browser-act/skills",
+      "path": "solutions/ecommerce/taobao-keyword-search/SKILL.md",
+      "source_commit": "593316aa0f8ccd88bdf745c92b24a50641701973",
+      "content_sha256": "8b3810ec085135cd46fabf6ba8412ea5504f2abfb9727e4964a4869e7cd2a6aa",
+      "reviewed_at": "2026-11-21",
+      "review_basis": "重新读取当前公开 HEAD；SKILL.md 哈希与已审核版本一致。",
+      "previous_source_commit": "593316aa0f8ccd88bdf745c92b24a50641701973",
+      "previous_content_sha256": "8b3810ec085135cd46fabf6ba8412ea5504f2abfb9727e4964a4869e7cd2a6aa"
+    },
+    {
+      "repo": "browser-act/skills",
+      "path": "solutions/ecommerce/taobao-product-reviews/SKILL.md",
+      "source_commit": "593316aa0f8ccd88bdf745c92b24a50641701973",
+      "content_sha256": "2b043b73f514d9b8b3f7dcfad0a69f734c78883f5f7b12a67cc643eb1a6eb88a",
+      "reviewed_at": "2026-11-21",
+      "review_basis": "重新读取当前公开 HEAD；SKILL.md 哈希与已审核版本一致。",
+      "previous_source_commit": "593316aa0f8ccd88bdf745c92b24a50641701973",
+      "previous_content_sha256": "2b043b73f514d9b8b3f7dcfad0a69f734c78883f5f7b12a67cc643eb1a6eb88a"
+    },
+    {
+      "repo": "browser-act/skills",
+      "path": "solutions/ecommerce/walmart-product-detail/SKILL.md",
+      "source_commit": "593316aa0f8ccd88bdf745c92b24a50641701973",
+      "content_sha256": "3b3e2c9c99b08de4380de303496acb276a6c4aa98d14d97378ee1daf352e8975",
+      "reviewed_at": "2026-11-21",
+      "review_basis": "重新读取当前公开 HEAD；SKILL.md 哈希与已审核版本一致。",
+      "previous_source_commit": "593316aa0f8ccd88bdf745c92b24a50641701973",
+      "previous_content_sha256": "3b3e2c9c99b08de4380de303496acb276a6c4aa98d14d97378ee1daf352e8975"
+    },
+    {
+      "repo": "viethahong/business-skills",
+      "path": "skills/ads/ecommerce-marketplace/SKILL.md",
+      "source_commit": "edcc5bff037e05c9b9b41265467c223d40847205",
+      "content_sha256": "2998eb00a153650dacb2598b63b873153358b22b81dbba00bccec73347bacae6",
+      "reviewed_at": "2026-11-21",
+      "review_basis": "重新读取当前公开 HEAD；SKILL.md 哈希与已审核版本一致。",
+      "previous_source_commit": "edcc5bff037e05c9b9b41265467c223d40847205",
+      "previous_content_sha256": "2998eb00a153650dacb2598b63b873153358b22b81dbba00bccec73347bacae6"
+    },
+    {
+      "repo": "viethahong/business-skills",
+      "path": "skills/content/livestream-selling/SKILL.md",
+      "source_commit": "edcc5bff037e05c9b9b41265467c223d40847205",
+      "content_sha256": "b2db706606658d00b9a949fffc00b68edf4df28a8334771834b305c24ad643da",
+      "reviewed_at": "2026-11-21",
+      "review_basis": "重新读取当前公开 HEAD；SKILL.md 哈希与已审核版本一致。",
+      "previous_source_commit": "edcc5bff037e05c9b9b41265467c223d40847205",
+      "previous_content_sha256": "b2db706606658d00b9a949fffc00b68edf4df28a8334771834b305c24ad643da"
+    },
+    {
+      "repo": "viethahong/business-skills",
+      "path": "skills/content/tiktok-shop-strategy/SKILL.md",
+      "source_commit": "edcc5bff037e05c9b9b41265467c223d40847205",
+      "content_sha256": "42ca5b450b74d8e7100dda5c0175e43f8b5ea34661044a70cb08e6a4db48f725",
+      "reviewed_at": "2026-11-21",
+      "review_basis": "重新读取当前公开 HEAD；SKILL.md 哈希与已审核版本一致。",
+      "previous_source_commit": "edcc5bff037e05c9b9b41265467c223d40847205",
+      "previous_content_sha256": "42ca5b450b74d8e7100dda5c0175e43f8b5ea34661044a70cb08e6a4db48f725"
+    },
+    {
+      "repo": "viethahong/business-skills",
+      "path": "skills/finance/unit-economics/SKILL.md",
+      "source_commit": "edcc5bff037e05c9b9b41265467c223d40847205",
+      "content_sha256": "ecd2fc996896bc2576bdaad6cb20261949f68bb189c701186d1ea7af6421844c",
+      "reviewed_at": "2026-11-21",
+      "review_basis": "重新读取当前公开 HEAD；SKILL.md 哈希与已审核版本一致。",
+      "previous_source_commit": "edcc5bff037e05c9b9b41265467c223d40847205",
+      "previous_content_sha256": "ecd2fc996896bc2576bdaad6cb20261949f68bb189c701186d1ea7af6421844c"
+    },
+    {
+      "repo": "wubin1836/ai-ecommerce-expert-agent-skills",
+      "path": "skills/ai-ecommerce-expert-temu-ecommerce-content/SKILL.md",
+      "source_commit": "7852b00fb0f5ffde0d955b286ee3881461f9db50",
+      "content_sha256": "2fbb643c3ff9eb27e5f443a99c7fbfe7772159574c992564ed8505a7bc09077e",
+      "reviewed_at": "2026-11-21",
+      "review_basis": "重新读取当前公开 HEAD；SKILL.md 哈希与已审核版本一致。",
+      "previous_source_commit": "7852b00fb0f5ffde0d955b286ee3881461f9db50",
+      "previous_content_sha256": "2fbb643c3ff9eb27e5f443a99c7fbfe7772159574c992564ed8505a7bc09077e"
+    },
+    {
+      "repo": "wubin1836/ai-ecommerce-expert-agent-skills",
+      "path": "skills/ai-ecommerce-expert-aliexpress-ecommerce-content/SKILL.md",
+      "source_commit": "7852b00fb0f5ffde0d955b286ee3881461f9db50",
+      "content_sha256": "0aa7eaf891e1a8cf99214cb1dbb332238c0cc727a14a6425593663ddeb905ae8",
+      "reviewed_at": "2026-11-21",
+      "review_basis": "重新读取当前公开 HEAD；SKILL.md 哈希与已审核版本一致。",
+      "previous_source_commit": "7852b00fb0f5ffde0d955b286ee3881461f9db50",
+      "previous_content_sha256": "0aa7eaf891e1a8cf99214cb1dbb332238c0cc727a14a6425593663ddeb905ae8"
+    },
+    {
+      "repo": "wubin1836/ai-ecommerce-expert-agent-skills",
+      "path": "skills/ai-ecommerce-expert-amazon-a-plus-ecommerce-content/SKILL.md",
+      "source_commit": "7852b00fb0f5ffde0d955b286ee3881461f9db50",
+      "content_sha256": "d7658cf3cc8fe609aac9ea51ba79a105c0a7fcbd9643cbeca40faa3c6442af7b",
+      "reviewed_at": "2026-11-21",
+      "review_basis": "重新读取当前公开 HEAD；SKILL.md 哈希与已审核版本一致。",
+      "previous_source_commit": "7852b00fb0f5ffde0d955b286ee3881461f9db50",
+      "previous_content_sha256": "d7658cf3cc8fe609aac9ea51ba79a105c0a7fcbd9643cbeca40faa3c6442af7b"
+    },
+    {
+      "repo": "Shopify/Shopify-AI-Toolkit",
+      "path": "skills/shopify/SKILL.md",
+      "source_commit": "0388268a61051d1e8400996a58b0e3590c1e1500",
+      "content_sha256": "a508fbc9f36228178321451233463ac65244b6aba81b0d0160d33d5a64130437",
+      "reviewed_at": "2026-11-21",
+      "review_basis": "比较本轮公开固定提交中的 SKILL.md；用途、依赖和授权边界的差异已核对。",
+      "previous_source_commit": "a3d20f8dc284a2e8ae25272fa79520888abb5dcb",
+      "previous_content_sha256": "e54374479347500fb8aec103dabc4c522a722be57dad8ebe0b9b6287a8bbf21f"
+    },
+    {
+      "repo": "markoxtomic/agent-skills",
+      "path": "multilingual-metadata-agent/SKILL.md",
+      "source_commit": "f14202d47bbc4b52417583fdd377d1d460d4f92a",
+      "content_sha256": "56e871b363653a8575845cf70772b15307036fe69f7166f367d439ecf3f27d85",
+      "reviewed_at": "2026-11-21",
+      "review_basis": "重新读取当前公开 HEAD；SKILL.md 哈希与已审核版本一致。",
+      "previous_source_commit": "f14202d47bbc4b52417583fdd377d1d460d4f92a",
+      "previous_content_sha256": "56e871b363653a8575845cf70772b15307036fe69f7166f367d439ecf3f27d85"
+    },
+    {
+      "repo": "bridgemekong/shopee-skill",
+      "path": "SKILL.md",
+      "source_commit": "209c53f2f688286dc62899d1c7392a38b3742ab9",
+      "content_sha256": "32eb87300e0cecf1a8d437373c15b7c4ea7cd4af41e335b43cead2f3525109ce",
+      "reviewed_at": "2026-11-21",
+      "review_basis": "重新读取当前公开 HEAD；SKILL.md 哈希与已审核版本一致。",
+      "previous_source_commit": "209c53f2f688286dc62899d1c7392a38b3742ab9",
+      "previous_content_sha256": "32eb87300e0cecf1a8d437373c15b7c4ea7cd4af41e335b43cead2f3525109ce"
+    },
+    {
+      "repo": "nexscope-ai/Amazon-Skills",
+      "path": "amazon-a-plus-content/SKILL.md",
+      "source_commit": "2bcb8cb019cfac6a1e420b11f86209df5ea47686",
+      "content_sha256": "6271fcc569d65ee9c12a363a637e340179b09aac1201935033404c8ed2e79955",
+      "reviewed_at": "2026-11-21",
+      "review_basis": "重新读取当前公开 HEAD；SKILL.md 哈希与已审核版本一致。",
+      "previous_source_commit": "2bcb8cb019cfac6a1e420b11f86209df5ea47686",
+      "previous_content_sha256": "6271fcc569d65ee9c12a363a637e340179b09aac1201935033404c8ed2e79955"
+    },
+    {
+      "repo": "nexscope-ai/Amazon-Skills",
+      "path": "amazon-backend-keywords/SKILL.md",
+      "source_commit": "2bcb8cb019cfac6a1e420b11f86209df5ea47686",
+      "content_sha256": "2f0d02ac076c017a29eb3983798cd57d207dbe81f9f485de07a9971acf2dc68d",
+      "reviewed_at": "2026-11-21",
+      "review_basis": "重新读取当前公开 HEAD；SKILL.md 哈希与已审核版本一致。",
+      "previous_source_commit": "2bcb8cb019cfac6a1e420b11f86209df5ea47686",
+      "previous_content_sha256": "2f0d02ac076c017a29eb3983798cd57d207dbe81f9f485de07a9971acf2dc68d"
+    },
+    {
+      "repo": "nexscope-ai/Amazon-Skills",
+      "path": "amazon-brand-analytics/SKILL.md",
+      "source_commit": "2bcb8cb019cfac6a1e420b11f86209df5ea47686",
+      "content_sha256": "5cf1a942f21063afdb177b4a6b0b84f4609d30663e740eab8407e3fa15ac63dc",
+      "reviewed_at": "2026-11-21",
+      "review_basis": "重新读取当前公开 HEAD；SKILL.md 哈希与已审核版本一致。",
+      "previous_source_commit": "2bcb8cb019cfac6a1e420b11f86209df5ea47686",
+      "previous_content_sha256": "5cf1a942f21063afdb177b4a6b0b84f4609d30663e740eab8407e3fa15ac63dc"
+    },
+    {
+      "repo": "nexscope-ai/Amazon-Skills",
+      "path": "amazon-fba-prep/SKILL.md",
+      "source_commit": "2bcb8cb019cfac6a1e420b11f86209df5ea47686",
+      "content_sha256": "06ddf515e69731769a2ea22a5331c329f0f5c8cfb4a793ea5737676b3da358e2",
+      "reviewed_at": "2026-11-21",
+      "review_basis": "重新读取当前公开 HEAD；SKILL.md 哈希与已审核版本一致。",
+      "previous_source_commit": "2bcb8cb019cfac6a1e420b11f86209df5ea47686",
+      "previous_content_sha256": "06ddf515e69731769a2ea22a5331c329f0f5c8cfb4a793ea5737676b3da358e2"
+    },
+    {
+      "repo": "nexscope-ai/Amazon-Skills",
+      "path": "amazon-negative-keywords/SKILL.md",
+      "source_commit": "2bcb8cb019cfac6a1e420b11f86209df5ea47686",
+      "content_sha256": "32e18c39f6ad4d35d511a8d7a0419c6e7cfd11df9831d2123ae664f23420def6",
+      "reviewed_at": "2026-11-21",
+      "review_basis": "重新读取当前公开 HEAD；SKILL.md 哈希与已审核版本一致。",
+      "previous_source_commit": "2bcb8cb019cfac6a1e420b11f86209df5ea47686",
+      "previous_content_sha256": "32e18c39f6ad4d35d511a8d7a0419c6e7cfd11df9831d2123ae664f23420def6"
+    },
+    {
+      "repo": "nexscope-ai/Amazon-Skills",
+      "path": "amazon-ppc-campaign/SKILL.md",
+      "source_commit": "2bcb8cb019cfac6a1e420b11f86209df5ea47686",
+      "content_sha256": "768aa2582b7121a3f3f8815d94306891db6f3b5ae98c7b6dacd481fdaf0aa434",
+      "reviewed_at": "2026-11-21",
+      "review_basis": "重新读取当前公开 HEAD；SKILL.md 哈希与已审核版本一致。",
+      "previous_source_commit": "2bcb8cb019cfac6a1e420b11f86209df5ea47686",
+      "previous_content_sha256": "768aa2582b7121a3f3f8815d94306891db6f3b5ae98c7b6dacd481fdaf0aa434"
+    },
+    {
+      "repo": "nexscope-ai/Amazon-Skills",
+      "path": "amazon-profit-analyzer/SKILL.md",
+      "source_commit": "2bcb8cb019cfac6a1e420b11f86209df5ea47686",
+      "content_sha256": "99d1014e5c2ecbb3d81bbd454a2ebe997f5078687ee5dea8acf10c9a5467b9fc",
+      "reviewed_at": "2026-11-21",
+      "review_basis": "重新读取当前公开 HEAD；SKILL.md 哈希与已审核版本一致。",
+      "previous_source_commit": "2bcb8cb019cfac6a1e420b11f86209df5ea47686",
+      "previous_content_sha256": "99d1014e5c2ecbb3d81bbd454a2ebe997f5078687ee5dea8acf10c9a5467b9fc"
+    },
+    {
+      "repo": "nexscope-ai/Amazon-Skills",
+      "path": "amazon-product-photography/SKILL.md",
+      "source_commit": "2bcb8cb019cfac6a1e420b11f86209df5ea47686",
+      "content_sha256": "e2ebbf4863f329bdc021289c63a6ab3364f50663a04b19ecdf95216913550ec3",
+      "reviewed_at": "2026-11-21",
+      "review_basis": "重新读取当前公开 HEAD；SKILL.md 哈希与已审核版本一致。",
+      "previous_source_commit": "2bcb8cb019cfac6a1e420b11f86209df5ea47686",
+      "previous_content_sha256": "e2ebbf4863f329bdc021289c63a6ab3364f50663a04b19ecdf95216913550ec3"
+    },
+    {
+      "repo": "nexscope-ai/Amazon-Skills",
+      "path": "amazon-review-analyzer/SKILL.md",
+      "source_commit": "2bcb8cb019cfac6a1e420b11f86209df5ea47686",
+      "content_sha256": "4487bc490242b1aacfc345177057051db11091c5a2120a9eadfdc63b4e218625",
+      "reviewed_at": "2026-11-21",
+      "review_basis": "重新读取当前公开 HEAD；SKILL.md 哈希与已审核版本一致。",
+      "previous_source_commit": "2bcb8cb019cfac6a1e420b11f86209df5ea47686",
+      "previous_content_sha256": "4487bc490242b1aacfc345177057051db11091c5a2120a9eadfdc63b4e218625"
+    },
+    {
+      "repo": "nexscope-ai/Amazon-Skills",
+      "path": "amazon-global-selling/SKILL.md",
+      "source_commit": "2bcb8cb019cfac6a1e420b11f86209df5ea47686",
+      "content_sha256": "b1a98c35f8ba7e92167c420020c62000134d10a7154bd4d5bd3b351d09786602",
+      "reviewed_at": "2026-11-21",
+      "review_basis": "重新读取当前公开 HEAD；SKILL.md 哈希与已审核版本一致。",
+      "previous_source_commit": "2bcb8cb019cfac6a1e420b11f86209df5ea47686",
+      "previous_content_sha256": "b1a98c35f8ba7e92167c420020c62000134d10a7154bd4d5bd3b351d09786602"
+    },
+    {
+      "repo": "nexscope-ai/Amazon-Skills",
+      "path": "amazon-keyword-research/SKILL.md",
+      "source_commit": "2bcb8cb019cfac6a1e420b11f86209df5ea47686",
+      "content_sha256": "30dc7de84471914b75321b50abd8c532e3ad21ec32f54d3affeaad2405db7e07",
+      "reviewed_at": "2026-11-21",
+      "review_basis": "重新读取当前公开 HEAD；SKILL.md 哈希与已审核版本一致。",
+      "previous_source_commit": "2bcb8cb019cfac6a1e420b11f86209df5ea47686",
+      "previous_content_sha256": "30dc7de84471914b75321b50abd8c532e3ad21ec32f54d3affeaad2405db7e07"
+    },
+    {
+      "repo": "brianmoney/amazon-marketing-skill",
+      "path": "skills/a-plus-content/SKILL.md",
+      "source_commit": "be4b3faa08b33777962274d1c05a9d3c03c12551",
+      "content_sha256": "30a1ca05ed507d993aa6020e96075baa01f165ae8310f2728312bd8ee2110ea9",
+      "reviewed_at": "2026-11-21",
+      "review_basis": "重新读取当前公开 HEAD；SKILL.md 哈希与已审核版本一致。",
+      "previous_source_commit": "be4b3faa08b33777962274d1c05a9d3c03c12551",
+      "previous_content_sha256": "30a1ca05ed507d993aa6020e96075baa01f165ae8310f2728312bd8ee2110ea9"
+    },
+    {
+      "repo": "brianmoney/amazon-marketing-skill",
+      "path": "skills/competitor-analysis/SKILL.md",
+      "source_commit": "be4b3faa08b33777962274d1c05a9d3c03c12551",
+      "content_sha256": "ccf560b52b9447aa7a6d60d60004b492845b4a1b2adcabfc0471eb2115c7f999",
+      "reviewed_at": "2026-11-21",
+      "review_basis": "重新读取当前公开 HEAD；SKILL.md 哈希与已审核版本一致。",
+      "previous_source_commit": "be4b3faa08b33777962274d1c05a9d3c03c12551",
+      "previous_content_sha256": "ccf560b52b9447aa7a6d60d60004b492845b4a1b2adcabfc0471eb2115c7f999"
+    },
+    {
+      "repo": "brianmoney/amazon-marketing-skill",
+      "path": "skills/keyword-research/SKILL.md",
+      "source_commit": "be4b3faa08b33777962274d1c05a9d3c03c12551",
+      "content_sha256": "ec353f9843365fe1c521818281ece6207bbc63d21a8654b3b25d8ffd38f2febb",
+      "reviewed_at": "2026-11-21",
+      "review_basis": "重新读取当前公开 HEAD；SKILL.md 哈希与已审核版本一致。",
+      "previous_source_commit": "be4b3faa08b33777962274d1c05a9d3c03c12551",
+      "previous_content_sha256": "ec353f9843365fe1c521818281ece6207bbc63d21a8654b3b25d8ffd38f2febb"
+    },
+    {
+      "repo": "brianmoney/amazon-marketing-skill",
+      "path": "skills/listing-audit/SKILL.md",
+      "source_commit": "be4b3faa08b33777962274d1c05a9d3c03c12551",
+      "content_sha256": "0fe3c8c69ea61acb7f630dec6b13ce4f30bbbe73dfcae190111e2e9b4e24adb5",
+      "reviewed_at": "2026-11-21",
+      "review_basis": "重新读取当前公开 HEAD；SKILL.md 哈希与已审核版本一致。",
+      "previous_source_commit": "be4b3faa08b33777962274d1c05a9d3c03c12551",
+      "previous_content_sha256": "0fe3c8c69ea61acb7f630dec6b13ce4f30bbbe73dfcae190111e2e9b4e24adb5"
+    },
+    {
+      "repo": "brianmoney/amazon-marketing-skill",
+      "path": "skills/listing-optimizer/SKILL.md",
+      "source_commit": "be4b3faa08b33777962274d1c05a9d3c03c12551",
+      "content_sha256": "e7cc3d0fac8818679ba693ab0173d0718a34eea96dca64e6077f904649fd460d",
+      "reviewed_at": "2026-11-21",
+      "review_basis": "重新读取当前公开 HEAD；SKILL.md 哈希与已审核版本一致。",
+      "previous_source_commit": "be4b3faa08b33777962274d1c05a9d3c03c12551",
+      "previous_content_sha256": "e7cc3d0fac8818679ba693ab0173d0718a34eea96dca64e6077f904649fd460d"
+    },
+    {
+      "repo": "brianmoney/amazon-marketing-skill",
+      "path": "skills/product-onboarding/SKILL.md",
+      "source_commit": "be4b3faa08b33777962274d1c05a9d3c03c12551",
+      "content_sha256": "881b50c4341307a3d66873f8f90312a9ac215e11f3ed493d8cc06f104815c8a6",
+      "reviewed_at": "2026-11-21",
+      "review_basis": "重新读取当前公开 HEAD；SKILL.md 哈希与已审核版本一致。",
+      "previous_source_commit": "be4b3faa08b33777962274d1c05a9d3c03c12551",
+      "previous_content_sha256": "881b50c4341307a3d66873f8f90312a9ac215e11f3ed493d8cc06f104815c8a6"
+    },
+    {
+      "repo": "amzn/selling-partner-agentic-toolkit",
+      "path": "skills/fba-inbound-management/SKILL.md",
+      "source_commit": "4563bfcb17ff4d921361530053118a8ca9eeaa67",
+      "content_sha256": "1b5d78feb548557db9ce37dcb068400ed2031458481134c83709d8cde4e5499d",
+      "reviewed_at": "2026-11-21",
+      "review_basis": "重新读取当前公开 HEAD；SKILL.md 哈希与已审核版本一致。",
+      "previous_source_commit": "4563bfcb17ff4d921361530053118a8ca9eeaa67",
+      "previous_content_sha256": "1b5d78feb548557db9ce37dcb068400ed2031458481134c83709d8cde4e5499d"
+    },
+    {
+      "repo": "amzn/selling-partner-agentic-toolkit",
+      "path": "skills/listing-buyability/SKILL.md",
+      "source_commit": "4563bfcb17ff4d921361530053118a8ca9eeaa67",
+      "content_sha256": "6a6d5c0a8cec72b3dcd9143e1fd7109773852e2011fe75f6ee56e3d010f68599",
+      "reviewed_at": "2026-11-21",
+      "review_basis": "重新读取当前公开 HEAD；SKILL.md 哈希与已审核版本一致。",
+      "previous_source_commit": "4563bfcb17ff4d921361530053118a8ca9eeaa67",
+      "previous_content_sha256": "6a6d5c0a8cec72b3dcd9143e1fd7109773852e2011fe75f6ee56e3d010f68599"
+    },
+    {
+      "repo": "amzn/selling-partner-agentic-toolkit",
+      "path": "skills/listing-issues/SKILL.md",
+      "source_commit": "4563bfcb17ff4d921361530053118a8ca9eeaa67",
+      "content_sha256": "5d1b3357f7df2af643b75d947f4fe0fa8782f9b8bcc31dc14da953c425de4838",
+      "reviewed_at": "2026-11-21",
+      "review_basis": "重新读取当前公开 HEAD；SKILL.md 哈希与已审核版本一致。",
+      "previous_source_commit": "4563bfcb17ff4d921361530053118a8ca9eeaa67",
+      "previous_content_sha256": "5d1b3357f7df2af643b75d947f4fe0fa8782f9b8bcc31dc14da953c425de4838"
+    },
+    {
+      "repo": "amzn/selling-partner-agentic-toolkit",
+      "path": "skills/listing-searchability/SKILL.md",
+      "source_commit": "4563bfcb17ff4d921361530053118a8ca9eeaa67",
+      "content_sha256": "a6b8dae896216505fd5b4c084870380e71c65195a4427abce3a4f272489ab41b",
+      "reviewed_at": "2026-11-21",
+      "review_basis": "重新读取当前公开 HEAD；SKILL.md 哈希与已审核版本一致。",
+      "previous_source_commit": "4563bfcb17ff4d921361530053118a8ca9eeaa67",
+      "previous_content_sha256": "a6b8dae896216505fd5b4c084870380e71c65195a4427abce3a4f272489ab41b"
+    },
+    {
+      "repo": "amzn/selling-partner-agentic-toolkit",
+      "path": "skills/stockout-prevention/SKILL.md",
+      "source_commit": "4563bfcb17ff4d921361530053118a8ca9eeaa67",
+      "content_sha256": "eb583b963d71c2f44f89a9f601e26ee8f6e993918904ea2ffbd0bf5e34cddfad",
+      "reviewed_at": "2026-11-21",
+      "review_basis": "重新读取当前公开 HEAD；SKILL.md 哈希与已审核版本一致。",
+      "previous_source_commit": "4563bfcb17ff4d921361530053118a8ca9eeaa67",
+      "previous_content_sha256": "eb583b963d71c2f44f89a9f601e26ee8f6e993918904ea2ffbd0bf5e34cddfad"
+    },
+    {
+      "repo": "amzn/selling-partner-agentic-toolkit",
+      "path": "skills/support-case-helper/SKILL.md",
+      "source_commit": "4563bfcb17ff4d921361530053118a8ca9eeaa67",
+      "content_sha256": "d416933e26ad64568b25aa6281f1c7f22944358932d7b640ca4414051e818cba",
+      "reviewed_at": "2026-11-21",
+      "review_basis": "重新读取当前公开 HEAD；SKILL.md 哈希与已审核版本一致。",
+      "previous_source_commit": "4563bfcb17ff4d921361530053118a8ca9eeaa67",
+      "previous_content_sha256": "d416933e26ad64568b25aa6281f1c7f22944358932d7b640ca4414051e818cba"
+    },
+    {
+      "repo": "amzn/selling-partner-agentic-toolkit",
+      "path": "skills/finance-month-end-closer/SKILL.md",
+      "source_commit": "4563bfcb17ff4d921361530053118a8ca9eeaa67",
+      "content_sha256": "c463eaa4c34e9eacb8963a9e578e3eb2d39ff8cbc9a8f8f618b2363593cafb65",
+      "reviewed_at": "2026-11-21",
+      "review_basis": "重新读取当前公开 HEAD；SKILL.md 哈希与已审核版本一致。",
+      "previous_source_commit": "4563bfcb17ff4d921361530053118a8ca9eeaa67",
+      "previous_content_sha256": "c463eaa4c34e9eacb8963a9e578e3eb2d39ff8cbc9a8f8f618b2363593cafb65"
+    },
+    {
+      "repo": "amzn/selling-partner-agentic-toolkit",
+      "path": "skills/seller-analytics/SKILL.md",
+      "source_commit": "4563bfcb17ff4d921361530053118a8ca9eeaa67",
+      "content_sha256": "751d72ed0ba671fcdc9073dc5faef1561a8d18cbb0a966ca65287bed94beefda",
+      "reviewed_at": "2026-11-21",
+      "review_basis": "重新读取当前公开 HEAD；SKILL.md 哈希与已审核版本一致。",
+      "previous_source_commit": "4563bfcb17ff4d921361530053118a8ca9eeaa67",
+      "previous_content_sha256": "751d72ed0ba671fcdc9073dc5faef1561a8d18cbb0a966ca65287bed94beefda"
+    },
+    {
+      "repo": "amzn/selling-partner-agentic-toolkit",
+      "path": "skills/listing-troubleshooter/SKILL.md",
+      "source_commit": "4563bfcb17ff4d921361530053118a8ca9eeaa67",
+      "content_sha256": "e2514c6b31e086c1db4c4c4d9aa72b2d027814091e396a27335d4e0ccec37d4c",
+      "reviewed_at": "2026-11-21",
+      "review_basis": "重新读取当前公开 HEAD；SKILL.md 哈希与已审核版本一致。",
+      "previous_source_commit": "4563bfcb17ff4d921361530053118a8ca9eeaa67",
+      "previous_content_sha256": "e2514c6b31e086c1db4c4c4d9aa72b2d027814091e396a27335d4e0ccec37d4c"
+    },
+    {
+      "repo": "amzn/selling-partner-agentic-toolkit",
+      "path": "skills/listing-compliance/SKILL.md",
+      "source_commit": "4563bfcb17ff4d921361530053118a8ca9eeaa67",
+      "content_sha256": "b282f36598015ebb0755c3daf0db8f402f5cf90cddbac227238372c687e9b815",
+      "reviewed_at": "2026-11-21",
+      "review_basis": "重新读取当前公开 HEAD；SKILL.md 哈希与已审核版本一致。",
+      "previous_source_commit": "4563bfcb17ff4d921361530053118a8ca9eeaa67",
+      "previous_content_sha256": "b282f36598015ebb0755c3daf0db8f402f5cf90cddbac227238372c687e9b815"
+    },
+    {
+      "repo": "amzn/selling-partner-agentic-toolkit",
+      "path": "skills/sp-api-knowledge/SKILL.md",
+      "source_commit": "4563bfcb17ff4d921361530053118a8ca9eeaa67",
+      "content_sha256": "32fd797344e3406d4d0cce36a3758079b588efc1509144fc2f95c682906bf3fb",
+      "reviewed_at": "2026-11-21",
+      "review_basis": "重新读取当前公开 HEAD；SKILL.md 哈希与已审核版本一致。",
+      "previous_source_commit": "4563bfcb17ff4d921361530053118a8ca9eeaa67",
+      "previous_content_sha256": "32fd797344e3406d4d0cce36a3758079b588efc1509144fc2f95c682906bf3fb"
+    },
+    {
+      "repo": "Saber-doudou/ecommerce-product-investigator",
+      "path": "SKILL.md",
+      "source_commit": "deb0508fbd6438b00d48d407ad17d0d571c9694b",
+      "content_sha256": "aef596e49ce46187b3537e23f82c4ff344e1f02f422d5fcf4d0f35ace944bb47",
+      "reviewed_at": "2026-11-21",
+      "review_basis": "重新读取当前公开 HEAD；SKILL.md 哈希与已审核版本一致。",
+      "previous_source_commit": "deb0508fbd6438b00d48d407ad17d0d571c9694b",
+      "previous_content_sha256": "aef596e49ce46187b3537e23f82c4ff344e1f02f422d5fcf4d0f35ace944bb47"
+    },
+    {
+      "repo": "ZloyDeDD/wb-api-skill",
+      "path": "SKILL.md",
+      "source_commit": "d862cde132e2279aeee84cbeb3272efb1fcc4359",
+      "content_sha256": "3a5333e2ab2eea390c425db6c27a01b0397c201e581ed496628b1ea33dbd55a8",
+      "reviewed_at": "2026-11-21",
+      "review_basis": "重新读取当前公开 HEAD；SKILL.md 哈希与已审核版本一致。",
+      "previous_source_commit": "d862cde132e2279aeee84cbeb3272efb1fcc4359",
+      "previous_content_sha256": "3a5333e2ab2eea390c425db6c27a01b0397c201e581ed496628b1ea33dbd55a8"
+    },
+    {
+      "repo": "xenosfeng-creator/MTL-skill",
+      "path": "SKILL.md",
+      "source_commit": "d95c8821d8d943555048b78aec0dcdd9c95801ae",
+      "content_sha256": "a303bb1e00ee9355ff814ca36d9b43c46b3a84f1c5cb8dd92796a5c45d72d189",
+      "reviewed_at": "2026-11-21",
+      "review_basis": "重新读取当前公开 HEAD；SKILL.md 哈希与已审核版本一致。",
+      "previous_source_commit": "d95c8821d8d943555048b78aec0dcdd9c95801ae",
+      "previous_content_sha256": "a303bb1e00ee9355ff814ca36d9b43c46b3a84f1c5cb8dd92796a5c45d72d189"
+    },
+    {
+      "repo": "AccioWork/agent-skills",
+      "path": "accio-import-tariff-hs-code-calculator/SKILL.md",
+      "source_commit": "07c9946963d6a13692bd400ddb88c994d3cdba52",
+      "content_sha256": "bd2a3bcc30ea6d409175369de87c878f2a51960bce88b17b8f0ff9f178b89a86",
+      "reviewed_at": "2026-11-21",
+      "review_basis": "重新读取当前公开 HEAD；SKILL.md 哈希与已审核版本一致。",
+      "previous_source_commit": "07c9946963d6a13692bd400ddb88c994d3cdba52",
+      "previous_content_sha256": "bd2a3bcc30ea6d409175369de87c878f2a51960bce88b17b8f0ff9f178b89a86"
+    },
+    {
+      "repo": "linkfox-ai/linkfox-skills",
+      "path": "skills/linkfox-mercado-product-selection/SKILL.md",
+      "source_commit": "57465352b58c1e978d1e25e004fb3540f1954df9",
+      "content_sha256": "8f4d3edd959ffc1ea5585b92bef1ac243ff82d84a9f8bbbb5e0cb5755cac0718",
+      "reviewed_at": "2026-11-21",
+      "review_basis": "重新读取当前公开 HEAD；SKILL.md 哈希与已审核版本一致。",
+      "previous_source_commit": "873c9327d6d49695ba8ff1ef131bcd6d85a8b437",
+      "previous_content_sha256": "8f4d3edd959ffc1ea5585b92bef1ac243ff82d84a9f8bbbb5e0cb5755cac0718"
+    },
+    {
+      "repo": "linkfox-ai/linkfox-skills",
+      "path": "skills/linkfox-damai-mercado-market-intelligence/SKILL.md",
+      "source_commit": "57465352b58c1e978d1e25e004fb3540f1954df9",
+      "content_sha256": "3b42b32478890ae1af40bbbd89dfbc12df2279dc8f5328fd849e026d770aca06",
+      "reviewed_at": "2026-11-21",
+      "review_basis": "重新读取当前公开 HEAD；SKILL.md 哈希与已审核版本一致。",
+      "previous_source_commit": "873c9327d6d49695ba8ff1ef131bcd6d85a8b437",
+      "previous_content_sha256": "3b42b32478890ae1af40bbbd89dfbc12df2279dc8f5328fd849e026d770aca06"
+    },
+    {
+      "repo": "linkfox-ai/linkfox-skills",
+      "path": "skills/linkfox-mpstats-ozon-product-detail/SKILL.md",
+      "source_commit": "57465352b58c1e978d1e25e004fb3540f1954df9",
+      "content_sha256": "5d2256a22aebb5c93fd4563ceed008891ec84da74e622b9f5e74ed37f86a6bd2",
+      "reviewed_at": "2026-11-21",
+      "review_basis": "重新读取当前公开 HEAD；SKILL.md 哈希与已审核版本一致。",
+      "previous_source_commit": "873c9327d6d49695ba8ff1ef131bcd6d85a8b437",
+      "previous_content_sha256": "5d2256a22aebb5c93fd4563ceed008891ec84da74e622b9f5e74ed37f86a6bd2"
+    },
+    {
+      "repo": "linkfox-ai/linkfox-skills",
+      "path": "skills/linkfox-mpstats-ozon-product-trend/SKILL.md",
+      "source_commit": "57465352b58c1e978d1e25e004fb3540f1954df9",
+      "content_sha256": "2ddc470ee84cedf165543d914b91105df175fa4abc21e218e71988890a33a5d2",
+      "reviewed_at": "2026-11-21",
+      "review_basis": "重新读取当前公开 HEAD；SKILL.md 哈希与已审核版本一致。",
+      "previous_source_commit": "873c9327d6d49695ba8ff1ef131bcd6d85a8b437",
+      "previous_content_sha256": "2ddc470ee84cedf165543d914b91105df175fa4abc21e218e71988890a33a5d2"
+    },
+    {
+      "repo": "linkfox-ai/linkfox-skills",
+      "path": "skills/linkfox-ebay-search/SKILL.md",
+      "source_commit": "57465352b58c1e978d1e25e004fb3540f1954df9",
+      "content_sha256": "9ff2c119f8bc808be38892aaf7c3821ee20c9f0822dd2b6695a6318cef7299f5",
+      "reviewed_at": "2026-11-21",
+      "review_basis": "重新读取当前公开 HEAD；SKILL.md 哈希与已审核版本一致。",
+      "previous_source_commit": "873c9327d6d49695ba8ff1ef131bcd6d85a8b437",
+      "previous_content_sha256": "9ff2c119f8bc808be38892aaf7c3821ee20c9f0822dd2b6695a6318cef7299f5"
+    },
+    {
+      "repo": "linkfox-ai/linkfox-skills",
+      "path": "skills/linkfox-sellersprite-traffic-keyword/SKILL.md",
+      "source_commit": "57465352b58c1e978d1e25e004fb3540f1954df9",
+      "content_sha256": "f4c43470cf3a019b76fecd199ba77cc63cacd57a3b3040ac8b6663e40f55e999",
+      "reviewed_at": "2026-11-21",
+      "review_basis": "重新读取当前公开 HEAD；SKILL.md 哈希与已审核版本一致。",
+      "previous_source_commit": "873c9327d6d49695ba8ff1ef131bcd6d85a8b437",
+      "previous_content_sha256": "f4c43470cf3a019b76fecd199ba77cc63cacd57a3b3040ac8b6663e40f55e999"
+    },
+    {
+      "repo": "linkfox-ai/linkfox-skills",
+      "path": "skills/linkfox-sorftime-walmart-keyword-research/SKILL.md",
+      "source_commit": "57465352b58c1e978d1e25e004fb3540f1954df9",
+      "content_sha256": "e565146bbb7efa2cc9c8f7b790e8107698c73bb7f4296b3936f5426f540f47b6",
+      "reviewed_at": "2026-11-21",
+      "review_basis": "重新读取当前公开 HEAD；SKILL.md 哈希与已审核版本一致。",
+      "previous_source_commit": "873c9327d6d49695ba8ff1ef131bcd6d85a8b437",
+      "previous_content_sha256": "e565146bbb7efa2cc9c8f7b790e8107698c73bb7f4296b3936f5426f540f47b6"
+    },
+    {
+      "repo": "linkfox-ai/linkfox-skills",
+      "path": "skills/linkfox-google-patent-search/SKILL.md",
+      "source_commit": "57465352b58c1e978d1e25e004fb3540f1954df9",
+      "content_sha256": "e1e1283cbfd88402b438ccab9f89a2742237fd27dbd4425555eea33ed3410c39",
+      "reviewed_at": "2026-11-21",
+      "review_basis": "重新读取当前公开 HEAD；SKILL.md 哈希与已审核版本一致。",
+      "previous_source_commit": "873c9327d6d49695ba8ff1ef131bcd6d85a8b437",
+      "previous_content_sha256": "e1e1283cbfd88402b438ccab9f89a2742237fd27dbd4425555eea33ed3410c39"
+    },
+    {
+      "repo": "joomcode/joompulse-skills",
+      "path": "skills/category-monitor/SKILL.md",
+      "source_commit": "0a679a081bdd9f3b5eca55c9cc4ff28c74428c23",
+      "content_sha256": "4e6991f0a28ea9768316400ff8f1616dec84eb423d907380dc7476a2060c248a",
+      "reviewed_at": "2026-11-21",
+      "review_basis": "重新读取当前公开 HEAD；SKILL.md 哈希与已审核版本一致。",
+      "previous_source_commit": "0a679a081bdd9f3b5eca55c9cc4ff28c74428c23",
+      "previous_content_sha256": "4e6991f0a28ea9768316400ff8f1616dec84eb423d907380dc7476a2060c248a"
+    },
+    {
+      "repo": "joomcode/joompulse-skills",
+      "path": "skills/category-opportunity-index/SKILL.md",
+      "source_commit": "0a679a081bdd9f3b5eca55c9cc4ff28c74428c23",
+      "content_sha256": "dc5d6ba673fd9ae855afcd250af9106260b7dd27132f6d14732dac536ae608c7",
+      "reviewed_at": "2026-11-21",
+      "review_basis": "重新读取当前公开 HEAD；SKILL.md 哈希与已审核版本一致。",
+      "previous_source_commit": "0a679a081bdd9f3b5eca55c9cc4ff28c74428c23",
+      "previous_content_sha256": "dc5d6ba673fd9ae855afcd250af9106260b7dd27132f6d14732dac536ae608c7"
+    },
+    {
+      "repo": "joomcode/joompulse-skills",
+      "path": "skills/high-demand-low-quality-finder/SKILL.md",
+      "source_commit": "0a679a081bdd9f3b5eca55c9cc4ff28c74428c23",
+      "content_sha256": "a5e14b1f3f727ac3192b1bf13e2c72387886acce62c7bf041eadb42514ff683c",
+      "reviewed_at": "2026-11-21",
+      "review_basis": "重新读取当前公开 HEAD；SKILL.md 哈希与已审核版本一致。",
+      "previous_source_commit": "0a679a081bdd9f3b5eca55c9cc4ff28c74428c23",
+      "previous_content_sha256": "a5e14b1f3f727ac3192b1bf13e2c72387886acce62c7bf041eadb42514ff683c"
+    },
+    {
+      "repo": "joomcode/joompulse-skills",
+      "path": "skills/ml-product-analysis/SKILL.md",
+      "source_commit": "0a679a081bdd9f3b5eca55c9cc4ff28c74428c23",
+      "content_sha256": "030d60d606314f4e7c75c8e42d2ab99b0cf308db8ca4bdaf7535862c4ed3c37d",
+      "reviewed_at": "2026-11-21",
+      "review_basis": "重新读取当前公开 HEAD；SKILL.md 哈希与已审核版本一致。",
+      "previous_source_commit": "0a679a081bdd9f3b5eca55c9cc4ff28c74428c23",
+      "previous_content_sha256": "030d60d606314f4e7c75c8e42d2ab99b0cf308db8ca4bdaf7535862c4ed3c37d"
+    },
+    {
+      "repo": "joomcode/joompulse-skills",
+      "path": "skills/new-growing-products-in-category/SKILL.md",
+      "source_commit": "0a679a081bdd9f3b5eca55c9cc4ff28c74428c23",
+      "content_sha256": "5a6dbdf868f0e826623e68a6c7d5583dc82a2cc5db3ee6e9fdb0ebee93ad5794",
+      "reviewed_at": "2026-11-21",
+      "review_basis": "重新读取当前公开 HEAD；SKILL.md 哈希与已审核版本一致。",
+      "previous_source_commit": "0a679a081bdd9f3b5eca55c9cc4ff28c74428c23",
+      "previous_content_sha256": "5a6dbdf868f0e826623e68a6c7d5583dc82a2cc5db3ee6e9fdb0ebee93ad5794"
+    },
+    {
+      "repo": "joomcode/joompulse-skills",
+      "path": "skills/pulse-find-exact-same-product/SKILL.md",
+      "source_commit": "0a679a081bdd9f3b5eca55c9cc4ff28c74428c23",
+      "content_sha256": "edc4babe045c09a543be505065743735f41f7201ad7c558d3a5f0adddfb3abbb",
+      "reviewed_at": "2026-11-21",
+      "review_basis": "重新读取当前公开 HEAD；SKILL.md 哈希与已审核版本一致。",
+      "previous_source_commit": "0a679a081bdd9f3b5eca55c9cc4ff28c74428c23",
+      "previous_content_sha256": "edc4babe045c09a543be505065743735f41f7201ad7c558d3a5f0adddfb3abbb"
+    },
+    {
+      "repo": "joomcode/joompulse-skills",
+      "path": "skills/top-keywords-in-my-category/SKILL.md",
+      "source_commit": "0a679a081bdd9f3b5eca55c9cc4ff28c74428c23",
+      "content_sha256": "68426b94709503095806d6dbcb55e49a4b06128742e750f6d763802e06113c1d",
+      "reviewed_at": "2026-11-21",
+      "review_basis": "重新读取当前公开 HEAD；SKILL.md 哈希与已审核版本一致。",
+      "previous_source_commit": "0a679a081bdd9f3b5eca55c9cc4ff28c74428c23",
+      "previous_content_sha256": "68426b94709503095806d6dbcb55e49a4b06128742e750f6d763802e06113c1d"
+    },
+    {
+      "repo": "joomcode/joompulse-skills",
+      "path": "skills/uncontested-niche-finder/SKILL.md",
+      "source_commit": "0a679a081bdd9f3b5eca55c9cc4ff28c74428c23",
+      "content_sha256": "8ad7865bdd9fe8a3e591cb24fb7f22bf6f474414660ef20ea9bb6864f609c578",
+      "reviewed_at": "2026-11-21",
+      "review_basis": "重新读取当前公开 HEAD；SKILL.md 哈希与已审核版本一致。",
+      "previous_source_commit": "0a679a081bdd9f3b5eca55c9cc4ff28c74428c23",
+      "previous_content_sha256": "8ad7865bdd9fe8a3e591cb24fb7f22bf6f474414660ef20ea9bb6864f609c578"
+    },
+    {
+      "repo": "lunw/shopline-ai-toolkit-dsh",
+      "path": "skills/shopline-admin-rest/SKILL.md",
+      "source_commit": "a5783d242162f866a35871e349269616aedaf981",
+      "content_sha256": "f76fa44f8876b44cdf9e85e4e8604a227b60b510155ed44368dd14a43adc1658",
+      "reviewed_at": "2026-11-21",
+      "review_basis": "重新读取当前公开 HEAD；SKILL.md 哈希与已审核版本一致。",
+      "previous_source_commit": "a5783d242162f866a35871e349269616aedaf981",
+      "previous_content_sha256": "f76fa44f8876b44cdf9e85e4e8604a227b60b510155ed44368dd14a43adc1658"
+    },
+    {
+      "repo": "lunw/shopline-ai-toolkit-dsh",
+      "path": "skills/shopline-graphql/SKILL.md",
+      "source_commit": "a5783d242162f866a35871e349269616aedaf981",
+      "content_sha256": "af6d891b5f40c6448470a44820f418d266230edfed2186eb709a92f7d992d8ba",
+      "reviewed_at": "2026-11-21",
+      "review_basis": "重新读取当前公开 HEAD；SKILL.md 哈希与已审核版本一致。",
+      "previous_source_commit": "a5783d242162f866a35871e349269616aedaf981",
+      "previous_content_sha256": "af6d891b5f40c6448470a44820f418d266230edfed2186eb709a92f7d992d8ba"
+    },
+    {
+      "repo": "lunw/shopline-ai-toolkit-dsh",
+      "path": "skills/shopline-oauth/SKILL.md",
+      "source_commit": "a5783d242162f866a35871e349269616aedaf981",
+      "content_sha256": "539b4e8d11a9a55d2037c0f68b0c5b03ae40c07f9598ca3ff823dba61d872d89",
+      "reviewed_at": "2026-11-21",
+      "review_basis": "重新读取当前公开 HEAD；SKILL.md 哈希与已审核版本一致。",
+      "previous_source_commit": "a5783d242162f866a35871e349269616aedaf981",
+      "previous_content_sha256": "539b4e8d11a9a55d2037c0f68b0c5b03ae40c07f9598ca3ff823dba61d872d89"
+    },
+    {
+      "repo": "lunw/shopline-ai-toolkit-dsh",
+      "path": "skills/shopline-sline/SKILL.md",
+      "source_commit": "a5783d242162f866a35871e349269616aedaf981",
+      "content_sha256": "1225bf00793f6e9fc7080702046dfdcb0c3654bdf567930432cac5074b354b1b",
+      "reviewed_at": "2026-11-21",
+      "review_basis": "重新读取当前公开 HEAD；SKILL.md 哈希与已审核版本一致。",
+      "previous_source_commit": "a5783d242162f866a35871e349269616aedaf981",
+      "previous_content_sha256": "1225bf00793f6e9fc7080702046dfdcb0c3654bdf567930432cac5074b354b1b"
+    },
+    {
+      "repo": "lunw/shopline-ai-toolkit-dsh",
+      "path": "skills/shopline-webhook/SKILL.md",
+      "source_commit": "a5783d242162f866a35871e349269616aedaf981",
+      "content_sha256": "f86f980d88b79bc3bdf4af0a9a64cb008db234306c01d4e06831e7ad3d210188",
+      "reviewed_at": "2026-11-21",
+      "review_basis": "重新读取当前公开 HEAD；SKILL.md 哈希与已审核版本一致。",
+      "previous_source_commit": "a5783d242162f866a35871e349269616aedaf981",
+      "previous_content_sha256": "f86f980d88b79bc3bdf4af0a9a64cb008db234306c01d4e06831e7ad3d210188"
+    },
+    {
+      "repo": "daisymyu-dev/TikTok-Commerce-Intelligence",
+      "path": "SKILL.md",
+      "source_commit": "e48472e5964322b3bcf2d8334bcb032a56eb4ed9",
+      "content_sha256": "2b414d4c0fa18e9e3e4e3e11ef2a410c1b0b07d6b4b1d89c38ab00fdb98d3de7",
+      "reviewed_at": "2026-11-21",
+      "review_basis": "重新读取当前公开 HEAD；SKILL.md 哈希与已审核版本一致。",
+      "previous_source_commit": "e48472e5964322b3bcf2d8334bcb032a56eb4ed9",
+      "previous_content_sha256": "2b414d4c0fa18e9e3e4e3e11ef2a410c1b0b07d6b4b1d89c38ab00fdb98d3de7"
+    },
+    {
+      "repo": "DannylydST/sorftime-seller-agent",
+      "path": "SKILL.md",
+      "source_commit": "7c3191408f60f2026026936db4a5e207fdf11277",
+      "content_sha256": "251613e8df34203429c437944ab7021625b0e6fe602d0a04cc5351bc2ce8f545",
+      "reviewed_at": "2026-11-21",
+      "review_basis": "比较本轮公开固定提交中的 SKILL.md；用途、依赖和授权边界的差异已核对。",
+      "previous_source_commit": "f08fbe963497c87e795a1cb0f5fa198d13c84bd9",
+      "previous_content_sha256": "7f0ecf7d05c940ea929ed179be45c023aa4fa0a3de4d2f33b45d6fa8403ee621"
+    },
+    {
+      "repo": "silennsong/etsy-listing-helper",
+      "path": "SKILL.md",
+      "source_commit": "3944cf9e6d54be7850d7456dd74e75e384cedd4b",
+      "content_sha256": "cef1b849c2cfd8c03ecb8b72003518b21c52622e2a819a2d0b2adce03237dad2",
+      "reviewed_at": "2026-11-21",
+      "review_basis": "重新读取当前公开 HEAD；SKILL.md 哈希与已审核版本一致。",
+      "previous_source_commit": "3944cf9e6d54be7850d7456dd74e75e384cedd4b",
+      "previous_content_sha256": "cef1b849c2cfd8c03ecb8b72003518b21c52622e2a819a2d0b2adce03237dad2"
+    },
+    {
+      "repo": "Automattic/claude-woocommerce-toolkit",
+      "path": "skills/woocommerce-plugin-dev/SKILL.md",
+      "source_commit": "d70538707247a4d3e6a940c554a9dd4e7010b3d1",
+      "content_sha256": "9f1ad7bd1657cb37b9807cdd45d3dde01eab61e1f1fb82d2afd6eb8f748a35cd",
+      "reviewed_at": "2026-11-21",
+      "review_basis": "重新读取当前公开 HEAD；SKILL.md 哈希与已审核版本一致。",
+      "previous_source_commit": "d70538707247a4d3e6a940c554a9dd4e7010b3d1",
+      "previous_content_sha256": "9f1ad7bd1657cb37b9807cdd45d3dde01eab61e1f1fb82d2afd6eb8f748a35cd"
+    },
+    {
+      "repo": "Automattic/claude-woocommerce-toolkit",
+      "path": "skills/woocommerce-upgrade-safety/SKILL.md",
+      "source_commit": "d70538707247a4d3e6a940c554a9dd4e7010b3d1",
+      "content_sha256": "44b0a6cccf187081bbd45f52f48a4ff67f828205d11f4af1443268b1f5dec8ab",
+      "reviewed_at": "2026-11-21",
+      "review_basis": "重新读取当前公开 HEAD；SKILL.md 哈希与已审核版本一致。",
+      "previous_source_commit": "d70538707247a4d3e6a940c554a9dd4e7010b3d1",
+      "previous_content_sha256": "44b0a6cccf187081bbd45f52f48a4ff67f828205d11f4af1443268b1f5dec8ab"
+    },
+    {
+      "repo": "Automattic/claude-woocommerce-toolkit",
+      "path": "skills/woocommerce-finalize/SKILL.md",
+      "source_commit": "d70538707247a4d3e6a940c554a9dd4e7010b3d1",
+      "content_sha256": "9ae7f257825c2dd1f3b635072f67afe37be0dacadd7476c76e7f300efa74a6bf",
+      "reviewed_at": "2026-11-21",
+      "review_basis": "重新读取当前公开 HEAD；SKILL.md 哈希与已审核版本一致。",
+      "previous_source_commit": "d70538707247a4d3e6a940c554a9dd4e7010b3d1",
+      "previous_content_sha256": "9ae7f257825c2dd1f3b635072f67afe37be0dacadd7476c76e7f300efa74a6bf"
+    },
+    {
+      "repo": "woocommerce/agent-skills",
+      "path": "skills/abilities-api-implement/SKILL.md",
+      "source_commit": "89cc969d2273ac9eb668c48b7284f77e0862bb21",
+      "content_sha256": "9a6d930bda8616aa204b0c1073a11832e54804ed495bcc2aead399d4f7189872",
+      "reviewed_at": "2026-11-21",
+      "review_basis": "重新读取当前公开 HEAD；SKILL.md 哈希与已审核版本一致。",
+      "previous_source_commit": "89cc969d2273ac9eb668c48b7284f77e0862bb21",
+      "previous_content_sha256": "9a6d930bda8616aa204b0c1073a11832e54804ed495bcc2aead399d4f7189872"
+    },
+    {
+      "repo": "PrestaShop/skills",
+      "path": "autoupgrade/user/prestashop-update/SKILL.md",
+      "source_commit": "26e404df6b80bd6ea890527c71e804aaa575eb72",
+      "content_sha256": "3a75e0989c79415f410c9f8dfa34d058d2149030dbd013f38cee887343bb2c99",
+      "reviewed_at": "2026-11-21",
+      "review_basis": "重新读取当前公开 HEAD；SKILL.md 哈希与已审核版本一致。",
+      "previous_source_commit": "26e404df6b80bd6ea890527c71e804aaa575eb72",
+      "previous_content_sha256": "3a75e0989c79415f410c9f8dfa34d058d2149030dbd013f38cee887343bb2c99"
+    },
+    {
+      "repo": "PrestaShop/skills",
+      "path": "autoupgrade/user/prestashop-restore/SKILL.md",
+      "source_commit": "26e404df6b80bd6ea890527c71e804aaa575eb72",
+      "content_sha256": "321cfa090c4168d0622381d64aa8941e9f79a80761bf72edf03ad401d98dfc98",
+      "reviewed_at": "2026-11-21",
+      "review_basis": "重新读取当前公开 HEAD；SKILL.md 哈希与已审核版本一致。",
+      "previous_source_commit": "26e404df6b80bd6ea890527c71e804aaa575eb72",
+      "previous_content_sha256": "321cfa090c4168d0622381d64aa8941e9f79a80761bf72edf03ad401d98dfc98"
+    },
+    {
+      "repo": "PrestaShop/skills",
+      "path": "autoupgrade/user/prestashop-update-check/SKILL.md",
+      "source_commit": "26e404df6b80bd6ea890527c71e804aaa575eb72",
+      "content_sha256": "e3f341225d35e5710841617ffed9bae892e616f74ca9cbcb7db41ffb8c5fc8e6",
+      "reviewed_at": "2026-11-21",
+      "review_basis": "重新读取当前公开 HEAD；SKILL.md 哈希与已审核版本一致。",
+      "previous_source_commit": "26e404df6b80bd6ea890527c71e804aaa575eb72",
+      "previous_content_sha256": "e3f341225d35e5710841617ffed9bae892e616f74ca9cbcb7db41ffb8c5fc8e6"
+    },
+    {
+      "repo": "Inchoo/magento-bricklayer",
+      "path": "config/skills/hyva-checkout/SKILL.md",
+      "source_commit": "6a1a27561cc1af9d1bdc0a82ce0dd1588735efdd",
+      "content_sha256": "43ccab3b89e9f807e694fa8ff338d6a90d61cbd78dec7135b8c3be3ba45b80db",
+      "reviewed_at": "2026-11-21",
+      "review_basis": "重新读取当前公开 HEAD；SKILL.md 哈希与已审核版本一致。",
+      "previous_source_commit": "6a1a27561cc1af9d1bdc0a82ce0dd1588735efdd",
+      "previous_content_sha256": "43ccab3b89e9f807e694fa8ff338d6a90d61cbd78dec7135b8c3be3ba45b80db"
+    },
+    {
+      "repo": "Inchoo/magento-bricklayer",
+      "path": "config/skills/magewire-three/SKILL.md",
+      "source_commit": "6a1a27561cc1af9d1bdc0a82ce0dd1588735efdd",
+      "content_sha256": "214ac9b29c2a203fa38764534e9061237c815d87e4d4d0ff74e41a601f05ecd3",
+      "reviewed_at": "2026-11-21",
+      "review_basis": "重新读取当前公开 HEAD；SKILL.md 哈希与已审核版本一致。",
+      "previous_source_commit": "6a1a27561cc1af9d1bdc0a82ce0dd1588735efdd",
+      "previous_content_sha256": "214ac9b29c2a203fa38764534e9061237c815d87e4d4d0ff74e41a601f05ecd3"
+    },
+    {
+      "repo": "linkfox-ai/linkfox-skills",
+      "path": "skills/linkfox-kalodata-tiktok-product/SKILL.md",
+      "source_commit": "57465352b58c1e978d1e25e004fb3540f1954df9",
+      "content_sha256": "98709976f7471d895f46700ce711dc562e4f444c56ffeabdc9853d1a3e72cf3e",
+      "reviewed_at": "2026-11-21",
+      "review_basis": "重新读取当前公开 HEAD；SKILL.md 哈希与已审核版本一致。",
+      "previous_source_commit": "873c9327d6d49695ba8ff1ef131bcd6d85a8b437",
+      "previous_content_sha256": "98709976f7471d895f46700ce711dc562e4f444c56ffeabdc9853d1a3e72cf3e"
+    },
+    {
+      "repo": "linkfox-ai/linkfox-skills",
+      "path": "skills/linkfox-temu-product-query/SKILL.md",
+      "source_commit": "57465352b58c1e978d1e25e004fb3540f1954df9",
+      "content_sha256": "f99111aee37ddeab344050be938695e998fcbe40aa56454b49b6a28ffa15a438",
+      "reviewed_at": "2026-11-21",
+      "review_basis": "重新读取当前公开 HEAD；SKILL.md 哈希与已审核版本一致。",
+      "previous_source_commit": "873c9327d6d49695ba8ff1ef131bcd6d85a8b437",
+      "previous_content_sha256": "f99111aee37ddeab344050be938695e998fcbe40aa56454b49b6a28ffa15a438"
+    }
+  ]
+}

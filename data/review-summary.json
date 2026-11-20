@@ -1,25 +1,25 @@
 {
-  "collected_at": "2026-11-14T19:37:42+08:00",
+  "collected_at": "2026-11-21T02:32:39+08:00",
   "scope_complete": false,
   "method": "公开网页检索发现来源；Git HEAD 与固定提交归档扫描；仅读取 SKILL.md、README 与许可证，不执行第三方代码。",
-  "repositories_attempted": 56,
-  "repositories_scanned": 55,
-  "raw_candidate_files": 8926,
+  "repositories_attempted": 128,
+  "repositories_scanned": 125,
+  "raw_candidate_files": 10570,
   "candidate_dispositions": {
-    "invalid-metadata": 335,
-    "pending-relevance-review": 3409,
-    "published-path": 161,
-    "license-unconfirmed": 3424,
+    "invalid-metadata": 337,
+    "pending-relevance-review": 4758,
+    "published-path": 245,
+    "license-unconfirmed": 3632,
     "filename-compatibility-unconfirmed": 26,
     "archived-path": 21,
-    "duplicate-content": 1521,
+    "duplicate-content": 1522,
     "outdated-reference": 1,
     "insufficient-instructions": 1,
     "consumer-shopping-scope": 1,
     "implementation-pending": 26
   },
-  "published_skills": 161,
-  "published_repositories": 28,
+  "published_skills": 245,
+  "published_repositories": 46,
   "published_platforms": [
     "1688",
     "AliExpress",
@@ -31,32 +31,1005 @@
     "Mercado Libre",
     "Ozon",
     "PrestaShop",
+    "SHEIN",
     "SHOPLINE",
     "Shopee",
     "Shopify",
     "Temu",
     "TikTok Shop",
     "Walmart",
+    "Wayfair",
     "Wildberries",
     "WooCommerce",
     "eBay",
     "京东",
+    "小红书",
     "抖音小店",
     "拼多多",
     "淘宝",
+    "视频号 / 微信小店",
     "通用"
   ],
   "capability_counts": {
-    "方法指导": 55,
-    "开发辅助": 25,
-    "文件处理": 6,
-    "数据查询": 38,
-    "店铺操作": 15,
-    "内容生成": 13,
-    "网页采集": 9
+    "方法指导": 82,
+    "开发辅助": 29,
+    "文件处理": 20,
+    "数据查询": 55,
+    "店铺操作": 18,
+    "内容生成": 30,
+    "网页采集": 11
   },
   "tested_skills": 0,
   "selected_rejections": [],
+  "refreshed_sources": [
+    {
+      "id": "nexscope-ai--tiktok-shop-product-research",
+      "repo": "nexscope-ai/eCommerce-Skills",
+      "path": "tiktok-shop-product-research/SKILL.md",
+      "content_changed": false
+    },
+    {
+      "id": "nexscope-ai--tiktok-shop-listing-optimization",
+      "repo": "nexscope-ai/eCommerce-Skills",
+      "path": "tiktok-shop-listing-optimization/SKILL.md",
+      "content_changed": false
+    },
+    {
+      "id": "nexscope-ai--tiktok-shop-content-strategy",
+      "repo": "nexscope-ai/eCommerce-Skills",
+      "path": "tiktok-shop-content-strategy/SKILL.md",
+      "content_changed": false
+    },
+    {
+      "id": "nexscope-ai--tiktok-influencer-marketing",
+      "repo": "nexscope-ai/eCommerce-Skills",
+      "path": "tiktok-influencer-marketing/SKILL.md",
+      "content_changed": false
+    },
+    {
+      "id": "nexscope-ai--tiktok-shop-ads",
+      "repo": "nexscope-ai/eCommerce-Skills",
+      "path": "tiktok-shop-ads/SKILL.md",
+      "content_changed": false
+    },
+    {
+      "id": "nexscope-ai--tiktok-shop-analytics",
+      "repo": "nexscope-ai/eCommerce-Skills",
+      "path": "tiktok-shop-analytics/SKILL.md",
+      "content_changed": false
+    },
+    {
+      "id": "nexscope-ai--tiktok-shop-inventory",
+      "repo": "nexscope-ai/eCommerce-Skills",
+      "path": "tiktok-shop-inventory/SKILL.md",
+      "content_changed": false
+    },
+    {
+      "id": "nexscope-ai--tiktok-shop-customer-service",
+      "repo": "nexscope-ai/eCommerce-Skills",
+      "path": "tiktok-shop-customer-service/SKILL.md",
+      "content_changed": false
+    },
+    {
+      "id": "nexscope-ai--product-differentiation-amazon",
+      "repo": "nexscope-ai/eCommerce-Skills",
+      "path": "product-differentiation/product-differentiation-amazon/SKILL.md",
+      "content_changed": false
+    },
+    {
+      "id": "nexscope-ai--profit-margin-calculator-amazon",
+      "repo": "nexscope-ai/eCommerce-Skills",
+      "path": "profit-margin-calculator/profit-margin-calculator-amazon/SKILL.md",
+      "content_changed": false
+    },
+    {
+      "id": "nexscope-ai--supply-chain-optimization-amazon-lite",
+      "repo": "nexscope-ai/eCommerce-Skills",
+      "path": "supply-chain-optimization/supply-chain-optimization-amazon/SKILL.md",
+      "content_changed": false
+    },
+    {
+      "id": "nexscope-ai--amazon-review-checker",
+      "repo": "nexscope-ai/eCommerce-Skills",
+      "path": "review-checker/amazon-review-checker/SKILL.md",
+      "content_changed": false
+    },
+    {
+      "id": "nexscope-ai--shopify-email-flows",
+      "repo": "nexscope-ai/eCommerce-Skills",
+      "path": "shopify-email-flows/SKILL.md",
+      "content_changed": false
+    },
+    {
+      "id": "nexscope-ai--shopify-product-photography-guide",
+      "repo": "nexscope-ai/eCommerce-Skills",
+      "path": "shopify-product-photography-guide/SKILL.md",
+      "content_changed": false
+    },
+    {
+      "id": "nexscope-ai--ecommerce-competitor-analysis",
+      "repo": "nexscope-ai/eCommerce-Skills",
+      "path": "ecommerce-competitor-analysis/SKILL.md",
+      "content_changed": false
+    },
+    {
+      "id": "nexscope-ai--product-description-generator",
+      "repo": "nexscope-ai/eCommerce-Skills",
+      "path": "product-description-generator/SKILL.md",
+      "content_changed": false
+    },
+    {
+      "id": "nexscope-ai--product-title-optimization",
+      "repo": "nexscope-ai/eCommerce-Skills",
+      "path": "product-title-optimization/SKILL.md",
+      "content_changed": false
+    },
+    {
+      "id": "nexscope-ai--ecommerce-ppc-strategy-planner",
+      "repo": "nexscope-ai/eCommerce-Skills",
+      "path": "ecommerce-ppc-strategy-planner/SKILL.md",
+      "content_changed": false
+    },
+    {
+      "id": "nexscope-ai--warehouse-optimization",
+      "repo": "nexscope-ai/eCommerce-Skills",
+      "path": "warehouse-optimization/SKILL.md",
+      "content_changed": false
+    },
+    {
+      "id": "nexscope-ai--etsy-product-description",
+      "repo": "nexscope-ai/eCommerce-Skills",
+      "path": "etsy-product-description/SKILL.md",
+      "content_changed": false
+    },
+    {
+      "id": "nexscope-ai--walmart-listing-optimization",
+      "repo": "nexscope-ai/eCommerce-Skills",
+      "path": "walmart-listing-optimization/SKILL.md",
+      "content_changed": false
+    },
+    {
+      "id": "coreyhaines31--seo-audit",
+      "repo": "coreyhaines31/marketingskills",
+      "path": "skills/seo-audit/SKILL.md",
+      "content_changed": true
+    },
+    {
+      "id": "coreyhaines31--copywriting",
+      "repo": "coreyhaines31/marketingskills",
+      "path": "skills/copywriting/SKILL.md",
+      "content_changed": true
+    },
+    {
+      "id": "coreyhaines31--ads",
+      "repo": "coreyhaines31/marketingskills",
+      "path": "skills/ads/SKILL.md",
+      "content_changed": true
+    },
+    {
+      "id": "coreyhaines31--ad-creative",
+      "repo": "coreyhaines31/marketingskills",
+      "path": "skills/ad-creative/SKILL.md",
+      "content_changed": true
+    },
+    {
+      "id": "coreyhaines31--emails",
+      "repo": "coreyhaines31/marketingskills",
+      "path": "skills/emails/SKILL.md",
+      "content_changed": true
+    },
+    {
+      "id": "coreyhaines31--cro",
+      "repo": "coreyhaines31/marketingskills",
+      "path": "skills/cro/SKILL.md",
+      "content_changed": false
+    },
+    {
+      "id": "coreyhaines31--content-strategy",
+      "repo": "coreyhaines31/marketingskills",
+      "path": "skills/content-strategy/SKILL.md",
+      "content_changed": false
+    },
+    {
+      "id": "coreyhaines31--influencer-marketing",
+      "repo": "coreyhaines31/marketingskills",
+      "path": "skills/influencer-marketing/SKILL.md",
+      "content_changed": true
+    },
+    {
+      "id": "coreyhaines31--customer-research",
+      "repo": "coreyhaines31/marketingskills",
+      "path": "skills/customer-research/SKILL.md",
+      "content_changed": false
+    },
+    {
+      "id": "coreyhaines31--pricing",
+      "repo": "coreyhaines31/marketingskills",
+      "path": "skills/pricing/SKILL.md",
+      "content_changed": false
+    },
+    {
+      "id": "coreyhaines31--social",
+      "repo": "coreyhaines31/marketingskills",
+      "path": "skills/social/SKILL.md",
+      "content_changed": true
+    },
+    {
+      "id": "coreyhaines31--conversion-tracking",
+      "repo": "coreyhaines31/marketingskills",
+      "path": "skills/conversion-tracking/SKILL.md",
+      "content_changed": false
+    },
+    {
+      "id": "sadrmanesh--shopify-app-development",
+      "repo": "sadrmanesh/commerce-agent-skills",
+      "path": "skills/shopify-app-development/SKILL.md",
+      "content_changed": false
+    },
+    {
+      "id": "sadrmanesh--woocommerce-rest-api",
+      "repo": "sadrmanesh/commerce-agent-skills",
+      "path": "skills/woocommerce-rest-api/SKILL.md",
+      "content_changed": false
+    },
+    {
+      "id": "sadrmanesh--checkout-ux-and-conversion",
+      "repo": "sadrmanesh/commerce-agent-skills",
+      "path": "skills/checkout-ux-and-conversion/SKILL.md",
+      "content_changed": false
+    },
+    {
+      "id": "sadrmanesh--ecommerce-seo-structured-data",
+      "repo": "sadrmanesh/commerce-agent-skills",
+      "path": "skills/ecommerce-seo-structured-data/SKILL.md",
+      "content_changed": false
+    },
+    {
+      "id": "sadrmanesh--google-merchant-product-feeds",
+      "repo": "sadrmanesh/commerce-agent-skills",
+      "path": "skills/google-merchant-product-feeds/SKILL.md",
+      "content_changed": false
+    },
+    {
+      "id": "sadrmanesh--inventory-and-multi-warehouse",
+      "repo": "sadrmanesh/commerce-agent-skills",
+      "path": "skills/inventory-and-multi-warehouse/SKILL.md",
+      "content_changed": false
+    },
+    {
+      "id": "sadrmanesh--catalog-import-and-migration",
+      "repo": "sadrmanesh/commerce-agent-skills",
+      "path": "skills/catalog-import-and-migration/SKILL.md",
+      "content_changed": false
+    },
+    {
+      "id": "sadrmanesh--returns-and-refunds",
+      "repo": "sadrmanesh/commerce-agent-skills",
+      "path": "skills/returns-and-refunds/SKILL.md",
+      "content_changed": false
+    },
+    {
+      "id": "sadrmanesh--storefront-accessibility",
+      "repo": "sadrmanesh/commerce-agent-skills",
+      "path": "skills/storefront-accessibility/SKILL.md",
+      "content_changed": false
+    },
+    {
+      "id": "sadrmanesh--storefront-performance",
+      "repo": "sadrmanesh/commerce-agent-skills",
+      "path": "skills/storefront-performance/SKILL.md",
+      "content_changed": false
+    },
+    {
+      "id": "proskillpacks--shopify-alt-text-writer",
+      "repo": "proskillpacks/shopify-store-skills",
+      "path": "skills/shopify-alt-text-writer/SKILL.md",
+      "content_changed": false
+    },
+    {
+      "id": "proskillpacks--product-title-cleaner",
+      "repo": "proskillpacks/shopify-store-skills",
+      "path": "skills/product-title-cleaner/SKILL.md",
+      "content_changed": false
+    },
+    {
+      "id": "proskillpacks--review-reply-drafter",
+      "repo": "proskillpacks/shopify-store-skills",
+      "path": "skills/review-reply-drafter/SKILL.md",
+      "content_changed": false
+    },
+    {
+      "id": "proskillpacks--shopify-policy-checker",
+      "repo": "proskillpacks/shopify-store-skills",
+      "path": "skills/shopify-policy-checker/SKILL.md",
+      "content_changed": false
+    },
+    {
+      "id": "proskillpacks--agent-ready-quick-check",
+      "repo": "proskillpacks/shopify-store-skills",
+      "path": "skills/agent-ready-quick-check/SKILL.md",
+      "content_changed": false
+    },
+    {
+      "id": "linkfox-ai--linkfox-dld-product-search",
+      "repo": "linkfox-ai/linkfox-skills",
+      "path": "skills/linkfox-dld-product-search/SKILL.md",
+      "content_changed": false
+    },
+    {
+      "id": "linkfox-ai--linkfox-1688-search-by-image",
+      "repo": "linkfox-ai/linkfox-skills",
+      "path": "skills/linkfox-1688-search-by-image/SKILL.md",
+      "content_changed": false
+    },
+    {
+      "id": "linkfox-ai--linkfox-1688-product-detail",
+      "repo": "linkfox-ai/linkfox-skills",
+      "path": "skills/linkfox-1688-product-detail/SKILL.md",
+      "content_changed": false
+    },
+    {
+      "id": "linkfox-ai--linkfox-1688-procurement",
+      "repo": "linkfox-ai/linkfox-skills",
+      "path": "skills/linkfox-1688-procurement/SKILL.md",
+      "content_changed": false
+    },
+    {
+      "id": "linkfox-ai--linkfox-amazon-search",
+      "repo": "linkfox-ai/linkfox-skills",
+      "path": "skills/linkfox-amazon-search/SKILL.md",
+      "content_changed": false
+    },
+    {
+      "id": "linkfox-ai--linkfox-amazon-reviews-list",
+      "repo": "linkfox-ai/linkfox-skills",
+      "path": "skills/linkfox-amazon-reviews-list/SKILL.md",
+      "content_changed": false
+    },
+    {
+      "id": "linkfox-ai--linkfox-amazon-store-orders",
+      "repo": "linkfox-ai/linkfox-skills",
+      "path": "skills/linkfox-amazon-store-orders/SKILL.md",
+      "content_changed": false
+    },
+    {
+      "id": "linkfox-ai--linkfox-amazon-ads-report",
+      "repo": "linkfox-ai/linkfox-skills",
+      "path": "skills/linkfox-amazon-ads-report/SKILL.md",
+      "content_changed": false
+    },
+    {
+      "id": "linkfox-ai--linkfox-chuhaijiang-tiktok-video",
+      "repo": "linkfox-ai/linkfox-skills",
+      "path": "skills/linkfox-chuhaijiang-tiktok-video/SKILL.md",
+      "content_changed": false
+    },
+    {
+      "id": "linkfox-ai--linkfox-chuhaijiang-tiktok-creator",
+      "repo": "linkfox-ai/linkfox-skills",
+      "path": "skills/linkfox-chuhaijiang-tiktok-creator/SKILL.md",
+      "content_changed": false
+    },
+    {
+      "id": "linkfox-ai--linkfox-geekbi-temu-product",
+      "repo": "linkfox-ai/linkfox-skills",
+      "path": "skills/linkfox-geekbi-temu-product/SKILL.md",
+      "content_changed": false
+    },
+    {
+      "id": "linkfox-ai--linkfox-geekbi-temu-market-research",
+      "repo": "linkfox-ai/linkfox-skills",
+      "path": "skills/linkfox-geekbi-temu-market-research/SKILL.md",
+      "content_changed": false
+    },
+    {
+      "id": "linkfox-ai--linkfox-temu-order-us",
+      "repo": "linkfox-ai/linkfox-skills",
+      "path": "skills/linkfox-temu-order-us/SKILL.md",
+      "content_changed": false
+    },
+    {
+      "id": "linkfox-ai--linkfox-shopee-product-detail",
+      "repo": "linkfox-ai/linkfox-skills",
+      "path": "skills/linkfox-shopee-product-detail/SKILL.md",
+      "content_changed": false
+    },
+    {
+      "id": "linkfox-ai--linkfox-shopee-store-orders",
+      "repo": "linkfox-ai/linkfox-skills",
+      "path": "skills/linkfox-shopee-store-orders/SKILL.md",
+      "content_changed": false
+    },
+    {
+      "id": "linkfox-ai--linkfox-lazada-store-orders",
+      "repo": "linkfox-ai/linkfox-skills",
+      "path": "skills/linkfox-lazada-store-orders/SKILL.md",
+      "content_changed": false
+    },
+    {
+      "id": "linkfox-ai--linkfox-mpstats-ozon-product-search",
+      "repo": "linkfox-ai/linkfox-skills",
+      "path": "skills/linkfox-mpstats-ozon-product-search/SKILL.md",
+      "content_changed": false
+    },
+    {
+      "id": "autoagc--linkpix-amazon-image",
+      "repo": "autoagc/linkpix-skills",
+      "path": "skills/linkpix-amazon-image/SKILL.md",
+      "content_changed": true
+    },
+    {
+      "id": "autoagc--linkpix-temu-image",
+      "repo": "autoagc/linkpix-skills",
+      "path": "skills/linkpix-temu-image/SKILL.md",
+      "content_changed": true
+    },
+    {
+      "id": "autoagc--linkpix-shopee-image",
+      "repo": "autoagc/linkpix-skills",
+      "path": "skills/linkpix-shopee-image/SKILL.md",
+      "content_changed": true
+    },
+    {
+      "id": "autoagc--linkpix-lazada-image",
+      "repo": "autoagc/linkpix-skills",
+      "path": "skills/linkpix-lazada-image/SKILL.md",
+      "content_changed": true
+    },
+    {
+      "id": "autoagc--linkpix-ozon-image",
+      "repo": "autoagc/linkpix-skills",
+      "path": "skills/linkpix-ozon-image/SKILL.md",
+      "content_changed": true
+    },
+    {
+      "id": "autoagc--linkpix-jd-image",
+      "repo": "autoagc/linkpix-skills",
+      "path": "skills/linkpix-jd-image/SKILL.md",
+      "content_changed": true
+    },
+    {
+      "id": "autoagc--linkpix-douyin-shop-image",
+      "repo": "autoagc/linkpix-skills",
+      "path": "skills/linkpix-douyin-shop-image/SKILL.md",
+      "content_changed": true
+    },
+    {
+      "id": "autoagc--linkpix-sales-video",
+      "repo": "autoagc/linkpix-skills",
+      "path": "skills/linkpix-sales-video/SKILL.md",
+      "content_changed": false
+    },
+    {
+      "id": "autoagc--linkpix-image-translate",
+      "repo": "autoagc/linkpix-skills",
+      "path": "skills/linkpix-image-translate/SKILL.md",
+      "content_changed": false
+    },
+    {
+      "id": "autoagc--linkpix-detail-page",
+      "repo": "autoagc/linkpix-skills",
+      "path": "skills/linkpix-detail-page/SKILL.md",
+      "content_changed": false
+    },
+    {
+      "id": "browser-act--1688-product-detail",
+      "repo": "browser-act/skills",
+      "path": "solutions/ecommerce/1688-product-detail/SKILL.md",
+      "content_changed": false
+    },
+    {
+      "id": "browser-act--amazon-product-detail",
+      "repo": "browser-act/skills",
+      "path": "solutions/ecommerce/amazon-product-detail/SKILL.md",
+      "content_changed": false
+    },
+    {
+      "id": "browser-act--amazon-search-listing",
+      "repo": "browser-act/skills",
+      "path": "solutions/ecommerce/amazon-search-listing/SKILL.md",
+      "content_changed": false
+    },
+    {
+      "id": "browser-act--ebay-item-detail",
+      "repo": "browser-act/skills",
+      "path": "solutions/ecommerce/ebay-item-detail/SKILL.md",
+      "content_changed": false
+    },
+    {
+      "id": "browser-act--ebay-sold-listings-search",
+      "repo": "browser-act/skills",
+      "path": "solutions/ecommerce/ebay-sold-listings-search/SKILL.md",
+      "content_changed": false
+    },
+    {
+      "id": "browser-act--etsy-keyword-search",
+      "repo": "browser-act/skills",
+      "path": "solutions/ecommerce/etsy-keyword-search/SKILL.md",
+      "content_changed": false
+    },
+    {
+      "id": "browser-act--taobao-keyword-search",
+      "repo": "browser-act/skills",
+      "path": "solutions/ecommerce/taobao-keyword-search/SKILL.md",
+      "content_changed": false
+    },
+    {
+      "id": "browser-act--taobao-product-reviews",
+      "repo": "browser-act/skills",
+      "path": "solutions/ecommerce/taobao-product-reviews/SKILL.md",
+      "content_changed": false
+    },
+    {
+      "id": "browser-act--walmart-product-detail",
+      "repo": "browser-act/skills",
+      "path": "solutions/ecommerce/walmart-product-detail/SKILL.md",
+      "content_changed": false
+    },
+    {
+      "id": "viethahong--ecommerce-marketplace",
+      "repo": "viethahong/business-skills",
+      "path": "skills/ads/ecommerce-marketplace/SKILL.md",
+      "content_changed": false
+    },
+    {
+      "id": "viethahong--livestream-selling",
+      "repo": "viethahong/business-skills",
+      "path": "skills/content/livestream-selling/SKILL.md",
+      "content_changed": false
+    },
+    {
+      "id": "viethahong--tiktok-shop-strategy",
+      "repo": "viethahong/business-skills",
+      "path": "skills/content/tiktok-shop-strategy/SKILL.md",
+      "content_changed": false
+    },
+    {
+      "id": "viethahong--unit-economics",
+      "repo": "viethahong/business-skills",
+      "path": "skills/finance/unit-economics/SKILL.md",
+      "content_changed": false
+    },
+    {
+      "id": "wubin1836--ai-ecommerce-expert-temu-ecommerce-content",
+      "repo": "wubin1836/ai-ecommerce-expert-agent-skills",
+      "path": "skills/ai-ecommerce-expert-temu-ecommerce-content/SKILL.md",
+      "content_changed": false
+    },
+    {
+      "id": "wubin1836--ai-ecommerce-expert-aliexpress-ecommerce-content",
+      "repo": "wubin1836/ai-ecommerce-expert-agent-skills",
+      "path": "skills/ai-ecommerce-expert-aliexpress-ecommerce-content/SKILL.md",
+      "content_changed": false
+    },
+    {
+      "id": "wubin1836--ai-ecommerce-expert-amazon-a-plus-ecommerce-content",
+      "repo": "wubin1836/ai-ecommerce-expert-agent-skills",
+      "path": "skills/ai-ecommerce-expert-amazon-a-plus-ecommerce-content/SKILL.md",
+      "content_changed": false
+    },
+    {
+      "id": "Shopify--shopify",
+      "repo": "Shopify/Shopify-AI-Toolkit",
+      "path": "skills/shopify/SKILL.md",
+      "content_changed": true
+    },
+    {
+      "id": "markoxtomic--multilingual-metadata-agent",
+      "repo": "markoxtomic/agent-skills",
+      "path": "multilingual-metadata-agent/SKILL.md",
+      "content_changed": false
+    },
+    {
+      "id": "bridgemekong--shopee",
+      "repo": "bridgemekong/shopee-skill",
+      "path": "SKILL.md",
+      "content_changed": false
+    },
+    {
+      "id": "nexscope-ai--amazon-a-plus-content",
+      "repo": "nexscope-ai/Amazon-Skills",
+      "path": "amazon-a-plus-content/SKILL.md",
+      "content_changed": false
+    },
+    {
+      "id": "nexscope-ai--amazon-backend-keywords",
+      "repo": "nexscope-ai/Amazon-Skills",
+      "path": "amazon-backend-keywords/SKILL.md",
+      "content_changed": false
+    },
+    {
+      "id": "nexscope-ai--amazon-brand-analytics",
+      "repo": "nexscope-ai/Amazon-Skills",
+      "path": "amazon-brand-analytics/SKILL.md",
+      "content_changed": false
+    },
+    {
+      "id": "nexscope-ai--amazon-fba-prep",
+      "repo": "nexscope-ai/Amazon-Skills",
+      "path": "amazon-fba-prep/SKILL.md",
+      "content_changed": false
+    },
+    {
+      "id": "nexscope-ai--amazon-negative-keywords",
+      "repo": "nexscope-ai/Amazon-Skills",
+      "path": "amazon-negative-keywords/SKILL.md",
+      "content_changed": false
+    },
+    {
+      "id": "nexscope-ai--amazon-ppc-campaign",
+      "repo": "nexscope-ai/Amazon-Skills",
+      "path": "amazon-ppc-campaign/SKILL.md",
+      "content_changed": false
+    },
+    {
+      "id": "nexscope-ai--amazon-profit-analyzer",
+      "repo": "nexscope-ai/Amazon-Skills",
+      "path": "amazon-profit-analyzer/SKILL.md",
+      "content_changed": false
+    },
+    {
+      "id": "nexscope-ai--amazon-product-photography",
+      "repo": "nexscope-ai/Amazon-Skills",
+      "path": "amazon-product-photography/SKILL.md",
+      "content_changed": false
+    },
+    {
+      "id": "nexscope-ai--amazon-review-analyzer",
+      "repo": "nexscope-ai/Amazon-Skills",
+      "path": "amazon-review-analyzer/SKILL.md",
+      "content_changed": false
+    },
+    {
+      "id": "nexscope-ai--amazon-global-selling",
+      "repo": "nexscope-ai/Amazon-Skills",
+      "path": "amazon-global-selling/SKILL.md",
+      "content_changed": false
+    },
+    {
+      "id": "nexscope-ai--amazon-keyword-research",
+      "repo": "nexscope-ai/Amazon-Skills",
+      "path": "amazon-keyword-research/SKILL.md",
+      "content_changed": false
+    },
+    {
+      "id": "brianmoney--a-plus-content",
+      "repo": "brianmoney/amazon-marketing-skill",
+      "path": "skills/a-plus-content/SKILL.md",
+      "content_changed": false
+    },
+    {
+      "id": "brianmoney--competitor-analysis",
+      "repo": "brianmoney/amazon-marketing-skill",
+      "path": "skills/competitor-analysis/SKILL.md",
+      "content_changed": false
+    },
+    {
+      "id": "brianmoney--keyword-research",
+      "repo": "brianmoney/amazon-marketing-skill",
+      "path": "skills/keyword-research/SKILL.md",
+      "content_changed": false
+    },
+    {
+      "id": "brianmoney--listing-audit",
+      "repo": "brianmoney/amazon-marketing-skill",
+      "path": "skills/listing-audit/SKILL.md",
+      "content_changed": false
+    },
+    {
+      "id": "brianmoney--listing-optimizer",
+      "repo": "brianmoney/amazon-marketing-skill",
+      "path": "skills/listing-optimizer/SKILL.md",
+      "content_changed": false
+    },
+    {
+      "id": "brianmoney--product-onboarding",
+      "repo": "brianmoney/amazon-marketing-skill",
+      "path": "skills/product-onboarding/SKILL.md",
+      "content_changed": false
+    },
+    {
+      "id": "amzn--fba-inbound-management",
+      "repo": "amzn/selling-partner-agentic-toolkit",
+      "path": "skills/fba-inbound-management/SKILL.md",
+      "content_changed": false
+    },
+    {
+      "id": "amzn--listing-buyability",
+      "repo": "amzn/selling-partner-agentic-toolkit",
+      "path": "skills/listing-buyability/SKILL.md",
+      "content_changed": false
+    },
+    {
+      "id": "amzn--listing-issues",
+      "repo": "amzn/selling-partner-agentic-toolkit",
+      "path": "skills/listing-issues/SKILL.md",
+      "content_changed": false
+    },
+    {
+      "id": "amzn--listing-searchability",
+      "repo": "amzn/selling-partner-agentic-toolkit",
+      "path": "skills/listing-searchability/SKILL.md",
+      "content_changed": false
+    },
+    {
+      "id": "amzn--stockout-prevention",
+      "repo": "amzn/selling-partner-agentic-toolkit",
+      "path": "skills/stockout-prevention/SKILL.md",
+      "content_changed": false
+    },
+    {
+      "id": "amzn--support-case-helper",
+      "repo": "amzn/selling-partner-agentic-toolkit",
+      "path": "skills/support-case-helper/SKILL.md",
+      "content_changed": false
+    },
+    {
+      "id": "amzn--finance-month-end-closer",
+      "repo": "amzn/selling-partner-agentic-toolkit",
+      "path": "skills/finance-month-end-closer/SKILL.md",
+      "content_changed": false
+    },
+    {
+      "id": "amzn--seller-analytics",
+      "repo": "amzn/selling-partner-agentic-toolkit",
+      "path": "skills/seller-analytics/SKILL.md",
+      "content_changed": false
+    },
+    {
+      "id": "amzn--listing-troubleshooter",
+      "repo": "amzn/selling-partner-agentic-toolkit",
+      "path": "skills/listing-troubleshooter/SKILL.md",
+      "content_changed": false
+    },
+    {
+      "id": "amzn--listing-compliance",
+      "repo": "amzn/selling-partner-agentic-toolkit",
+      "path": "skills/listing-compliance/SKILL.md",
+      "content_changed": false
+    },
+    {
+      "id": "amzn--sp-api-knowledge",
+      "repo": "amzn/selling-partner-agentic-toolkit",
+      "path": "skills/sp-api-knowledge/SKILL.md",
+      "content_changed": false
+    },
+    {
+      "id": "Saber-doudou--ecommerce-product-investigator",
+      "repo": "Saber-doudou/ecommerce-product-investigator",
+      "path": "SKILL.md",
+      "content_changed": false
+    },
+    {
+      "id": "ZloyDeDD--wb-api",
+      "repo": "ZloyDeDD/wb-api-skill",
+      "path": "SKILL.md",
+      "content_changed": false
+    },
+    {
+      "id": "xenosfeng-creator--monteli",
+      "repo": "xenosfeng-creator/MTL-skill",
+      "path": "SKILL.md",
+      "content_changed": false
+    },
+    {
+      "id": "AccioWork--accio-import-tariff-hs-code-calculator",
+      "repo": "AccioWork/agent-skills",
+      "path": "accio-import-tariff-hs-code-calculator/SKILL.md",
+      "content_changed": false
+    },
+    {
+      "id": "linkfox-ai--linkfox-mercado-product-selection",
+      "repo": "linkfox-ai/linkfox-skills",
+      "path": "skills/linkfox-mercado-product-selection/SKILL.md",
+      "content_changed": false
+    },
+    {
+      "id": "linkfox-ai--linkfox-damai-mercado-market-intelligence",
+      "repo": "linkfox-ai/linkfox-skills",
+      "path": "skills/linkfox-damai-mercado-market-intelligence/SKILL.md",
+      "content_changed": false
+    },
+    {
+      "id": "linkfox-ai--linkfox-mpstats-ozon-product-detail",
+      "repo": "linkfox-ai/linkfox-skills",
+      "path": "skills/linkfox-mpstats-ozon-product-detail/SKILL.md",
+      "content_changed": false
+    },
+    {
+      "id": "linkfox-ai--linkfox-mpstats-ozon-product-trend",
+      "repo": "linkfox-ai/linkfox-skills",
+      "path": "skills/linkfox-mpstats-ozon-product-trend/SKILL.md",
+      "content_changed": false
+    },
+    {
+      "id": "linkfox-ai--linkfox-ebay-search",
+      "repo": "linkfox-ai/linkfox-skills",
+      "path": "skills/linkfox-ebay-search/SKILL.md",
+      "content_changed": false
+    },
+    {
+      "id": "linkfox-ai--linkfox-sellersprite-traffic-keyword",
+      "repo": "linkfox-ai/linkfox-skills",
+      "path": "skills/linkfox-sellersprite-traffic-keyword/SKILL.md",
+      "content_changed": false
+    },
+    {
+      "id": "linkfox-ai--linkfox-sorftime-walmart-keyword-research",
+      "repo": "linkfox-ai/linkfox-skills",
+      "path": "skills/linkfox-sorftime-walmart-keyword-research/SKILL.md",
+      "content_changed": false
+    },
+    {
+      "id": "linkfox-ai--linkfox-google-patent-search",
+      "repo": "linkfox-ai/linkfox-skills",
+      "path": "skills/linkfox-google-patent-search/SKILL.md",
+      "content_changed": false
+    },
+    {
+      "id": "joomcode--category-monitor",
+      "repo": "joomcode/joompulse-skills",
+      "path": "skills/category-monitor/SKILL.md",
+      "content_changed": false
+    },
+    {
+      "id": "joomcode--category-opportunity-index",
+      "repo": "joomcode/joompulse-skills",
+      "path": "skills/category-opportunity-index/SKILL.md",
+      "content_changed": false
+    },
+    {
+      "id": "joomcode--high-demand-low-quality-finder",
+      "repo": "joomcode/joompulse-skills",
+      "path": "skills/high-demand-low-quality-finder/SKILL.md",
+      "content_changed": false
+    },
+    {
+      "id": "joomcode--ml-product-analysis",
+      "repo": "joomcode/joompulse-skills",
+      "path": "skills/ml-product-analysis/SKILL.md",
+      "content_changed": false
+    },
+    {
+      "id": "joomcode--new-growing-products-in-category",
+      "repo": "joomcode/joompulse-skills",
+      "path": "skills/new-growing-products-in-category/SKILL.md",
+      "content_changed": false
+    },
+    {
+      "id": "joomcode--pulse-find-exact-same-product",
+      "repo": "joomcode/joompulse-skills",
+      "path": "skills/pulse-find-exact-same-product/SKILL.md",
+      "content_changed": false
+    },
+    {
+      "id": "joomcode--top-keywords-in-my-category",
+      "repo": "joomcode/joompulse-skills",
+      "path": "skills/top-keywords-in-my-category/SKILL.md",
+      "content_changed": false
+    },
+    {
+      "id": "joomcode--uncontested-niche-finder",
+      "repo": "joomcode/joompulse-skills",
+      "path": "skills/uncontested-niche-finder/SKILL.md",
+      "content_changed": false
+    },
+    {
+      "id": "lunw--shopline-admin-rest",
+      "repo": "lunw/shopline-ai-toolkit-dsh",
+      "path": "skills/shopline-admin-rest/SKILL.md",
+      "content_changed": false
+    },
+    {
+      "id": "lunw--shopline-graphql",
+      "repo": "lunw/shopline-ai-toolkit-dsh",
+      "path": "skills/shopline-graphql/SKILL.md",
+      "content_changed": false
+    },
+    {
+      "id": "lunw--shopline-oauth",
+      "repo": "lunw/shopline-ai-toolkit-dsh",
+      "path": "skills/shopline-oauth/SKILL.md",
+      "content_changed": false
+    },
+    {
+      "id": "lunw--shopline-sline",
+      "repo": "lunw/shopline-ai-toolkit-dsh",
+      "path": "skills/shopline-sline/SKILL.md",
+      "content_changed": false
+    },
+    {
+      "id": "lunw--shopline-webhook",
+      "repo": "lunw/shopline-ai-toolkit-dsh",
+      "path": "skills/shopline-webhook/SKILL.md",
+      "content_changed": false
+    },
+    {
+      "id": "daisymyu-dev--tiktok-intelligence",
+      "repo": "daisymyu-dev/TikTok-Commerce-Intelligence",
+      "path": "SKILL.md",
+      "content_changed": false
+    },
+    {
+      "id": "DannylydST--sorftime-seller-agent",
+      "repo": "DannylydST/sorftime-seller-agent",
+      "path": "SKILL.md",
+      "content_changed": true
+    },
+    {
+      "id": "silennsong--etsy-listing-helper",
+      "repo": "silennsong/etsy-listing-helper",
+      "path": "SKILL.md",
+      "content_changed": false
+    },
+    {
+      "id": "Automattic--woocommerce-plugin-dev",
+      "repo": "Automattic/claude-woocommerce-toolkit",
+      "path": "skills/woocommerce-plugin-dev/SKILL.md",
+      "content_changed": false
+    },
+    {
+      "id": "Automattic--woocommerce-upgrade-safety",
+      "repo": "Automattic/claude-woocommerce-toolkit",
+      "path": "skills/woocommerce-upgrade-safety/SKILL.md",
+      "content_changed": false
+    },
+    {
+      "id": "Automattic--woocommerce-finalize",
+      "repo": "Automattic/claude-woocommerce-toolkit",
+      "path": "skills/woocommerce-finalize/SKILL.md",
+      "content_changed": false
+    },
+    {
+      "id": "woocommerce--abilities-api-implement",
+      "repo": "woocommerce/agent-skills",
+      "path": "skills/abilities-api-implement/SKILL.md",
+      "content_changed": false
+    },
+    {
+      "id": "PrestaShop--prestashop-update",
+      "repo": "PrestaShop/skills",
+      "path": "autoupgrade/user/prestashop-update/SKILL.md",
+      "content_changed": false
+    },
+    {
+      "id": "PrestaShop--prestashop-restore",
+      "repo": "PrestaShop/skills",
+      "path": "autoupgrade/user/prestashop-restore/SKILL.md",
+      "content_changed": false
+    },
+    {
+      "id": "PrestaShop--prestashop-update-check",
+      "repo": "PrestaShop/skills",
+      "path": "autoupgrade/user/prestashop-update-check/SKILL.md",
+      "content_changed": false
+    },
+    {
+      "id": "Inchoo--hyva-checkout",
+      "repo": "Inchoo/magento-bricklayer",
+      "path": "config/skills/hyva-checkout/SKILL.md",
+      "content_changed": false
+    },
+    {
+      "id": "Inchoo--magewire-three",
+      "repo": "Inchoo/magento-bricklayer",
+      "path": "config/skills/magewire-three/SKILL.md",
+      "content_changed": false
+    },
+    {
+      "id": "linkfox-ai--linkfox-kalodata-tiktok-product",
+      "repo": "linkfox-ai/linkfox-skills",
+      "path": "skills/linkfox-kalodata-tiktok-product/SKILL.md",
+      "content_changed": false
+    },
+    {
+      "id": "linkfox-ai--linkfox-temu-product-query",
+      "repo": "linkfox-ai/linkfox-skills",
+      "path": "skills/linkfox-temu-product-query/SKILL.md",
+      "content_changed": false
+    }
+  ],
+  "refresh_rejections": [],
   "manual_decisions": [
     {
       "repo": "nexscope-ai/Amazon-Skills",
@@ -231,27 +1204,89 @@
       "path": "skills/tw-ecom-payment-tappay/SKILL.md",
       "disposition": "implementation-pending",
       "reason": "原文明确标记 STATUS: SKELETON，正文仍待实现，暂不发布。"
+    },
+    {
+      "repo": "ApparelHub-AI/apparelhub-skills",
+      "path": "apparelhub/SKILL.md",
+      "disposition": "invalid-metadata",
+      "reason": "SKILL.md 的 description 含未引用的冒号，当前 YAML 解析失败；保留线索，待上游修复。",
+      "reviewed_at": "2026-11-21"
     }
   ],
   "incremental": true,
   "newly_scanned_repositories": [
-    "Automattic/claude-woocommerce-toolkit",
-    "woocommerce/agent-skills",
-    "joomcode/joompulse-skills",
-    "pauljones0/ebay-seller-skill",
-    "daisymyu-dev/TikTok-Commerce-Intelligence",
-    "DannylydST/sorftime-seller-agent",
-    "0-shiv/secondstep-claude-skills",
-    "medusajs/medusa-agent-skills",
-    "lunw/shopline-ai-toolkit-dsh",
-    "asgard-ai-platform/tw-ecommerce-majordomo",
-    "2nth-ai/skills",
-    "PrestaShop/skills",
-    "ApparelHub-AI/apparelhub-skills",
-    "Atlas-AI-Store-Builder/atlas-cli",
-    "Inchoo/magento-bricklayer",
-    "silennsong/etsy-listing-helper",
-    "imoonkey/openweb"
+    "xjli360/sealeap-ecommerce-skills",
+    "xjli360/sealeap-amazon-skills",
+    "feichanggege/ecommerce-visual-copywriting-skill",
+    "xianyu110/ecommerce-image-skills",
+    "xianyu110/ecommerce-video-skills",
+    "noique/cross-border-ecommerce-skills",
+    "buluslan/gpt-image2-ecommerce",
+    "lujiaheng-artpivot/openclaw-ecommerce-ad-skills",
+    "coupler-io/skills",
+    "BENZEMA216/ai-ecommerce-agent-skills",
+    "wzj177/ecommerce-image-suite",
+    "ellenfengyunjing/ecommerce-product-research-skills",
+    "Moksa1123/taiwan-ecommerce-toolkit",
+    "SerendipityOneInc/ZooData-Skills",
+    "uni-infiniteai/clawec-agents",
+    "g305595965/cn-ecommerce-ops",
+    "xianglouw/ecom-agent-skills",
+    "geekbi/geekbi-temu-research-skill",
+    "geekbi/geekbi-shein-research-skill",
+    "geekbi/geekbi-mercadolibre-research-skill",
+    "geekbi/geekbi-temu-product-search-skill",
+    "geekbi/geekbi-temu-review-search-skill",
+    "geekbi/geekbi-temu-keyword-search-skill",
+    "geekbi/geekbi-temu-shop-search-skill",
+    "geekbi/geekbi-temu-category-search-skill",
+    "geekbi/geekbi-shein-product-search-skill",
+    "geekbi/geekbi-shein-review-search-skill",
+    "geekbi/geekbi-shein-shop-search-skill",
+    "geekbi/geekbi-mercadolibre-product-search-skill",
+    "geekbi/geekbi-mercadolibre-review-search-skill",
+    "Wenmao-AI-Lab/temu-ops-skill",
+    "Wenmao-AI-Lab/ozon-ops-skill",
+    "Wenmao-AI-Lab/shopee-ops-skill",
+    "40RTY-ai/shopify-admin-skills",
+    "Attribuly-US/ecommerce-dtc-skills",
+    "next-1688/1688-shopkeeper",
+    "next-1688/1688-shop-health-check",
+    "rakei076/sycm-cli",
+    "rakei076/alimama-cli",
+    "yuyang2230/taobao-shop-growth",
+    "ecom-work/pdd-skill",
+    "virgokid/jd-api-doc-skill",
+    "weibo-job/shopee-global-product-listing",
+    "djgun2233/shopee-ecommerce-skills",
+    "GraceGu1012/shopee-sales-skill",
+    "waloyu81/shopee-seller-skills",
+    "githuajk/Shopee-BR-Compliance-Skills",
+    "miilv/ozon-seller-api-skill",
+    "miilv/wb-seller-api-skill",
+    "Leenodie/wb-docs-skills",
+    "jorgelserve/mercadolibre-skill",
+    "abutun/etsy-seo-optimizer",
+    "easyaitech/etsy-skills",
+    "AetherOps/etsy-digital-studio",
+    "Hermes34-dev/Etsy_Listing_Optimizer_Claude_Skill",
+    "Pardesco/etsy-erank-research",
+    "jlm191701/ecommerce-customer-service-skill-mcp",
+    "hugswangyu/SupportPilot",
+    "zach22-1999/amazon-skills",
+    "liangdabiao/sellersprite-rpa-skills",
+    "liangdabiao/amazon-sorftime-research-MCP-skill",
+    "liangdabiao/fastmoss-rpa-skills",
+    "JayGPTPro/amazon-pro-skills",
+    "shikhamishra379/sellerstack-amazon-seller-toolkit",
+    "liangdabiao/dsh-amazon-skills",
+    "AugLeohhhhh/codex-shein-skills",
+    "kalelegs/agentic-walmart-skills",
+    "resultify-technology/Ecommerce-AI-Skills",
+    "Hongggggggg/official-platform-rules-skill",
+    "ITemperor/douyin-ecom-ops-team",
+    "linbojin/clawshop-data-manager",
+    "markwaveio/cross-border-selection-kit"
   ],
   "limitations": [
     "仅覆盖本轮查询定位的公开仓库，不代表全网",
@@ -265,7 +1300,7 @@
       "requested_repo": "nexscope-ai/eCommerce-Skills",
       "repo": "nexscope-ai/eCommerce-Skills",
       "repo_url": "https://github.com/nexscope-ai/eCommerce-Skills",
-      "checked_at": "2026-11-14T19:01:58+08:00",
+      "checked_at": "2026-11-21T02:31:25+08:00",
       "status": "scanned",
       "transport": "public-git-and-commit-archive",
       "source_commit": "c5ba892a1cc3178626577aed1dbde5e62a82f1ac",
@@ -276,32 +1311,32 @@
       "requested_repo": "nexscope-ai/nexscope-ecommerce-skills",
       "repo": "nexscope-ai/nexscope-ecommerce-skills",
       "repo_url": "https://github.com/nexscope-ai/nexscope-ecommerce-skills",
-      "checked_at": "2026-11-14T19:01:58+08:00",
+      "checked_at": "2026-11-21T02:31:25+08:00",
       "status": "scanned",
       "transport": "public-git-and-commit-archive",
-      "source_commit": "37f6ab63442c88fd694ab88c48418bb98c35e908",
+      "source_commit": "16aed02a86c6d2e3b4538ac2a9d8105b9ce935a9",
       "license": "UNKNOWN",
-      "candidate_count": 141
+      "candidate_count": 155
     },
     {
       "requested_repo": "autoagc/linkpix-skills",
       "repo": "autoagc/linkpix-skills",
       "repo_url": "https://github.com/autoagc/linkpix-skills",
-      "checked_at": "2026-11-14T19:01:58+08:00",
+      "checked_at": "2026-11-21T02:31:25+08:00",
       "status": "scanned",
       "transport": "public-git-and-commit-archive",
-      "source_commit": "1f0b0a715c11d2a162c02db9aa68db5ce36cf315",
+      "source_commit": "ca4acb2cd68185dc92221935a15e6cb8cc6f989b",
       "license": "MIT",
-      "candidate_count": 322
+      "candidate_count": 324
     },
     {
       "requested_repo": "dlazy-ai/ecommerce-skills",
       "repo": "dlazy-ai/ecommerce-skills",
       "repo_url": "https://github.com/dlazy-ai/ecommerce-skills",
-      "checked_at": "2026-11-14T19:01:58+08:00",
+      "checked_at": "2026-11-21T02:31:25+08:00",
       "status": "scanned",
       "transport": "public-git-and-commit-archive",
-      "source_commit": "d695bdf7f87d2fa95e895ed88adf7dd013a709be",
+      "source_commit": "a938b76511dc2021e1e924195a09120ede47c696",
       "license": "MIT",
       "candidate_count": 26
     },
@@ -309,10 +1344,10 @@
       "requested_repo": "linkfox-ai/linkfox-skills",
       "repo": "linkfox-ai/linkfox-skills",
       "repo_url": "https://github.com/linkfox-ai/linkfox-skills",
-      "checked_at": "2026-11-14T19:01:58+08:00",
+      "checked_at": "2026-11-21T02:31:25+08:00",
       "status": "scanned",
       "transport": "public-git-and-commit-archive",
-      "source_commit": "873c9327d6d49695ba8ff1ef131bcd6d85a8b437",
+      "source_commit": "57465352b58c1e978d1e25e004fb3540f1954df9",
       "license": "MIT",
       "candidate_count": 275
     },
@@ -320,7 +1355,7 @@
       "requested_repo": "next-1688/1688-product-find",
       "repo": "next-1688/1688-product-find",
       "repo_url": "https://github.com/next-1688/1688-product-find",
-      "checked_at": "2026-11-14T19:01:58+08:00",
+      "checked_at": "2026-11-21T02:31:25+08:00",
       "status": "scanned",
       "transport": "public-git-and-commit-archive",
       "source_commit": "2c7d8ee014ec24c730e5ddc966c70f2495891543",
@@ -331,7 +1366,7 @@
       "requested_repo": "next-1688/1688-supplychain-order-inquiry",
       "repo": "next-1688/1688-supplychain-order-inquiry",
       "repo_url": "https://github.com/next-1688/1688-supplychain-order-inquiry",
-      "checked_at": "2026-11-14T19:01:58+08:00",
+      "checked_at": "2026-11-21T02:31:25+08:00",
       "status": "scanned",
       "transport": "public-git-and-commit-archive",
       "source_commit": "c3214f3f63f990f77573a3daf6462b20ce4635a9",
@@ -342,7 +1377,7 @@
       "requested_repo": "next-1688/1688-marketing",
       "repo": "next-1688/1688-marketing",
       "repo_url": "https://github.com/next-1688/1688-marketing",
-      "checked_at": "2026-11-14T19:01:58+08:00",
+      "checked_at": "2026-11-21T02:31:25+08:00",
       "status": "scanned",
       "transport": "public-git-and-commit-archive",
       "source_commit": "0e31ca17402d23170f0083817ff1ae5378e4b4f5",
@@ -353,7 +1388,7 @@
       "requested_repo": "next-1688/1688-product-element-fusion",
       "repo": "next-1688/1688-product-element-fusion",
       "repo_url": "https://github.com/next-1688/1688-product-element-fusion",
-      "checked_at": "2026-11-14T19:01:58+08:00",
+      "checked_at": "2026-11-21T02:31:25+08:00",
       "status": "scanned",
       "transport": "public-git-and-commit-archive",
       "source_commit": "94dcc70b035736098d1e30b31886959ff250d4f9",
@@ -364,10 +1399,10 @@
       "requested_repo": "Shopify/Shopify-AI-Toolkit",
       "repo": "Shopify/Shopify-AI-Toolkit",
       "repo_url": "https://github.com/Shopify/Shopify-AI-Toolkit",
-      "checked_at": "2026-11-14T19:01:58+08:00",
+      "checked_at": "2026-11-21T02:31:25+08:00",
       "status": "scanned",
       "transport": "public-git-and-commit-archive",
-      "source_commit": "a3d20f8dc284a2e8ae25272fa79520888abb5dcb",
+      "source_commit": "0388268a61051d1e8400996a58b0e3590c1e1500",
       "license": "MIT",
       "candidate_count": 23
     },
@@ -375,7 +1410,7 @@
       "requested_repo": "Shopify/agent-skills",
       "repo": "Shopify/agent-skills",
       "repo_url": "https://github.com/Shopify/agent-skills",
-      "checked_at": "2026-11-14T19:01:58+08:00",
+      "checked_at": "2026-11-21T02:31:25+08:00",
       "status": "failed",
       "transport": "public-git-and-commit-archive",
       "error": "Archive exceeds 40 MiB limit"
@@ -384,7 +1419,7 @@
       "requested_repo": "proskillpacks/shopify-store-skills",
       "repo": "proskillpacks/shopify-store-skills",
       "repo_url": "https://github.com/proskillpacks/shopify-store-skills",
-      "checked_at": "2026-11-14T19:01:58+08:00",
+      "checked_at": "2026-11-21T02:31:25+08:00",
       "status": "scanned",
       "transport": "public-git-and-commit-archive",
       "source_commit": "aadcb3a581a1c2e5204f3c4cc22468dc6c902674",
@@ -395,10 +1430,10 @@
       "requested_repo": "coreyhaines31/marketingskills",
       "repo": "coreyhaines31/marketingskills",
       "repo_url": "https://github.com/coreyhaines31/marketingskills",
-      "checked_at": "2026-11-14T19:01:58+08:00",
+      "checked_at": "2026-11-21T02:31:25+08:00",
       "status": "scanned",
       "transport": "public-git-and-commit-archive",
-      "source_commit": "1f837447b20bb6f0e72d87b80ece1c221c362c7d",
+      "source_commit": "5b2b400eec1e7e1cec76245a715d0b0d4fd2a9c1",
       "license": "MIT",
       "candidate_count": 53
     },
@@ -406,7 +1441,7 @@
       "requested_repo": "markoxtomic/agent-skills",
       "repo": "markoxtomic/agent-skills",
       "repo_url": "https://github.com/markoxtomic/agent-skills",
-      "checked_at": "2026-11-14T19:01:58+08:00",
+      "checked_at": "2026-11-21T02:31:25+08:00",
       "status": "scanned",
       "transport": "public-git-and-commit-archive",
       "source_commit": "f14202d47bbc4b52417583fdd377d1d460d4f92a",
@@ -417,7 +1452,7 @@
       "requested_repo": "sadrmanesh/commerce-agent-skills",
       "repo": "sadrmanesh/commerce-agent-skills",
       "repo_url": "https://github.com/sadrmanesh/commerce-agent-skills",
-      "checked_at": "2026-11-14T19:01:58+08:00",
+      "checked_at": "2026-11-21T02:31:25+08:00",
       "status": "scanned",
       "transport": "public-git-and-commit-archive",
       "source_commit": "308c909ab16125f20cecc37ce3153af4123b237d",
@@ -428,7 +1463,7 @@
       "requested_repo": "browser-act/skills",
       "repo": "browser-act/skills",
       "repo_url": "https://github.com/browser-act/skills",
-      "checked_at": "2026-11-14T19:01:58+08:00",
+      "checked_at": "2026-11-21T02:31:25+08:00",
       "status": "scanned",
       "transport": "public-git-and-commit-archive",
       "source_commit": "593316aa0f8ccd88bdf745c92b24a50641701973",
@@ -439,7 +1474,7 @@
       "requested_repo": "bridgemekong/shopee-skill",
       "repo": "bridgemekong/shopee-skill",
       "repo_url": "https://github.com/bridgemekong/shopee-skill",
-      "checked_at": "2026-11-14T19:01:58+08:00",
+      "checked_at": "2026-11-21T02:31:25+08:00",
       "status": "scanned",
       "transport": "public-git-and-commit-archive",
       "source_commit": "209c53f2f688286dc62899d1c7392a38b3742ab9",
@@ -450,7 +1485,7 @@
       "requested_repo": "zhuhongyin/global-ecom-skills",
       "repo": "zhuhongyin/global-ecom-skills",
       "repo_url": "https://github.com/zhuhongyin/global-ecom-skills",
-      "checked_at": "2026-11-14T19:01:58+08:00",
+      "checked_at": "2026-11-21T02:31:25+08:00",
       "status": "scanned",
       "transport": "public-git-and-commit-archive",
       "source_commit": "b638f9614ff77bf7f4b29d439d2e9b7bd1286b6e",
@@ -461,7 +1496,7 @@
       "requested_repo": "OrcaQubits/agentic-commerce-skills-plugins",
       "repo": "OrcaQubits/agentic-commerce-skills-plugins",
       "repo_url": "https://github.com/OrcaQubits/agentic-commerce-skills-plugins",
-      "checked_at": "2026-11-14T19:01:58+08:00",
+      "checked_at": "2026-11-21T02:31:25+08:00",
       "status": "scanned",
       "transport": "public-git-and-commit-archive",
       "source_commit": "e7a890ae7b8eb87e6dab972a46ff85752ed077ff",
@@ -472,7 +1507,7 @@
       "requested_repo": "oomol-lab/skills",
       "repo": "oomol-lab/skills",
       "repo_url": "https://github.com/oomol-lab/skills",
-      "checked_at": "2026-11-14T19:01:58+08:00",
+      "checked_at": "2026-11-21T02:31:25+08:00",
       "status": "scanned",
       "transport": "public-git-and-commit-archive",
       "source_commit": "136cef67a41ac27ace0af9b20a9bd96accfb50cd",
@@ -483,7 +1518,7 @@
       "requested_repo": "wubin1836/ai-ecommerce-expert-agent-skills",
       "repo": "wubin1836/ai-ecommerce-expert-agent-skills",
       "repo_url": "https://github.com/wubin1836/ai-ecommerce-expert-agent-skills",
-      "checked_at": "2026-11-14T19:01:58+08:00",
+      "checked_at": "2026-11-21T02:31:25+08:00",
       "status": "scanned",
       "transport": "public-git-and-commit-archive",
       "source_commit": "7852b00fb0f5ffde0d955b286ee3881461f9db50",
@@ -494,7 +1529,7 @@
       "requested_repo": "viethahong/business-skills",
       "repo": "viethahong/business-skills",
       "repo_url": "https://github.com/viethahong/business-skills",
-      "checked_at": "2026-11-14T19:01:58+08:00",
+      "checked_at": "2026-11-21T02:31:25+08:00",
       "status": "scanned",
       "transport": "public-git-and-commit-archive",
       "source_commit": "edcc5bff037e05c9b9b41265467c223d40847205",
@@ -505,7 +1540,7 @@
       "requested_repo": "membranedev/application-skills",
       "repo": "membranedev/application-skills",
       "repo_url": "https://github.com/membranedev/application-skills",
-      "checked_at": "2026-11-14T19:01:58+08:00",
+      "checked_at": "2026-11-21T02:31:25+08:00",
       "status": "scanned",
       "transport": "public-git-and-commit-archive",
       "source_commit": "f484c8265e70ec910a57342389cca5c5de7d8167",
@@ -516,10 +1551,10 @@
       "requested_repo": "opastorello/temu-api-docs",
       "repo": "opastorello/temu-api-docs",
       "repo_url": "https://github.com/opastorello/temu-api-docs",
-      "checked_at": "2026-11-14T19:01:58+08:00",
+      "checked_at": "2026-11-21T02:31:25+08:00",
       "status": "scanned",
       "transport": "public-git-and-commit-archive",
-      "source_commit": "3beeb7546a5bf54fcf35ff07344f9a5426cab552",
+      "source_commit": "2de2de5c32a1114d7eababe9a7c0e674f7aa7893",
       "license": "UNKNOWN",
       "candidate_count": 1
     },
@@ -527,7 +1562,7 @@
       "requested_repo": "zironglv/taobao-native",
       "repo": "zironglv/taobao-native",
       "repo_url": "https://github.com/zironglv/taobao-native",
-      "checked_at": "2026-11-14T19:22:07+08:00",
+      "checked_at": "2026-11-21T02:31:25+08:00",
       "status": "scanned",
       "transport": "public-git-and-commit-archive",
       "source_commit": "40505b5ea14c4d56ae9c0aa469fd49840b33423d",
@@ -538,7 +1573,7 @@
       "requested_repo": "nexscope-ai/Amazon-Skills",
       "repo": "nexscope-ai/Amazon-Skills",
       "repo_url": "https://github.com/nexscope-ai/Amazon-Skills",
-      "checked_at": "2026-11-14T19:22:07+08:00",
+      "checked_at": "2026-11-21T02:31:25+08:00",
       "status": "scanned",
       "transport": "public-git-and-commit-archive",
       "source_commit": "2bcb8cb019cfac6a1e420b11f86209df5ea47686",
@@ -549,7 +1584,7 @@
       "requested_repo": "brianmoney/amazon-marketing-skill",
       "repo": "brianmoney/amazon-marketing-skill",
       "repo_url": "https://github.com/brianmoney/amazon-marketing-skill",
-      "checked_at": "2026-11-14T19:22:07+08:00",
+      "checked_at": "2026-11-21T02:31:25+08:00",
       "status": "scanned",
       "transport": "public-git-and-commit-archive",
       "source_commit": "be4b3faa08b33777962274d1c05a9d3c03c12551",
@@ -560,7 +1595,7 @@
       "requested_repo": "Saber-doudou/ecommerce-product-investigator",
       "repo": "Saber-doudou/ecommerce-product-investigator",
       "repo_url": "https://github.com/Saber-doudou/ecommerce-product-investigator",
-      "checked_at": "2026-11-14T19:22:07+08:00",
+      "checked_at": "2026-11-21T02:31:25+08:00",
       "status": "scanned",
       "transport": "public-git-and-commit-archive",
       "source_commit": "deb0508fbd6438b00d48d407ad17d0d571c9694b",
@@ -571,7 +1606,7 @@
       "requested_repo": "amzn/selling-partner-agentic-toolkit",
       "repo": "amzn/selling-partner-agentic-toolkit",
       "repo_url": "https://github.com/amzn/selling-partner-agentic-toolkit",
-      "checked_at": "2026-11-14T19:22:07+08:00",
+      "checked_at": "2026-11-21T02:31:25+08:00",
       "status": "scanned",
       "transport": "public-git-and-commit-archive",
       "source_commit": "4563bfcb17ff4d921361530053118a8ca9eeaa67",
@@ -582,7 +1617,7 @@
       "requested_repo": "xenosfeng-creator/MTL-skill",
       "repo": "xenosfeng-creator/MTL-skill",
       "repo_url": "https://github.com/xenosfeng-creator/MTL-skill",
-      "checked_at": "2026-11-14T19:22:07+08:00",
+      "checked_at": "2026-11-21T02:31:25+08:00",
       "status": "scanned",
       "transport": "public-git-and-commit-archive",
       "source_commit": "d95c8821d8d943555048b78aec0dcdd9c95801ae",
@@ -593,7 +1628,7 @@
       "requested_repo": "ziniao-open/skill-hub",
       "repo": "ziniao-open/skill-hub",
       "repo_url": "https://github.com/ziniao-open/skill-hub",
-      "checked_at": "2026-11-14T19:22:07+08:00",
+      "checked_at": "2026-11-21T02:31:25+08:00",
       "status": "scanned",
       "transport": "public-git-and-commit-archive",
       "source_commit": "258fb6e75f731901a9e293312e4c362affc5d8d7",
@@ -604,7 +1639,7 @@
       "requested_repo": "aahl/skills",
       "repo": "aahl/skills",
       "repo_url": "https://github.com/aahl/skills",
-      "checked_at": "2026-11-14T19:22:07+08:00",
+      "checked_at": "2026-11-21T02:31:25+08:00",
       "status": "scanned",
       "transport": "public-git-and-commit-archive",
       "source_commit": "47edd621dff44253677d2ed14c223393ca020407",
@@ -615,7 +1650,7 @@
       "requested_repo": "ZloyDeDD/wb-api-skill",
       "repo": "ZloyDeDD/wb-api-skill",
       "repo_url": "https://github.com/ZloyDeDD/wb-api-skill",
-      "checked_at": "2026-11-14T19:22:07+08:00",
+      "checked_at": "2026-11-21T02:31:25+08:00",
       "status": "scanned",
       "transport": "public-git-and-commit-archive",
       "source_commit": "d862cde132e2279aeee84cbeb3272efb1fcc4359",
@@ -626,7 +1661,7 @@
       "requested_repo": "jiangwuzheng/pdd-batch-editor",
       "repo": "jiangwuzheng/pdd-batch-editor",
       "repo_url": "https://github.com/jiangwuzheng/pdd-batch-editor",
-      "checked_at": "2026-11-14T19:22:07+08:00",
+      "checked_at": "2026-11-21T02:31:25+08:00",
       "status": "scanned",
       "transport": "public-git-and-commit-archive",
       "source_commit": "a80f2fa094daa42c6cf0c28bd4c2f2c27b9666eb",
@@ -637,7 +1672,7 @@
       "requested_repo": "Seanik666/cn-ecommerce-search",
       "repo": "Seanik666/cn-ecommerce-search",
       "repo_url": "https://github.com/Seanik666/cn-ecommerce-search",
-      "checked_at": "2026-11-14T19:22:07+08:00",
+      "checked_at": "2026-11-21T02:31:25+08:00",
       "status": "scanned",
       "transport": "public-git-and-commit-archive",
       "source_commit": "71935e4635cab3a088133232b50a405ead930380",
@@ -648,18 +1683,18 @@
       "requested_repo": "apify/agent-skills",
       "repo": "apify/agent-skills",
       "repo_url": "https://github.com/apify/agent-skills",
-      "checked_at": "2026-11-14T19:22:07+08:00",
+      "checked_at": "2026-11-21T02:31:25+08:00",
       "status": "scanned",
       "transport": "public-git-and-commit-archive",
-      "source_commit": "d72ebe9915b461b89a75490931a896abc76d7bfe",
+      "source_commit": "190fc192e83ac229312461e69b727bbd5aa2147e",
       "license": "UNKNOWN",
-      "candidate_count": 5
+      "candidate_count": 6
     },
     {
       "requested_repo": "JaeZhang/image-skills",
       "repo": "JaeZhang/image-skills",
       "repo_url": "https://github.com/JaeZhang/image-skills",
-      "checked_at": "2026-11-14T19:22:07+08:00",
+      "checked_at": "2026-11-21T02:31:25+08:00",
       "status": "scanned",
       "transport": "public-git-and-commit-archive",
       "source_commit": "5b2710a068acc763a72776bea91c4c50aa3dc4d5",
@@ -670,7 +1705,7 @@
       "requested_repo": "tsepkov/ozon-seller-skill",
       "repo": "tsepkov/ozon-seller-skill",
       "repo_url": "https://github.com/tsepkov/ozon-seller-skill",
-      "checked_at": "2026-11-14T19:22:07+08:00",
+      "checked_at": "2026-11-21T02:31:25+08:00",
       "status": "scanned",
       "transport": "public-git-and-commit-archive",
       "source_commit": "4f5861728f6d970fb534db0e70015094563e3c6c",
@@ -681,7 +1716,7 @@
       "requested_repo": "AccioWork/agent-skills",
       "repo": "AccioWork/agent-skills",
       "repo_url": "https://github.com/AccioWork/agent-skills",
-      "checked_at": "2026-11-14T19:22:07+08:00",
+      "checked_at": "2026-11-21T02:31:25+08:00",
       "status": "scanned",
       "transport": "public-git-and-commit-archive",
       "source_commit": "07c9946963d6a13692bd400ddb88c994d3cdba52",
@@ -692,7 +1727,7 @@
       "requested_repo": "Automattic/claude-woocommerce-toolkit",
       "repo": "Automattic/claude-woocommerce-toolkit",
       "repo_url": "https://github.com/Automattic/claude-woocommerce-toolkit",
-      "checked_at": "2026-11-14T19:37:14+08:00",
+      "checked_at": "2026-11-21T02:31:25+08:00",
       "status": "scanned",
       "transport": "public-git-and-commit-archive",
       "source_commit": "d70538707247a4d3e6a940c554a9dd4e7010b3d1",
@@ -719,7 +1754,7 @@
       "requested_repo": "woocommerce/agent-skills",
       "repo": "woocommerce/agent-skills",
       "repo_url": "https://github.com/woocommerce/agent-skills",
-      "checked_at": "2026-11-14T19:37:14+08:00",
+      "checked_at": "2026-11-21T02:31:25+08:00",
       "status": "scanned",
       "transport": "public-git-and-commit-archive",
       "source_commit": "89cc969d2273ac9eb668c48b7284f77e0862bb21",
@@ -746,7 +1781,7 @@
       "requested_repo": "joomcode/joompulse-skills",
       "repo": "joomcode/joompulse-skills",
       "repo_url": "https://github.com/joomcode/joompulse-skills",
-      "checked_at": "2026-11-14T19:37:14+08:00",
+      "checked_at": "2026-11-21T02:31:25+08:00",
       "status": "scanned",
       "transport": "public-git-and-commit-archive",
       "source_commit": "0a679a081bdd9f3b5eca55c9cc4ff28c74428c23",
@@ -757,7 +1792,7 @@
       "requested_repo": "pauljones0/ebay-seller-skill",
       "repo": "pauljones0/ebay-seller-skill",
       "repo_url": "https://github.com/pauljones0/ebay-seller-skill",
-      "checked_at": "2026-11-14T19:37:14+08:00",
+      "checked_at": "2026-11-21T02:31:25+08:00",
       "status": "scanned",
       "transport": "public-git-and-commit-archive",
       "source_commit": "d73652227af9389f665b849ab9f542b4f9c82b05",
@@ -768,7 +1803,7 @@
       "requested_repo": "daisymyu-dev/TikTok-Commerce-Intelligence",
       "repo": "daisymyu-dev/TikTok-Commerce-Intelligence",
       "repo_url": "https://github.com/daisymyu-dev/TikTok-Commerce-Intelligence",
-      "checked_at": "2026-11-14T19:37:14+08:00",
+      "checked_at": "2026-11-21T02:31:25+08:00",
       "status": "scanned",
       "transport": "public-git-and-commit-archive",
       "source_commit": "e48472e5964322b3bcf2d8334bcb032a56eb4ed9",
@@ -779,10 +1814,10 @@
       "requested_repo": "DannylydST/sorftime-seller-agent",
       "repo": "DannylydST/sorftime-seller-agent",
       "repo_url": "https://github.com/DannylydST/sorftime-seller-agent",
-      "checked_at": "2026-11-14T19:37:14+08:00",
+      "checked_at": "2026-11-21T02:31:25+08:00",
       "status": "scanned",
       "transport": "public-git-and-commit-archive",
-      "source_commit": "f08fbe963497c87e795a1cb0f5fa198d13c84bd9",
+      "source_commit": "7c3191408f60f2026026936db4a5e207fdf11277",
       "license": "MIT",
       "candidate_count": 1
     },
@@ -790,7 +1825,7 @@
       "requested_repo": "0-shiv/secondstep-claude-skills",
       "repo": "0-shiv/secondstep-claude-skills",
       "repo_url": "https://github.com/0-shiv/secondstep-claude-skills",
-      "checked_at": "2026-11-14T19:37:14+08:00",
+      "checked_at": "2026-11-21T02:31:25+08:00",
       "status": "scanned",
       "transport": "public-git-and-commit-archive",
       "source_commit": "94022bebe466024f6b1b1af16f52fdff11a9c0c1",
@@ -801,7 +1836,7 @@
       "requested_repo": "medusajs/medusa-agent-skills",
       "repo": "medusajs/medusa-agent-skills",
       "repo_url": "https://github.com/medusajs/medusa-agent-skills",
-      "checked_at": "2026-11-14T19:37:14+08:00",
+      "checked_at": "2026-11-21T02:31:25+08:00",
       "status": "scanned",
       "transport": "public-git-and-commit-archive",
       "source_commit": "c5a56b4646b2c39d49b1da10c8a5404236b6b4ba",
@@ -812,7 +1847,7 @@
       "requested_repo": "lunw/shopline-ai-toolkit-dsh",
       "repo": "lunw/shopline-ai-toolkit-dsh",
       "repo_url": "https://github.com/lunw/shopline-ai-toolkit-dsh",
-      "checked_at": "2026-11-14T19:37:14+08:00",
+      "checked_at": "2026-11-21T02:31:25+08:00",
       "status": "scanned",
       "transport": "public-git-and-commit-archive",
       "source_commit": "a5783d242162f866a35871e349269616aedaf981",
@@ -823,7 +1858,7 @@
       "requested_repo": "asgard-ai-platform/tw-ecommerce-majordomo",
       "repo": "asgard-ai-platform/tw-ecommerce-majordomo",
       "repo_url": "https://github.com/asgard-ai-platform/tw-ecommerce-majordomo",
-      "checked_at": "2026-11-14T19:37:14+08:00",
+      "checked_at": "2026-11-21T02:31:25+08:00",
       "status": "scanned",
       "transport": "public-git-and-commit-archive",
       "source_commit": "5dbab0cb341a7e113d0d51fbc6463b1a12481ece",
@@ -834,7 +1869,7 @@
       "requested_repo": "2nth-ai/skills",
       "repo": "2nth-ai/skills",
       "repo_url": "https://github.com/2nth-ai/skills",
-      "checked_at": "2026-11-14T19:37:14+08:00",
+      "checked_at": "2026-11-21T02:31:25+08:00",
       "status": "scanned",
       "transport": "public-git-and-commit-archive",
       "source_commit": "26238a6e5563df4818a6c2f4da856cf5e3824eeb",
@@ -845,7 +1880,7 @@
       "requested_repo": "PrestaShop/skills",
       "repo": "PrestaShop/skills",
       "repo_url": "https://github.com/PrestaShop/skills",
-      "checked_at": "2026-11-14T19:37:42+08:00",
+      "checked_at": "2026-11-21T02:31:25+08:00",
       "status": "scanned",
       "transport": "public-git-and-commit-archive",
       "source_commit": "26e404df6b80bd6ea890527c71e804aaa575eb72",
@@ -868,10 +1903,10 @@
       "requested_repo": "ApparelHub-AI/apparelhub-skills",
       "repo": "ApparelHub-AI/apparelhub-skills",
       "repo_url": "https://github.com/ApparelHub-AI/apparelhub-skills",
-      "checked_at": "2026-11-14T19:37:42+08:00",
+      "checked_at": "2026-11-21T02:31:25+08:00",
       "status": "scanned",
       "transport": "public-git-and-commit-archive",
-      "source_commit": "fd929c23ea923d75a57c47e950f792637bca3724",
+      "source_commit": "1aa126caa1da7e9972c8ff86d530b658914b998e",
       "license": "MIT",
       "candidate_count": 1
     },
@@ -879,7 +1914,7 @@
       "requested_repo": "Atlas-AI-Store-Builder/atlas-cli",
       "repo": "Atlas-AI-Store-Builder/atlas-cli",
       "repo_url": "https://github.com/Atlas-AI-Store-Builder/atlas-cli",
-      "checked_at": "2026-11-14T19:37:42+08:00",
+      "checked_at": "2026-11-21T02:31:25+08:00",
       "status": "scanned",
       "transport": "public-git-and-commit-archive",
       "source_commit": "4ea4000afdb34cf143b04ad6147a4975132c2417",
@@ -890,7 +1925,7 @@
       "requested_repo": "Inchoo/magento-bricklayer",
       "repo": "Inchoo/magento-bricklayer",
       "repo_url": "https://github.com/Inchoo/magento-bricklayer",
-      "checked_at": "2026-11-14T19:37:42+08:00",
+      "checked_at": "2026-11-21T02:31:25+08:00",
       "status": "scanned",
       "transport": "public-git-and-commit-archive",
       "source_commit": "6a1a27561cc1af9d1bdc0a82ce0dd1588735efdd",
@@ -901,7 +1936,7 @@
       "requested_repo": "silennsong/etsy-listing-helper",
       "repo": "silennsong/etsy-listing-helper",
       "repo_url": "https://github.com/silennsong/etsy-listing-helper",
-      "checked_at": "2026-11-14T19:37:42+08:00",
+      "checked_at": "2026-11-21T02:31:25+08:00",
       "status": "scanned",
       "transport": "public-git-and-commit-archive",
       "source_commit": "3944cf9e6d54be7850d7456dd74e75e384cedd4b",
@@ -912,12 +1947,800 @@
       "requested_repo": "imoonkey/openweb",
       "repo": "imoonkey/openweb",
       "repo_url": "https://github.com/imoonkey/openweb",
-      "checked_at": "2026-11-14T19:37:42+08:00",
+      "checked_at": "2026-11-21T02:31:25+08:00",
       "status": "scanned",
       "transport": "public-git-and-commit-archive",
       "source_commit": "a387b50c829d871839a613732e1b97bfa1946124",
       "license": "MIT",
       "candidate_count": 95
+    },
+    {
+      "requested_repo": "xjli360/sealeap-ecommerce-skills",
+      "repo": "xjli360/sealeap-ecommerce-skills",
+      "repo_url": "https://github.com/xjli360/sealeap-ecommerce-skills",
+      "checked_at": "2026-11-21T02:32:39+08:00",
+      "status": "scanned",
+      "transport": "public-git-and-commit-archive",
+      "source_commit": "914f920b368fd73f867e3d03af7e48b9ab1e18ed",
+      "license": "MIT",
+      "candidate_count": 195
+    },
+    {
+      "requested_repo": "xjli360/sealeap-amazon-skills",
+      "repo": "xjli360/sealeap-amazon-skills",
+      "repo_url": "https://github.com/xjli360/sealeap-amazon-skills",
+      "checked_at": "2026-11-21T02:32:39+08:00",
+      "status": "scanned",
+      "transport": "public-git-and-commit-archive",
+      "source_commit": "1283764556e61cbe56c600bbe504b8731b2254cb",
+      "license": "MIT",
+      "candidate_count": 602
+    },
+    {
+      "requested_repo": "feichanggege/ecommerce-visual-copywriting-skill",
+      "repo": "feichanggege/ecommerce-visual-copywriting-skill",
+      "repo_url": "https://github.com/feichanggege/ecommerce-visual-copywriting-skill",
+      "checked_at": "2026-11-21T02:32:39+08:00",
+      "status": "scanned",
+      "transport": "public-git-and-commit-archive",
+      "source_commit": "7fd4abaa5a280dddf414ccc1372d886bef702cba",
+      "license": "MIT",
+      "candidate_count": 1
+    },
+    {
+      "requested_repo": "xianyu110/ecommerce-image-skills",
+      "repo": "xianyu110/ecommerce-image-skills",
+      "repo_url": "https://github.com/xianyu110/ecommerce-image-skills",
+      "checked_at": "2026-11-21T02:32:39+08:00",
+      "status": "scanned",
+      "transport": "public-git-and-commit-archive",
+      "source_commit": "f4566fdc812584425728862ad8e08c90883d81ee",
+      "license": "MIT",
+      "candidate_count": 12
+    },
+    {
+      "requested_repo": "xianyu110/ecommerce-video-skills",
+      "repo": "xianyu110/ecommerce-video-skills",
+      "repo_url": "https://github.com/xianyu110/ecommerce-video-skills",
+      "checked_at": "2026-11-21T02:32:39+08:00",
+      "status": "scanned",
+      "transport": "public-git-and-commit-archive",
+      "source_commit": "96c49b349b7d975bda8f05ce6669c1d33500c269",
+      "license": "MIT",
+      "candidate_count": 13
+    },
+    {
+      "requested_repo": "noique/cross-border-ecommerce-skills",
+      "repo": "noique/cross-border-ecommerce-skills",
+      "repo_url": "https://github.com/noique/cross-border-ecommerce-skills",
+      "checked_at": "2026-11-21T02:32:39+08:00",
+      "status": "scanned",
+      "transport": "public-git-and-commit-archive",
+      "source_commit": "44fef9b510168970ab4dade49a78dadc15c46557",
+      "license": "UNKNOWN",
+      "candidate_count": 12
+    },
+    {
+      "requested_repo": "buluslan/gpt-image2-ecommerce",
+      "repo": "buluslan/gpt-image2-ecommerce",
+      "repo_url": "https://github.com/buluslan/gpt-image2-ecommerce",
+      "checked_at": "2026-11-21T02:32:39+08:00",
+      "status": "scanned",
+      "transport": "public-git-and-commit-archive",
+      "source_commit": "73abd50bf2b689b5a453f28ddd7b0016415deec6",
+      "license": "MIT",
+      "candidate_count": 1
+    },
+    {
+      "requested_repo": "lujiaheng-artpivot/openclaw-ecommerce-ad-skills",
+      "repo": "lujiaheng-artpivot/openclaw-ecommerce-ad-skills",
+      "repo_url": "https://github.com/lujiaheng-artpivot/openclaw-ecommerce-ad-skills",
+      "checked_at": "2026-11-21T02:32:39+08:00",
+      "status": "scanned",
+      "transport": "public-git-and-commit-archive",
+      "source_commit": "fc0e3e57b2b320c48726a5ff09fb6885d012b52e",
+      "license": "UNKNOWN",
+      "candidate_count": 19
+    },
+    {
+      "requested_repo": "coupler-io/skills",
+      "repo": "coupler-io/skills",
+      "repo_url": "https://github.com/coupler-io/skills",
+      "checked_at": "2026-11-21T02:32:39+08:00",
+      "status": "scanned",
+      "transport": "public-git-and-commit-archive",
+      "source_commit": "1b940388c285ad52cc1362ac645a7da01ee94d12",
+      "license": "MIT",
+      "candidate_count": 120
+    },
+    {
+      "requested_repo": "BENZEMA216/ai-ecommerce-agent-skills",
+      "repo": "BENZEMA216/ai-ecommerce-agent-skills",
+      "repo_url": "https://github.com/BENZEMA216/ai-ecommerce-agent-skills",
+      "checked_at": "2026-11-21T02:32:39+08:00",
+      "status": "scanned",
+      "transport": "public-git-and-commit-archive",
+      "source_commit": "4735fb8a5363134826041bc2534802448e188bba",
+      "license": "UNKNOWN",
+      "candidate_count": 10
+    },
+    {
+      "requested_repo": "wzj177/ecommerce-image-suite",
+      "repo": "wzj177/ecommerce-image-suite",
+      "repo_url": "https://github.com/wzj177/ecommerce-image-suite",
+      "checked_at": "2026-11-21T02:32:39+08:00",
+      "status": "failed",
+      "transport": "public-git-and-commit-archive",
+      "error": "Archive exceeds 40 MiB limit"
+    },
+    {
+      "requested_repo": "ellenfengyunjing/ecommerce-product-research-skills",
+      "repo": "ellenfengyunjing/ecommerce-product-research-skills",
+      "repo_url": "https://github.com/ellenfengyunjing/ecommerce-product-research-skills",
+      "checked_at": "2026-11-21T02:32:39+08:00",
+      "status": "scanned",
+      "transport": "public-git-and-commit-archive",
+      "source_commit": "ea7a93699a04474371ea1cb0f970b89a81dd7e7a",
+      "license": "MIT",
+      "candidate_count": 9
+    },
+    {
+      "requested_repo": "Moksa1123/taiwan-ecommerce-toolkit",
+      "repo": "Moksa1123/taiwan-ecommerce-toolkit",
+      "repo_url": "https://github.com/Moksa1123/taiwan-ecommerce-toolkit",
+      "checked_at": "2026-11-21T02:32:39+08:00",
+      "status": "scanned",
+      "transport": "public-git-and-commit-archive",
+      "source_commit": "764d1ef282136a96d51d68353b3b7ea9c8d88c9f",
+      "license": "MIT",
+      "candidate_count": 9
+    },
+    {
+      "requested_repo": "SerendipityOneInc/ZooData-Skills",
+      "repo": "SerendipityOneInc/ZooData-Skills",
+      "repo_url": "https://github.com/SerendipityOneInc/ZooData-Skills",
+      "checked_at": "2026-11-21T02:32:39+08:00",
+      "status": "scanned",
+      "transport": "public-git-and-commit-archive",
+      "source_commit": "99de5d98af4dc5b66b73599b4ee00a3017ff0426",
+      "license": "MIT",
+      "candidate_count": 10
+    },
+    {
+      "requested_repo": "uni-infiniteai/clawec-agents",
+      "repo": "uni-infiniteai/clawec-agents",
+      "repo_url": "https://github.com/uni-infiniteai/clawec-agents",
+      "checked_at": "2026-11-21T02:32:39+08:00",
+      "status": "scanned",
+      "transport": "public-git-and-commit-archive",
+      "source_commit": "b1466ba3a20aa10c475e5a43a76c7c451f9c04d8",
+      "license": "MIT",
+      "candidate_count": 91
+    },
+    {
+      "requested_repo": "g305595965/cn-ecommerce-ops",
+      "repo": "g305595965/cn-ecommerce-ops",
+      "repo_url": "https://github.com/g305595965/cn-ecommerce-ops",
+      "checked_at": "2026-11-21T02:32:39+08:00",
+      "status": "scanned",
+      "transport": "public-git-and-commit-archive",
+      "source_commit": "be160c284364d1031c067265fa1cf81bd666efc9",
+      "license": "MIT",
+      "candidate_count": 1
+    },
+    {
+      "requested_repo": "xianglouw/ecom-agent-skills",
+      "repo": "xianglouw/ecom-agent-skills",
+      "repo_url": "https://github.com/xianglouw/ecom-agent-skills",
+      "checked_at": "2026-11-21T02:32:39+08:00",
+      "status": "scanned",
+      "transport": "public-git-and-commit-archive",
+      "source_commit": "e9b7dd34576e3d03fca9a19087a9a5a408a5fe1e",
+      "license": "MIT",
+      "candidate_count": 9
+    },
+    {
+      "requested_repo": "geekbi/geekbi-temu-research-skill",
+      "repo": "geekbi/geekbi-temu-research-skill",
+      "repo_url": "https://github.com/geekbi/geekbi-temu-research-skill",
+      "checked_at": "2026-11-21T02:32:39+08:00",
+      "status": "scanned",
+      "transport": "public-git-and-commit-archive",
+      "source_commit": "81b978bb8ed2e73cb329e34644bb597504d028c0",
+      "license": "UNKNOWN",
+      "candidate_count": 1
+    },
+    {
+      "requested_repo": "geekbi/geekbi-shein-research-skill",
+      "repo": "geekbi/geekbi-shein-research-skill",
+      "repo_url": "https://github.com/geekbi/geekbi-shein-research-skill",
+      "checked_at": "2026-11-21T02:32:39+08:00",
+      "status": "scanned",
+      "transport": "public-git-and-commit-archive",
+      "source_commit": "3a9272950d3567e62ffeb24819566386c6deaac0",
+      "license": "UNKNOWN",
+      "candidate_count": 1
+    },
+    {
+      "requested_repo": "geekbi/geekbi-mercadolibre-research-skill",
+      "repo": "geekbi/geekbi-mercadolibre-research-skill",
+      "repo_url": "https://github.com/geekbi/geekbi-mercadolibre-research-skill",
+      "checked_at": "2026-11-21T02:32:39+08:00",
+      "status": "scanned",
+      "transport": "public-git-and-commit-archive",
+      "source_commit": "a9efe42ca852db98a796e4aa2f60e943fca36a47",
+      "license": "UNKNOWN",
+      "candidate_count": 1
+    },
+    {
+      "requested_repo": "geekbi/geekbi-temu-product-search-skill",
+      "repo": "geekbi/geekbi-temu-product-search-skill",
+      "repo_url": "https://github.com/geekbi/geekbi-temu-product-search-skill",
+      "checked_at": "2026-11-21T02:32:39+08:00",
+      "status": "scanned",
+      "transport": "public-git-and-commit-archive",
+      "source_commit": "654e05b674f917a3614460fa5ff5668a60b22bf0",
+      "license": "UNKNOWN",
+      "candidate_count": 1
+    },
+    {
+      "requested_repo": "geekbi/geekbi-temu-review-search-skill",
+      "repo": "geekbi/geekbi-temu-review-search-skill",
+      "repo_url": "https://github.com/geekbi/geekbi-temu-review-search-skill",
+      "checked_at": "2026-11-21T02:32:39+08:00",
+      "status": "scanned",
+      "transport": "public-git-and-commit-archive",
+      "source_commit": "5264424aa8b1edcda0b7e8ef8bc1d9c2ced6299d",
+      "license": "UNKNOWN",
+      "candidate_count": 1
+    },
+    {
+      "requested_repo": "geekbi/geekbi-temu-keyword-search-skill",
+      "repo": "geekbi/geekbi-temu-keyword-search-skill",
+      "repo_url": "https://github.com/geekbi/geekbi-temu-keyword-search-skill",
+      "checked_at": "2026-11-21T02:32:39+08:00",
+      "status": "scanned",
+      "transport": "public-git-and-commit-archive",
+      "source_commit": "9abf2cbf14053d1ac1075bd3b3ffcc2fa74bdca9",
+      "license": "UNKNOWN",
+      "candidate_count": 1
+    },
+    {
+      "requested_repo": "geekbi/geekbi-temu-shop-search-skill",
+      "repo": "geekbi/geekbi-temu-shop-search-skill",
+      "repo_url": "https://github.com/geekbi/geekbi-temu-shop-search-skill",
+      "checked_at": "2026-11-21T02:32:39+08:00",
+      "status": "scanned",
+      "transport": "public-git-and-commit-archive",
+      "source_commit": "2022ce6f6ae371b940e6d06466d0362ec604166c",
+      "license": "UNKNOWN",
+      "candidate_count": 1
+    },
+    {
+      "requested_repo": "geekbi/geekbi-temu-category-search-skill",
+      "repo": "geekbi/geekbi-temu-category-search-skill",
+      "repo_url": "https://github.com/geekbi/geekbi-temu-category-search-skill",
+      "checked_at": "2026-11-21T02:32:39+08:00",
+      "status": "scanned",
+      "transport": "public-git-and-commit-archive",
+      "source_commit": "15d4cc0b72c01abec30cbf3a2d2da3e2b12bc39d",
+      "license": "UNKNOWN",
+      "candidate_count": 1
+    },
+    {
+      "requested_repo": "geekbi/geekbi-shein-product-search-skill",
+      "repo": "geekbi/geekbi-shein-product-search-skill",
+      "repo_url": "https://github.com/geekbi/geekbi-shein-product-search-skill",
+      "checked_at": "2026-11-21T02:32:39+08:00",
+      "status": "scanned",
+      "transport": "public-git-and-commit-archive",
+      "source_commit": "674a97a2e0c6b2d1e77d3ffa05732a486097a9f8",
+      "license": "UNKNOWN",
+      "candidate_count": 1
+    },
+    {
+      "requested_repo": "geekbi/geekbi-shein-review-search-skill",
+      "repo": "geekbi/geekbi-shein-review-search-skill",
+      "repo_url": "https://github.com/geekbi/geekbi-shein-review-search-skill",
+      "checked_at": "2026-11-21T02:32:39+08:00",
+      "status": "scanned",
+      "transport": "public-git-and-commit-archive",
+      "source_commit": "c36491adf9ebcd46199cfffe552b5fa0dffca0f4",
+      "license": "UNKNOWN",
+      "candidate_count": 1
+    },
+    {
+      "requested_repo": "geekbi/geekbi-shein-shop-search-skill",
+      "repo": "geekbi/geekbi-shein-shop-search-skill",
+      "repo_url": "https://github.com/geekbi/geekbi-shein-shop-search-skill",
+      "checked_at": "2026-11-21T02:32:39+08:00",
+      "status": "scanned",
+      "transport": "public-git-and-commit-archive",
+      "source_commit": "cfa8f1678c4a3d8553862e60762847d9ea497ebe",
+      "license": "UNKNOWN",
+      "candidate_count": 1
+    },
+    {
+      "requested_repo": "geekbi/geekbi-mercadolibre-product-search-skill",
+      "repo": "geekbi/geekbi-mercadolibre-product-search-skill",
+      "repo_url": "https://github.com/geekbi/geekbi-mercadolibre-product-search-skill",
+      "checked_at": "2026-11-21T02:32:39+08:00",
+      "status": "scanned",
+      "transport": "public-git-and-commit-archive",
+      "source_commit": "a906bc99f9216357ac68964adee283a8dda1fb28",
+      "license": "UNKNOWN",
+      "candidate_count": 1
+    },
+    {
+      "requested_repo": "geekbi/geekbi-mercadolibre-review-search-skill",
+      "repo": "geekbi/geekbi-mercadolibre-review-search-skill",
+      "repo_url": "https://github.com/geekbi/geekbi-mercadolibre-review-search-skill",
+      "checked_at": "2026-11-21T02:32:39+08:00",
+      "status": "scanned",
+      "transport": "public-git-and-commit-archive",
+      "source_commit": "83fa83f5a88a86c549f4a0c203167e184a194b8e",
+      "license": "UNKNOWN",
+      "candidate_count": 1
+    },
+    {
+      "requested_repo": "Wenmao-AI-Lab/temu-ops-skill",
+      "repo": "Wenmao-AI-Lab/temu-ops-skill",
+      "repo_url": "https://github.com/Wenmao-AI-Lab/temu-ops-skill",
+      "checked_at": "2026-11-21T02:32:39+08:00",
+      "status": "scanned",
+      "transport": "public-git-and-commit-archive",
+      "source_commit": "109a8fae053f3029d908030a64954008fe58a500",
+      "license": "UNKNOWN",
+      "candidate_count": 0
+    },
+    {
+      "requested_repo": "Wenmao-AI-Lab/ozon-ops-skill",
+      "repo": "Wenmao-AI-Lab/ozon-ops-skill",
+      "repo_url": "https://github.com/Wenmao-AI-Lab/ozon-ops-skill",
+      "checked_at": "2026-11-21T02:32:39+08:00",
+      "status": "scanned",
+      "transport": "public-git-and-commit-archive",
+      "source_commit": "086b2626f06f05f7cd0ad94a5ddc63c53ebe2de1",
+      "license": "UNKNOWN",
+      "candidate_count": 0
+    },
+    {
+      "requested_repo": "Wenmao-AI-Lab/shopee-ops-skill",
+      "repo": "Wenmao-AI-Lab/shopee-ops-skill",
+      "repo_url": "https://github.com/Wenmao-AI-Lab/shopee-ops-skill",
+      "checked_at": "2026-11-21T02:32:39+08:00",
+      "status": "scanned",
+      "transport": "public-git-and-commit-archive",
+      "source_commit": "e36b322a8625ebc1783bc2a94fd99dbdcec7e5db",
+      "license": "UNKNOWN",
+      "candidate_count": 0
+    },
+    {
+      "requested_repo": "40RTY-ai/shopify-admin-skills",
+      "repo": "40RTY-ai/shopify-admin-skills",
+      "repo_url": "https://github.com/40RTY-ai/shopify-admin-skills",
+      "checked_at": "2026-11-21T02:32:39+08:00",
+      "status": "scanned",
+      "transport": "public-git-and-commit-archive",
+      "source_commit": "e3579f43c84c1342a7b700be43f9da1c2ce1ff5b",
+      "license": "MIT",
+      "candidate_count": 117
+    },
+    {
+      "requested_repo": "Attribuly-US/ecommerce-dtc-skills",
+      "repo": "Attribuly-US/ecommerce-dtc-skills",
+      "repo_url": "https://github.com/Attribuly-US/ecommerce-dtc-skills",
+      "checked_at": "2026-11-21T02:32:39+08:00",
+      "status": "scanned",
+      "transport": "public-git-and-commit-archive",
+      "source_commit": "4da6aa4bedd8079df8f0f0c913f21274b7bd787a",
+      "license": "Apache-2.0",
+      "candidate_count": 1
+    },
+    {
+      "requested_repo": "next-1688/1688-shopkeeper",
+      "repo": "next-1688/1688-shopkeeper",
+      "repo_url": "https://github.com/next-1688/1688-shopkeeper",
+      "checked_at": "2026-11-21T02:32:39+08:00",
+      "status": "scanned",
+      "transport": "public-git-and-commit-archive",
+      "source_commit": "99537bce780dd2bb926891f11223aeaa30842eff",
+      "license": "UNKNOWN",
+      "candidate_count": 1
+    },
+    {
+      "requested_repo": "next-1688/1688-shop-health-check",
+      "repo": "next-1688/1688-shop-health-check",
+      "repo_url": "https://github.com/next-1688/1688-shop-health-check",
+      "checked_at": "2026-11-21T02:32:39+08:00",
+      "status": "scanned",
+      "transport": "public-git-and-commit-archive",
+      "source_commit": "b8656dfbb6d957c822be6a0a6c21398f860b9e30",
+      "license": "UNKNOWN",
+      "candidate_count": 1
+    },
+    {
+      "requested_repo": "rakei076/sycm-cli",
+      "repo": "rakei076/sycm-cli",
+      "repo_url": "https://github.com/rakei076/sycm-cli",
+      "checked_at": "2026-11-21T02:32:39+08:00",
+      "status": "scanned",
+      "transport": "public-git-and-commit-archive",
+      "source_commit": "1e202490fc835fa68ea3a46417baaa634289e712",
+      "license": "MIT",
+      "candidate_count": 1
+    },
+    {
+      "requested_repo": "rakei076/alimama-cli",
+      "repo": "rakei076/alimama-cli",
+      "repo_url": "https://github.com/rakei076/alimama-cli",
+      "checked_at": "2026-11-21T02:32:39+08:00",
+      "status": "scanned",
+      "transport": "public-git-and-commit-archive",
+      "source_commit": "f0359b9612a5ca282fd33ba1d0b25fbcda323808",
+      "license": "MIT",
+      "candidate_count": 1
+    },
+    {
+      "requested_repo": "yuyang2230/taobao-shop-growth",
+      "repo": "yuyang2230/taobao-shop-growth",
+      "repo_url": "https://github.com/yuyang2230/taobao-shop-growth",
+      "checked_at": "2026-11-21T02:32:39+08:00",
+      "status": "scanned",
+      "transport": "public-git-and-commit-archive",
+      "source_commit": "86509e0a6b6534c36f2ea82ef4abbfa1a9c0c2e9",
+      "license": "MIT",
+      "candidate_count": 1
+    },
+    {
+      "requested_repo": "ecom-work/pdd-skill",
+      "repo": "ecom-work/pdd-skill",
+      "repo_url": "https://github.com/ecom-work/pdd-skill",
+      "checked_at": "2026-11-21T02:32:39+08:00",
+      "status": "scanned",
+      "transport": "public-git-and-commit-archive",
+      "source_commit": "570c089c51d5f8e2dcc6ae6414311be833575e7e",
+      "license": "UNKNOWN",
+      "candidate_count": 1
+    },
+    {
+      "requested_repo": "virgokid/jd-api-doc-skill",
+      "repo": "virgokid/jd-api-doc-skill",
+      "repo_url": "https://github.com/virgokid/jd-api-doc-skill",
+      "checked_at": "2026-11-21T02:32:39+08:00",
+      "status": "scanned",
+      "transport": "public-git-and-commit-archive",
+      "source_commit": "1e027f7bede0ca468813b833e7db875c085e4c90",
+      "license": "MIT",
+      "candidate_count": 1
+    },
+    {
+      "requested_repo": "weibo-job/shopee-global-product-listing",
+      "repo": "weibo-job/shopee-global-product-listing",
+      "repo_url": "https://github.com/weibo-job/shopee-global-product-listing",
+      "checked_at": "2026-11-21T02:32:39+08:00",
+      "status": "scanned",
+      "transport": "public-git-and-commit-archive",
+      "source_commit": "96879504417a4fa1deff533b7b38336a21de2c88",
+      "license": "MIT",
+      "candidate_count": 1
+    },
+    {
+      "requested_repo": "djgun2233/shopee-ecommerce-skills",
+      "repo": "djgun2233/shopee-ecommerce-skills",
+      "repo_url": "https://github.com/djgun2233/shopee-ecommerce-skills",
+      "checked_at": "2026-11-21T02:32:39+08:00",
+      "status": "scanned",
+      "transport": "public-git-and-commit-archive",
+      "source_commit": "36d9006374d90633427b3c79eb8d013460174dc6",
+      "license": "MIT",
+      "candidate_count": 5
+    },
+    {
+      "requested_repo": "GraceGu1012/shopee-sales-skill",
+      "repo": "GraceGu1012/shopee-sales-skill",
+      "repo_url": "https://github.com/GraceGu1012/shopee-sales-skill",
+      "checked_at": "2026-11-21T02:32:39+08:00",
+      "status": "failed",
+      "transport": "public-git-and-commit-archive",
+      "error": "list index out of range"
+    },
+    {
+      "requested_repo": "waloyu81/shopee-seller-skills",
+      "repo": "waloyu81/shopee-seller-skills",
+      "repo_url": "https://github.com/waloyu81/shopee-seller-skills",
+      "checked_at": "2026-11-21T02:32:39+08:00",
+      "status": "scanned",
+      "transport": "public-git-and-commit-archive",
+      "source_commit": "93fd871165a24dd587e5b987e02f2752f2fe9382",
+      "license": "UNKNOWN",
+      "candidate_count": 2
+    },
+    {
+      "requested_repo": "githuajk/Shopee-BR-Compliance-Skills",
+      "repo": "githuajk/Shopee-BR-Compliance-Skills",
+      "repo_url": "https://github.com/githuajk/Shopee-BR-Compliance-Skills",
+      "checked_at": "2026-11-21T02:32:39+08:00",
+      "status": "scanned",
+      "transport": "public-git-and-commit-archive",
+      "source_commit": "b94dc2b96da70937611b07154b586cedcb70ea56",
+      "license": "Apache-2.0",
+      "candidate_count": 7
+    },
+    {
+      "requested_repo": "miilv/ozon-seller-api-skill",
+      "repo": "miilv/ozon-seller-api-skill",
+      "repo_url": "https://github.com/miilv/ozon-seller-api-skill",
+      "checked_at": "2026-11-21T02:32:39+08:00",
+      "status": "scanned",
+      "transport": "public-git-and-commit-archive",
+      "source_commit": "a908d9a04f3cd8aa32c3b52c6d22cc0e5a1e9fe9",
+      "license": "UNKNOWN",
+      "candidate_count": 1
+    },
+    {
+      "requested_repo": "miilv/wb-seller-api-skill",
+      "repo": "miilv/wb-seller-api-skill",
+      "repo_url": "https://github.com/miilv/wb-seller-api-skill",
+      "checked_at": "2026-11-21T02:32:39+08:00",
+      "status": "scanned",
+      "transport": "public-git-and-commit-archive",
+      "source_commit": "592d0eb718ac7a4d626c670c31269dd3a11d2781",
+      "license": "UNKNOWN",
+      "candidate_count": 1
+    },
+    {
+      "requested_repo": "Leenodie/wb-docs-skills",
+      "repo": "Leenodie/wb-docs-skills",
+      "repo_url": "https://github.com/Leenodie/wb-docs-skills",
+      "checked_at": "2026-11-21T02:32:39+08:00",
+      "status": "scanned",
+      "transport": "public-git-and-commit-archive",
+      "source_commit": "87830ecd0e897c9f7c52c676ba367e9e4ff5ba13",
+      "license": "UNKNOWN",
+      "candidate_count": 1
+    },
+    {
+      "requested_repo": "jorgelserve/mercadolibre-skill",
+      "repo": "jorgelserve/mercadolibre-skill",
+      "repo_url": "https://github.com/jorgelserve/mercadolibre-skill",
+      "checked_at": "2026-11-21T02:32:39+08:00",
+      "status": "scanned",
+      "transport": "public-git-and-commit-archive",
+      "source_commit": "de09001ffacef60bd7e389acb1627ef83a3da91a",
+      "license": "UNKNOWN",
+      "candidate_count": 1
+    },
+    {
+      "requested_repo": "abutun/etsy-seo-optimizer",
+      "repo": "abutun/etsy-seo-optimizer",
+      "repo_url": "https://github.com/abutun/etsy-seo-optimizer",
+      "checked_at": "2026-11-21T02:32:39+08:00",
+      "status": "scanned",
+      "transport": "public-git-and-commit-archive",
+      "source_commit": "1a219de315e81ff030629abf5a725b776a0c26bb",
+      "license": "UNKNOWN",
+      "candidate_count": 6
+    },
+    {
+      "requested_repo": "easyaitech/etsy-skills",
+      "repo": "easyaitech/etsy-skills",
+      "repo_url": "https://github.com/easyaitech/etsy-skills",
+      "checked_at": "2026-11-21T02:32:39+08:00",
+      "status": "scanned",
+      "transport": "public-git-and-commit-archive",
+      "source_commit": "720078a3da1b2ddd9f596b3b64fdccff5c5bad57",
+      "license": "UNKNOWN",
+      "candidate_count": 17
+    },
+    {
+      "requested_repo": "AetherOps/etsy-digital-studio",
+      "repo": "AetherOps/etsy-digital-studio",
+      "repo_url": "https://github.com/AetherOps/etsy-digital-studio",
+      "checked_at": "2026-11-21T02:32:39+08:00",
+      "status": "scanned",
+      "transport": "public-git-and-commit-archive",
+      "source_commit": "680d257d19bb69a181821f9a453d080c3201590c",
+      "license": "MIT",
+      "candidate_count": 1
+    },
+    {
+      "requested_repo": "Hermes34-dev/Etsy_Listing_Optimizer_Claude_Skill",
+      "repo": "Hermes34-dev/Etsy_Listing_Optimizer_Claude_Skill",
+      "repo_url": "https://github.com/Hermes34-dev/Etsy_Listing_Optimizer_Claude_Skill",
+      "checked_at": "2026-11-21T02:32:39+08:00",
+      "status": "scanned",
+      "transport": "public-git-and-commit-archive",
+      "source_commit": "f3d616c4a2d6a8280af3774456788f1534468aba",
+      "license": "UNKNOWN",
+      "candidate_count": 0
+    },
+    {
+      "requested_repo": "Pardesco/etsy-erank-research",
+      "repo": "Pardesco/etsy-erank-research",
+      "repo_url": "https://github.com/Pardesco/etsy-erank-research",
+      "checked_at": "2026-11-21T02:32:39+08:00",
+      "status": "scanned",
+      "transport": "public-git-and-commit-archive",
+      "source_commit": "035b4e8cf4202f94ebc4d4fd0637d1c5be120867",
+      "license": "MIT",
+      "candidate_count": 1
+    },
+    {
+      "requested_repo": "jlm191701/ecommerce-customer-service-skill-mcp",
+      "repo": "jlm191701/ecommerce-customer-service-skill-mcp",
+      "repo_url": "https://github.com/jlm191701/ecommerce-customer-service-skill-mcp",
+      "checked_at": "2026-11-21T02:32:39+08:00",
+      "status": "scanned",
+      "transport": "public-git-and-commit-archive",
+      "source_commit": "ed1b68254c5d53ba7285478ce1914dce573cb7d6",
+      "license": "UNKNOWN",
+      "candidate_count": 2
+    },
+    {
+      "requested_repo": "hugswangyu/SupportPilot",
+      "repo": "hugswangyu/SupportPilot",
+      "repo_url": "https://github.com/hugswangyu/SupportPilot",
+      "checked_at": "2026-11-21T02:32:39+08:00",
+      "status": "scanned",
+      "transport": "public-git-and-commit-archive",
+      "source_commit": "654bc7e7a1e61b3e13baf69905364b018aad48e9",
+      "license": "UNKNOWN",
+      "candidate_count": 3
+    },
+    {
+      "requested_repo": "zach22-1999/amazon-skills",
+      "repo": "zach22-1999/amazon-skills",
+      "repo_url": "https://github.com/zach22-1999/amazon-skills",
+      "checked_at": "2026-11-21T02:32:39+08:00",
+      "status": "scanned",
+      "transport": "public-git-and-commit-archive",
+      "source_commit": "db1f7d108eb8c43b6de36c6a3e230ebff107e227",
+      "license": "MIT",
+      "candidate_count": 7
+    },
+    {
+      "requested_repo": "liangdabiao/sellersprite-rpa-skills",
+      "repo": "liangdabiao/sellersprite-rpa-skills",
+      "repo_url": "https://github.com/liangdabiao/sellersprite-rpa-skills",
+      "checked_at": "2026-11-21T02:32:39+08:00",
+      "status": "scanned",
+      "transport": "public-git-and-commit-archive",
+      "source_commit": "88622e16a2e295d9a9277d754d565d51365ec7cd",
+      "license": "UNKNOWN",
+      "candidate_count": 1
+    },
+    {
+      "requested_repo": "liangdabiao/amazon-sorftime-research-MCP-skill",
+      "repo": "liangdabiao/amazon-sorftime-research-MCP-skill",
+      "repo_url": "https://github.com/liangdabiao/amazon-sorftime-research-MCP-skill",
+      "checked_at": "2026-11-21T02:32:39+08:00",
+      "status": "scanned",
+      "transport": "public-git-and-commit-archive",
+      "source_commit": "cfdf288f868e2ed23bb1bbe73c37e4581bf88b87",
+      "license": "UNKNOWN",
+      "candidate_count": 9
+    },
+    {
+      "requested_repo": "liangdabiao/fastmoss-rpa-skills",
+      "repo": "liangdabiao/fastmoss-rpa-skills",
+      "repo_url": "https://github.com/liangdabiao/fastmoss-rpa-skills",
+      "checked_at": "2026-11-21T02:32:39+08:00",
+      "status": "scanned",
+      "transport": "public-git-and-commit-archive",
+      "source_commit": "a655f7a755dd8a7e30388dcba2e0d91557a353e4",
+      "license": "UNKNOWN",
+      "candidate_count": 1
+    },
+    {
+      "requested_repo": "JayGPTPro/amazon-pro-skills",
+      "repo": "JayGPTPro/amazon-pro-skills",
+      "repo_url": "https://github.com/JayGPTPro/amazon-pro-skills",
+      "checked_at": "2026-11-21T02:32:39+08:00",
+      "status": "scanned",
+      "transport": "public-git-and-commit-archive",
+      "source_commit": "00b7babfc9ef8e49d47a3773150008d238cde9c1",
+      "license": "UNKNOWN",
+      "candidate_count": 67
+    },
+    {
+      "requested_repo": "shikhamishra379/sellerstack-amazon-seller-toolkit",
+      "repo": "shikhamishra379/sellerstack-amazon-seller-toolkit",
+      "repo_url": "https://github.com/shikhamishra379/sellerstack-amazon-seller-toolkit",
+      "checked_at": "2026-11-21T02:32:39+08:00",
+      "status": "scanned",
+      "transport": "public-git-and-commit-archive",
+      "source_commit": "543e532ccfca02739e4f3278ff057f23b8985c20",
+      "license": "UNKNOWN",
+      "candidate_count": 12
+    },
+    {
+      "requested_repo": "liangdabiao/dsh-amazon-skills",
+      "repo": "liangdabiao/dsh-amazon-skills",
+      "repo_url": "https://github.com/liangdabiao/dsh-amazon-skills",
+      "checked_at": "2026-11-21T02:32:39+08:00",
+      "status": "scanned",
+      "transport": "public-git-and-commit-archive",
+      "source_commit": "a322a23edb6d17d9d8c45bb430a567f1483948ff",
+      "license": "MIT",
+      "candidate_count": 54
+    },
+    {
+      "requested_repo": "AugLeohhhhh/codex-shein-skills",
+      "repo": "AugLeohhhhh/codex-shein-skills",
+      "repo_url": "https://github.com/AugLeohhhhh/codex-shein-skills",
+      "checked_at": "2026-11-21T02:32:39+08:00",
+      "status": "scanned",
+      "transport": "public-git-and-commit-archive",
+      "source_commit": "dfc1ae0f4d741915e2d304c38655cefa2a3c943a",
+      "license": "UNKNOWN",
+      "candidate_count": 1
+    },
+    {
+      "requested_repo": "kalelegs/agentic-walmart-skills",
+      "repo": "kalelegs/agentic-walmart-skills",
+      "repo_url": "https://github.com/kalelegs/agentic-walmart-skills",
+      "checked_at": "2026-11-21T02:32:39+08:00",
+      "status": "scanned",
+      "transport": "public-git-and-commit-archive",
+      "source_commit": "d674a7db3b1d9841ce92a2dcf68d209f03a3eae2",
+      "license": "UNKNOWN",
+      "candidate_count": 1
+    },
+    {
+      "requested_repo": "resultify-technology/Ecommerce-AI-Skills",
+      "repo": "resultify-technology/Ecommerce-AI-Skills",
+      "repo_url": "https://github.com/resultify-technology/Ecommerce-AI-Skills",
+      "checked_at": "2026-11-21T02:32:39+08:00",
+      "status": "scanned",
+      "transport": "public-git-and-commit-archive",
+      "source_commit": "934f39bbe62e259ad8ad3e79f73077bf42b84234",
+      "license": "MIT",
+      "candidate_count": 162
+    },
+    {
+      "requested_repo": "Hongggggggg/official-platform-rules-skill",
+      "repo": "Hongggggggg/official-platform-rules-skill",
+      "repo_url": "https://github.com/Hongggggggg/official-platform-rules-skill",
+      "checked_at": "2026-11-21T02:32:39+08:00",
+      "status": "scanned",
+      "transport": "public-git-and-commit-archive",
+      "source_commit": "3fe60105477658923a7ea23626464159a88a8767",
+      "license": "UNKNOWN",
+      "candidate_count": 2
+    },
+    {
+      "requested_repo": "ITemperor/douyin-ecom-ops-team",
+      "repo": "ITemperor/douyin-ecom-ops-team",
+      "repo_url": "https://github.com/ITemperor/douyin-ecom-ops-team",
+      "checked_at": "2026-11-21T02:32:39+08:00",
+      "status": "scanned",
+      "transport": "public-git-and-commit-archive",
+      "source_commit": "7dad12bb8d4fd187e0c42f03b8569dbeee9654d6",
+      "license": "MIT",
+      "candidate_count": 1
+    },
+    {
+      "requested_repo": "linbojin/clawshop-data-manager",
+      "repo": "linbojin/clawshop-data-manager",
+      "repo_url": "https://github.com/linbojin/clawshop-data-manager",
+      "checked_at": "2026-11-21T02:32:39+08:00",
+      "status": "scanned",
+      "transport": "public-git-and-commit-archive",
+      "source_commit": "eba1221c815f6a6d8203a1116ac0a82e58ec1785",
+      "license": "UNKNOWN",
+      "candidate_count": 1
+    },
+    {
+      "requested_repo": "markwaveio/cross-border-selection-kit",
+      "repo": "markwaveio/cross-border-selection-kit",
+      "repo_url": "https://github.com/markwaveio/cross-border-selection-kit",
+      "checked_at": "2026-11-21T02:32:39+08:00",
+      "status": "scanned",
+      "transport": "public-git-and-commit-archive",
+      "source_commit": "d9a9f0a65de3b16f9c4c102746ac83049e87d36f",
+      "license": "UNKNOWN",
+      "candidate_count": 7
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "reviewed_at": "2026-11-14",
+  "reviewed_at": "2026-11-21",
   "items": [
     {
       "repo": "coreyhaines31/marketingskills",
@@ -2270,6 +2270,1643 @@
         "Python 配套脚本、LinkFox API Key 和对应服务权限"
       ],
       "cost": "Skill 开源；数据查询额度和模型费用另计"
+    },
+    {
+      "repo": "feichanggege/ecommerce-visual-copywriting-skill",
+      "path": "SKILL.md",
+      "title": "商品主图与详情页视觉策划",
+      "platforms": [
+        "淘宝",
+        "京东",
+        "拼多多",
+        "抖音小店",
+        "小红书",
+        "视频号 / 微信小店",
+        "Amazon",
+        "Shopify",
+        "TikTok Shop",
+        "Temu",
+        "Shopee",
+        "Lazada"
+      ],
+      "category": "图片设计",
+      "summary": "把商品事实、卖点和参考图整理成主图、详情页方案与设计师执行稿；出图需另接模型。",
+      "capability": "方法指导",
+      "requirements": [
+        "提供商品原图、参数、资质与目标平台",
+        "可运行 Python 的 AI 客户端；实际生图另需图像工具"
+      ],
+      "cost": "Skill 开源；模型与所接外部工具费用另计",
+      "reviewed_at": "2026-11-21",
+      "source_commit": "7fd4abaa5a280dddf414ccc1372d886bef702cba",
+      "content_sha256": "ad17124d9dd410d6032459333604f7d50238badd3c96df429235009f57179a68"
+    },
+    {
+      "repo": "xianyu110/ecommerce-image-skills",
+      "path": "skills/amazon-a-plus/SKILL.md",
+      "title": "Amazon A+ 页面模块图",
+      "platforms": [
+        "Amazon"
+      ],
+      "category": "图片设计",
+      "summary": "按产品资料规划 A+ 模块与统一视觉，生成各模块的图片提示词或图片。",
+      "capability": "内容生成",
+      "requirements": [
+        "商品实拍、尺寸及确认过的卖点",
+        "图像生成/编辑工具，或 GPTIMAGE_API_KEY 与原仓库脚本；API 计费另计"
+      ],
+      "cost": "Skill 开源；模型与所接外部工具费用另计",
+      "reviewed_at": "2026-11-21",
+      "source_commit": "f4566fdc812584425728862ad8e08c90883d81ee",
+      "content_sha256": "50577f871d4da42d2af1ebaa7aeb0d860ebd249a7d6a4542309d90c15f3ab94b"
+    },
+    {
+      "repo": "xianyu110/ecommerce-image-skills",
+      "path": "skills/amazon-white-background/SKILL.md",
+      "title": "Amazon 白底商品主图",
+      "platforms": [
+        "Amazon"
+      ],
+      "category": "图片设计",
+      "summary": "根据实拍制作白底主图，检查产品占比、背景及多余装饰。",
+      "capability": "内容生成",
+      "requirements": [
+        "商品实拍、尺寸及确认过的卖点",
+        "图像生成/编辑工具，或 GPTIMAGE_API_KEY 与原仓库脚本；API 计费另计"
+      ],
+      "cost": "Skill 开源；模型与所接外部工具费用另计",
+      "reviewed_at": "2026-11-21",
+      "source_commit": "f4566fdc812584425728862ad8e08c90883d81ee",
+      "content_sha256": "e48de25e0d72a42a68af7a06c86c96cde470233a3b9a9a16aa6bde8427359c62"
+    },
+    {
+      "repo": "xianyu110/ecommerce-image-skills",
+      "path": "skills/batch-background-swap/SKILL.md",
+      "title": "商品图片批量换背景",
+      "platforms": [
+        "通用"
+      ],
+      "category": "图片设计",
+      "summary": "批量替换商品背景或制作已确认的颜色版本，保持产品结构一致。",
+      "capability": "内容生成",
+      "requirements": [
+        "商品实拍、尺寸及确认过的卖点",
+        "图像生成/编辑工具，或 GPTIMAGE_API_KEY 与原仓库脚本；API 计费另计"
+      ],
+      "cost": "Skill 开源；模型与所接外部工具费用另计",
+      "reviewed_at": "2026-11-21",
+      "source_commit": "f4566fdc812584425728862ad8e08c90883d81ee",
+      "content_sha256": "b6d21bd5f2df9e34c143c07e25cffb3425d958ae56ed00a049b2151685a6a39e"
+    },
+    {
+      "repo": "xianyu110/ecommerce-image-skills",
+      "path": "skills/ecommerce-listing-suite/SKILL.md",
+      "title": "商品整套图片编排",
+      "platforms": [
+        "Amazon",
+        "淘宝",
+        "Shopee",
+        "TikTok Shop"
+      ],
+      "category": "图片设计",
+      "summary": "为一个商品规划整套平台图片，统一产品身份、风格与图片顺序。",
+      "capability": "内容生成",
+      "requirements": [
+        "商品实拍、尺寸及确认过的卖点",
+        "图像生成/编辑工具，或 GPTIMAGE_API_KEY 与原仓库脚本；API 计费另计"
+      ],
+      "cost": "Skill 开源；模型与所接外部工具费用另计",
+      "reviewed_at": "2026-11-21",
+      "source_commit": "f4566fdc812584425728862ad8e08c90883d81ee",
+      "content_sha256": "2e921a6674ccaf57a7db25c854e6a4f988179d8991addb3415d8785f9fa7cf97"
+    },
+    {
+      "repo": "xianyu110/ecommerce-image-skills",
+      "path": "skills/lifestyle-scene/SKILL.md",
+      "title": "商品使用场景图",
+      "platforms": [
+        "通用"
+      ],
+      "category": "图片设计",
+      "summary": "把真实商品放入厨房、户外等使用场景，保留外形和品牌细节。",
+      "capability": "内容生成",
+      "requirements": [
+        "商品实拍、尺寸及确认过的卖点",
+        "图像生成/编辑工具，或 GPTIMAGE_API_KEY 与原仓库脚本；API 计费另计"
+      ],
+      "cost": "Skill 开源；模型与所接外部工具费用另计",
+      "reviewed_at": "2026-11-21",
+      "source_commit": "f4566fdc812584425728862ad8e08c90883d81ee",
+      "content_sha256": "f7d778dd1f5f2873682354378dc0d0acdcf67dbf0a26b80fbb692d4bc5945e08"
+    },
+    {
+      "repo": "xianyu110/ecommerce-image-skills",
+      "path": "skills/model-try-on/SKILL.md",
+      "title": "服装模特上身图",
+      "platforms": [
+        "通用"
+      ],
+      "category": "图片设计",
+      "summary": "根据服装平铺图制作模特展示图，核对面料、印花与配件。",
+      "capability": "内容生成",
+      "requirements": [
+        "商品实拍、尺寸及确认过的卖点",
+        "图像生成/编辑工具，或 GPTIMAGE_API_KEY 与原仓库脚本；API 计费另计"
+      ],
+      "cost": "Skill 开源；模型与所接外部工具费用另计",
+      "reviewed_at": "2026-11-21",
+      "source_commit": "f4566fdc812584425728862ad8e08c90883d81ee",
+      "content_sha256": "9401170b3393d1717f05a886fa5a217113f391bd0e4ffa3e70a7b01c912a66e9"
+    },
+    {
+      "repo": "xianyu110/ecommerce-image-skills",
+      "path": "skills/multi-angle-set/SKILL.md",
+      "title": "商品多角度图片套组",
+      "platforms": [
+        "通用"
+      ],
+      "category": "图片设计",
+      "summary": "制作统一光线和背景的多角度商品图；需要足够参考图确认结构。",
+      "capability": "内容生成",
+      "requirements": [
+        "商品实拍、尺寸及确认过的卖点",
+        "图像生成/编辑工具，或 GPTIMAGE_API_KEY 与原仓库脚本；API 计费另计"
+      ],
+      "cost": "Skill 开源；模型与所接外部工具费用另计",
+      "reviewed_at": "2026-11-21",
+      "source_commit": "f4566fdc812584425728862ad8e08c90883d81ee",
+      "content_sha256": "8988794d73e6ffa62972bfe661d5167518ff37f50dde4287c72f75788583dbad"
+    },
+    {
+      "repo": "xianyu110/ecommerce-image-skills",
+      "path": "skills/sale-banner/SKILL.md",
+      "title": "电商大促横幅与店铺海报",
+      "platforms": [
+        "淘宝",
+        "Shopee",
+        "Lazada",
+        "TikTok Shop",
+        "Amazon"
+      ],
+      "category": "图片设计",
+      "summary": "根据活动与商品资料制作促销横幅和店铺首屏图。",
+      "capability": "内容生成",
+      "requirements": [
+        "商品实拍、尺寸及确认过的卖点",
+        "图像生成/编辑工具，或 GPTIMAGE_API_KEY 与原仓库脚本；API 计费另计"
+      ],
+      "cost": "Skill 开源；模型与所接外部工具费用另计",
+      "reviewed_at": "2026-11-21",
+      "source_commit": "f4566fdc812584425728862ad8e08c90883d81ee",
+      "content_sha256": "3d40133acdade518690a8a95edfb0366c1c831fac945c4c1daa5f895b5b3666b"
+    },
+    {
+      "repo": "xianyu110/ecommerce-image-skills",
+      "path": "skills/selling-point-infographic/SKILL.md",
+      "title": "商品卖点标注图",
+      "platforms": [
+        "Amazon",
+        "淘宝"
+      ],
+      "category": "图片设计",
+      "summary": "用局部特写、标注线和短文案展示商品卖点，不补造参数。",
+      "capability": "内容生成",
+      "requirements": [
+        "商品实拍、尺寸及确认过的卖点",
+        "图像生成/编辑工具，或 GPTIMAGE_API_KEY 与原仓库脚本；API 计费另计"
+      ],
+      "cost": "Skill 开源；模型与所接外部工具费用另计",
+      "reviewed_at": "2026-11-21",
+      "source_commit": "f4566fdc812584425728862ad8e08c90883d81ee",
+      "content_sha256": "75635b58334c9433e31d3c288a3ab9ef7d1fad6056b4311944bbfe4db85f263f"
+    },
+    {
+      "repo": "xianyu110/ecommerce-image-skills",
+      "path": "skills/size-chart/SKILL.md",
+      "title": "商品尺寸与尺码图",
+      "platforms": [
+        "通用"
+      ],
+      "category": "图片设计",
+      "summary": "把已确认的测量数据转成尺寸标注图、尺码表或规格说明图。",
+      "capability": "内容生成",
+      "requirements": [
+        "商品实拍、尺寸及确认过的卖点",
+        "图像生成/编辑工具，或 GPTIMAGE_API_KEY 与原仓库脚本；API 计费另计"
+      ],
+      "cost": "Skill 开源；模型与所接外部工具费用另计",
+      "reviewed_at": "2026-11-21",
+      "source_commit": "f4566fdc812584425728862ad8e08c90883d81ee",
+      "content_sha256": "5f49a779ad64999d2c5ea19585f1d41c09f069745b3a9144dc09b9b45eb22612"
+    },
+    {
+      "repo": "xianyu110/ecommerce-image-skills",
+      "path": "skills/taobao-detail-long-image/SKILL.md",
+      "title": "淘宝等平台商品详情长图",
+      "platforms": [
+        "淘宝",
+        "拼多多",
+        "京东"
+      ],
+      "category": "图片设计",
+      "summary": "按痛点、卖点、细节、参数和售后结构制作商品详情长图。",
+      "capability": "内容生成",
+      "requirements": [
+        "商品实拍、尺寸及确认过的卖点",
+        "图像生成/编辑工具，或 GPTIMAGE_API_KEY 与原仓库脚本；API 计费另计"
+      ],
+      "cost": "Skill 开源；模型与所接外部工具费用另计",
+      "reviewed_at": "2026-11-21",
+      "source_commit": "f4566fdc812584425728862ad8e08c90883d81ee",
+      "content_sha256": "0fc12f3a5a67fbf136f5a6f7d012f304667967cc7cb411df4963d6db1b62d80b"
+    },
+    {
+      "repo": "xianyu110/ecommerce-image-skills",
+      "path": "skills/xiaohongshu-cover/SKILL.md",
+      "title": "小红书商品种草封面",
+      "platforms": [
+        "小红书"
+      ],
+      "category": "图片设计",
+      "summary": "根据商品图设计种草、开箱或测评封面与清晰的标题排版。",
+      "capability": "内容生成",
+      "requirements": [
+        "商品实拍、尺寸及确认过的卖点",
+        "图像生成/编辑工具，或 GPTIMAGE_API_KEY 与原仓库脚本；API 计费另计"
+      ],
+      "cost": "Skill 开源；模型与所接外部工具费用另计",
+      "reviewed_at": "2026-11-21",
+      "source_commit": "f4566fdc812584425728862ad8e08c90883d81ee",
+      "content_sha256": "a26fe51236f968db56fbe4e55a2cb07ac4eaf714b66e9186f8a4c7d4062455f5"
+    },
+    {
+      "repo": "xianyu110/ecommerce-video-skills",
+      "path": "skills/ai-voiceover-edge-tts/SKILL.md",
+      "title": "带货视频逐句配音",
+      "platforms": [
+        "通用"
+      ],
+      "category": "内容创作",
+      "summary": "把口播稿逐句生成配音，记录真实时长，方便与镜头和字幕对齐。",
+      "capability": "内容生成",
+      "requirements": [
+        "Python、edge-tts、ffmpeg",
+        "可访问微软在线语音服务；提供可用口播稿"
+      ],
+      "cost": "Skill 开源；模型与所接外部工具费用另计",
+      "reviewed_at": "2026-11-21",
+      "source_commit": "96c49b349b7d975bda8f05ce6669c1d33500c269",
+      "content_sha256": "6d6770b15b4400e76f8bf2fb466abf7884abc1608b91440d21eb4b057772c2a2"
+    },
+    {
+      "repo": "xianyu110/ecommerce-video-skills",
+      "path": "skills/cover-title-ab/SKILL.md",
+      "title": "带货短视频封面与标题测试",
+      "platforms": [
+        "通用"
+      ],
+      "category": "内容创作",
+      "summary": "为同一视频制作多套封面、标题和对比图，附测试记录方法。",
+      "capability": "文件处理",
+      "requirements": [
+        "原视频或商品图",
+        "按原仓库配置 Python、图像与视频处理依赖"
+      ],
+      "cost": "Skill 开源；模型与所接外部工具费用另计",
+      "reviewed_at": "2026-11-21",
+      "source_commit": "96c49b349b7d975bda8f05ce6669c1d33500c269",
+      "content_sha256": "edf9c36606f91f3701923c58dd28191bd341ce665b7f53ab21d384b89219d7ff"
+    },
+    {
+      "repo": "xianyu110/ecommerce-video-skills",
+      "path": "skills/ffmpeg-auto-assemble/SKILL.md",
+      "title": "商品素材自动合成带货视频",
+      "platforms": [
+        "通用"
+      ],
+      "category": "内容创作",
+      "summary": "把商品图、片段和分镜 JSON 合成为含配音、字幕及音乐的竖屏视频。",
+      "capability": "文件处理",
+      "requirements": [
+        "Python 3.9+、Pillow、NumPy、edge-tts",
+        "ffmpeg（含 libass）、中文字体；配音环节需联网"
+      ],
+      "cost": "Skill 开源；模型与所接外部工具费用另计",
+      "reviewed_at": "2026-11-21",
+      "source_commit": "96c49b349b7d975bda8f05ce6669c1d33500c269",
+      "content_sha256": "2fcedce4f6b5c87660cc4def11f31d07fe2e02dc5697930e5551c593de7e3c28"
+    },
+    {
+      "repo": "xianyu110/ecommerce-video-skills",
+      "path": "skills/hook-3s-script/SKILL.md",
+      "title": "带货视频前三秒开场",
+      "platforms": [
+        "通用"
+      ],
+      "category": "内容创作",
+      "summary": "围绕商品卖点生成多种开场台词、画面和花字方案。",
+      "capability": "方法指导",
+      "requirements": [
+        "真实商品卖点、受众与目标平台"
+      ],
+      "cost": "Skill 开源；模型与所接外部工具费用另计",
+      "reviewed_at": "2026-11-21",
+      "source_commit": "96c49b349b7d975bda8f05ce6669c1d33500c269",
+      "content_sha256": "301e27c2a22e4de281160d603b1be038628964ab0f54bf1183f14d9faacbdf2e"
+    },
+    {
+      "repo": "xianyu110/ecommerce-video-skills",
+      "path": "skills/image-to-video-shots/SKILL.md",
+      "title": "商品主图转视频镜头提示词",
+      "platforms": [
+        "通用"
+      ],
+      "category": "内容创作",
+      "summary": "把商品图转成图生视频镜头提示词，约束运镜和商品变形。",
+      "capability": "方法指导",
+      "requirements": [
+        "商品参考图与目标时长",
+        "真正生成视频需另接图生视频服务"
+      ],
+      "cost": "Skill 开源；模型与所接外部工具费用另计",
+      "reviewed_at": "2026-11-21",
+      "source_commit": "96c49b349b7d975bda8f05ce6669c1d33500c269",
+      "content_sha256": "4c581f78ef7c43985992205131ce9c02ef40a0e7669bba3da24bd3ccf626f7e6"
+    },
+    {
+      "repo": "xianyu110/ecommerce-video-skills",
+      "path": "skills/live-stream-clips/SKILL.md",
+      "title": "电商直播录像批量切片",
+      "platforms": [
+        "通用"
+      ],
+      "category": "内容创作",
+      "summary": "按时间戳、字幕关键词或停顿提议片段，导出竖屏直播切片。",
+      "capability": "文件处理",
+      "requirements": [
+        "自己拥有或已获授权的直播录像、可选 SRT",
+        "Python 与 ffmpeg；按原仓库准备字体等依赖"
+      ],
+      "cost": "Skill 开源；模型与所接外部工具费用另计",
+      "reviewed_at": "2026-11-21",
+      "source_commit": "96c49b349b7d975bda8f05ce6669c1d33500c269",
+      "content_sha256": "8b88c53187262245f13ad21520fedbb7d32bd40656caf4efa8f50e68d16803fc"
+    },
+    {
+      "repo": "xianyu110/ecommerce-video-skills",
+      "path": "skills/multi-model-shot-prompts/SKILL.md",
+      "title": "带货分镜适配不同视频模型",
+      "platforms": [
+        "通用"
+      ],
+      "category": "内容创作",
+      "summary": "把同一份分镜改写成适合不同视频生成模型的镜头提示词。",
+      "capability": "方法指导",
+      "requirements": [
+        "商品资料、分镜与目标模型",
+        "实际生成视频需要目标服务账号和额度"
+      ],
+      "cost": "Skill 开源；模型与所接外部工具费用另计",
+      "reviewed_at": "2026-11-21",
+      "source_commit": "96c49b349b7d975bda8f05ce6669c1d33500c269",
+      "content_sha256": "ea21d23dcf73ce8f3d878210a2f0a0fe52fb3e667735b9101b9416ad19d70b6c"
+    },
+    {
+      "repo": "xianyu110/ecommerce-video-skills",
+      "path": "skills/multilingual-dubbing/SKILL.md",
+      "title": "带货视频多语言配音本地化",
+      "platforms": [
+        "通用"
+      ],
+      "category": "内容创作",
+      "summary": "本地化口播文案，生成多语言配音、字幕和对应视频版本。",
+      "capability": "内容生成",
+      "requirements": [
+        "原稿、目标语言、分镜和素材",
+        "Python、edge-tts、ffmpeg；联网语音服务"
+      ],
+      "cost": "Skill 开源；模型与所接外部工具费用另计",
+      "reviewed_at": "2026-11-21",
+      "source_commit": "96c49b349b7d975bda8f05ce6669c1d33500c269",
+      "content_sha256": "1a6144bb5916832fff51913a615227f6b9b0a480f3d54acca8eb840b9f6c0f06"
+    },
+    {
+      "repo": "xianyu110/ecommerce-video-skills",
+      "path": "skills/platform-spec-export/SKILL.md",
+      "title": "带货视频多平台规格导出",
+      "platforms": [
+        "抖音小店",
+        "TikTok Shop",
+        "小红书",
+        "视频号 / 微信小店",
+        "淘宝",
+        "Amazon"
+      ],
+      "category": "内容创作",
+      "summary": "把同一条视频导出为不同平台的画幅与编码，并检查安全区。",
+      "capability": "文件处理",
+      "requirements": [
+        "母版视频与目标平台规格",
+        "Python 与 ffmpeg"
+      ],
+      "cost": "Skill 开源；模型与所接外部工具费用另计",
+      "reviewed_at": "2026-11-21",
+      "source_commit": "96c49b349b7d975bda8f05ce6669c1d33500c269",
+      "content_sha256": "746b696329e9c44ac37ee04eb2a749d29410a6439399fa14dc1df320e4cfedc2"
+    },
+    {
+      "repo": "xianyu110/ecommerce-video-skills",
+      "path": "skills/selling-point-storyboard/SKILL.md",
+      "title": "商品卖点转带货视频分镜",
+      "platforms": [
+        "通用"
+      ],
+      "category": "内容创作",
+      "summary": "把卖点拆成逐镜画面、台词、字幕与素材清单，可输出分镜 JSON。",
+      "capability": "方法指导",
+      "requirements": [
+        "真实商品参数、卖点、受众和素材清单"
+      ],
+      "cost": "Skill 开源；模型与所接外部工具费用另计",
+      "reviewed_at": "2026-11-21",
+      "source_commit": "96c49b349b7d975bda8f05ce6669c1d33500c269",
+      "content_sha256": "7f108e8d25533208e90b5fbb5b5b5d9a7800481f0a41424dcfcf531b80d65320"
+    },
+    {
+      "repo": "xianyu110/ecommerce-video-skills",
+      "path": "skills/subtitles-and-text-effects/SKILL.md",
+      "title": "带货视频字幕与重点花字",
+      "platforms": [
+        "通用"
+      ],
+      "category": "内容创作",
+      "summary": "生成 SRT、ASS 字幕及关键词高亮，按平台安全区烧录到视频。",
+      "capability": "文件处理",
+      "requirements": [
+        "准确口播稿或转写及视频素材",
+        "Python、ffmpeg/libass 与可用中文字体"
+      ],
+      "cost": "Skill 开源；模型与所接外部工具费用另计",
+      "reviewed_at": "2026-11-21",
+      "source_commit": "96c49b349b7d975bda8f05ce6669c1d33500c269",
+      "content_sha256": "e1f70ffb2042e204f5a1150383a9ee5ac110195cb38bd39aa28303cbd9874f6d"
+    },
+    {
+      "repo": "xianyu110/ecommerce-video-skills",
+      "path": "skills/unboxing-comparison-review/SKILL.md",
+      "title": "商品开箱与对比评测脚本",
+      "platforms": [
+        "通用"
+      ],
+      "category": "内容创作",
+      "summary": "生成开箱或公平对比评测的口播稿、拍摄清单和分镜。",
+      "capability": "方法指导",
+      "requirements": [
+        "可核实的商品资料、真实测试条件与对比对象"
+      ],
+      "cost": "Skill 开源；模型与所接外部工具费用另计",
+      "reviewed_at": "2026-11-21",
+      "source_commit": "96c49b349b7d975bda8f05ce6669c1d33500c269",
+      "content_sha256": "750618cc7b5ebec53b36415b0749c2410d3a6062059d4dc9ca6b4ee7effec881"
+    },
+    {
+      "repo": "xianyu110/ecommerce-video-skills",
+      "path": "skills/viral-remake/SKILL.md",
+      "title": "带货爆款视频结构拆解",
+      "platforms": [
+        "通用"
+      ],
+      "category": "内容创作",
+      "summary": "拆解参考视频的开头、节奏与卖点表达，再转成自有商品分镜。",
+      "capability": "方法指导",
+      "requirements": [
+        "参考视频的链接、转写或结构描述",
+        "自有商品资料；不复用无授权素材"
+      ],
+      "cost": "Skill 开源；模型与所接外部工具费用另计",
+      "reviewed_at": "2026-11-21",
+      "source_commit": "96c49b349b7d975bda8f05ce6669c1d33500c269",
+      "content_sha256": "6a86d5edc302a811afa67373b38f52dc613fd7ba60453a7517be9fc27ee3f9f0"
+    },
+    {
+      "repo": "buluslan/gpt-image2-ecommerce",
+      "path": "SKILL.md",
+      "title": "电商做图场景与提示词工具箱",
+      "platforms": [
+        "通用"
+      ],
+      "category": "图片设计",
+      "summary": "按商品场景组织整套图提示词，可接配置好的图像端点出图，也可导出提示词手动使用。",
+      "capability": "内容生成",
+      "requirements": [
+        "商品图、目标场景与平台",
+        "自动出图需自行配置 OpenAI 兼容图像端点与 API Key；脚本需 bash、jq、curl，预检需 Python/Pillow"
+      ],
+      "cost": "Skill 开源；模型与所接外部工具费用另计",
+      "reviewed_at": "2026-11-21",
+      "source_commit": "73abd50bf2b689b5a453f28ddd7b0016415deec6",
+      "content_sha256": "a6f565019be50d57b62cbc2b5a4021ab297ecee4907ad22fa015cd778f02f6e0"
+    },
+    {
+      "repo": "SerendipityOneInc/ZooData-Skills",
+      "path": "amazon-analysis/SKILL.md",
+      "title": "Amazon 多维商品数据分析",
+      "platforms": [
+        "Amazon"
+      ],
+      "category": "选品调研",
+      "summary": "围绕一个 Amazon 调研问题查询多个数据维度，并说明证据与缺口。",
+      "capability": "数据查询",
+      "requirements": [
+        "ZooData 账号、ZOODATA_API_KEY 与可用额度",
+        "按原仓库配置 Python/CLI；提供 ASIN、站点或关键词"
+      ],
+      "cost": "Skill 开源；ZooData 按账户额度和服务规则计费，模型费用另计",
+      "reviewed_at": "2026-11-21",
+      "source_commit": "99de5d98af4dc5b66b73599b4ee00a3017ff0426",
+      "content_sha256": "91626481e2cba2ca4fb8064d7b579bf8cdad886982b5a5bb2c15ec2ecf5b90a3"
+    },
+    {
+      "repo": "SerendipityOneInc/ZooData-Skills",
+      "path": "amazon-competitor-intelligence-monitor/SKILL.md",
+      "title": "Amazon 竞品监测与拆解",
+      "platforms": [
+        "Amazon"
+      ],
+      "category": "选品调研",
+      "summary": "按指定竞品分析价格、商品表现及变化，形成竞品对比和监测报告。",
+      "capability": "数据查询",
+      "requirements": [
+        "ZooData 账号、ZOODATA_API_KEY 与可用额度",
+        "按原仓库配置 Python/CLI；提供 ASIN、站点或关键词"
+      ],
+      "cost": "Skill 开源；ZooData 按账户额度和服务规则计费，模型费用另计",
+      "reviewed_at": "2026-11-21",
+      "source_commit": "99de5d98af4dc5b66b73599b4ee00a3017ff0426",
+      "content_sha256": "d3d725d52c9a5e6a052117c4d3017aab17189c6391d82988a70b90a9e109244a"
+    },
+    {
+      "repo": "SerendipityOneInc/ZooData-Skills",
+      "path": "amazon-daily-market-radar/SKILL.md",
+      "title": "Amazon 市场变化日报",
+      "platforms": [
+        "Amazon"
+      ],
+      "category": "选品调研",
+      "summary": "围绕自有和竞品 ASIN 整理价格、排名和市场变化；定期运行需宿主另行安排。",
+      "capability": "数据查询",
+      "requirements": [
+        "ZooData 账号、ZOODATA_API_KEY 与可用额度",
+        "按原仓库配置 Python/CLI；提供 ASIN、站点或关键词"
+      ],
+      "cost": "Skill 开源；ZooData 按账户额度和服务规则计费，模型费用另计",
+      "reviewed_at": "2026-11-21",
+      "source_commit": "99de5d98af4dc5b66b73599b4ee00a3017ff0426",
+      "content_sha256": "9c8ddaed9a0eb365403a5201b8034a3d85a12f7267f65256b742a19b0951da6b"
+    },
+    {
+      "repo": "SerendipityOneInc/ZooData-Skills",
+      "path": "amazon-keyword-traffic-analysis/SKILL.md",
+      "title": "Amazon 关键词与流量分析",
+      "platforms": [
+        "Amazon"
+      ],
+      "category": "Listing 优化",
+      "summary": "查询关键词需求、商品流量词及变化，区分平台数据与推断。",
+      "capability": "数据查询",
+      "requirements": [
+        "ZooData 账号、ZOODATA_API_KEY 与可用额度",
+        "按原仓库配置 Python/CLI；提供 ASIN、站点或关键词"
+      ],
+      "cost": "Skill 开源；ZooData 按账户额度和服务规则计费，模型费用另计",
+      "reviewed_at": "2026-11-21",
+      "source_commit": "99de5d98af4dc5b66b73599b4ee00a3017ff0426",
+      "content_sha256": "12f9cdb3575334d77e96721620e08489915e60afadf70467d875f66fcfb6bef6"
+    },
+    {
+      "repo": "SerendipityOneInc/ZooData-Skills",
+      "path": "amazon-listing-audit-pro/SKILL.md",
+      "title": "Amazon 商品页数据体检",
+      "platforms": [
+        "Amazon"
+      ],
+      "category": "Listing 优化",
+      "summary": "结合商品页、关键词及竞品信息找出 Listing 的改进项。",
+      "capability": "数据查询",
+      "requirements": [
+        "ZooData 账号、ZOODATA_API_KEY 与可用额度",
+        "按原仓库配置 Python/CLI；提供 ASIN、站点或关键词"
+      ],
+      "cost": "Skill 开源；ZooData 按账户额度和服务规则计费，模型费用另计",
+      "reviewed_at": "2026-11-21",
+      "source_commit": "99de5d98af4dc5b66b73599b4ee00a3017ff0426",
+      "content_sha256": "53fe6dc8fb8b4170fb7ce5e05bb8e950b367e53a2d5a3187923f795ee7955d52"
+    },
+    {
+      "repo": "SerendipityOneInc/ZooData-Skills",
+      "path": "amazon-market-analysis/SKILL.md",
+      "title": "Amazon 类目市场与进入分析",
+      "platforms": [
+        "Amazon"
+      ],
+      "category": "选品调研",
+      "summary": "调查类目结构、趋势与竞争，整理进入市场前需要验证的问题。",
+      "capability": "数据查询",
+      "requirements": [
+        "ZooData 账号、ZOODATA_API_KEY 与可用额度",
+        "按原仓库配置 Python/CLI；提供 ASIN、站点或关键词"
+      ],
+      "cost": "Skill 开源；ZooData 按账户额度和服务规则计费，模型费用另计",
+      "reviewed_at": "2026-11-21",
+      "source_commit": "99de5d98af4dc5b66b73599b4ee00a3017ff0426",
+      "content_sha256": "236e49b6bd3bc0cb6ede24ffa06b7676e22fa1c0e4dd40415b25981b908ea512"
+    },
+    {
+      "repo": "SerendipityOneInc/ZooData-Skills",
+      "path": "amazon-pricing-command-center/SKILL.md",
+      "title": "Amazon 定价与利润分析",
+      "platforms": [
+        "Amazon"
+      ],
+      "category": "经营分析",
+      "summary": "结合价格与竞争数据分析定价选项，给出依据和待确认成本。",
+      "capability": "数据查询",
+      "requirements": [
+        "ZooData 账号、ZOODATA_API_KEY 与可用额度",
+        "按原仓库配置 Python/CLI；提供 ASIN、站点或关键词"
+      ],
+      "cost": "Skill 开源；ZooData 按账户额度和服务规则计费，模型费用另计",
+      "reviewed_at": "2026-11-21",
+      "source_commit": "99de5d98af4dc5b66b73599b4ee00a3017ff0426",
+      "content_sha256": "b2a84ae8ebe12dcc4d2ae944d87277b2ce5d352fd9b12f6cb10b928c29c65b48"
+    },
+    {
+      "repo": "SerendipityOneInc/ZooData-Skills",
+      "path": "amazon-review-intelligence-extractor/SKILL.md",
+      "title": "Amazon 评论痛点提炼",
+      "platforms": [
+        "Amazon"
+      ],
+      "category": "选品调研",
+      "summary": "从评论中整理用户痛点、使用场景与改进线索。",
+      "capability": "数据查询",
+      "requirements": [
+        "ZooData 账号、ZOODATA_API_KEY 与可用额度",
+        "按原仓库配置 Python/CLI；提供 ASIN、站点或关键词"
+      ],
+      "cost": "Skill 开源；ZooData 按账户额度和服务规则计费，模型费用另计",
+      "reviewed_at": "2026-11-21",
+      "source_commit": "99de5d98af4dc5b66b73599b4ee00a3017ff0426",
+      "content_sha256": "a89ea6da8886e489390f999acc765f8fe5bd206e4af5e9ca8aec4bf47b6da90c"
+    },
+    {
+      "repo": "g305595965/cn-ecommerce-ops",
+      "path": "SKILL.md",
+      "title": "国内电商选品与利润测算",
+      "platforms": [
+        "淘宝",
+        "京东",
+        "拼多多",
+        "抖音小店",
+        "小红书",
+        "视频号 / 微信小店",
+        "Temu"
+      ],
+      "category": "经营分析",
+      "summary": "根据真实输入测算定价、投流、补货与利润，也可整理标题和店铺诊断。",
+      "capability": "文件处理",
+      "requirements": [
+        "Python 3；脚本使用标准库",
+        "真实成本、退货率、佣金与店铺数据；内置费率须按当前规则核对"
+      ],
+      "cost": "Skill 开源；模型与所接外部工具费用另计",
+      "reviewed_at": "2026-11-21",
+      "source_commit": "be160c284364d1031c067265fa1cf81bd666efc9",
+      "content_sha256": "00e192ecd6b8ce9e2221613890513b1c34d3eaec3fc762f0f61e6a800d84afaa"
+    },
+    {
+      "repo": "xianglouw/ecom-agent-skills",
+      "path": "skills/crossborder-ecom-ops/SKILL.md",
+      "title": "跨境电商日常工作流编排",
+      "platforms": [
+        "Amazon",
+        "Shopee",
+        "TikTok Shop",
+        "Temu",
+        "Lazada",
+        "Wayfair",
+        "Mercado Libre"
+      ],
+      "category": "经营分析",
+      "summary": "串起规则核对、表格整理、利润、素材、采购单和经营复盘。",
+      "capability": "方法指导",
+      "requirements": [
+        "真实商品、报表、报价或单据；运行配套脚本需 Python",
+        "规则查询、图像识别或媒体生成需宿主提供相应工具，外部服务另计"
+      ],
+      "cost": "Skill 开源；模型与所接外部工具费用另计",
+      "reviewed_at": "2026-11-21",
+      "source_commit": "e9b7dd34576e3d03fca9a19087a9a5a408a5fe1e",
+      "content_sha256": "55b5ec0961754880432321e8c61316681da7c417567c00ca933f6a88fca2cf19"
+    },
+    {
+      "repo": "xianglouw/ecom-agent-skills",
+      "path": "skills/ecom-ads-plan/SKILL.md",
+      "title": "跨境广告预算与测试计划",
+      "platforms": [
+        "通用"
+      ],
+      "category": "广告投放",
+      "summary": "规划投放结构、预算、保本 ROAS 与测试节奏，不自动投放。",
+      "capability": "方法指导",
+      "requirements": [
+        "真实商品、报表、报价或单据；运行配套脚本需 Python",
+        "规则查询、图像识别或媒体生成需宿主提供相应工具，外部服务另计"
+      ],
+      "cost": "Skill 开源；模型与所接外部工具费用另计",
+      "reviewed_at": "2026-11-21",
+      "source_commit": "e9b7dd34576e3d03fca9a19087a9a5a408a5fe1e",
+      "content_sha256": "26753e047757b263476eb061e4c2775b7dd00a913beb3168de0b4d496daa5863"
+    },
+    {
+      "repo": "xianglouw/ecom-agent-skills",
+      "path": "skills/ecom-data-prep/SKILL.md",
+      "title": "电商报表合并与清洗",
+      "platforms": [
+        "通用"
+      ],
+      "category": "经营分析",
+      "summary": "统一多来源报表的表头、日期和金额，隔离缺失或异常行。",
+      "capability": "文件处理",
+      "requirements": [
+        "真实商品、报表、报价或单据；运行配套脚本需 Python",
+        "规则查询、图像识别或媒体生成需宿主提供相应工具，外部服务另计"
+      ],
+      "cost": "Skill 开源；模型与所接外部工具费用另计",
+      "reviewed_at": "2026-11-21",
+      "source_commit": "e9b7dd34576e3d03fca9a19087a9a5a408a5fe1e",
+      "content_sha256": "5985fcee10f386ad4139a1368f7277dbbf3b14c2becbfa8f74495dadca3bbb5c"
+    },
+    {
+      "repo": "xianglouw/ecom-agent-skills",
+      "path": "skills/ecom-po-build/SKILL.md",
+      "title": "采购订单制作与核对",
+      "platforms": [
+        "通用"
+      ],
+      "category": "找货采购",
+      "summary": "根据补货需求与报价生成采购单，检查数量、阶梯价、币种和交期。",
+      "capability": "文件处理",
+      "requirements": [
+        "真实商品、报表、报价或单据；运行配套脚本需 Python",
+        "规则查询、图像识别或媒体生成需宿主提供相应工具，外部服务另计"
+      ],
+      "cost": "Skill 开源；模型与所接外部工具费用另计",
+      "reviewed_at": "2026-11-21",
+      "source_commit": "e9b7dd34576e3d03fca9a19087a9a5a408a5fe1e",
+      "content_sha256": "db4f907310e84cb10715eef19c9facbce0a5a9adbcb07515027aa9e6b4bd4a23"
+    },
+    {
+      "repo": "xianglouw/ecom-agent-skills",
+      "path": "skills/ecom-receipt-ledger/SKILL.md",
+      "title": "手写采购销售单转台账",
+      "platforms": [
+        "通用"
+      ],
+      "category": "经营分析",
+      "summary": "识别单据照片并核对数量金额，整理明细与汇总，不清字段保留待核。",
+      "capability": "文件处理",
+      "requirements": [
+        "真实商品、报表、报价或单据；运行配套脚本需 Python",
+        "规则查询、图像识别或媒体生成需宿主提供相应工具，外部服务另计"
+      ],
+      "cost": "Skill 开源；模型与所接外部工具费用另计",
+      "reviewed_at": "2026-11-21",
+      "source_commit": "e9b7dd34576e3d03fca9a19087a9a5a408a5fe1e",
+      "content_sha256": "d166a28a6923d57f6628db98f2b7a2018077db1cf64a6ca7e596778a10b31e96"
+    },
+    {
+      "repo": "xianglouw/ecom-agent-skills",
+      "path": "skills/ecom-roi-review/SKILL.md",
+      "title": "跨境投放与利润复盘周报",
+      "platforms": [
+        "通用"
+      ],
+      "category": "经营分析",
+      "summary": "按平台、SKU 与周期汇总投流及利润指标，解释变化和下一步。",
+      "capability": "文件处理",
+      "requirements": [
+        "真实商品、报表、报价或单据；运行配套脚本需 Python",
+        "规则查询、图像识别或媒体生成需宿主提供相应工具，外部服务另计"
+      ],
+      "cost": "Skill 开源；模型与所接外部工具费用另计",
+      "reviewed_at": "2026-11-21",
+      "source_commit": "e9b7dd34576e3d03fca9a19087a9a5a408a5fe1e",
+      "content_sha256": "07179a59544ce6d6d68d38c3be8c32f510383edfff53145e1f261248e853fb73"
+    },
+    {
+      "repo": "xianglouw/ecom-agent-skills",
+      "path": "skills/ecom-rules-fee/SKILL.md",
+      "title": "跨境平台规则与费用核对",
+      "platforms": [
+        "Amazon",
+        "Shopee",
+        "TikTok Shop",
+        "Temu",
+        "Lazada",
+        "Wayfair",
+        "Mercado Libre"
+      ],
+      "category": "合规检查",
+      "summary": "整理当前平台规则和费率来源，按订单核费用与利润缺口。",
+      "capability": "方法指导",
+      "requirements": [
+        "真实商品、报表、报价或单据；运行配套脚本需 Python",
+        "规则查询、图像识别或媒体生成需宿主提供相应工具，外部服务另计"
+      ],
+      "cost": "Skill 开源；模型与所接外部工具费用另计",
+      "reviewed_at": "2026-11-21",
+      "source_commit": "e9b7dd34576e3d03fca9a19087a9a5a408a5fe1e",
+      "content_sha256": "ee05253c0d90f231b03e4ed9ced2ee84a06e5771ea1710e97e4b0b9b33bfd684"
+    },
+    {
+      "repo": "xianglouw/ecom-agent-skills",
+      "path": "skills/ecom-selection-profit/SKILL.md",
+      "title": "跨境选品定价与保本测算",
+      "platforms": [
+        "通用"
+      ],
+      "category": "经营分析",
+      "summary": "把商品、物流、平台、税费和广告成本放在同一表里测算净利。",
+      "capability": "文件处理",
+      "requirements": [
+        "真实商品、报表、报价或单据；运行配套脚本需 Python",
+        "规则查询、图像识别或媒体生成需宿主提供相应工具，外部服务另计"
+      ],
+      "cost": "Skill 开源；模型与所接外部工具费用另计",
+      "reviewed_at": "2026-11-21",
+      "source_commit": "e9b7dd34576e3d03fca9a19087a9a5a408a5fe1e",
+      "content_sha256": "a85808ba35628672693a9a0b9361b0f6ac30982c39782483d96bf7b9b119b279"
+    },
+    {
+      "repo": "xianglouw/ecom-agent-skills",
+      "path": "skills/ecom-video-creative/SKILL.md",
+      "title": "跨境广告素材与分镜策划",
+      "platforms": [
+        "通用"
+      ],
+      "category": "内容创作",
+      "summary": "拆解视频开场，规划商品素材、分镜、配音与提示词。",
+      "capability": "方法指导",
+      "requirements": [
+        "真实商品、报表、报价或单据；运行配套脚本需 Python",
+        "规则查询、图像识别或媒体生成需宿主提供相应工具，外部服务另计"
+      ],
+      "cost": "Skill 开源；模型与所接外部工具费用另计",
+      "reviewed_at": "2026-11-21",
+      "source_commit": "e9b7dd34576e3d03fca9a19087a9a5a408a5fe1e",
+      "content_sha256": "9184e2fbc44431dd090d5e0f4cf668ece85b37193ada368a1e6df1a6cde37e1d"
+    },
+    {
+      "repo": "Attribuly-US/ecommerce-dtc-skills",
+      "path": "SKILL.md",
+      "title": "独立站营销归因与客户价值分析",
+      "platforms": [
+        "通用"
+      ],
+      "category": "经营分析",
+      "summary": "结合一方营销数据诊断 ROAS、获客和客户价值，可用已授权数据库分析。",
+      "capability": "数据查询",
+      "requirements": [
+        "Attribuly 账号与 ATTRIBULY_API_KEY，或预配置的只读 MySQL/ClickHouse",
+        "按原仓库配置连接器及允许访问的数据表"
+      ],
+      "cost": "Skill 开源；Attribuly 服务、数据基础设施与模型费用另计",
+      "reviewed_at": "2026-11-21",
+      "source_commit": "4da6aa4bedd8079df8f0f0c913f21274b7bd787a",
+      "content_sha256": "68d4040ffb5961870779b81a9c906b8c8f9c0511fbc7cad7dbf8063a833f0d57"
+    },
+    {
+      "repo": "rakei076/sycm-cli",
+      "path": "SKILL.md",
+      "title": "淘宝天猫店铺经营数据分析",
+      "platforms": [
+        "淘宝"
+      ],
+      "category": "经营分析",
+      "summary": "读取已授权店铺的生意参谋、千牛和万相台数据，整理日报、周报和商品诊断。",
+      "capability": "数据查询",
+      "requirements": [
+        "本机 Chrome 中已登录并有权限的淘宝/天猫店铺",
+        "原仓库 Python 环境及取数桥/MCP；Windows 需浏览器插件"
+      ],
+      "cost": "Skill 开源；平台数据订阅、外部服务与模型费用另计",
+      "reviewed_at": "2026-11-21",
+      "source_commit": "1e202490fc835fa68ea3a46417baaa634289e712",
+      "content_sha256": "6b623344e4db1086e589d7e9644558bd76bb19de7e795450ab09b8daf45e4be9"
+    },
+    {
+      "repo": "virgokid/jd-api-doc-skill",
+      "path": ".claude/skills/jd-api-doc-skill/SKILL.md",
+      "title": "京东联盟接口文档助手",
+      "platforms": [
+        "京东"
+      ],
+      "category": "独立站建设",
+      "summary": "从京东官方来源获取联盟接口文档并整理字段，辅助开发接入；不直接查询店铺经营。",
+      "capability": "开发辅助",
+      "requirements": [
+        "可联网读取京东官方文档的 AI 工具",
+        "真正调用接口另需京东联盟资质与授权"
+      ],
+      "cost": "Skill 开源；模型与所接外部工具费用另计",
+      "reviewed_at": "2026-11-21",
+      "source_commit": "1e027f7bede0ca468813b833e7db875c085e4c90",
+      "content_sha256": "d337c5a185e7497696a3a40c6718ed397ccc9890ffffdefe5a9b82141f9ec24d"
+    },
+    {
+      "repo": "weibo-job/shopee-global-product-listing",
+      "path": "SKILL.md",
+      "title": "拼多多商品整理为 Shopee 商品草稿",
+      "platforms": [
+        "拼多多",
+        "Shopee"
+      ],
+      "category": "Listing 优化",
+      "summary": "根据已授权商品链接和素材制作 Shopee 跨境商品草稿，核对 SKU 与图片，不自动发布到站点。",
+      "capability": "店铺操作",
+      "requirements": [
+        "已授权商品资料及 Shopee Partner 授权",
+        "按原仓库配置自有 VPS helper 或完整本地签名环境；图像处理依赖"
+      ],
+      "cost": "Skill 开源；服务器、图像工具和平台相关费用另计",
+      "reviewed_at": "2026-11-21",
+      "source_commit": "96879504417a4fa1deff533b7b38336a21de2c88",
+      "content_sha256": "3dfb6bdd73309b221be8134450320320477fcd26b89e3cb5dbca467fed4dae25"
+    },
+    {
+      "repo": "djgun2233/shopee-ecommerce-skills",
+      "path": "skills/shopee-product-imagegen/SKILL.md",
+      "title": "Shopee 商品图制作与修改",
+      "platforms": [
+        "Shopee"
+      ],
+      "category": "图片设计",
+      "summary": "根据参考图和规格制作商品套图，逐项核对外观、文字与平台语言。",
+      "capability": "内容生成",
+      "requirements": [
+        "带原生图像生成/编辑能力的 Codex 或等效环境",
+        "真实商品照片、确认过的参数与目标站点语言"
+      ],
+      "cost": "Skill 开源；模型与所接外部工具费用另计",
+      "reviewed_at": "2026-11-21",
+      "source_commit": "36d9006374d90633427b3c79eb8d013460174dc6",
+      "content_sha256": "3d7ed13a555cb9846891f9115ecbcc294be773d3cb78899ed247ab8de5afbc2a"
+    },
+    {
+      "repo": "githuajk/Shopee-BR-Compliance-Skills",
+      "path": "skills/shopee-br-compliance/SKILL.md",
+      "title": "Shopee 巴西站商品合规初筛",
+      "platforms": [
+        "Shopee"
+      ],
+      "category": "合规检查",
+      "summary": "综合核对禁限售、商品信息、重复刊登与知识产权风险，输出复核清单。",
+      "capability": "方法指导",
+      "requirements": [
+        "商品导出、图片及适用站点信息",
+        "原仓库相应文件处理依赖与联网工具；合规结论仍需人工核实"
+      ],
+      "cost": "Skill 开源；模型与所接外部工具费用另计",
+      "reviewed_at": "2026-11-21",
+      "source_commit": "b94dc2b96da70937611b07154b586cedcb70ea56",
+      "content_sha256": "d5bb3cc2b8fedc1c0b12a3ad40412604ccd5ff29e8825493e91c105a0d1379e8"
+    },
+    {
+      "repo": "githuajk/Shopee-BR-Compliance-Skills",
+      "path": "skills/shopee-br-data-ingestion/SKILL.md",
+      "title": "Shopee 商品资料整理为审核表",
+      "platforms": [
+        "Shopee"
+      ],
+      "category": "合规检查",
+      "summary": "从表格、文档或图片中整理商品字段，为合规审核准备数据。",
+      "capability": "方法指导",
+      "requirements": [
+        "商品导出、图片及适用站点信息",
+        "原仓库相应文件处理依赖与联网工具；合规结论仍需人工核实"
+      ],
+      "cost": "Skill 开源；模型与所接外部工具费用另计",
+      "reviewed_at": "2026-11-21",
+      "source_commit": "b94dc2b96da70937611b07154b586cedcb70ea56",
+      "content_sha256": "2fe6ebdf895d720273a10cac15e68aafdb57c94553a35f92bad98c9eded39997"
+    },
+    {
+      "repo": "githuajk/Shopee-BR-Compliance-Skills",
+      "path": "skills/shopee-br-duplicate-detection/SKILL.md",
+      "title": "Shopee 重复刊登与重新上架核查",
+      "platforms": [
+        "Shopee"
+      ],
+      "category": "合规检查",
+      "summary": "比对商品和店铺数据，识别同款重复及曾下架商品的重新刊登线索。",
+      "capability": "方法指导",
+      "requirements": [
+        "商品导出、图片及适用站点信息",
+        "原仓库相应文件处理依赖与联网工具；合规结论仍需人工核实"
+      ],
+      "cost": "Skill 开源；模型与所接外部工具费用另计",
+      "reviewed_at": "2026-11-21",
+      "source_commit": "b94dc2b96da70937611b07154b586cedcb70ea56",
+      "content_sha256": "e247a1b2c1515e57f90fa791a9d1286d56ac2ff8924e75b9c3685b618347ff95"
+    },
+    {
+      "repo": "githuajk/Shopee-BR-Compliance-Skills",
+      "path": "skills/shopee-br-ip-review/SKILL.md",
+      "title": "Shopee 商品知识产权风险初筛",
+      "platforms": [
+        "Shopee"
+      ],
+      "category": "合规检查",
+      "summary": "标记商标、版权、外观等风险和授权缺口，供人工或专业人员复核。",
+      "capability": "方法指导",
+      "requirements": [
+        "商品导出、图片及适用站点信息",
+        "原仓库相应文件处理依赖与联网工具；合规结论仍需人工核实"
+      ],
+      "cost": "Skill 开源；模型与所接外部工具费用另计",
+      "reviewed_at": "2026-11-21",
+      "source_commit": "b94dc2b96da70937611b07154b586cedcb70ea56",
+      "content_sha256": "c94f1bf24b35aff69934a6641e013f60bb0773cbf1fc687f2f6e0fd0566ff709"
+    },
+    {
+      "repo": "githuajk/Shopee-BR-Compliance-Skills",
+      "path": "skills/shopee-br-listing-audit/SKILL.md",
+      "title": "Shopee 巴西站商品描述审核",
+      "platforms": [
+        "Shopee"
+      ],
+      "category": "合规检查",
+      "summary": "检查商品标题、描述、属性与图片中的禁限售或夸大表达线索。",
+      "capability": "方法指导",
+      "requirements": [
+        "商品导出、图片及适用站点信息",
+        "原仓库相应文件处理依赖与联网工具；合规结论仍需人工核实"
+      ],
+      "cost": "Skill 开源；模型与所接外部工具费用另计",
+      "reviewed_at": "2026-11-21",
+      "source_commit": "b94dc2b96da70937611b07154b586cedcb70ea56",
+      "content_sha256": "36f24f874d8b37fd6e75295006e498711d1205f417c62cfe531d3b7ad5999c26"
+    },
+    {
+      "repo": "githuajk/Shopee-BR-Compliance-Skills",
+      "path": "skills/shopee-br-policy-research/SKILL.md",
+      "title": "Shopee 巴西站规则来源核查",
+      "platforms": [
+        "Shopee"
+      ],
+      "category": "合规检查",
+      "summary": "优先查官方规则页面，区分适用地区、版本和证据缺口。",
+      "capability": "方法指导",
+      "requirements": [
+        "商品导出、图片及适用站点信息",
+        "原仓库相应文件处理依赖与联网工具；合规结论仍需人工核实"
+      ],
+      "cost": "Skill 开源；模型与所接外部工具费用另计",
+      "reviewed_at": "2026-11-21",
+      "source_commit": "b94dc2b96da70937611b07154b586cedcb70ea56",
+      "content_sha256": "dc449300448aa0191a043429708755e47d751c573f62aaca07c13354f5d8d62e"
+    },
+    {
+      "repo": "githuajk/Shopee-BR-Compliance-Skills",
+      "path": "skills/shopee-br-reporting/SKILL.md",
+      "title": "Shopee 商品审核报告整理",
+      "platforms": [
+        "Shopee"
+      ],
+      "category": "合规检查",
+      "summary": "汇总各项审核发现、来源和修改建议，生成便于复核的报告。",
+      "capability": "方法指导",
+      "requirements": [
+        "商品导出、图片及适用站点信息",
+        "原仓库相应文件处理依赖与联网工具；合规结论仍需人工核实"
+      ],
+      "cost": "Skill 开源；模型与所接外部工具费用另计",
+      "reviewed_at": "2026-11-21",
+      "source_commit": "b94dc2b96da70937611b07154b586cedcb70ea56",
+      "content_sha256": "d9cfd012fc04defa0a9f04fa9b85c83adffab605f644d1a6add05c49f56451b1"
+    },
+    {
+      "repo": "zach22-1999/amazon-skills",
+      "path": "skills/zach-feature-demand-validator/SKILL.md",
+      "title": "Amazon 产品微创新需求验证",
+      "platforms": [
+        "Amazon"
+      ],
+      "category": "选品调研",
+      "summary": "交叉核对评论、关键词与社区讨论，判断差异化卖点是否有真实需求。",
+      "capability": "方法指导",
+      "requirements": [
+        "产品假设、评论及关键词数据；缺数据时需对应联网或数据工具"
+      ],
+      "cost": "Skill 开源；模型与所接外部工具费用另计",
+      "reviewed_at": "2026-11-21",
+      "source_commit": "db1f7d108eb8c43b6de36c6a3e230ebff107e227",
+      "content_sha256": "e166fd46745a758a066091d40324f2b2b04c3514a3422f081584da24f8cb5832"
+    },
+    {
+      "repo": "zach22-1999/amazon-skills",
+      "path": "skills/zach-listing-health-checker/SKILL.md",
+      "title": "Amazon 商品页可见性巡检",
+      "platforms": [
+        "Amazon"
+      ],
+      "category": "Listing 优化",
+      "summary": "从买家页面核对价格、购物车、配送和搜索可见性，整理异常项。",
+      "capability": "网页采集",
+      "requirements": [
+        "可抓取或浏览 Amazon 页面及搜索结果的工具",
+        "目标站点、ASIN 与关键词"
+      ],
+      "cost": "Skill 开源；模型与所接外部工具费用另计",
+      "reviewed_at": "2026-11-21",
+      "source_commit": "db1f7d108eb8c43b6de36c6a3e230ebff107e227",
+      "content_sha256": "efba0d36b01e24738d0d3e0c14cf2f546a9e111be5ecc7ad47289ff1976a1ab9"
+    },
+    {
+      "repo": "zach22-1999/amazon-skills",
+      "path": "skills/zach-product-research/SKILL.md",
+      "title": "Amazon 选品立项与机会验证",
+      "platforms": [
+        "Amazon"
+      ],
+      "category": "选品调研",
+      "summary": "结合市场和竞品数据，测算投入产出并形成选品立项报告。",
+      "capability": "数据查询",
+      "requirements": [
+        "已配置 Sorftime MCP、账户额度",
+        "目标站点和品类；费用与数据范围按账号为准"
+      ],
+      "cost": "Skill 开源；模型与所接外部工具费用另计",
+      "reviewed_at": "2026-11-21",
+      "source_commit": "db1f7d108eb8c43b6de36c6a3e230ebff107e227",
+      "content_sha256": "5221ae48773213a2ac2436ee280e322f6211c3a082f499097da7d047cfe42c6a"
+    },
+    {
+      "repo": "zach22-1999/amazon-skills",
+      "path": "skills/zach-search-term-analyzer/SKILL.md",
+      "title": "Amazon 品牌分析热门词报告",
+      "platforms": [
+        "Amazon"
+      ],
+      "category": "Listing 优化",
+      "summary": "分析 Brand Analytics 热门搜索词导出，区分自有商品经营与市场进入场景。",
+      "capability": "文件处理",
+      "requirements": [
+        "有权限导出的 Brand Analytics 报告",
+        "Python 与原仓库要求的数据处理依赖"
+      ],
+      "cost": "Skill 开源；模型与所接外部工具费用另计",
+      "reviewed_at": "2026-11-21",
+      "source_commit": "db1f7d108eb8c43b6de36c6a3e230ebff107e227",
+      "content_sha256": "e3d9c3b72c51ab8d7e9b7b4004768dc07858769216d21b2db70f381ce199ef19"
+    },
+    {
+      "repo": "zach22-1999/amazon-skills",
+      "path": "skills/zach-search-term-report-analyzer/SKILL.md",
+      "title": "Amazon 广告搜索词分组与复盘",
+      "platforms": [
+        "Amazon"
+      ],
+      "category": "广告投放",
+      "summary": "清洗 SP/SB/SD 搜索词报表，聚类词根并整理否词、控成本和继续测试的依据。",
+      "capability": "文件处理",
+      "requirements": [
+        "广告搜索词真实报表",
+        "Python 与原仓库数据处理依赖"
+      ],
+      "cost": "Skill 开源；模型与所接外部工具费用另计",
+      "reviewed_at": "2026-11-21",
+      "source_commit": "db1f7d108eb8c43b6de36c6a3e230ebff107e227",
+      "content_sha256": "e127e699e1572f312c447c1c5fab66504d5685b99df28849217149eb91a58ecc"
+    },
+    {
+      "repo": "zach22-1999/amazon-skills",
+      "path": "skills/zach-sif-cvr-threshold-analyzer/SKILL.md",
+      "title": "Amazon 转化率与自然排名回测",
+      "platforms": [
+        "Amazon"
+      ],
+      "category": "经营分析",
+      "summary": "结合日业务与关键词排名数据回测转化率变化，输出观察阈值及限制。",
+      "capability": "文件处理",
+      "requirements": [
+        "领星 ASIN 360 或同类日报",
+        "SIF MCP 导出的日级关键词排名 JSON；Python"
+      ],
+      "cost": "Skill 开源；模型与所接外部工具费用另计",
+      "reviewed_at": "2026-11-21",
+      "source_commit": "db1f7d108eb8c43b6de36c6a3e230ebff107e227",
+      "content_sha256": "80ded70cdd8521e4a711e59f52a2d5c288450ba274b9a30bba76d89ad408f510"
+    },
+    {
+      "repo": "Pardesco/etsy-erank-research",
+      "path": "SKILL.md",
+      "title": "Etsy 与 eRank 选品研究",
+      "platforms": [
+        "Etsy"
+      ],
+      "category": "选品调研",
+      "summary": "浏览 Etsy 热门商品并结合 eRank 导出数据，对比风格、需求和关键词竞争。",
+      "capability": "网页采集",
+      "requirements": [
+        "Claude in Chrome；用户自行登录 Etsy 与 eRank",
+        "Python 3.9+、pandas、openpyxl；eRank 计划需有足够查询额度"
+      ],
+      "cost": "Skill 开源；eRank 计划及模型费用另计",
+      "reviewed_at": "2026-11-21",
+      "source_commit": "035b4e8cf4202f94ebc4d4fd0637d1c5be120867",
+      "content_sha256": "ca0a891858461e7597cd7ab80d40523c1613eea43dbe48f8ac81826df05a6ecd"
+    },
+    {
+      "repo": "Moksa1123/taiwan-ecommerce-toolkit",
+      "path": "taiwan-invoice/SKILL.md",
+      "title": "台湾电商电子发票接口接入",
+      "platforms": [
+        "通用"
+      ],
+      "category": "独立站建设",
+      "summary": "辅助接入电子发票开立、作废、折让与官方查询接口。",
+      "capability": "开发辅助",
+      "requirements": [
+        "具备开发环境；示例使用 Python、requests、pycryptodome 等依赖",
+        "目标金流、物流或发票服务的商户资质、API 授权与测试环境"
+      ],
+      "cost": "Skill 开源；收款、物流、发票与外部服务费用按商户协议另计",
+      "reviewed_at": "2026-11-21",
+      "source_commit": "764d1ef282136a96d51d68353b3b7ea9c8d88c9f",
+      "content_sha256": "1a7005c0957ed49b155462a84666914a42f12eea56c49f58bb30410aa5ad52f2"
+    },
+    {
+      "repo": "Moksa1123/taiwan-ecommerce-toolkit",
+      "path": "taiwan-logistics/SKILL.md",
+      "title": "台湾电商物流接口接入",
+      "platforms": [
+        "通用"
+      ],
+      "category": "库存履约",
+      "summary": "辅助对接台湾物流聚合服务、承运商与配送流程。",
+      "capability": "开发辅助",
+      "requirements": [
+        "具备开发环境；示例使用 Python、requests、pycryptodome 等依赖",
+        "目标金流、物流或发票服务的商户资质、API 授权与测试环境"
+      ],
+      "cost": "Skill 开源；收款、物流、发票与外部服务费用按商户协议另计",
+      "reviewed_at": "2026-11-21",
+      "source_commit": "764d1ef282136a96d51d68353b3b7ea9c8d88c9f",
+      "content_sha256": "4f9bcaff0a8621df5dae4bad0e71502f81f6e670236e89a4f206b13f12b9dd61"
+    },
+    {
+      "repo": "Moksa1123/taiwan-ecommerce-toolkit",
+      "path": "taiwan-payment/SKILL.md",
+      "title": "台湾电商收款接口接入",
+      "platforms": [
+        "通用"
+      ],
+      "category": "独立站建设",
+      "summary": "辅助接入信用卡、ATM、超商和电子钱包等金流服务。",
+      "capability": "开发辅助",
+      "requirements": [
+        "具备开发环境；示例使用 Python、requests、pycryptodome 等依赖",
+        "目标金流、物流或发票服务的商户资质、API 授权与测试环境"
+      ],
+      "cost": "Skill 开源；收款、物流、发票与外部服务费用按商户协议另计",
+      "reviewed_at": "2026-11-21",
+      "source_commit": "764d1ef282136a96d51d68353b3b7ea9c8d88c9f",
+      "content_sha256": "e91da7f12c01afdd5bc44e572fb54da961a0f53d997eed9baa66d5655b293066"
+    },
+    {
+      "repo": "xjli360/sealeap-ecommerce-skills",
+      "path": "sealeap-amazon-skills/wayfair/sealeap-wayfair-wholesale-economics/SKILL.md",
+      "title": "Wayfair 供货利润与广告空间",
+      "platforms": [
+        "Wayfair"
+      ],
+      "category": "经营分析",
+      "summary": "核对供货价、扣款、履约和货损，测算贡献利润及可用广告预算。",
+      "capability": "方法指导",
+      "requirements": [
+        "真实订单、成本、报表和目标站点/账户条款",
+        "支持读取配套参考资料的 AI 客户端；当前费率和规则需核对"
+      ],
+      "cost": "Skill 开源；模型与所接外部工具费用另计",
+      "reviewed_at": "2026-11-21",
+      "source_commit": "914f920b368fd73f867e3d03af7e48b9ab1e18ed",
+      "content_sha256": "bbfc4adba2f520890ca29b140131e6f1161d7ce33c37001b91799f1d3482cdb2"
+    },
+    {
+      "repo": "xjli360/sealeap-ecommerce-skills",
+      "path": "sealeap-amazon-skills/wayfair/sealeap-wayfair-packaging-damage/SKILL.md",
+      "title": "Wayfair 包装破损与索赔诊断",
+      "platforms": [
+        "Wayfair"
+      ],
+      "category": "库存履约",
+      "summary": "结合破损、包材、承运与扣款证据，整理根因和改善清单。",
+      "capability": "方法指导",
+      "requirements": [
+        "真实订单、成本、报表和目标站点/账户条款",
+        "支持读取配套参考资料的 AI 客户端；当前费率和规则需核对"
+      ],
+      "cost": "Skill 开源；模型与所接外部工具费用另计",
+      "reviewed_at": "2026-11-21",
+      "source_commit": "914f920b368fd73f867e3d03af7e48b9ab1e18ed",
+      "content_sha256": "22b920c06d332408d0d1d6987686c74c4ec3aa006d1d8cf260eadc787e47ad49"
+    },
+    {
+      "repo": "xjli360/sealeap-ecommerce-skills",
+      "path": "sealeap-amazon-skills/wayfair/sealeap-wayfair-castlegate-inbound/SKILL.md",
+      "title": "Wayfair CastleGate 入仓对账",
+      "platforms": [
+        "Wayfair"
+      ],
+      "category": "库存履约",
+      "summary": "准备件箱托盘资料，对齐到仓、验收和可售状态并核对差异。",
+      "capability": "方法指导",
+      "requirements": [
+        "真实订单、成本、报表和目标站点/账户条款",
+        "支持读取配套参考资料的 AI 客户端；当前费率和规则需核对"
+      ],
+      "cost": "Skill 开源；模型与所接外部工具费用另计",
+      "reviewed_at": "2026-11-21",
+      "source_commit": "914f920b368fd73f867e3d03af7e48b9ab1e18ed",
+      "content_sha256": "2e620e08c409580eb3583f4325ed768700d01b327dd22fecbec5d628fc5b85aa"
+    },
+    {
+      "repo": "xjli360/sealeap-ecommerce-skills",
+      "path": "sealeap-amazon-skills/walmart/sealeap-walmart-wfs-economics/SKILL.md",
+      "title": "Walmart WFS 成本与仓龄测算",
+      "platforms": [
+        "Walmart"
+      ],
+      "category": "经营分析",
+      "summary": "按当前规则和商品实测尺寸，测算履约、仓储及退货情景成本。",
+      "capability": "方法指导",
+      "requirements": [
+        "真实订单、成本、报表和目标站点/账户条款",
+        "支持读取配套参考资料的 AI 客户端；当前费率和规则需核对"
+      ],
+      "cost": "Skill 开源；模型与所接外部工具费用另计",
+      "reviewed_at": "2026-11-21",
+      "source_commit": "914f920b368fd73f867e3d03af7e48b9ab1e18ed",
+      "content_sha256": "6141e7e820200445f9374d47515cadfadc79ea6027f322a9ff2b78870f941a39"
+    },
+    {
+      "repo": "xjli360/sealeap-ecommerce-skills",
+      "path": "sealeap-amazon-skills/walmart/sealeap-walmart-inventory-planning/SKILL.md",
+      "title": "Walmart 补货与积压诊断",
+      "platforms": [
+        "Walmart"
+      ],
+      "category": "库存履约",
+      "summary": "结合需求、在途、仓龄和现金安排补货及库存去化方案。",
+      "capability": "方法指导",
+      "requirements": [
+        "真实订单、成本、报表和目标站点/账户条款",
+        "支持读取配套参考资料的 AI 客户端；当前费率和规则需核对"
+      ],
+      "cost": "Skill 开源；模型与所接外部工具费用另计",
+      "reviewed_at": "2026-11-21",
+      "source_commit": "914f920b368fd73f867e3d03af7e48b9ab1e18ed",
+      "content_sha256": "3915c00a7b00a23d83267ce928609a03403e2c293bee7e00ee0898771ef52603"
+    },
+    {
+      "repo": "xjli360/sealeap-ecommerce-skills",
+      "path": "sealeap-amazon-skills/walmart/sealeap-walmart-returns-recovery/SKILL.md",
+      "title": "Walmart 退货库存与结算对账",
+      "platforms": [
+        "Walmart"
+      ],
+      "category": "客户服务",
+      "summary": "逐订单对齐退货、退款、库存回收与平台费用，定位差异。",
+      "capability": "方法指导",
+      "requirements": [
+        "真实订单、成本、报表和目标站点/账户条款",
+        "支持读取配套参考资料的 AI 客户端；当前费率和规则需核对"
+      ],
+      "cost": "Skill 开源；模型与所接外部工具费用另计",
+      "reviewed_at": "2026-11-21",
+      "source_commit": "914f920b368fd73f867e3d03af7e48b9ab1e18ed",
+      "content_sha256": "8715fb5ddb5cf60f133ff78494a7de6638ae93a0ff3ae2c68414b2242947f645"
+    },
+    {
+      "repo": "xjli360/sealeap-ecommerce-skills",
+      "path": "sealeap-amazon-skills/ebay/sealeap-ebay-returns-diagnosis/SKILL.md",
+      "title": "eBay 退货原因与描述问题诊断",
+      "platforms": [
+        "eBay"
+      ],
+      "category": "客户服务",
+      "summary": "区分描述、兼容、损坏和买家原因，核对退货成本与改进项。",
+      "capability": "方法指导",
+      "requirements": [
+        "真实订单、成本、报表和目标站点/账户条款",
+        "支持读取配套参考资料的 AI 客户端；当前费率和规则需核对"
+      ],
+      "cost": "Skill 开源；模型与所接外部工具费用另计",
+      "reviewed_at": "2026-11-21",
+      "source_commit": "914f920b368fd73f867e3d03af7e48b9ab1e18ed",
+      "content_sha256": "b52435249fb8601cc838de7063b63e4479ce01aff0a5352f1030bf77367ed313"
+    },
+    {
+      "repo": "xjli360/sealeap-ecommerce-skills",
+      "path": "sealeap-amazon-skills/ebay/sealeap-ebay-ad-attribution/SKILL.md",
+      "title": "eBay 广告归因与账单核对",
+      "platforms": [
+        "eBay"
+      ],
+      "category": "广告投放",
+      "summary": "核对广告订单归因、退款及费用，整理账单差异与待确认项。",
+      "capability": "方法指导",
+      "requirements": [
+        "真实订单、成本、报表和目标站点/账户条款",
+        "支持读取配套参考资料的 AI 客户端；当前费率和规则需核对"
+      ],
+      "cost": "Skill 开源；模型与所接外部工具费用另计",
+      "reviewed_at": "2026-11-21",
+      "source_commit": "914f920b368fd73f867e3d03af7e48b9ab1e18ed",
+      "content_sha256": "fac12bbf691966dbebf0108e6e12a3f527f0158eb81e0b1b01306a01fe40bab7"
+    },
+    {
+      "repo": "autoagc/linkpix-skills",
+      "path": "skills/linkpix-shein-image/SKILL.md",
+      "title": "SHEIN 服装与模特商品图",
+      "platforms": [
+        "SHEIN"
+      ],
+      "category": "图片设计",
+      "summary": "通过青虎AI制作服装平铺、模特穿搭、细节与多角度展示图。",
+      "capability": "内容生成",
+      "requirements": [
+        "青虎AI账号、qhkit CLI 与相应生成额度",
+        "原商品图、款式和目标市场信息"
+      ],
+      "cost": "Skill 开源；青虎AI图像服务按账号额度和计费规则另计",
+      "reviewed_at": "2026-11-21",
+      "source_commit": "ca4acb2cd68185dc92221935a15e6cb8cc6f989b",
+      "content_sha256": "5bd39a44c97473c84e09ac9749c31c0e65a7350b1ca51f8cf4dc9b6eb5e25cdd"
+    },
+    {
+      "repo": "linkfox-ai/linkfox-skills",
+      "path": "skills/linkfox-lazada-store-finance/SKILL.md",
+      "title": "Lazada 结算与资金流水查询",
+      "platforms": [
+        "Lazada"
+      ],
+      "category": "经营分析",
+      "summary": "查询已授权店铺的打款、交易明细和账户流水，辅助核对回款。",
+      "capability": "数据查询",
+      "requirements": [
+        "Python 3.9+、原仓库配套脚本、LinkFox Key（LINKFOX_AGENT_API_KEY）",
+        "已通过 LinkFox 授权的 Lazada 店铺与对应连接 ID"
+      ],
+      "cost": "Skill 开源；LinkFox、第三方数据服务及模型费用另计",
+      "reviewed_at": "2026-11-21",
+      "source_commit": "57465352b58c1e978d1e25e004fb3540f1954df9",
+      "content_sha256": "a12192e0b28f851483ae59aac45c0318b43f72d75907041fb881add3ea5131b0"
+    },
+    {
+      "repo": "linkfox-ai/linkfox-skills",
+      "path": "skills/linkfox-lazada-store-marketing/SKILL.md",
+      "title": "Lazada 促销与广告管理",
+      "platforms": [
+        "Lazada"
+      ],
+      "category": "广告投放",
+      "summary": "查询或管理优惠券、组合促销及 Sponsored Max 广告，写操作需店铺授权。",
+      "capability": "店铺操作",
+      "requirements": [
+        "Python 3.9+、原仓库配套脚本、LinkFox Key（LINKFOX_AGENT_API_KEY）",
+        "已通过 LinkFox 授权的 Lazada 店铺与对应连接 ID"
+      ],
+      "cost": "Skill 开源；LinkFox、第三方数据服务及模型费用另计",
+      "reviewed_at": "2026-11-21",
+      "source_commit": "57465352b58c1e978d1e25e004fb3540f1954df9",
+      "content_sha256": "613e0728b179202fb35ecf1c003e3c7d8582ca8cc321646fba9c78e93b6cc908"
+    },
+    {
+      "repo": "linkfox-ai/linkfox-skills",
+      "path": "skills/linkfox-lazada-store-product/SKILL.md",
+      "title": "Lazada 商品价格与库存管理",
+      "platforms": [
+        "Lazada"
+      ],
+      "category": "Listing 优化",
+      "summary": "查询商品、类目和仓库，按授权维护商品、价格、库存与素材。",
+      "capability": "店铺操作",
+      "requirements": [
+        "Python 3.9+、原仓库配套脚本、LinkFox Key（LINKFOX_AGENT_API_KEY）",
+        "已通过 LinkFox 授权的 Lazada 店铺与对应连接 ID"
+      ],
+      "cost": "Skill 开源；LinkFox、第三方数据服务及模型费用另计",
+      "reviewed_at": "2026-11-21",
+      "source_commit": "57465352b58c1e978d1e25e004fb3540f1954df9",
+      "content_sha256": "b7fac588ce4bc187c724b940bb1b021efde4c75ba02d48fd8d193d1184391229"
+    },
+    {
+      "repo": "linkfox-ai/linkfox-skills",
+      "path": "skills/linkfox-mpstats-ozon-category-products/SKILL.md",
+      "title": "Ozon 类目商品与市场结构",
+      "platforms": [
+        "Ozon"
+      ],
+      "category": "选品调研",
+      "summary": "按俄语类目查询商品及销量、库存、价格分布，辅助类目比较。",
+      "capability": "数据查询",
+      "requirements": [
+        "Python 3.9+、原仓库配套脚本、LinkFox Key（LINKFOX_AGENT_API_KEY）",
+        "对应数据访问权限和算力；按原文确认检索参数与统计窗口"
+      ],
+      "cost": "Skill 开源；LinkFox、第三方数据服务及模型费用另计",
+      "reviewed_at": "2026-11-21",
+      "source_commit": "57465352b58c1e978d1e25e004fb3540f1954df9",
+      "content_sha256": "453216bd10a762fbb05d53189337a19d50f245d82260d169f7b121f454aeb305"
+    },
+    {
+      "repo": "linkfox-ai/linkfox-skills",
+      "path": "skills/linkfox-mpstats-ozon-seller-products/SKILL.md",
+      "title": "Ozon 竞店商品与销售结构",
+      "platforms": [
+        "Ozon"
+      ],
+      "category": "选品调研",
+      "summary": "按卖家 ID 查询店内商品表现，比较 SKU 结构、周转和畅销商品。",
+      "capability": "数据查询",
+      "requirements": [
+        "Python 3.9+、原仓库配套脚本、LinkFox Key（LINKFOX_AGENT_API_KEY）",
+        "对应数据访问权限和算力；按原文确认检索参数与统计窗口"
+      ],
+      "cost": "Skill 开源；LinkFox、第三方数据服务及模型费用另计",
+      "reviewed_at": "2026-11-21",
+      "source_commit": "57465352b58c1e978d1e25e004fb3540f1954df9",
+      "content_sha256": "1fc6b9f5648752b43628d8f847001386d6931f9b200da5188dcc0e9c90aeb39c"
+    },
+    {
+      "repo": "uni-infiniteai/clawec-agents",
+      "path": "skills/clawec-ozon-category-hot-ranking/SKILL.md",
+      "title": "Ozon 类目热销榜查询",
+      "platforms": [
+        "Ozon"
+      ],
+      "category": "选品调研",
+      "summary": "通过 clawEC 查询类目热销榜单，为类目机会分析提供数据。",
+      "capability": "数据查询",
+      "requirements": [
+        "clawEC 账号、API 授权与所需数据访问权限",
+        "按原文配置 HTTP 请求或配套调用环境"
+      ],
+      "cost": "Skill 开源；clawEC 数据访问费用以账户规则为准，模型费用另计",
+      "reviewed_at": "2026-11-21",
+      "source_commit": "b1466ba3a20aa10c475e5a43a76c7c451f9c04d8",
+      "content_sha256": "3e1d650c535d8eb5a445a003a7d3ffbb7d8d761f5e1144a5fdfcc6e395235468"
+    },
+    {
+      "repo": "uni-infiniteai/clawec-agents",
+      "path": "skills/clawec-ozon-keyword-hot-ranking/SKILL.md",
+      "title": "Ozon 热搜关键词榜查询",
+      "platforms": [
+        "Ozon"
+      ],
+      "category": "选品调研",
+      "summary": "通过 clawEC 查询热搜词榜单，并按条件筛选关键词。",
+      "capability": "数据查询",
+      "requirements": [
+        "clawEC 账号、API 授权与所需数据访问权限",
+        "按原文配置 HTTP 请求或配套调用环境"
+      ],
+      "cost": "Skill 开源；clawEC 数据访问费用以账户规则为准，模型费用另计",
+      "reviewed_at": "2026-11-21",
+      "source_commit": "b1466ba3a20aa10c475e5a43a76c7c451f9c04d8",
+      "content_sha256": "d3761987e44fdc3ba8be8300121c452a2c6d1322cfdcbc95597dbd266af09cf9"
+    },
+    {
+      "repo": "uni-infiniteai/clawec-agents",
+      "path": "skills/clawec-ozon-product-detail/SKILL.md",
+      "title": "Ozon 批量商品详情查询",
+      "platforms": [
+        "Ozon"
+      ],
+      "category": "选品调研",
+      "summary": "按 SKU 批量获取商品详情，单次最多十个，辅助商品调研。",
+      "capability": "数据查询",
+      "requirements": [
+        "clawEC 账号、API 授权与所需数据访问权限",
+        "按原文配置 HTTP 请求或配套调用环境"
+      ],
+      "cost": "Skill 开源；clawEC 数据访问费用以账户规则为准，模型费用另计",
+      "reviewed_at": "2026-11-21",
+      "source_commit": "b1466ba3a20aa10c475e5a43a76c7c451f9c04d8",
+      "content_sha256": "e4b158c6e5a19627e754429fbde322c54f9f3e67d74abb0f4624e3a1548989eb"
     }
   ]
 }

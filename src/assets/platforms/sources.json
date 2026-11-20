@@ -238,5 +238,46 @@
     "mime": "image/png",
     "sha256": "89e64562e940589817f37d044390d11ed76ad30640b9a2374d31f4dbc4fbcd3b",
     "license": "Platform favicon retrieved through Google favicon cache; platform identification only; excluded from project MIT license"
+  },
+  {
+    "platform": "SHEIN",
+    "slug": "shein",
+    "url": "https://www.google.com/s2/favicons?domain=shein.com&sz=64",
+    "source": "https://shein.com",
+    "file": "shein.png",
+    "mime": "image/png",
+    "sha256": "c8b9fd912017d7eb0441da0084b3ad81d22307f3acf27c79f099f607e0c9af64",
+    "license": "Platform favicon retrieved through Google favicon cache; platform identification only; excluded from project MIT license"
+  },
+  {
+    "platform": "Wayfair",
+    "slug": "wayfair",
+    "url": "https://www.google.com/s2/favicons?domain=wayfair.com&sz=64",
+    "source": "https://wayfair.com",
+    "file": "wayfair.png",
+    "mime": "image/png",
+    "sha256": "55f050f7c49422736fc65ef29d06cb22d8b6ce3f2e5086987f2055e8dd8d3527",
+    "license": "Platform favicon retrieved through Google favicon cache; platform identification only; excluded from project MIT license"
+  },
+  {
+    "platform": "视频号 / 微信小店",
+    "slug": "weixin-channels",
+    "url": "https://www.google.com/s2/favicons?domain=channels.weixin.qq.com&sz=64",
+    "source": "https://channels.weixin.qq.com",
+    "file": "weixin-channels.png",
+    "mime": "image/png",
+    "sha256": "eda9e8375325d21f5944a2684d7d7d01a20c4c5f2aca601463d6bf60143e801b",
+    "license": "Platform favicon retrieved through Google favicon cache; platform identification only; excluded from project MIT license"
+  },
+  {
+    "platform": "小红书",
+    "slug": "xiaohongshu",
+    "url": "https://raw.githubusercontent.com/simple-icons/simple-icons/14.15.0/icons/xiaohongshu.svg",
+    "source": "https://www.xiaohongshu.com",
+    "file": "xiaohongshu.svg",
+    "mime": "image/svg+xml",
+    "color": "FF2442",
+    "sha256": "23315f1bf4178aabeefe3a35459bd7021c79eb047ca84732294c9f1a7a0b1894",
+    "license": "Simple Icons CC0-1.0; brand trademarks remain with their owners"
   }
 ]

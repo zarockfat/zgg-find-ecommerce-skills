@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
   "skill": "zgg-find-ecommerce-skills",
-  "skill_version": "0.3.1",
-  "skill_sha256": "3262981821cd5279a59d924163693779f88c6f69bad1e69ad0e0d6acb0a62ab2",
+  "skill_version": "0.3.2",
+  "skill_sha256": "cb1a222fb3fb1a0fa10d455c310c14354e6ec01abcefb44333b21a21b2c562b0",
   "catalog": {
     "schema_version": 1,
-    "updated_at": "2026-11-14",
-    "count": 161,
-    "bytes": 329561,
-    "sha256": "fb181902066c2bd9a2603594f20ba8b1f5805e711766a7c140d8e7f3bf17aa81"
+    "updated_at": "2026-11-21",
+    "count": 245,
+    "bytes": 565553,
+    "sha256": "e16ac90559c557269c53e16b46a466731c56f5c3603dcace5cf502f527607ed7"
   }
 }

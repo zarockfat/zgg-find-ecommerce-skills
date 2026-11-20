@@ -173,6 +173,13 @@
       "path": "skills/tw-ecom-payment-tappay/SKILL.md",
       "disposition": "implementation-pending",
       "reason": "原文明确标记 STATUS: SKELETON，正文仍待实现，暂不发布。"
+    },
+    {
+      "repo": "ApparelHub-AI/apparelhub-skills",
+      "path": "apparelhub/SKILL.md",
+      "disposition": "invalid-metadata",
+      "reason": "SKILL.md 的 description 含未引用的冒号，当前 YAML 解析失败；保留线索，待上游修复。",
+      "reviewed_at": "2026-11-21"
     }
   ]
 }

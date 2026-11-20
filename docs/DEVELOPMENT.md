@@ -59,40 +59,44 @@ node scripts/discover.mjs owner/repo
 
 本项目原创代码、中文目录描述和导航 Skill 采用 MIT。第三方 Skill 仍由各原作者按其许可证发布；本项目只索引元信息并链接来源，不把第三方正文打包分发。`tested: false` 表示没有业务实测，即使原作者声称测试过，也不会自动改为本站实测。
 
-## 扩充与审核（2026-11-14，第三轮）
+## 扩充与审核（2026-11-21，第四轮）
 
-累计定位 56 个仓库，成功扫描 55 个，发现 8,926 个候选文件；其中包含大量通用技能、重复内容、许可待核实及废弃版本。当前发布 **161 个 Skill / 28 个仓库**，没有宣称覆盖全网，安装与业务均未实测。网站的“收录标准”可查看范围并下载报告。
+累计定位 128 个仓库，本轮复查原有 56 个并新增扫描 72 个。125 个仓库成功扫描，发现 10,570 个候选文件；候选包含大量通用工具、重复、许可待核实及格式不合要求的内容。发布目录从 161 增至 **245 个 Skill / 46 个仓库 / 28 个平台与通用场景**，新增 84 个；原有 161 个来源重新核对，16 个正文有变化。安装与业务均未实测，不代表全网覆盖。
 
-- `data/sources.json`：公开来源与检索词。
-- `data/collection-report.json`：扫描候选、版本、哈希和失败记录。
-- `data/curation.json`：本次人工筛选的用途、分类、费用与依赖。
-- `data/review-summary.json`：互斥的候选处理统计；未通过条件的条目不发布。
+- `data/sources.json`：公开仓库与检索词。
+- `data/collection-report.json`：候选文件、固定提交、哈希和扫描失败记录。
+- `data/curation.json`：人工筛选的用途、分类、费用与依赖；新增选择绑定提交与哈希。
+- `data/source-update-reviews.json`：既有条目的本轮审核依据与前后版本。
+- `data/license-reviews.json`：自动识别之外的许可证复核，绑定提交及证据哈希。
+- `data/review-decisions.json`：人工暂缓原因。
+- `data/review-summary.json`、`data/collection-summary.md`：候选处理统计与可读报告。
+- `data/scan-history/`：历史统计和本轮检索线索。
 
-维护者可复跑（联网扫描仅下载公开文档；不执行第三方代码）：
+维护者可复跑（仅下载公开文档，不执行第三方代码）：
 
 ```bash
 python3 -m venv .venv-maintenance
 .venv-maintenance/bin/pip install -r requirements-maintenance.txt
 .venv-maintenance/bin/python scripts/collect.py
+# 人工核对新增选择、许可证和既有来源的变更后：
 .venv-maintenance/bin/python scripts/review_catalog.py
+.venv-maintenance/bin/python -m unittest discover -s tests -p '*_test.py'
 npm run build
 npm run validate
 npm test
 ```
 
-合并器只添加明确选中的新来源，保留已有记录的核对版本和稳定 ID；更新既有条目须另行审核。许可自动识别用于初筛，收录前应核对根许可证及条目专属条款。已收录来源标注 MIT、Apache-2.0、GPL-2.0-or-later 或 AFL-3.0 许可证；服务费和账号权限仍按供应方说明。
+仅扫描新增来源时使用 `scripts/collect.py --new-only`，其保留已有仓库的核对时间；完整复查不加此参数。扫描不会自动上架候选，也没有定时抓取或自动审核发布任务。
 
-AI 导航也支持能力筛选，例如：
+合并器保留稳定 ID。更新既有条目须先阅读当前文档和差异，再写入 `source-update-reviews.json` 的准确提交、内容哈希、日期及审核依据。仅匹配同一快照、名称且未与其他条目重复时才刷新；上游再变化而未经审核时保留发布版本。新增选择的提交或哈希不匹配时也不发布。
+
+SHEIN、Wayfair、小红书和视频号 / 微信小店已加入分类及离线图标；导航从目录自动生成，多平台技能分别计入对应平台。费用、资质、账号授权、服务端能力和当前规则仍按供应方说明核对。Skill 开源不代表所依赖服务免费。
+
+AI 导航支持能力筛选，例如：
 
 ```bash
 node skills/zgg-find-ecommerce-skills/scripts/search.mjs --platform Temu --capability 数据查询
 ```
-
-目前没有定时抓取任务或自动审核发布；复跑采集不会将候选直接上架。
-
-只扫描新增来源时使用 `scripts/collect.py --new-only`。它保留已有仓库的原核对时间，完整复核则不加此参数。`data/review-decisions.json` 记录人工暂缓原因；`scripts/review_catalog.py` 自动生成可读采集报告。历史轮次统计位于 `data/scan-history/`。
-
-作者：张滚滚。左侧平台导航从目录自动生成，覆盖全部 24 个平台／通用场景，多平台技能会分别计入每个平台。人工许可证复核证据保存在 `data/license-reviews.json`，与提交版本及证据文件哈希绑定；新版本须重新核对。
 
 
 ## 导航的目录与功能更新

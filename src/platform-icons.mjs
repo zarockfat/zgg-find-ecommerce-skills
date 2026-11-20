@@ -22,5 +22,9 @@ export const platformIcons = {
   "Google Shopping": "./assets/platforms/google-shopping.png",
   "Temu": "./assets/platforms/temu.png",
   "Ozon": "./assets/platforms/ozon.png",
-  "Wildberries": "./assets/platforms/wildberries.png"
+  "Wildberries": "./assets/platforms/wildberries.png",
+  "SHEIN": "./assets/platforms/shein.png",
+  "Wayfair": "./assets/platforms/wayfair.png",
+  "小红书": "./assets/platforms/xiaohongshu.svg",
+  "视频号 / 微信小店": "./assets/platforms/weixin-channels.png"
 };

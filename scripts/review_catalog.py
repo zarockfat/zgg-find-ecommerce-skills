@@ -46,6 +46,36 @@ def inspect(repo, candidate):
     return meta, None
 
 
+def refresh_reviewed(rows, repos, reviews):
+    """Refresh only exact snapshots explicitly reviewed by a maintainer."""
+    by_source = {(s['repo'], s['path']): s for s in rows}
+    refreshed, rejected = [], []
+    for review in reviews:
+        key = (review['repo'], review['path'])
+        row, repo = by_source.get(key), repos.get(review['repo'])
+        source = next((c for c in (repo or {}).get('candidates', []) if c['path'] == review['path']), None)
+        if not row or not source or any(source.get(k) != review.get(k) for k in ['source_commit', 'content_sha256']):
+            rejected.append(dict(repo=key[0], path=key[1], reason='review-snapshot-mismatch'))
+            continue
+        meta, error = inspect(repo, source)
+        if not error and meta['name'] != row['name']:
+            error = 'review-name-changed'
+        if not error and any(s is not row and s['content_sha256'] == source['content_sha256'] for s in rows):
+            error = 'duplicate-content'
+        if error:
+            rejected.append(dict(repo=key[0], path=key[1], reason=error))
+            continue
+        license_paths = [p for p, v in repo['licenses'].items() if v == repo['license']]
+        license_path = min(license_paths, key=lambda p: (p.count('/'), len(p)))
+        changed = review.get('previous_content_sha256', row['content_sha256']) != source['content_sha256']
+        row.update(source_commit=source['source_commit'], content_sha256=source['content_sha256'],
+                   source_url=source['source_url'], license=repo['license'],
+                   license_url=f"https://github.com/{repo['repo']}/blob/{repo['source_commit']}/{quote(license_path)}",
+                   checked_at=review['reviewed_at'])
+        refreshed.append(dict(id=row['id'], repo=key[0], path=key[1], content_changed=changed))
+    return refreshed, rejected
+
+
 def main():
     report, curated, catalog = read('data/collection-report.json'), read('data/curation.json'), read('data/catalog.json')
     decisions_file = ROOT / 'data/review-decisions.json'
@@ -72,6 +102,10 @@ def main():
         repo['license'] = review['license']
         repo['licenses'][review['license_path']] = review['license']
         repo['license_review'] = review
+    update_file = ROOT / 'data/source-update-reviews.json'
+    update_reviews = read('data/source-update-reviews.json')['items'] if update_file.exists() else []
+    refreshed, refresh_rejections = refresh_reviewed(rows, repos, update_reviews)
+    hashes = {s['content_sha256'] for s in rows}
     rejected = []
     for choice in curated['items']:
         key = (choice['repo'], choice['path'])
@@ -83,6 +117,8 @@ def main():
         repo = repos[choice['repo']]
         source = next((c for c in repo.get('candidates', []) if c['path'] == choice['path']), None)
         meta, error = inspect(repo, source) if source else (None, 'missing-source')
+        if not error and any(k in choice and choice[k] != source[k] for k in ['source_commit', 'content_sha256']):
+            error = 'review-snapshot-mismatch'
         if not error and source['content_sha256'] in hashes:
             error = 'duplicate-content'
         ident = choice['repo'].split('/')[0] + '--' + (meta or {}).get('name', '')
@@ -96,7 +132,7 @@ def main():
         record = dict(choice, id=ident, name=meta['name'], author=choice['repo'].split('/')[0],
                       license=repo['license'], license_url=f"https://github.com/{repo['repo']}/blob/{repo['source_commit']}/{quote(license_path)}",
                       source_url=source['source_url'], repo_url=repo['repo_url'], source_commit=repo['source_commit'],
-                      content_sha256=source['content_sha256'], checked_at=curated['reviewed_at'], verification='source-checked',
+                      content_sha256=source['content_sha256'], checked_at=choice.get('reviewed_at', curated['reviewed_at']), verification='source-checked',
                       tested=False, compatibility='包含 SKILL.md；需配置原文依赖，未逐客户端实测',
                       limitations='仅核对公开文档、名称、许可证与依赖说明；未验证安装、接口返回或实际业务效果。开源 Skill 不等于其依赖服务免费。',
                       review_basis='用途与依赖说明人工分类；文件哈希与元信息校验',
@@ -130,6 +166,7 @@ def main():
                    published_platforms=sorted({p for s in rows for p in s['platforms']}),
                    capability_counts=dict(collections.Counter(s['capability'] for s in rows)),
                    tested_skills=sum(s['tested'] for s in rows), selected_rejections=rejected,
+                   refreshed_sources=refreshed, refresh_rejections=refresh_rejections,
                    manual_decisions=list(decisions.values()),
                    incremental=report.get('incremental', False),
                    newly_scanned_repositories=report.get('newly_scanned_repositories', []),
@@ -159,7 +196,7 @@ def main():
     lines += ['', '## 能力与依赖', ''] + [f'- {k}：{v} 个。' for k,v in summary['capability_counts'].items()]
     lines += ['', '开源许可证只覆盖对应 Skill，账号授权、连接器、API 或生成服务仍需按原文配置和计费。目录核对不等于安装或业务效果已验证。网页与 AI 导航使用同一目录；未设置自动审核发布或定时采集。']
     (ROOT / 'data/collection-summary.md').write_text('\n'.join(lines) + '\n')
-    print(json.dumps({k: v for k, v in summary.items() if k not in {'repositories', 'limitations', 'published_platforms'}}, ensure_ascii=False, indent=2))
+    print(json.dumps({k: v for k, v in summary.items() if k not in {'repositories', 'limitations', 'published_platforms', 'refreshed_sources'}}, ensure_ascii=False, indent=2))
 
 
 if __name__ == '__main__':

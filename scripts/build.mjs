@@ -38,6 +38,6 @@ with zipfile.ZipFile('dist/downloads/ecommerce-skills-hub-source.zip','w',zipfil
  for base in ['src','data','scripts','skills','tests','docs','.github','README.md','CONTRIBUTING.md','AGENTS.md','LICENSE','package.json','requirements-maintenance.txt','.gitignore']:
   p=r/base
   for f in ([p] if p.is_file() else sorted(p.rglob('*'))):
-   if f.is_file():z.write(f,pathlib.Path('ecommerce-skills-hub')/f)
+   if f.is_file() and '__pycache__' not in f.parts:z.write(f,pathlib.Path('ecommerce-skills-hub')/f)
 `],{stdio:'inherit'});
 console.log(`Built static site, ${d.skills.length} catalog entries, navigation skill ZIP and source ZIP.`);

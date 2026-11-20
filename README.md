@@ -26,7 +26,7 @@
 | 想找达人带货 | “TikTok Shop 达人筛选” |
 | 想改善广告和店铺经营 | “广告分析”“库存管理”“客服” |
 
-目前已整理 **161 个技能**，覆盖 Amazon、TikTok Shop、Shopee、Shopify、Temu、1688 等平台，也有多个平台都能用的技能。
+目前已整理 **245 个技能**，覆盖 Amazon、TikTok Shop、Shopee、Shopify、Temu、1688、SHEIN、Wayfair 等平台，也有多个平台都能用的技能。
 
 ## Skill 是什么？
 

@@ -72,6 +72,15 @@ test('new platform tags appear automatically and repeated tags never inflate cou
  assert.equal(groups.find(g=>g.name==='Amazon').count,1);
 });
 
+test('newly collected platforms resolve aliases, filters and local icons',async()=>{
+ const {platformIcons}=await import('../src/platform-icons.mjs');
+ for(const [q,platform] of [['希音图片','SHEIN'],['Wayfair 利润','Wayfair'],['小红书封面','小红书'],['微信小店视频','视频号 / 微信小店']]){
+  const results=searchCatalog(skills,{q});assert(results.some(s=>s.platforms.includes(platform)),q);
+  assert(results.every(s=>s.platforms.includes(platform)||s.platforms.includes('通用')),q);
+  assert(platformIcons[platform]);assert(readFileSync(new URL('../src/'+platformIcons[platform],import.meta.url)).length>100);
+ }
+});
+
 test('client guides distinguish supported commands from package imports',()=>{
  for(const agent of ['trae-cn','trae','codebuddy','kimi-code-cli','qwen-code','openclaw'])assert.match(installationGuide(skills[0],agent).command,new RegExp(' -a '+agent+'$'));
  for(const agent of ['workbuddy','doubao']){const g=installationGuide(skills[0],agent);assert.equal(g.command,null);assert(g.steps.length>0);assert.equal(g.tested,false);assert.throws(()=>installationCommand(skills[0],agent));}
